@@ -1,0 +1,137 @@
+{
+ "configs": {
+  "control_as_launched": {
+   "first": "control/E/union/D_unif/tau0.1/r0/excl/k0/r1",
+   "kwargs": {
+    "adaptive": {},
+    "draws": 8,
+    "runs": [
+     "control"
+    ]
+   },
+   "last": "control/E_lab/soft_erase/D_unif/tau0.1/r1/excl/k0/r8",
+   "n_cells": 3155,
+   "per_tier": {
+    "1": 523,
+    "2": 533,
+    "3": 2099
+   },
+   "sha256_of_tier_and_name_lines": "88ae03ba98894ab652249ec1f71237aecd86a7c5e5600b8693eed29a514fa293"
+  },
+  "default": {
+   "first": "main/E/union/D_unif/tau0.1/r0/excl/k0/r1",
+   "kwargs": {},
+   "last": "control/E_lab/soft_erase/D_unif/tau0.1/r1/excl/k0/r8",
+   "n_cells": 6346,
+   "per_tier": {
+    "1": 1046,
+    "2": 1066,
+    "3": 4234
+   },
+   "sha256_of_tier_and_name_lines": "97641621ad965a1371b39e9415bc06a97bddead2cca0e715928119e83a2d550c"
+  },
+  "extra_rungs_5a_6a": {
+   "first": "main/E/union/D_unif/tau0.1/r0/excl/k0/r1",
+   "kwargs": {
+    "extra_rungs": [
+     "5a",
+     "6a"
+    ]
+   },
+   "last": "control/E_lab/soft_erase/D_unif/tau0.1/r1/excl/k0/r8",
+   "n_cells": 7978,
+   "per_tier": {
+    "1": 1302,
+    "2": 1354,
+    "3": 5322
+   },
+   "sha256_of_tier_and_name_lines": "62d21fad3ec17a0662a2b523b9b2165a7f0597db8c5afd080f0ee4badf4f39bb"
+  },
+  "main_as_launched": {
+   "first": "main/E/union/D_unif/tau0.1/r0/excl/k0/r1",
+   "kwargs": {
+    "adaptive": {
+     "D_code|0.1": [
+      "5a",
+      "6a"
+     ],
+     "D_unif|0.1": [
+      "5a",
+      "6a"
+     ]
+    },
+    "draws": 8,
+    "runs": [
+     "main"
+    ]
+   },
+   "last": "main/E_lab/soft_erase/D_unif/tau0.1/r1/excl/k0/r8",
+   "n_cells": 3975,
+   "per_tier": {
+    "1": 651,
+    "2": 677,
+    "3": 2647
+   },
+   "sha256_of_tier_and_name_lines": "03587bf2e9123349e335d2aa237cdf5d62eacc7b5ee5fd6926b0040374bc818d"
+  },
+  "main_two_draws": {
+   "first": "main/E/union/D_unif/tau0.1/r0/excl/k0/r1",
+   "kwargs": {
+    "draws": 2,
+    "runs": [
+     "main"
+    ]
+   },
+   "last": "main/E_lab/soft_erase/D_unif/tau0.1/r1/excl/k0/r8",
+   "n_cells": 893,
+   "per_tier": {
+    "1": 151,
+    "2": 143,
+    "3": 599
+   },
+   "sha256_of_tier_and_name_lines": "621da469bb86001e5528e0dced5beb8a9d7ee2f0c57a5aba97b22a7ad75bcc18"
+  },
+  "no_optional": {
+   "first": "main/E/union/D_unif/tau0.1/r0/excl/k0/r1",
+   "kwargs": {
+    "include_optional": false
+   },
+   "last": "control/E/union/D_unif/tau0.1/r0/excl/k7/r2b/ctl-plain",
+   "n_cells": 6232,
+   "per_tier": {
+    "1": 1046,
+    "2": 1066,
+    "3": 4120
+   },
+   "sha256_of_tier_and_name_lines": "df100756091e8c9a8e73b259554e9fa75a4cf813b9ed109d65d25bc11959d4ef"
+  },
+  "simplestories_two_draws_adaptive": {
+   "first": "simplestories/E/union/D_unif/tau0.1/r0/excl/k0/r1",
+   "kwargs": {
+    "adaptive": {
+     "D_code|0.1": [
+      "5a",
+      "6a"
+     ],
+     "D_unif|0.1": [
+      "5a",
+      "6a"
+     ]
+    },
+    "draws": 2,
+    "runs": [
+     "simplestories"
+    ]
+   },
+   "last": "simplestories/E_lab/soft_erase/D_unif/tau0.1/r1/excl/k0/r8",
+   "n_cells": 1089,
+   "per_tier": {
+    "1": 183,
+    "2": 179,
+    "3": 727
+   },
+   "sha256_of_tier_and_name_lines": "2b802a4cdf82dac8d254a884812f8753de5318968703998d0974bf3964f5d070"
+  }
+ },
+ "note": "the enumeration of tiers 1 to 3 on main, written before tier 4 existed: the names and count of the existing cells must not change"
+}

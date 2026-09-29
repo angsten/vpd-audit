@@ -1,0 +1,85 @@
+texts,stratum,donors,arm,series,merged_in,n_texts,n_documents,n_draws,rise,interval_lo,interval_hi,detected,material,pieces_switched_on_mean,source_table,source_row
+the code texts,G,code donors,C,real explanations,1 token,256,69,8,0.0185036293369194,0.0154952926340906,0.0214229465460217,True,False,197.875,s9_run2_curves.csv,1
+the code texts,G,code donors,C,real explanations,8 tokens,256,69,8,0.1910743344160437,0.1518195952166572,0.2229977260957738,True,True,975.0,s9_run2_curves.csv,2
+the code texts,G,code donors,C,real explanations,16 tokens,256,69,8,0.3288701771671185,0.2683777231959139,0.3819652268762065,True,True,1552.375,s9_run2_curves.csv,2a
+the code texts,G,code donors,C,real explanations,32 tokens,256,69,8,0.6219090449158102,0.5318897243048779,0.7137172234299471,True,True,2610.125,s9_run2_curves.csv,2b
+the code texts,G,code donors,C,real explanations,64 tokens,256,69,8,0.9016447349713416,0.7697510498581498,1.03297934039584,True,True,3626.375,s9_run2_curves.csv,3
+the code texts,G,code donors,C,real explanations,1 text,256,69,8,0.9933251784241292,0.8404934751942494,1.13618935243662,True,True,5156.375,s9_run2_curves.csv,4
+the code texts,G,code donors,C,real explanations,4 texts,256,69,8,1.2490563972387465,1.1452771486758335,1.387397710556834,True,True,7324.5,s9_run2_curves.csv,5
+the code texts,G,code donors,C,real explanations,16 texts,256,69,8,1.2975854515389074,1.2046497548652,1.4369498618822287,True,True,8649.75,s9_run2_curves.csv,6
+the code texts,G,code donors,C,real explanations,64 texts,256,69,8,1.2877474184788298,1.1957413040904477,1.4277638218388895,True,True,9223.25,s9_run2_curves.csv,7
+the code texts,G,code donors,C,real explanations,the whole pool,256,69,1,1.2778154257684946,1.185539542227213,1.4174007942994888,True,True,9624.0,s9_run2_curves.csv,8
+the code texts,G,code donors,C,random sets of the same size,1 token,256,69,8,-0.0010713762931118,,,,,197.875,s9_run2_controls.csv,1
+the code texts,G,code donors,C,random sets of the same size,8 tokens,256,69,8,-0.002138179825124,,,,,975.0,s9_run2_controls.csv,2
+the code texts,G,code donors,C,random sets of the same size,16 tokens,256,69,8,0.0003593546280171,,,,,1552.375,s9_run2_controls.csv,2a
+the code texts,G,code donors,C,random sets of the same size,32 tokens,256,69,8,0.0106483864219626,,,,,2610.125,s9_run2_controls.csv,2b
+the code texts,G,code donors,C,random sets of the same size,64 tokens,256,69,8,0.0310264245636062,,,,,3626.375,s9_run2_controls.csv,3
+the code texts,G,code donors,C,random sets of the same size,1 text,256,69,8,0.095402446535445,,,,,5156.375,s9_run2_controls.csv,4
+the code texts,G,general donors,U,real explanations,1 token,256,69,8,0.0071301134084933,0.005952427067369,0.0084691938211338,False,False,169.0,s9_run2_curves.csv,1
+the code texts,G,general donors,U,real explanations,8 tokens,256,69,8,0.0567984481349412,0.0475060635888485,0.0715621119997477,True,False,1120.625,s9_run2_curves.csv,2
+the code texts,G,general donors,U,real explanations,16 tokens,256,69,8,0.1276488784860703,0.113725966033268,0.1449244661962619,True,True,1973.75,s9_run2_curves.csv,2a
+the code texts,G,general donors,U,real explanations,32 tokens,256,69,8,0.3393247739513754,0.2845763406260482,0.4291092782210667,True,True,3198.5,s9_run2_curves.csv,2b
+the code texts,G,general donors,U,real explanations,64 tokens,256,69,8,0.6076016392908059,0.5370316619257312,0.6934751631550241,True,True,4543.625,s9_run2_curves.csv,3
+the code texts,G,general donors,U,real explanations,1 text,256,69,8,0.6344676870176045,0.5854057639760859,0.7065312986008508,True,True,4890.25,s9_run2_curves.csv,4
+the code texts,G,general donors,U,real explanations,4 texts,256,69,8,1.0441041685116943,0.9589745642977492,1.1677755839606738,True,True,7711.0,s9_run2_curves.csv,5
+the code texts,G,general donors,U,real explanations,16 texts,256,69,8,1.27749647127348,1.1868681133441057,1.4163440730561685,True,True,9060.0,s9_run2_curves.csv,6
+the code texts,G,general donors,U,real explanations,64 texts,256,69,8,1.2761722024006303,1.1842798137305035,1.4158963042786892,True,True,9659.25,s9_run2_curves.csv,7
+the code texts,G,general donors,U,real explanations,the whole pool,256,69,1,1.2674696857575327,1.1756469871254245,1.407401012091168,True,True,9966.0,s9_run2_curves.csv,8
+the code texts,G,general donors,U,random sets of the same size,1 token,256,69,8,-0.0008645104535389,,,,,169.0,s9_run2_controls.csv,1
+the code texts,G,general donors,U,random sets of the same size,8 tokens,256,69,8,-0.002115596569638,,,,,1120.625,s9_run2_controls.csv,2
+the code texts,G,general donors,U,random sets of the same size,16 tokens,256,69,8,0.0033606697943469,,,,,1973.75,s9_run2_controls.csv,2a
+the code texts,G,general donors,U,random sets of the same size,32 tokens,256,69,8,0.0251718484723824,,,,,3198.5,s9_run2_controls.csv,2b
+the code texts,G,general donors,U,random sets of the same size,64 tokens,256,69,8,0.0897261902537138,,,,,4543.625,s9_run2_controls.csv,3
+the code texts,G,general donors,U,random sets of the same size,1 text,256,69,8,0.0970357385704119,,,,,4890.25,s9_run2_controls.csv,4
+the code texts,G,prose donors,P,real explanations,1 token,256,69,8,0.0032083086698548,0.0014083551620113,0.0059293516061739,False,False,174.0,s9_run2_curves.csv,1
+the code texts,G,prose donors,P,real explanations,8 tokens,256,69,8,0.0280151851402479,0.0178058400773799,0.0455317702593389,True,False,1126.5,s9_run2_curves.csv,2
+the code texts,G,prose donors,P,real explanations,16 tokens,256,69,8,0.0685238082733121,0.0479448172665689,0.1031257447874069,True,False,2011.25,s9_run2_curves.csv,2a
+the code texts,G,prose donors,P,real explanations,32 tokens,256,69,8,0.1419062755194318,0.093580616397811,0.2245233000580541,True,True,2946.375,s9_run2_curves.csv,2b
+the code texts,G,prose donors,P,real explanations,64 tokens,256,69,8,0.2627503550720576,0.1932060842434881,0.3723451735876638,True,True,3974.75,s9_run2_curves.csv,3
+the code texts,G,prose donors,P,real explanations,1 text,256,69,8,0.4325948240584694,0.3752859998759259,0.5097144623757685,True,True,5698.625,s9_run2_curves.csv,4
+the code texts,G,prose donors,P,real explanations,4 texts,256,69,8,0.8510694486176362,0.7763872495726045,0.9569558005732696,True,True,7445.625,s9_run2_curves.csv,5
+the code texts,G,prose donors,P,real explanations,16 texts,256,69,8,1.1736842901736964,1.0919149951229008,1.2969018530841627,True,True,8470.125,s9_run2_curves.csv,6
+the code texts,G,prose donors,P,real explanations,64 texts,256,69,8,1.2442467535147443,1.1574672523064904,1.3775293556892274,True,True,9123.375,s9_run2_curves.csv,7
+the code texts,G,prose donors,P,real explanations,the whole pool,256,69,1,1.274245579726994,1.1829585630470174,1.413671500717473,True,True,9513.0,s9_run2_curves.csv,8
+the prose texts,P,code donors,C,real explanations,1 token,128,58,8,-0.001814285540604,-0.0037760135040423,0.0005359579494955,False,False,197.875,s9_run2_curves.csv,1
+the prose texts,P,code donors,C,real explanations,8 tokens,128,58,8,0.0012561382754938,-0.0055039069446584,0.0093932587541254,False,False,975.0,s9_run2_curves.csv,2
+the prose texts,P,code donors,C,real explanations,16 tokens,128,58,8,0.0251872554945293,0.0137098933697622,0.0391275213682465,True,False,1552.375,s9_run2_curves.csv,2a
+the prose texts,P,code donors,C,real explanations,32 tokens,128,58,8,0.1050041269918438,0.0813982311266434,0.131241746904672,True,True,2610.125,s9_run2_curves.csv,2b
+the prose texts,P,code donors,C,real explanations,64 tokens,128,58,8,0.2399329855688847,0.2015043048753623,0.2819635409654303,True,True,3626.375,s9_run2_curves.csv,3
+the prose texts,P,code donors,C,real explanations,1 text,128,58,8,0.4771078768535517,0.4293887726561722,0.530589553988011,True,True,5156.375,s9_run2_curves.csv,4
+the prose texts,P,code donors,C,real explanations,4 texts,128,58,8,0.7697422761120833,0.7053732137288958,0.8486608291452983,True,True,7324.5,s9_run2_curves.csv,5
+the prose texts,P,code donors,C,real explanations,16 texts,128,58,8,0.8534142798744142,0.7856972668567922,0.9390201639406744,True,True,8649.75,s9_run2_curves.csv,6
+the prose texts,P,code donors,C,real explanations,64 texts,128,58,8,0.850957824732177,0.7838385677655755,0.936252673226322,True,True,9223.25,s9_run2_curves.csv,7
+the prose texts,P,code donors,C,real explanations,the whole pool,128,58,1,0.8436649618670344,0.7764833787064608,0.9289510732656396,True,True,9624.0,s9_run2_curves.csv,8
+the prose texts,P,code donors,C,random sets of the same size,1 token,128,58,8,-0.0037763498694403,,,,,197.875,s9_run2_controls.csv,1
+the prose texts,P,code donors,C,random sets of the same size,8 tokens,128,58,8,-0.0161169198108837,,,,,975.0,s9_run2_controls.csv,2
+the prose texts,P,code donors,C,random sets of the same size,16 tokens,128,58,8,-0.0215686442534206,,,,,1552.375,s9_run2_controls.csv,2a
+the prose texts,P,code donors,C,random sets of the same size,32 tokens,128,58,8,-0.0233533955324674,,,,,2610.125,s9_run2_controls.csv,2b
+the prose texts,P,code donors,C,random sets of the same size,64 tokens,128,58,8,-0.0156836666283197,,,,,3626.375,s9_run2_controls.csv,3
+the prose texts,P,code donors,C,random sets of the same size,1 text,128,58,8,0.0267484201758634,,,,,5156.375,s9_run2_controls.csv,4
+the prose texts,P,general donors,U,real explanations,1 token,128,58,8,0.003353949447046,0.0014832942054547,0.0052876567365845,True,False,169.0,s9_run2_curves.csv,1
+the prose texts,P,general donors,U,real explanations,8 tokens,128,58,8,0.0324042522988747,0.0275845887421493,0.0373987275036531,True,False,1120.625,s9_run2_curves.csv,2
+the prose texts,P,general donors,U,real explanations,16 tokens,128,58,8,0.0976339816406834,0.0834722905271272,0.1163609533278786,True,True,1973.75,s9_run2_curves.csv,2a
+the prose texts,P,general donors,U,real explanations,32 tokens,128,58,8,0.2264865972392726,0.2015705551443983,0.253842620778133,True,True,3198.5,s9_run2_curves.csv,2b
+the prose texts,P,general donors,U,real explanations,64 tokens,128,58,8,0.4548244951874949,0.4122459902127518,0.5047406781335707,True,True,4543.625,s9_run2_curves.csv,3
+the prose texts,P,general donors,U,real explanations,1 text,128,58,8,0.570638178702211,0.5251580274892211,0.624259726179727,True,True,4890.25,s9_run2_curves.csv,4
+the prose texts,P,general donors,U,real explanations,4 texts,128,58,8,0.8576816534041427,0.7908572776682578,0.9401843265349956,True,True,7711.0,s9_run2_curves.csv,5
+the prose texts,P,general donors,U,real explanations,16 texts,128,58,8,0.8558266866020858,0.7886100971657488,0.9411471668598532,True,True,9060.0,s9_run2_curves.csv,6
+the prose texts,P,general donors,U,real explanations,64 texts,128,58,8,0.8423382869805209,0.7752278640446768,0.9274895280976728,True,True,9659.25,s9_run2_curves.csv,7
+the prose texts,P,general donors,U,real explanations,the whole pool,128,58,1,0.8339623985812068,0.7669609198745846,0.9190092410226532,True,True,9966.0,s9_run2_curves.csv,8
+the prose texts,P,general donors,U,random sets of the same size,1 token,128,58,8,-0.0032901252125157,,,,,169.0,s9_run2_controls.csv,1
+the prose texts,P,general donors,U,random sets of the same size,8 tokens,128,58,8,-0.0185106594872195,,,,,1120.625,s9_run2_controls.csv,2
+the prose texts,P,general donors,U,random sets of the same size,16 tokens,128,58,8,-0.0242729787423741,,,,,1973.75,s9_run2_controls.csv,2a
+the prose texts,P,general donors,U,random sets of the same size,32 tokens,128,58,8,-0.0195726241363445,,,,,3198.5,s9_run2_controls.csv,2b
+the prose texts,P,general donors,U,random sets of the same size,64 tokens,128,58,8,0.0111120950023178,,,,,4543.625,s9_run2_controls.csv,3
+the prose texts,P,general donors,U,random sets of the same size,1 text,128,58,8,0.0359778611746151,,,,,4890.25,s9_run2_controls.csv,4
+the prose texts,P,prose donors,P,real explanations,1 token,128,58,8,0.0087006357352947,0.0068804656927496,0.0104188422547843,True,False,174.0,s9_run2_curves.csv,1
+the prose texts,P,prose donors,P,real explanations,8 tokens,128,58,8,0.0901448122021975,0.0836616246218799,0.0972640876195606,True,True,1126.5,s9_run2_curves.csv,2
+the prose texts,P,prose donors,P,real explanations,16 tokens,128,58,8,0.2097540158138144,0.1914691123869886,0.2290538303387876,True,True,2011.25,s9_run2_curves.csv,2a
+the prose texts,P,prose donors,P,real explanations,32 tokens,128,58,8,0.3948825925472192,0.3611115295583181,0.4318280123168062,True,True,2946.375,s9_run2_curves.csv,2b
+the prose texts,P,prose donors,P,real explanations,64 tokens,128,58,8,0.6208074430469424,0.5683705560114619,0.678628983619486,True,True,3974.75,s9_run2_curves.csv,3
+the prose texts,P,prose donors,P,real explanations,1 text,128,58,8,0.8075262556085363,0.7466022034864677,0.8792321575282921,True,True,5698.625,s9_run2_curves.csv,4
+the prose texts,P,prose donors,P,real explanations,4 texts,128,58,8,0.889186991029419,0.8215179767048013,0.9733727857665996,True,True,7445.625,s9_run2_curves.csv,5
+the prose texts,P,prose donors,P,real explanations,16 texts,128,58,8,0.8756092317635193,0.8069861244296539,0.961521979644696,True,True,8470.125,s9_run2_curves.csv,6
+the prose texts,P,prose donors,P,real explanations,64 texts,128,58,8,0.8565355659811758,0.7888585933079362,0.9422288452180564,True,True,9123.375,s9_run2_curves.csv,7
+the prose texts,P,prose donors,P,real explanations,the whole pool,128,58,1,0.8458074140362442,0.7785750023311941,0.9309494029022984,True,True,9513.0,s9_run2_curves.csv,8

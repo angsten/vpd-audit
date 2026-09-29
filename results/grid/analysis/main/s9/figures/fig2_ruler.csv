@@ -1,0 +1,16 @@
+landmark,value,kind,source_table,source_row,source_column,multiple_of_perplexity_e_to_the_k
+"the full model, nothing removed",0.0114568124968172,measured by us,level_cells.csv,main/E/ref/unmasked,mean_kl,1.01152269312673
+the line fixed in advance (the tolerance),0.05,the line fixed in advance,stats.py,X_MATERIAL,,1.0512710963760241
+the random masks the labels were trained under,0.2151222207291994,measured by us,acceptance/conditions_main_bf16.csv,stochastic,kl_mean,1.2400134430520635
+the text's own explanation,0.3417225123921525,measured by us,s9_yardstick_ratios.csv,own labels,divergence_on_E,1.4073697156700398
+"a different model, Pythia-70M",0.393850394670153,measured by us,s9_yardstick_ratios.csv,own labels,divergence_to_the_primary_comparison_model,1.4826787154431689
+"a different model, Pythia-160M",0.4630679838301148,measured by us,s9_yardstick.csv,"pythia-160m, E",kl_target_to_model,1.5889413610638308
+64 other tokens' explanations merged in,0.7992515236855979,measured by us,s9_yardstick_ratios.csv,the 64-token merge,divergence_on_E,2.223875787057957
+one whole other text merged in,0.8294056359891329,measured by us,s9_yardstick_ratios.csv,the one-text merge,divergence_on_E,2.2919560791380045
+the never-named pieces removed from the full model,1.284693051071372,measured by us,s9_yardstick_ratios.csv,the never-named removal,divergence_on_E,3.613558609025964
+"every piece the text's own 512 tokens name, fully on (the self-merge)",1.3714830048847944,measured by us,s9_yardstick_ratios.csv,the self-merge,divergence_on_E,3.941191169430526
+everything off (every piece removed),67.10455920174718,measured by us,acceptance/conditions_main_bf16.csv,zero_all,kl_mean,1.3904000408650574e+29
+"the paper's optimized attack, 20 steps",0.828,"as reported by the paper, not reproduced by us",the paper's table tab:vpd-pgd-ce,20,KL divergence to target model,2.288736686364905
+"the paper's optimized attack, 40 steps",1.3539,"as reported by the paper, not reproduced by us",the paper's table tab:vpd-pgd-ce,40,KL divergence to target model,3.8724988641615035
+"the paper's optimized attack, 80 steps",3.8381,"as reported by the paper, not reproduced by us",the paper's table tab:vpd-pgd-ce,80,KL divergence to target model,46.43715996367385
+"the paper's optimized attack, 160 steps",25.256,"as reported by the paper, not reproduced by us",the paper's table tab:vpd-pgd-ce,160,KL divergence to target model,93012525144.09201

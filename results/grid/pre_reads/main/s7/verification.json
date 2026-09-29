@@ -1,0 +1,29 @@
+{
+  "against_committed": {
+    "alive_sha256_equal": true,
+    "cells_not_in_committed_tables": [],
+    "committed_pre_reads_commit": "b77d68d49caad3d16c3d807cd1623e1b18154616",
+    "max_relative_difference_of_mean_sigma": 2.0216948578671333e-15,
+    "n_cells_in_sigma_E": 104,
+    "n_union_and_plain_cells": 104,
+    "source_hash_mismatches": [],
+    "weight_norms_sha256_equal": true
+  },
+  "run": "main",
+  "s7_commit": {
+    "dirty": "0",
+    "project": "442fc4f96a58ecd113f57a2dc026914c13799dd0",
+    "submodule": "74146b555f3eb3cd2bc639c3789fd3b7a099094a"
+  },
+  "stray_code": {
+    "classes": {
+      "prose": 3,
+      "unassigned": 7
+    },
+    "set_hash": "4a4e9a60448cd159df8577fb3048c3a3a2e7b895b765fe93de7fcef2d2eff8a6",
+    "thresholds": {
+      "a": 0.00125,
+      "b": 0.25
+    }
+  }
+}

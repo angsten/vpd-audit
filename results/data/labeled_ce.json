@@ -1,0 +1,104 @@
+{
+  "checkpoint_hashes": {
+    "decomp": "fdd794abda8ca79e98f4644590c0c6e696261d9b84b34c8e83f94a2cc3607a93",
+    "target": "650f2eb603fe9fe649671c0c89b86746655bc49c96aa1ad00fbb4c1bf3c6c3b6"
+  },
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "precision": "bf16",
+  "rule": "mean between 1 and 5 nats and no row above 8 on every labeled set; recorded, not asserted; E beside them for reference",
+  "run": "main",
+  "set_hashes": {
+    "D_code": "7b20654e7329491968571a74bddaec7ca49b413454fb2c15dda5ff8a4a21ca9f",
+    "D_prose": "4a4e9a60448cd159df8577fb3048c3a3a2e7b895b765fe93de7fcef2d2eff8a6",
+    "E": "81f8b75b4c31fc95836841062b0c49c4237b3e83dce43397b8ad7e927c18d103",
+    "E_lab": "171882956d6736123e46738266048e21409d7ee0c5337f5accfd170f9cf15f5f",
+    "E_lab_github": "15a615150aa65bc198f1f0f105a6a028c6c5d8149b52b3efc750a3a18cbcbc2f",
+    "E_lab_other": "a84bc20dfc019f7d2fe0ffaa8453f816d353a93f29ee2a9fb8d54a490784780a"
+  },
+  "sets": {
+    "D_code": {
+      "max": 5.118795394897461,
+      "mean": 1.5914647579193115,
+      "mean_in_range": true,
+      "min": 0.037021975964307785,
+      "n_rows": 512,
+      "no_row_above_8": true,
+      "range": [
+        1.0,
+        5.0
+      ],
+      "row_max": 8.0,
+      "std": 0.8143424391746521
+    },
+    "D_prose": {
+      "max": 5.11189603805542,
+      "mean": 3.410430431365967,
+      "mean_in_range": true,
+      "min": 0.9258087873458862,
+      "n_rows": 512,
+      "no_row_above_8": true,
+      "range": [
+        1.0,
+        5.0
+      ],
+      "row_max": 8.0,
+      "std": 0.6383965611457825
+    },
+    "E": {
+      "max": 6.3450026512146,
+      "mean": 2.7212634086608887,
+      "mean_in_range": true,
+      "min": 0.07418368756771088,
+      "n_rows": 1024,
+      "no_row_above_8": true,
+      "range": [
+        1.0,
+        5.0
+      ],
+      "row_max": 8.0,
+      "std": 0.8593447208404541
+    },
+    "E_lab": {
+      "max": 4.99055814743042,
+      "mean": 2.424039363861084,
+      "mean_in_range": true,
+      "min": 0.11178278177976608,
+      "n_rows": 512,
+      "no_row_above_8": true,
+      "range": [
+        1.0,
+        5.0
+      ],
+      "row_max": 8.0,
+      "std": 0.9608786106109619
+    },
+    "E_lab_github": {
+      "max": 3.671056032180786,
+      "mean": 1.8474059104919434,
+      "mean_in_range": true,
+      "min": 0.11178278177976608,
+      "n_rows": 256,
+      "no_row_above_8": true,
+      "range": [
+        1.0,
+        5.0
+      ],
+      "row_max": 8.0,
+      "std": 0.8053726553916931
+    },
+    "E_lab_other": {
+      "max": 4.99055814743042,
+      "mean": 3.0006728172302246,
+      "mean_in_range": true,
+      "min": 0.8543569445610046,
+      "n_rows": 256,
+      "no_row_above_8": true,
+      "range": [
+        1.0,
+        5.0
+      ],
+      "row_max": 8.0,
+      "std": 0.7307193875312805
+    }
+  }
+}

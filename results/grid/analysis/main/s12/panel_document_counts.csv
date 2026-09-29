@@ -1,0 +1,9 @@
+panel,source,rows,distinct_documents,rows_per_document_mean,rows_per_document_max,rows_sharing_a_document,documents_touched_mean,part_C_documents,part_C_rows,straddling_tokens_in_rows,separator_piece_tokens_in_rows
+panel_Github,Github,200,193,1.0362694300518134,2,14,1.255,6112,21367,0,0
+panel_StackExchange,StackExchange,200,197,1.015228426395939,2,6,1.82,9983,12247,0,0
+panel_ArXiv,ArXiv,200,162,1.2345679012345678,4,68,1.015,811,22161,0,0
+panel_Pile_CC,Pile-CC,200,192,1.0416666666666667,3,14,1.56,17597,35193,0,0
+panel_Wikipedia__en_,Wikipedia (en),200,184,1.0869565217391304,3,29,1.79,5826,8411,0,7
+panel_DM_Mathematics,DM Mathematics,200,174,1.1494252873563218,3,49,1.145,669,4854,0,0
+panel_PubMed_Central,PubMed Central,200,186,1.075268817204301,2,28,1.08,1992,27549,0,0
+panel_FreeLaw,FreeLaw,200,174,1.1494252873563218,3,50,1.11,1698,12445,0,0

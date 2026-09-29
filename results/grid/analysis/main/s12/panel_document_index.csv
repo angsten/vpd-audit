@@ -1,0 +1,1601 @@
+panel,source,row,file_row_index,majority_document,documents_touched,n_end_of_text
+panel_Github,Github,0,2922,862,1,0
+panel_Github,Github,1,3743,1081,1,0
+panel_Github,Github,2,10831,3199,1,0
+panel_Github,Github,3,709,199,2,1
+panel_Github,Github,4,19135,5486,1,0
+panel_Github,Github,5,21150,6061,1,0
+panel_Github,Github,6,16088,4664,1,0
+panel_Github,Github,7,9895,2929,1,0
+panel_Github,Github,8,7176,2110,1,0
+panel_Github,Github,9,12607,3659,3,2
+panel_Github,Github,10,7656,2207,1,0
+panel_Github,Github,11,9292,2789,1,0
+panel_Github,Github,12,2043,564,1,0
+panel_Github,Github,13,16307,4715,1,0
+panel_Github,Github,14,6256,1855,3,2
+panel_Github,Github,15,19847,5626,1,0
+panel_Github,Github,16,6533,1905,1,0
+panel_Github,Github,17,15842,4585,1,0
+panel_Github,Github,18,11220,3302,1,0
+panel_Github,Github,19,8910,2686,1,0
+panel_Github,Github,20,8549,2548,1,0
+panel_Github,Github,21,14481,4257,1,0
+panel_Github,Github,22,2398,664,1,0
+panel_Github,Github,23,20487,5836,1,0
+panel_Github,Github,24,11107,3273,2,1
+panel_Github,Github,25,11631,3420,1,0
+panel_Github,Github,26,13390,3913,1,0
+panel_Github,Github,27,7269,2131,1,0
+panel_Github,Github,28,7032,2060,2,1
+panel_Github,Github,29,18407,5254,1,0
+panel_Github,Github,30,7801,2218,1,0
+panel_Github,Github,31,16962,4889,1,0
+panel_Github,Github,32,9627,2872,1,0
+panel_Github,Github,33,15340,4444,1,0
+panel_Github,Github,34,3290,969,1,0
+panel_Github,Github,35,18666,5333,1,0
+panel_Github,Github,36,14346,4229,2,1
+panel_Github,Github,37,13692,4005,1,0
+panel_Github,Github,38,7737,2215,1,0
+panel_Github,Github,39,6504,1901,1,0
+panel_Github,Github,40,17039,4902,2,1
+panel_Github,Github,41,1894,508,1,0
+panel_Github,Github,42,13650,3987,1,0
+panel_Github,Github,43,20569,5878,2,1
+panel_Github,Github,44,19688,5599,1,0
+panel_Github,Github,45,3329,987,1,0
+panel_Github,Github,46,14531,4269,1,0
+panel_Github,Github,47,16706,4807,1,0
+panel_Github,Github,48,20554,5871,2,1
+panel_Github,Github,49,8310,2452,1,0
+panel_Github,Github,50,20118,5732,1,0
+panel_Github,Github,51,15284,4428,1,0
+panel_Github,Github,52,18608,5310,1,0
+panel_Github,Github,53,15690,4540,1,0
+panel_Github,Github,54,20093,5721,1,0
+panel_Github,Github,55,21061,6033,1,0
+panel_Github,Github,56,14842,4358,1,0
+panel_Github,Github,57,7202,2122,2,1
+panel_Github,Github,58,8686,2599,1,0
+panel_Github,Github,59,4826,1424,1,0
+panel_Github,Github,60,850,241,1,0
+panel_Github,Github,61,20539,5858,1,0
+panel_Github,Github,62,3903,1126,1,0
+panel_Github,Github,63,16705,4807,1,0
+panel_Github,Github,64,5500,1612,1,0
+panel_Github,Github,65,951,270,2,1
+panel_Github,Github,66,17253,4945,1,0
+panel_Github,Github,67,14050,4123,1,0
+panel_Github,Github,68,19625,5589,1,0
+panel_Github,Github,69,6195,1843,1,0
+panel_Github,Github,70,3565,1070,1,0
+panel_Github,Github,71,3568,1070,1,0
+panel_Github,Github,72,18165,5172,1,0
+panel_Github,Github,73,18818,5381,5,4
+panel_Github,Github,74,11681,3423,1,0
+panel_Github,Github,75,1928,520,1,0
+panel_Github,Github,76,6207,1849,1,0
+panel_Github,Github,77,17505,4991,1,0
+panel_Github,Github,78,3118,919,1,0
+panel_Github,Github,79,18874,5401,1,0
+panel_Github,Github,80,15317,4439,1,0
+panel_Github,Github,81,8865,2665,1,0
+panel_Github,Github,82,3147,925,1,0
+panel_Github,Github,83,9256,2778,1,0
+panel_Github,Github,84,19253,5521,1,0
+panel_Github,Github,85,12105,3521,1,0
+panel_Github,Github,86,8434,2498,1,0
+panel_Github,Github,87,20944,6002,1,0
+panel_Github,Github,88,4024,1164,1,0
+panel_Github,Github,89,13385,3913,1,0
+panel_Github,Github,90,5664,1693,2,1
+panel_Github,Github,91,20783,5945,1,0
+panel_Github,Github,92,5510,1614,1,0
+panel_Github,Github,93,7565,2177,1,0
+panel_Github,Github,94,13997,4113,2,1
+panel_Github,Github,95,19115,5480,1,0
+panel_Github,Github,96,16916,4883,1,0
+panel_Github,Github,97,18031,5154,2,1
+panel_Github,Github,98,3998,1148,1,0
+panel_Github,Github,99,4321,1236,2,1
+panel_Github,Github,100,13000,3803,1,0
+panel_Github,Github,101,11152,3283,1,0
+panel_Github,Github,102,9633,2875,1,0
+panel_Github,Github,103,8981,2716,1,0
+panel_Github,Github,104,7683,2211,1,0
+panel_Github,Github,105,7597,2185,3,2
+panel_Github,Github,106,1528,430,2,1
+panel_Github,Github,107,4272,1228,1,0
+panel_Github,Github,108,20443,5825,1,0
+panel_Github,Github,109,18979,5425,3,2
+panel_Github,Github,110,15548,4506,2,1
+panel_Github,Github,111,2169,618,1,0
+panel_Github,Github,112,2441,674,1,0
+panel_Github,Github,113,19492,5569,1,0
+panel_Github,Github,114,13546,3963,1,0
+panel_Github,Github,115,16845,4862,1,0
+panel_Github,Github,116,13782,4058,1,0
+panel_Github,Github,117,17673,5054,1,0
+panel_Github,Github,118,8508,2529,1,0
+panel_Github,Github,119,21033,6029,1,0
+panel_Github,Github,120,3480,1038,3,2
+panel_Github,Github,121,6371,1877,2,1
+panel_Github,Github,122,9806,2906,2,1
+panel_Github,Github,123,7326,2135,1,0
+panel_Github,Github,124,6632,1920,1,0
+panel_Github,Github,125,1780,473,1,0
+panel_Github,Github,126,4973,1448,1,0
+panel_Github,Github,127,7195,2118,2,1
+panel_Github,Github,128,1937,522,1,0
+panel_Github,Github,129,1736,466,1,0
+panel_Github,Github,130,7180,2112,1,0
+panel_Github,Github,131,6725,1967,1,0
+panel_Github,Github,132,19667,5591,1,0
+panel_Github,Github,133,2234,628,1,0
+panel_Github,Github,134,2335,650,1,0
+panel_Github,Github,135,17411,4953,2,1
+panel_Github,Github,136,17923,5120,1,0
+panel_Github,Github,137,8738,2616,1,0
+panel_Github,Github,138,13561,3968,1,0
+panel_Github,Github,139,8212,2408,3,2
+panel_Github,Github,140,884,253,1,0
+panel_Github,Github,141,632,177,1,0
+panel_Github,Github,142,6297,1864,1,0
+panel_Github,Github,143,15700,4547,1,0
+panel_Github,Github,144,18748,5343,1,0
+panel_Github,Github,145,7445,2146,1,0
+panel_Github,Github,146,12421,3600,1,0
+panel_Github,Github,147,10906,3216,1,0
+panel_Github,Github,148,1798,482,4,3
+panel_Github,Github,149,20163,5752,1,0
+panel_Github,Github,150,6860,2006,1,0
+panel_Github,Github,151,12672,3677,1,0
+panel_Github,Github,152,1539,431,2,1
+panel_Github,Github,153,14161,4172,1,0
+panel_Github,Github,154,15077,4392,1,0
+panel_Github,Github,155,19683,5599,1,0
+panel_Github,Github,156,2692,765,1,0
+panel_Github,Github,157,2521,693,1,0
+panel_Github,Github,158,8932,2688,2,1
+panel_Github,Github,159,19032,5451,2,1
+panel_Github,Github,160,13474,3951,2,1
+panel_Github,Github,161,20565,5877,1,0
+panel_Github,Github,162,503,116,1,0
+panel_Github,Github,163,8129,2359,1,0
+panel_Github,Github,164,13704,4016,1,0
+panel_Github,Github,165,7081,2076,1,0
+panel_Github,Github,166,2134,594,1,0
+panel_Github,Github,167,11368,3343,1,0
+panel_Github,Github,168,4703,1366,1,0
+panel_Github,Github,169,2503,687,2,1
+panel_Github,Github,170,15243,4424,1,0
+panel_Github,Github,171,6073,1831,1,0
+panel_Github,Github,172,15890,4615,2,1
+panel_Github,Github,173,3796,1097,1,0
+panel_Github,Github,174,14304,4210,1,0
+panel_Github,Github,175,19978,5704,1,0
+panel_Github,Github,176,14791,4351,2,1
+panel_Github,Github,177,10372,3061,1,0
+panel_Github,Github,178,11349,3339,1,0
+panel_Github,Github,179,15288,4429,2,1
+panel_Github,Github,180,5332,1544,1,0
+panel_Github,Github,181,11906,3465,1,0
+panel_Github,Github,182,3399,1002,1,0
+panel_Github,Github,183,17189,4930,2,1
+panel_Github,Github,184,3036,890,1,0
+panel_Github,Github,185,19496,5572,4,3
+panel_Github,Github,186,8532,2536,1,0
+panel_Github,Github,187,21301,6096,1,0
+panel_Github,Github,188,6690,1945,1,0
+panel_Github,Github,189,21285,6095,1,0
+panel_Github,Github,190,1196,335,1,0
+panel_Github,Github,191,4366,1253,1,0
+panel_Github,Github,192,9539,2849,1,0
+panel_Github,Github,193,7270,2131,1,0
+panel_Github,Github,194,11208,3294,1,0
+panel_Github,Github,195,3296,975,1,0
+panel_Github,Github,196,19284,5521,1,0
+panel_Github,Github,197,12135,3521,1,0
+panel_Github,Github,198,15274,4425,1,0
+panel_Github,Github,199,1743,469,2,1
+panel_StackExchange,StackExchange,0,4,5,1,0
+panel_StackExchange,StackExchange,1,76,43,2,1
+panel_StackExchange,StackExchange,2,113,84,2,1
+panel_StackExchange,StackExchange,3,154,114,1,0
+panel_StackExchange,StackExchange,4,256,211,1,0
+panel_StackExchange,StackExchange,5,275,219,1,0
+panel_StackExchange,StackExchange,6,319,258,3,2
+panel_StackExchange,StackExchange,7,329,265,2,1
+panel_StackExchange,StackExchange,8,360,295,2,1
+panel_StackExchange,StackExchange,9,382,319,3,2
+panel_StackExchange,StackExchange,10,389,326,2,1
+panel_StackExchange,StackExchange,11,447,368,1,0
+panel_StackExchange,StackExchange,12,469,385,2,1
+panel_StackExchange,StackExchange,13,646,528,2,1
+panel_StackExchange,StackExchange,14,654,535,2,1
+panel_StackExchange,StackExchange,15,657,538,1,0
+panel_StackExchange,StackExchange,16,779,643,2,1
+panel_StackExchange,StackExchange,17,847,705,1,0
+panel_StackExchange,StackExchange,18,882,736,2,1
+panel_StackExchange,StackExchange,19,922,775,2,1
+panel_StackExchange,StackExchange,20,947,798,3,2
+panel_StackExchange,StackExchange,21,1168,992,1,0
+panel_StackExchange,StackExchange,22,1196,1011,1,0
+panel_StackExchange,StackExchange,23,1217,1024,3,2
+panel_StackExchange,StackExchange,24,1234,1041,1,0
+panel_StackExchange,StackExchange,25,1257,1053,2,1
+panel_StackExchange,StackExchange,26,1277,1070,1,0
+panel_StackExchange,StackExchange,27,1282,1075,2,1
+panel_StackExchange,StackExchange,28,1301,1082,2,1
+panel_StackExchange,StackExchange,29,1478,1222,1,0
+panel_StackExchange,StackExchange,30,1598,1310,2,1
+panel_StackExchange,StackExchange,31,1606,1314,2,1
+panel_StackExchange,StackExchange,32,1622,1327,2,1
+panel_StackExchange,StackExchange,33,1891,1571,1,0
+panel_StackExchange,StackExchange,34,2003,1652,2,1
+panel_StackExchange,StackExchange,35,2010,1661,3,2
+panel_StackExchange,StackExchange,36,2169,1795,1,0
+panel_StackExchange,StackExchange,37,2224,1832,1,0
+panel_StackExchange,StackExchange,38,2297,1892,2,1
+panel_StackExchange,StackExchange,39,2351,1940,1,0
+panel_StackExchange,StackExchange,40,2373,1957,1,0
+panel_StackExchange,StackExchange,41,2383,1964,3,2
+panel_StackExchange,StackExchange,42,2570,2103,1,0
+panel_StackExchange,StackExchange,43,2600,2125,2,1
+panel_StackExchange,StackExchange,44,2615,2136,2,1
+panel_StackExchange,StackExchange,45,2754,2248,3,2
+panel_StackExchange,StackExchange,46,2767,2261,2,1
+panel_StackExchange,StackExchange,47,2769,2263,1,0
+panel_StackExchange,StackExchange,48,2844,2330,1,0
+panel_StackExchange,StackExchange,49,2900,2369,1,0
+panel_StackExchange,StackExchange,50,2903,2371,2,1
+panel_StackExchange,StackExchange,51,2963,2434,2,1
+panel_StackExchange,StackExchange,52,2995,2462,2,1
+panel_StackExchange,StackExchange,53,3002,2470,2,1
+panel_StackExchange,StackExchange,54,3059,2522,1,0
+panel_StackExchange,StackExchange,55,3098,2553,2,1
+panel_StackExchange,StackExchange,56,3129,2585,3,2
+panel_StackExchange,StackExchange,57,3180,2641,3,2
+panel_StackExchange,StackExchange,58,3233,2698,2,1
+panel_StackExchange,StackExchange,59,3305,2750,1,0
+panel_StackExchange,StackExchange,60,3306,2750,3,2
+panel_StackExchange,StackExchange,61,3386,2829,3,2
+panel_StackExchange,StackExchange,62,3404,2837,1,0
+panel_StackExchange,StackExchange,63,3440,2870,2,1
+panel_StackExchange,StackExchange,64,3444,2877,1,0
+panel_StackExchange,StackExchange,65,3456,2885,1,0
+panel_StackExchange,StackExchange,66,3457,2885,1,0
+panel_StackExchange,StackExchange,67,3515,2933,2,1
+panel_StackExchange,StackExchange,68,3583,2989,1,0
+panel_StackExchange,StackExchange,69,3594,2996,2,1
+panel_StackExchange,StackExchange,70,3652,3042,2,1
+panel_StackExchange,StackExchange,71,3684,3065,1,0
+panel_StackExchange,StackExchange,72,3729,3096,1,0
+panel_StackExchange,StackExchange,73,3839,3189,2,1
+panel_StackExchange,StackExchange,74,3896,3234,1,0
+panel_StackExchange,StackExchange,75,3944,3271,1,0
+panel_StackExchange,StackExchange,76,4014,3321,2,1
+panel_StackExchange,StackExchange,77,4071,3366,2,1
+panel_StackExchange,StackExchange,78,4075,3370,2,1
+panel_StackExchange,StackExchange,79,4134,3410,1,0
+panel_StackExchange,StackExchange,80,4262,3506,2,1
+panel_StackExchange,StackExchange,81,4391,3619,2,1
+panel_StackExchange,StackExchange,82,4416,3641,2,1
+panel_StackExchange,StackExchange,83,4459,3679,1,0
+panel_StackExchange,StackExchange,84,4593,3781,1,0
+panel_StackExchange,StackExchange,85,4634,3812,1,0
+panel_StackExchange,StackExchange,86,4967,4094,3,2
+panel_StackExchange,StackExchange,87,4973,4101,2,1
+panel_StackExchange,StackExchange,88,4976,4105,2,1
+panel_StackExchange,StackExchange,89,5021,4143,4,3
+panel_StackExchange,StackExchange,90,5035,4152,4,3
+panel_StackExchange,StackExchange,91,5051,4167,2,1
+panel_StackExchange,StackExchange,92,5076,4186,2,1
+panel_StackExchange,StackExchange,93,5086,4192,1,0
+panel_StackExchange,StackExchange,94,5092,4194,2,1
+panel_StackExchange,StackExchange,95,5188,4286,2,1
+panel_StackExchange,StackExchange,96,5229,4324,2,1
+panel_StackExchange,StackExchange,97,5274,4365,1,0
+panel_StackExchange,StackExchange,98,5285,4374,2,1
+panel_StackExchange,StackExchange,99,5371,4446,1,0
+panel_StackExchange,StackExchange,100,5417,4477,2,1
+panel_StackExchange,StackExchange,101,5455,4501,2,1
+panel_StackExchange,StackExchange,102,5477,4518,1,0
+panel_StackExchange,StackExchange,103,5481,4520,2,1
+panel_StackExchange,StackExchange,104,5484,4521,2,1
+panel_StackExchange,StackExchange,105,5485,4523,4,3
+panel_StackExchange,StackExchange,106,5491,4531,4,3
+panel_StackExchange,StackExchange,107,5512,4544,2,1
+panel_StackExchange,StackExchange,108,5524,4553,1,0
+panel_StackExchange,StackExchange,109,5545,4576,2,1
+panel_StackExchange,StackExchange,110,5667,4664,1,0
+panel_StackExchange,StackExchange,111,5760,4738,1,0
+panel_StackExchange,StackExchange,112,5772,4740,2,1
+panel_StackExchange,StackExchange,113,5805,4766,1,0
+panel_StackExchange,StackExchange,114,5885,4830,2,1
+panel_StackExchange,StackExchange,115,5948,4882,1,0
+panel_StackExchange,StackExchange,116,5965,4898,3,2
+panel_StackExchange,StackExchange,117,6011,4931,1,0
+panel_StackExchange,StackExchange,118,6051,4962,2,1
+panel_StackExchange,StackExchange,119,6190,5070,3,2
+panel_StackExchange,StackExchange,120,6253,5130,3,2
+panel_StackExchange,StackExchange,121,6454,5303,2,1
+panel_StackExchange,StackExchange,122,6460,5309,2,1
+panel_StackExchange,StackExchange,123,6509,5362,2,1
+panel_StackExchange,StackExchange,124,6586,5410,3,2
+panel_StackExchange,StackExchange,125,6681,5487,1,0
+panel_StackExchange,StackExchange,126,6715,5494,1,0
+panel_StackExchange,StackExchange,127,6726,5499,2,1
+panel_StackExchange,StackExchange,128,6908,5672,1,0
+panel_StackExchange,StackExchange,129,6936,5692,1,0
+panel_StackExchange,StackExchange,130,7019,5765,1,0
+panel_StackExchange,StackExchange,131,7164,5895,2,1
+panel_StackExchange,StackExchange,132,7181,5909,2,1
+panel_StackExchange,StackExchange,133,7218,5944,2,1
+panel_StackExchange,StackExchange,134,7219,5945,3,2
+panel_StackExchange,StackExchange,135,7327,6027,1,0
+panel_StackExchange,StackExchange,136,7343,6033,2,1
+panel_StackExchange,StackExchange,137,7346,6035,2,1
+panel_StackExchange,StackExchange,138,7386,6062,2,1
+panel_StackExchange,StackExchange,139,7439,6114,2,1
+panel_StackExchange,StackExchange,140,7511,6166,1,0
+panel_StackExchange,StackExchange,141,7566,6210,2,1
+panel_StackExchange,StackExchange,142,7602,6240,1,1
+panel_StackExchange,StackExchange,143,7644,6268,2,1
+panel_StackExchange,StackExchange,144,7668,6283,2,1
+panel_StackExchange,StackExchange,145,7792,6383,2,1
+panel_StackExchange,StackExchange,146,8038,6589,2,1
+panel_StackExchange,StackExchange,147,8170,6706,2,1
+panel_StackExchange,StackExchange,148,8280,6790,3,2
+panel_StackExchange,StackExchange,149,8290,6795,1,0
+panel_StackExchange,StackExchange,150,8330,6824,2,1
+panel_StackExchange,StackExchange,151,8371,6856,2,1
+panel_StackExchange,StackExchange,152,8413,6895,3,2
+panel_StackExchange,StackExchange,153,8448,6923,2,1
+panel_StackExchange,StackExchange,154,8520,6987,3,2
+panel_StackExchange,StackExchange,155,8590,7047,1,0
+panel_StackExchange,StackExchange,156,8703,7147,2,1
+panel_StackExchange,StackExchange,157,8875,7278,1,0
+panel_StackExchange,StackExchange,158,8908,7304,2,1
+panel_StackExchange,StackExchange,159,9116,7483,4,3
+panel_StackExchange,StackExchange,160,9130,7495,2,1
+panel_StackExchange,StackExchange,161,9164,7518,2,1
+panel_StackExchange,StackExchange,162,9234,7573,1,0
+panel_StackExchange,StackExchange,163,9239,7574,1,0
+panel_StackExchange,StackExchange,164,9381,7691,2,1
+panel_StackExchange,StackExchange,165,9505,7792,2,1
+panel_StackExchange,StackExchange,166,9519,7808,4,3
+panel_StackExchange,StackExchange,167,9701,7937,1,0
+panel_StackExchange,StackExchange,168,9864,8046,1,0
+panel_StackExchange,StackExchange,169,9867,8048,1,0
+panel_StackExchange,StackExchange,170,9913,8082,2,1
+panel_StackExchange,StackExchange,171,9993,8144,2,1
+panel_StackExchange,StackExchange,172,10010,8161,1,0
+panel_StackExchange,StackExchange,173,10141,8249,2,1
+panel_StackExchange,StackExchange,174,10149,8254,2,1
+panel_StackExchange,StackExchange,175,10156,8256,2,1
+panel_StackExchange,StackExchange,176,10217,8301,1,0
+panel_StackExchange,StackExchange,177,10328,8382,2,1
+panel_StackExchange,StackExchange,178,10335,8392,2,1
+panel_StackExchange,StackExchange,179,10402,8441,2,1
+panel_StackExchange,StackExchange,180,10431,8468,2,2
+panel_StackExchange,StackExchange,181,10439,8472,2,1
+panel_StackExchange,StackExchange,182,10579,8584,1,0
+panel_StackExchange,StackExchange,183,10583,8584,1,0
+panel_StackExchange,StackExchange,184,10637,8637,2,1
+panel_StackExchange,StackExchange,185,11041,8967,2,1
+panel_StackExchange,StackExchange,186,11078,8997,2,1
+panel_StackExchange,StackExchange,187,11166,9065,1,0
+panel_StackExchange,StackExchange,188,11346,9225,1,0
+panel_StackExchange,StackExchange,189,11391,9262,4,3
+panel_StackExchange,StackExchange,190,11548,9398,2,1
+panel_StackExchange,StackExchange,191,11579,9423,1,0
+panel_StackExchange,StackExchange,192,11602,9445,1,0
+panel_StackExchange,StackExchange,193,11691,9512,1,0
+panel_StackExchange,StackExchange,194,11701,9521,3,2
+panel_StackExchange,StackExchange,195,11803,9605,1,0
+panel_StackExchange,StackExchange,196,11964,9742,2,1
+panel_StackExchange,StackExchange,197,12094,9849,2,1
+panel_StackExchange,StackExchange,198,12108,9859,3,2
+panel_StackExchange,StackExchange,199,12180,9927,2,1
+panel_ArXiv,ArXiv,0,33,0,1,0
+panel_ArXiv,ArXiv,1,36,0,1,0
+panel_ArXiv,ArXiv,2,381,16,1,0
+panel_ArXiv,ArXiv,3,403,17,1,0
+panel_ArXiv,ArXiv,4,410,17,1,0
+panel_ArXiv,ArXiv,5,426,18,1,0
+panel_ArXiv,ArXiv,6,659,25,1,0
+panel_ArXiv,ArXiv,7,765,28,1,0
+panel_ArXiv,ArXiv,8,816,29,1,0
+panel_ArXiv,ArXiv,9,845,32,1,0
+panel_ArXiv,ArXiv,10,921,34,1,0
+panel_ArXiv,ArXiv,11,1119,40,1,0
+panel_ArXiv,ArXiv,12,1235,44,1,0
+panel_ArXiv,ArXiv,13,1368,47,1,0
+panel_ArXiv,ArXiv,14,1434,51,1,0
+panel_ArXiv,ArXiv,15,1436,51,1,0
+panel_ArXiv,ArXiv,16,1610,58,1,0
+panel_ArXiv,ArXiv,17,2009,76,1,0
+panel_ArXiv,ArXiv,18,2423,91,1,0
+panel_ArXiv,ArXiv,19,2456,92,1,0
+panel_ArXiv,ArXiv,20,2537,97,1,0
+panel_ArXiv,ArXiv,21,2600,100,1,0
+panel_ArXiv,ArXiv,22,2786,105,1,0
+panel_ArXiv,ArXiv,23,2788,105,1,0
+panel_ArXiv,ArXiv,24,2951,109,1,0
+panel_ArXiv,ArXiv,25,2961,109,1,0
+panel_ArXiv,ArXiv,26,3094,114,1,0
+panel_ArXiv,ArXiv,27,3265,119,1,0
+panel_ArXiv,ArXiv,28,3273,119,1,0
+panel_ArXiv,ArXiv,29,3401,128,1,0
+panel_ArXiv,ArXiv,30,3537,136,1,0
+panel_ArXiv,ArXiv,31,3629,140,1,0
+panel_ArXiv,ArXiv,32,3647,141,1,0
+panel_ArXiv,ArXiv,33,4008,154,1,0
+panel_ArXiv,ArXiv,34,4121,158,1,0
+panel_ArXiv,ArXiv,35,4186,159,1,0
+panel_ArXiv,ArXiv,36,4192,159,1,0
+panel_ArXiv,ArXiv,37,4306,164,1,0
+panel_ArXiv,ArXiv,38,4409,166,1,0
+panel_ArXiv,ArXiv,39,4413,166,1,0
+panel_ArXiv,ArXiv,40,4480,170,1,0
+panel_ArXiv,ArXiv,41,4638,175,1,0
+panel_ArXiv,ArXiv,42,4912,184,1,0
+panel_ArXiv,ArXiv,43,4930,185,1,0
+panel_ArXiv,ArXiv,44,4986,185,1,0
+panel_ArXiv,ArXiv,45,5325,201,1,0
+panel_ArXiv,ArXiv,46,5340,201,1,0
+panel_ArXiv,ArXiv,47,5419,203,1,0
+panel_ArXiv,ArXiv,48,5450,203,1,0
+panel_ArXiv,ArXiv,49,5517,204,1,0
+panel_ArXiv,ArXiv,50,5540,206,1,0
+panel_ArXiv,ArXiv,51,5697,209,1,0
+panel_ArXiv,ArXiv,52,5766,211,1,0
+panel_ArXiv,ArXiv,53,5872,214,1,0
+panel_ArXiv,ArXiv,54,6159,225,1,0
+panel_ArXiv,ArXiv,55,6239,227,1,0
+panel_ArXiv,ArXiv,56,6274,227,1,0
+panel_ArXiv,ArXiv,57,6296,229,1,0
+panel_ArXiv,ArXiv,58,6372,231,1,0
+panel_ArXiv,ArXiv,59,6413,233,1,0
+panel_ArXiv,ArXiv,60,6500,237,1,0
+panel_ArXiv,ArXiv,61,6529,238,1,0
+panel_ArXiv,ArXiv,62,6590,241,1,0
+panel_ArXiv,ArXiv,63,6603,242,1,0
+panel_ArXiv,ArXiv,64,6692,247,1,0
+panel_ArXiv,ArXiv,65,6708,247,1,0
+panel_ArXiv,ArXiv,66,6738,248,1,0
+panel_ArXiv,ArXiv,67,6804,250,1,0
+panel_ArXiv,ArXiv,68,6905,255,1,0
+panel_ArXiv,ArXiv,69,6909,255,1,0
+panel_ArXiv,ArXiv,70,6944,257,1,0
+panel_ArXiv,ArXiv,71,7094,265,1,0
+panel_ArXiv,ArXiv,72,7099,265,1,0
+panel_ArXiv,ArXiv,73,7321,270,1,0
+panel_ArXiv,ArXiv,74,7340,272,1,0
+panel_ArXiv,ArXiv,75,7415,275,1,0
+panel_ArXiv,ArXiv,76,7569,281,1,0
+panel_ArXiv,ArXiv,77,7612,284,1,0
+panel_ArXiv,ArXiv,78,7632,285,1,0
+panel_ArXiv,ArXiv,79,7670,285,1,0
+panel_ArXiv,ArXiv,80,7673,285,1,0
+panel_ArXiv,ArXiv,81,7886,291,1,0
+panel_ArXiv,ArXiv,82,7999,291,1,0
+panel_ArXiv,ArXiv,83,8079,294,1,0
+panel_ArXiv,ArXiv,84,8302,301,2,1
+panel_ArXiv,ArXiv,85,8573,309,1,0
+panel_ArXiv,ArXiv,86,8665,313,1,0
+panel_ArXiv,ArXiv,87,8840,321,1,0
+panel_ArXiv,ArXiv,88,8856,322,1,0
+panel_ArXiv,ArXiv,89,8947,325,1,0
+panel_ArXiv,ArXiv,90,9197,335,1,0
+panel_ArXiv,ArXiv,91,9492,351,1,0
+panel_ArXiv,ArXiv,92,9657,358,1,0
+panel_ArXiv,ArXiv,93,9686,359,1,0
+panel_ArXiv,ArXiv,94,9733,362,1,0
+panel_ArXiv,ArXiv,95,9874,368,1,0
+panel_ArXiv,ArXiv,96,9911,369,1,0
+panel_ArXiv,ArXiv,97,10003,372,1,0
+panel_ArXiv,ArXiv,98,10054,372,1,0
+panel_ArXiv,ArXiv,99,10075,372,1,0
+panel_ArXiv,ArXiv,100,10146,375,1,0
+panel_ArXiv,ArXiv,101,10190,375,1,0
+panel_ArXiv,ArXiv,102,10208,376,1,0
+panel_ArXiv,ArXiv,103,10344,377,1,0
+panel_ArXiv,ArXiv,104,10412,381,1,0
+panel_ArXiv,ArXiv,105,10501,384,1,0
+panel_ArXiv,ArXiv,106,10616,390,1,0
+panel_ArXiv,ArXiv,107,10618,390,1,0
+panel_ArXiv,ArXiv,108,10756,400,1,0
+panel_ArXiv,ArXiv,109,10853,402,1,0
+panel_ArXiv,ArXiv,110,11148,411,1,0
+panel_ArXiv,ArXiv,111,11160,411,1,0
+panel_ArXiv,ArXiv,112,11179,411,1,0
+panel_ArXiv,ArXiv,113,11180,411,1,0
+panel_ArXiv,ArXiv,114,11362,415,1,0
+panel_ArXiv,ArXiv,115,11388,416,1,0
+panel_ArXiv,ArXiv,116,11546,424,1,0
+panel_ArXiv,ArXiv,117,11725,430,1,0
+panel_ArXiv,ArXiv,118,11737,430,1,0
+panel_ArXiv,ArXiv,119,12225,448,1,0
+panel_ArXiv,ArXiv,120,12341,451,1,0
+panel_ArXiv,ArXiv,121,12426,454,1,0
+panel_ArXiv,ArXiv,122,12472,457,1,0
+panel_ArXiv,ArXiv,123,12735,464,1,0
+panel_ArXiv,ArXiv,124,13101,478,1,0
+panel_ArXiv,ArXiv,125,13231,484,1,0
+panel_ArXiv,ArXiv,126,13303,487,1,0
+panel_ArXiv,ArXiv,127,13440,495,1,0
+panel_ArXiv,ArXiv,128,13509,496,1,0
+panel_ArXiv,ArXiv,129,13735,503,1,0
+panel_ArXiv,ArXiv,130,13801,508,1,0
+panel_ArXiv,ArXiv,131,13865,511,1,0
+panel_ArXiv,ArXiv,132,13987,511,1,0
+panel_ArXiv,ArXiv,133,14054,511,1,0
+panel_ArXiv,ArXiv,134,14069,511,1,0
+panel_ArXiv,ArXiv,135,14233,514,1,0
+panel_ArXiv,ArXiv,136,14378,520,1,0
+panel_ArXiv,ArXiv,137,14411,521,1,0
+panel_ArXiv,ArXiv,138,14481,521,1,0
+panel_ArXiv,ArXiv,139,14687,533,1,0
+panel_ArXiv,ArXiv,140,14701,534,1,0
+panel_ArXiv,ArXiv,141,14785,538,1,0
+panel_ArXiv,ArXiv,142,15029,546,1,0
+panel_ArXiv,ArXiv,143,15285,554,1,0
+panel_ArXiv,ArXiv,144,15301,555,2,1
+panel_ArXiv,ArXiv,145,15482,560,1,0
+panel_ArXiv,ArXiv,146,15600,563,1,0
+panel_ArXiv,ArXiv,147,16070,585,1,0
+panel_ArXiv,ArXiv,148,16165,585,1,0
+panel_ArXiv,ArXiv,149,16267,592,1,0
+panel_ArXiv,ArXiv,150,16275,593,1,0
+panel_ArXiv,ArXiv,151,16285,593,1,0
+panel_ArXiv,ArXiv,152,16293,594,1,0
+panel_ArXiv,ArXiv,153,16577,604,1,0
+panel_ArXiv,ArXiv,154,16659,608,1,0
+panel_ArXiv,ArXiv,155,16689,610,1,0
+panel_ArXiv,ArXiv,156,16915,620,1,0
+panel_ArXiv,ArXiv,157,16997,622,1,0
+panel_ArXiv,ArXiv,158,17257,629,1,0
+panel_ArXiv,ArXiv,159,17440,638,1,0
+panel_ArXiv,ArXiv,160,17462,640,1,0
+panel_ArXiv,ArXiv,161,17505,640,1,0
+panel_ArXiv,ArXiv,162,17569,640,1,0
+panel_ArXiv,ArXiv,163,17690,645,1,0
+panel_ArXiv,ArXiv,164,17808,647,1,0
+panel_ArXiv,ArXiv,165,17868,647,2,1
+panel_ArXiv,ArXiv,166,17943,653,1,0
+panel_ArXiv,ArXiv,167,18079,660,1,0
+panel_ArXiv,ArXiv,168,18124,663,1,0
+panel_ArXiv,ArXiv,169,18131,664,1,0
+panel_ArXiv,ArXiv,170,18253,670,1,0
+panel_ArXiv,ArXiv,171,18664,691,1,0
+panel_ArXiv,ArXiv,172,18792,698,1,0
+panel_ArXiv,ArXiv,173,18877,703,1,0
+panel_ArXiv,ArXiv,174,19170,708,1,0
+panel_ArXiv,ArXiv,175,19218,709,1,0
+panel_ArXiv,ArXiv,176,19517,718,1,0
+panel_ArXiv,ArXiv,177,19707,722,1,0
+panel_ArXiv,ArXiv,178,20140,739,1,0
+panel_ArXiv,ArXiv,179,20183,740,1,0
+panel_ArXiv,ArXiv,180,20239,742,1,0
+panel_ArXiv,ArXiv,181,20423,748,1,0
+panel_ArXiv,ArXiv,182,20469,750,1,0
+panel_ArXiv,ArXiv,183,20541,753,1,0
+panel_ArXiv,ArXiv,184,20569,754,1,0
+panel_ArXiv,ArXiv,185,20715,760,1,0
+panel_ArXiv,ArXiv,186,20811,761,1,0
+panel_ArXiv,ArXiv,187,20957,767,1,0
+panel_ArXiv,ArXiv,188,21045,772,1,0
+panel_ArXiv,ArXiv,189,21131,776,1,0
+panel_ArXiv,ArXiv,190,21188,777,1,0
+panel_ArXiv,ArXiv,191,21213,779,1,0
+panel_ArXiv,ArXiv,192,21254,780,1,0
+panel_ArXiv,ArXiv,193,21259,780,1,0
+panel_ArXiv,ArXiv,194,21529,791,1,0
+panel_ArXiv,ArXiv,195,21756,800,1,0
+panel_ArXiv,ArXiv,196,21799,800,1,0
+panel_ArXiv,ArXiv,197,21811,800,1,0
+panel_ArXiv,ArXiv,198,22034,807,1,0
+panel_ArXiv,ArXiv,199,22080,808,1,0
+panel_Pile_CC,Pile-CC,0,60,28,3,2
+panel_Pile_CC,Pile-CC,1,205,136,2,1
+panel_Pile_CC,Pile-CC,2,296,177,1,0
+panel_Pile_CC,Pile-CC,3,321,189,3,2
+panel_Pile_CC,Pile-CC,4,919,536,1,0
+panel_Pile_CC,Pile-CC,5,1298,718,2,1
+panel_Pile_CC,Pile-CC,6,1632,856,1,0
+panel_Pile_CC,Pile-CC,7,1801,928,1,0
+panel_Pile_CC,Pile-CC,8,1860,956,2,1
+panel_Pile_CC,Pile-CC,9,2369,1240,2,1
+panel_Pile_CC,Pile-CC,10,2458,1288,1,0
+panel_Pile_CC,Pile-CC,11,2598,1363,3,2
+panel_Pile_CC,Pile-CC,12,2662,1378,1,0
+panel_Pile_CC,Pile-CC,13,2698,1394,2,1
+panel_Pile_CC,Pile-CC,14,2866,1484,2,1
+panel_Pile_CC,Pile-CC,15,2904,1496,1,0
+panel_Pile_CC,Pile-CC,16,2918,1498,1,0
+panel_Pile_CC,Pile-CC,17,2927,1505,2,1
+panel_Pile_CC,Pile-CC,18,3047,1580,1,0
+panel_Pile_CC,Pile-CC,19,3050,1585,4,3
+panel_Pile_CC,Pile-CC,20,3057,1591,1,0
+panel_Pile_CC,Pile-CC,21,3293,1693,1,0
+panel_Pile_CC,Pile-CC,22,3323,1705,1,0
+panel_Pile_CC,Pile-CC,23,3589,1844,1,0
+panel_Pile_CC,Pile-CC,24,3595,1847,1,0
+panel_Pile_CC,Pile-CC,25,4097,2063,1,0
+panel_Pile_CC,Pile-CC,26,4415,2235,1,0
+panel_Pile_CC,Pile-CC,27,4572,2323,2,1
+panel_Pile_CC,Pile-CC,28,4911,2441,1,0
+panel_Pile_CC,Pile-CC,29,4932,2441,1,0
+panel_Pile_CC,Pile-CC,30,5041,2447,1,0
+panel_Pile_CC,Pile-CC,31,5122,2482,1,0
+panel_Pile_CC,Pile-CC,32,5225,2519,1,0
+panel_Pile_CC,Pile-CC,33,5539,2686,1,0
+panel_Pile_CC,Pile-CC,34,5657,2738,1,0
+panel_Pile_CC,Pile-CC,35,5990,2885,3,2
+panel_Pile_CC,Pile-CC,36,6150,2968,3,2
+panel_Pile_CC,Pile-CC,37,6401,3087,2,1
+panel_Pile_CC,Pile-CC,38,6427,3097,2,1
+panel_Pile_CC,Pile-CC,39,6583,3174,2,1
+panel_Pile_CC,Pile-CC,40,6859,3358,2,1
+panel_Pile_CC,Pile-CC,41,6934,3362,1,0
+panel_Pile_CC,Pile-CC,42,7003,3362,1,0
+panel_Pile_CC,Pile-CC,43,7114,3362,1,0
+panel_Pile_CC,Pile-CC,44,7137,3364,2,1
+panel_Pile_CC,Pile-CC,45,7762,3653,2,1
+panel_Pile_CC,Pile-CC,46,7799,3680,4,3
+panel_Pile_CC,Pile-CC,47,7828,3685,1,0
+panel_Pile_CC,Pile-CC,48,7840,3690,4,3
+panel_Pile_CC,Pile-CC,49,7912,3714,1,0
+panel_Pile_CC,Pile-CC,50,8275,3903,3,2
+panel_Pile_CC,Pile-CC,51,8588,4104,2,1
+panel_Pile_CC,Pile-CC,52,9239,4404,1,0
+panel_Pile_CC,Pile-CC,53,9363,4459,1,0
+panel_Pile_CC,Pile-CC,54,9818,4631,1,0
+panel_Pile_CC,Pile-CC,55,9989,4730,1,0
+panel_Pile_CC,Pile-CC,56,9998,4734,2,1
+panel_Pile_CC,Pile-CC,57,10091,4769,2,1
+panel_Pile_CC,Pile-CC,58,10120,4785,1,0
+panel_Pile_CC,Pile-CC,59,10368,4920,2,1
+panel_Pile_CC,Pile-CC,60,10422,4938,2,1
+panel_Pile_CC,Pile-CC,61,10549,5018,1,0
+panel_Pile_CC,Pile-CC,62,10602,5047,3,2
+panel_Pile_CC,Pile-CC,63,10925,5225,2,1
+panel_Pile_CC,Pile-CC,64,10951,5239,1,0
+panel_Pile_CC,Pile-CC,65,11192,5340,2,1
+panel_Pile_CC,Pile-CC,66,11959,5770,2,1
+panel_Pile_CC,Pile-CC,67,11988,5788,2,1
+panel_Pile_CC,Pile-CC,68,12331,5961,1,0
+panel_Pile_CC,Pile-CC,69,12360,5976,1,0
+panel_Pile_CC,Pile-CC,70,12661,6176,2,1
+panel_Pile_CC,Pile-CC,71,13620,6668,1,0
+panel_Pile_CC,Pile-CC,72,13653,6690,2,1
+panel_Pile_CC,Pile-CC,73,13677,6713,2,1
+panel_Pile_CC,Pile-CC,74,13918,6853,2,1
+panel_Pile_CC,Pile-CC,75,14016,6898,1,0
+panel_Pile_CC,Pile-CC,76,14117,6967,1,0
+panel_Pile_CC,Pile-CC,77,14310,7079,1,0
+panel_Pile_CC,Pile-CC,78,14325,7079,1,0
+panel_Pile_CC,Pile-CC,79,14454,7110,1,0
+panel_Pile_CC,Pile-CC,80,14703,7211,1,0
+panel_Pile_CC,Pile-CC,81,14735,7237,1,0
+panel_Pile_CC,Pile-CC,82,15071,7404,1,0
+panel_Pile_CC,Pile-CC,83,15116,7424,1,0
+panel_Pile_CC,Pile-CC,84,15479,7588,1,0
+panel_Pile_CC,Pile-CC,85,15568,7649,2,1
+panel_Pile_CC,Pile-CC,86,15585,7668,1,0
+panel_Pile_CC,Pile-CC,87,15829,7755,1,0
+panel_Pile_CC,Pile-CC,88,15964,7833,1,0
+panel_Pile_CC,Pile-CC,89,16003,7850,2,1
+panel_Pile_CC,Pile-CC,90,16403,8058,1,0
+panel_Pile_CC,Pile-CC,91,16461,8078,1,0
+panel_Pile_CC,Pile-CC,92,16513,8126,2,1
+panel_Pile_CC,Pile-CC,93,16751,8225,1,0
+panel_Pile_CC,Pile-CC,94,16758,8227,1,0
+panel_Pile_CC,Pile-CC,95,16926,8315,1,0
+panel_Pile_CC,Pile-CC,96,17144,8398,1,0
+panel_Pile_CC,Pile-CC,97,17252,8424,1,0
+panel_Pile_CC,Pile-CC,98,17298,8424,1,0
+panel_Pile_CC,Pile-CC,99,17413,8434,2,1
+panel_Pile_CC,Pile-CC,100,18258,8943,1,0
+panel_Pile_CC,Pile-CC,101,18271,8950,3,2
+panel_Pile_CC,Pile-CC,102,18297,8970,3,2
+panel_Pile_CC,Pile-CC,103,18374,9039,2,1
+panel_Pile_CC,Pile-CC,104,18398,9058,2,1
+panel_Pile_CC,Pile-CC,105,18641,9207,1,0
+panel_Pile_CC,Pile-CC,106,18651,9216,1,0
+panel_Pile_CC,Pile-CC,107,19093,9432,1,0
+panel_Pile_CC,Pile-CC,108,19165,9466,4,3
+panel_Pile_CC,Pile-CC,109,19183,9475,1,0
+panel_Pile_CC,Pile-CC,110,19405,9585,1,0
+panel_Pile_CC,Pile-CC,111,19443,9604,2,1
+panel_Pile_CC,Pile-CC,112,19964,9881,1,0
+panel_Pile_CC,Pile-CC,113,20219,10031,2,1
+panel_Pile_CC,Pile-CC,114,20282,10060,2,1
+panel_Pile_CC,Pile-CC,115,20355,10088,2,1
+panel_Pile_CC,Pile-CC,116,20525,10164,1,0
+panel_Pile_CC,Pile-CC,117,20700,10239,1,0
+panel_Pile_CC,Pile-CC,118,20861,10333,2,1
+panel_Pile_CC,Pile-CC,119,20937,10371,3,2
+panel_Pile_CC,Pile-CC,120,21763,10763,2,1
+panel_Pile_CC,Pile-CC,121,21963,10872,1,0
+panel_Pile_CC,Pile-CC,122,22573,11200,1,0
+panel_Pile_CC,Pile-CC,123,22677,11219,1,0
+panel_Pile_CC,Pile-CC,124,22693,11224,2,1
+panel_Pile_CC,Pile-CC,125,22887,11321,3,2
+panel_Pile_CC,Pile-CC,126,23026,11384,1,0
+panel_Pile_CC,Pile-CC,127,23288,11495,1,0
+panel_Pile_CC,Pile-CC,128,23395,11561,1,0
+panel_Pile_CC,Pile-CC,129,23478,11601,1,0
+panel_Pile_CC,Pile-CC,130,23598,11663,1,0
+panel_Pile_CC,Pile-CC,131,23829,11774,1,0
+panel_Pile_CC,Pile-CC,132,23883,11804,1,0
+panel_Pile_CC,Pile-CC,133,24049,11872,2,1
+panel_Pile_CC,Pile-CC,134,24146,11938,2,1
+panel_Pile_CC,Pile-CC,135,24220,12000,1,0
+panel_Pile_CC,Pile-CC,136,24349,12082,1,0
+panel_Pile_CC,Pile-CC,137,24677,12268,1,0
+panel_Pile_CC,Pile-CC,138,24857,12399,1,0
+panel_Pile_CC,Pile-CC,139,25137,12581,2,1
+panel_Pile_CC,Pile-CC,140,25257,12654,2,1
+panel_Pile_CC,Pile-CC,141,25426,12771,1,0
+panel_Pile_CC,Pile-CC,142,25802,12887,1,0
+panel_Pile_CC,Pile-CC,143,25962,12973,2,1
+panel_Pile_CC,Pile-CC,144,26322,13138,4,3
+panel_Pile_CC,Pile-CC,145,26429,13225,2,1
+panel_Pile_CC,Pile-CC,146,26461,13243,3,3
+panel_Pile_CC,Pile-CC,147,26752,13362,1,0
+panel_Pile_CC,Pile-CC,148,27013,13458,1,0
+panel_Pile_CC,Pile-CC,149,27017,13461,1,0
+panel_Pile_CC,Pile-CC,150,27132,13532,1,0
+panel_Pile_CC,Pile-CC,151,27301,13601,1,0
+panel_Pile_CC,Pile-CC,152,27387,13646,1,0
+panel_Pile_CC,Pile-CC,153,27602,13773,1,0
+panel_Pile_CC,Pile-CC,154,27632,13799,2,1
+panel_Pile_CC,Pile-CC,155,27777,13861,4,3
+panel_Pile_CC,Pile-CC,156,28149,14064,1,0
+panel_Pile_CC,Pile-CC,157,28313,14153,2,1
+panel_Pile_CC,Pile-CC,158,28474,14239,1,0
+panel_Pile_CC,Pile-CC,159,28500,14257,1,0
+panel_Pile_CC,Pile-CC,160,28698,14320,1,0
+panel_Pile_CC,Pile-CC,161,28717,14326,2,1
+panel_Pile_CC,Pile-CC,162,29362,14625,2,1
+panel_Pile_CC,Pile-CC,163,29429,14653,1,0
+panel_Pile_CC,Pile-CC,164,30034,14994,2,1
+panel_Pile_CC,Pile-CC,165,30038,14998,3,2
+panel_Pile_CC,Pile-CC,166,30209,15087,1,0
+panel_Pile_CC,Pile-CC,167,30550,15296,1,0
+panel_Pile_CC,Pile-CC,168,30686,15355,1,0
+panel_Pile_CC,Pile-CC,169,30749,15373,2,1
+panel_Pile_CC,Pile-CC,170,30766,15378,1,0
+panel_Pile_CC,Pile-CC,171,30855,15437,1,0
+panel_Pile_CC,Pile-CC,172,30962,15464,1,0
+panel_Pile_CC,Pile-CC,173,31037,15505,1,0
+panel_Pile_CC,Pile-CC,174,31379,15670,1,0
+panel_Pile_CC,Pile-CC,175,31548,15750,1,0
+panel_Pile_CC,Pile-CC,176,31566,15766,1,0
+panel_Pile_CC,Pile-CC,177,31831,15936,2,1
+panel_Pile_CC,Pile-CC,178,32020,16043,2,1
+panel_Pile_CC,Pile-CC,179,32482,16297,2,1
+panel_Pile_CC,Pile-CC,180,32533,16330,1,0
+panel_Pile_CC,Pile-CC,181,32543,16336,1,0
+panel_Pile_CC,Pile-CC,182,32552,16336,1,0
+panel_Pile_CC,Pile-CC,183,32622,16343,3,2
+panel_Pile_CC,Pile-CC,184,32633,16353,1,0
+panel_Pile_CC,Pile-CC,185,32753,16425,2,1
+panel_Pile_CC,Pile-CC,186,32794,16452,2,1
+panel_Pile_CC,Pile-CC,187,32990,16555,1,0
+panel_Pile_CC,Pile-CC,188,33095,16607,1,0
+panel_Pile_CC,Pile-CC,189,33213,16651,1,0
+panel_Pile_CC,Pile-CC,190,33223,16651,1,0
+panel_Pile_CC,Pile-CC,191,33327,16651,1,0
+panel_Pile_CC,Pile-CC,192,34231,17113,1,0
+panel_Pile_CC,Pile-CC,193,34259,17121,2,1
+panel_Pile_CC,Pile-CC,194,34267,17128,3,2
+panel_Pile_CC,Pile-CC,195,34352,17183,3,2
+panel_Pile_CC,Pile-CC,196,34707,17393,3,2
+panel_Pile_CC,Pile-CC,197,34865,17444,1,0
+panel_Pile_CC,Pile-CC,198,35022,17513,1,0
+panel_Pile_CC,Pile-CC,199,35070,17541,3,2
+panel_Wikipedia__en_,Wikipedia (en),0,29,20,1,0
+panel_Wikipedia__en_,Wikipedia (en),1,30,21,2,1
+panel_Wikipedia__en_,Wikipedia (en),2,40,32,1,0
+panel_Wikipedia__en_,Wikipedia (en),3,47,35,4,3
+panel_Wikipedia__en_,Wikipedia (en),4,124,93,1,0
+panel_Wikipedia__en_,Wikipedia (en),5,126,93,1,0
+panel_Wikipedia__en_,Wikipedia (en),6,203,145,1,0
+panel_Wikipedia__en_,Wikipedia (en),7,274,212,2,1
+panel_Wikipedia__en_,Wikipedia (en),8,383,308,2,1
+panel_Wikipedia__en_,Wikipedia (en),9,398,325,2,0
+panel_Wikipedia__en_,Wikipedia (en),10,504,400,2,1
+panel_Wikipedia__en_,Wikipedia (en),11,516,411,2,1
+panel_Wikipedia__en_,Wikipedia (en),12,526,421,1,0
+panel_Wikipedia__en_,Wikipedia (en),13,531,421,1,0
+panel_Wikipedia__en_,Wikipedia (en),14,542,424,1,0
+panel_Wikipedia__en_,Wikipedia (en),15,559,429,1,0
+panel_Wikipedia__en_,Wikipedia (en),16,603,472,5,4
+panel_Wikipedia__en_,Wikipedia (en),17,619,489,3,2
+panel_Wikipedia__en_,Wikipedia (en),18,629,497,1,0
+panel_Wikipedia__en_,Wikipedia (en),19,658,526,4,3
+panel_Wikipedia__en_,Wikipedia (en),20,677,544,3,2
+panel_Wikipedia__en_,Wikipedia (en),21,679,547,3,2
+panel_Wikipedia__en_,Wikipedia (en),22,680,547,1,0
+panel_Wikipedia__en_,Wikipedia (en),23,681,547,1,0
+panel_Wikipedia__en_,Wikipedia (en),24,839,675,2,1
+panel_Wikipedia__en_,Wikipedia (en),25,868,706,3,2
+panel_Wikipedia__en_,Wikipedia (en),26,875,709,2,1
+panel_Wikipedia__en_,Wikipedia (en),27,905,712,1,0
+panel_Wikipedia__en_,Wikipedia (en),28,997,785,2,1
+panel_Wikipedia__en_,Wikipedia (en),29,1107,854,2,1
+panel_Wikipedia__en_,Wikipedia (en),30,1108,855,4,3
+panel_Wikipedia__en_,Wikipedia (en),31,1112,858,2,1
+panel_Wikipedia__en_,Wikipedia (en),32,1120,867,3,2
+panel_Wikipedia__en_,Wikipedia (en),33,1212,941,1,0
+panel_Wikipedia__en_,Wikipedia (en),34,1213,941,3,2
+panel_Wikipedia__en_,Wikipedia (en),35,1302,982,1,0
+panel_Wikipedia__en_,Wikipedia (en),36,1319,995,2,1
+panel_Wikipedia__en_,Wikipedia (en),37,1552,1094,1,0
+panel_Wikipedia__en_,Wikipedia (en),38,1554,1095,2,1
+panel_Wikipedia__en_,Wikipedia (en),39,1636,1160,4,3
+panel_Wikipedia__en_,Wikipedia (en),40,1671,1190,1,0
+panel_Wikipedia__en_,Wikipedia (en),41,1713,1237,2,1
+panel_Wikipedia__en_,Wikipedia (en),42,1736,1252,1,0
+panel_Wikipedia__en_,Wikipedia (en),43,1786,1256,1,0
+panel_Wikipedia__en_,Wikipedia (en),44,1830,1269,1,0
+panel_Wikipedia__en_,Wikipedia (en),45,1847,1285,4,3
+panel_Wikipedia__en_,Wikipedia (en),46,1889,1313,1,0
+panel_Wikipedia__en_,Wikipedia (en),47,1895,1313,1,0
+panel_Wikipedia__en_,Wikipedia (en),48,1912,1313,1,0
+panel_Wikipedia__en_,Wikipedia (en),49,1958,1346,1,0
+panel_Wikipedia__en_,Wikipedia (en),50,1992,1377,1,0
+panel_Wikipedia__en_,Wikipedia (en),51,2131,1473,1,0
+panel_Wikipedia__en_,Wikipedia (en),52,2189,1500,1,0
+panel_Wikipedia__en_,Wikipedia (en),53,2243,1552,3,2
+panel_Wikipedia__en_,Wikipedia (en),54,2263,1574,1,0
+panel_Wikipedia__en_,Wikipedia (en),55,2318,1605,2,1
+panel_Wikipedia__en_,Wikipedia (en),56,2358,1639,4,3
+panel_Wikipedia__en_,Wikipedia (en),57,2368,1647,1,0
+panel_Wikipedia__en_,Wikipedia (en),58,2467,1697,2,1
+panel_Wikipedia__en_,Wikipedia (en),59,2484,1707,1,0
+panel_Wikipedia__en_,Wikipedia (en),60,2490,1709,1,0
+panel_Wikipedia__en_,Wikipedia (en),61,2521,1729,1,0
+panel_Wikipedia__en_,Wikipedia (en),62,2547,1754,2,1
+panel_Wikipedia__en_,Wikipedia (en),63,2631,1820,1,0
+panel_Wikipedia__en_,Wikipedia (en),64,2656,1840,3,2
+panel_Wikipedia__en_,Wikipedia (en),65,2850,1982,2,1
+panel_Wikipedia__en_,Wikipedia (en),66,2867,1993,2,1
+panel_Wikipedia__en_,Wikipedia (en),67,2874,1996,1,0
+panel_Wikipedia__en_,Wikipedia (en),68,2911,2022,1,0
+panel_Wikipedia__en_,Wikipedia (en),69,2913,2022,1,0
+panel_Wikipedia__en_,Wikipedia (en),70,2960,2064,5,4
+panel_Wikipedia__en_,Wikipedia (en),71,2971,2072,6,5
+panel_Wikipedia__en_,Wikipedia (en),72,2990,2093,2,1
+panel_Wikipedia__en_,Wikipedia (en),73,2996,2098,2,1
+panel_Wikipedia__en_,Wikipedia (en),74,3004,2099,1,0
+panel_Wikipedia__en_,Wikipedia (en),75,3098,2163,1,0
+panel_Wikipedia__en_,Wikipedia (en),76,3114,2170,1,0
+panel_Wikipedia__en_,Wikipedia (en),77,3154,2209,1,0
+panel_Wikipedia__en_,Wikipedia (en),78,3380,2345,1,0
+panel_Wikipedia__en_,Wikipedia (en),79,3387,2353,1,0
+panel_Wikipedia__en_,Wikipedia (en),80,3454,2395,1,0
+panel_Wikipedia__en_,Wikipedia (en),81,3481,2415,1,0
+panel_Wikipedia__en_,Wikipedia (en),82,3516,2439,2,1
+panel_Wikipedia__en_,Wikipedia (en),83,3560,2478,1,0
+panel_Wikipedia__en_,Wikipedia (en),84,3563,2478,2,1
+panel_Wikipedia__en_,Wikipedia (en),85,3567,2484,1,0
+panel_Wikipedia__en_,Wikipedia (en),86,3591,2509,3,2
+panel_Wikipedia__en_,Wikipedia (en),87,3602,2519,3,2
+panel_Wikipedia__en_,Wikipedia (en),88,3665,2563,1,0
+panel_Wikipedia__en_,Wikipedia (en),89,3669,2563,1,0
+panel_Wikipedia__en_,Wikipedia (en),90,3673,2563,1,0
+panel_Wikipedia__en_,Wikipedia (en),91,3714,2567,1,0
+panel_Wikipedia__en_,Wikipedia (en),92,3722,2569,1,0
+panel_Wikipedia__en_,Wikipedia (en),93,3733,2569,2,1
+panel_Wikipedia__en_,Wikipedia (en),94,3794,2611,1,0
+panel_Wikipedia__en_,Wikipedia (en),95,3806,2621,1,0
+panel_Wikipedia__en_,Wikipedia (en),96,3828,2625,1,0
+panel_Wikipedia__en_,Wikipedia (en),97,3867,2646,5,4
+panel_Wikipedia__en_,Wikipedia (en),98,3872,2655,1,0
+panel_Wikipedia__en_,Wikipedia (en),99,3903,2677,1,0
+panel_Wikipedia__en_,Wikipedia (en),100,3951,2710,3,3
+panel_Wikipedia__en_,Wikipedia (en),101,3969,2717,1,0
+panel_Wikipedia__en_,Wikipedia (en),102,4001,2749,1,0
+panel_Wikipedia__en_,Wikipedia (en),103,4041,2773,1,0
+panel_Wikipedia__en_,Wikipedia (en),104,4119,2831,4,3
+panel_Wikipedia__en_,Wikipedia (en),105,4127,2836,1,0
+panel_Wikipedia__en_,Wikipedia (en),106,4129,2838,3,2
+panel_Wikipedia__en_,Wikipedia (en),107,4232,2931,2,1
+panel_Wikipedia__en_,Wikipedia (en),108,4473,3058,1,0
+panel_Wikipedia__en_,Wikipedia (en),109,4676,3219,1,0
+panel_Wikipedia__en_,Wikipedia (en),110,4696,3235,2,1
+panel_Wikipedia__en_,Wikipedia (en),111,4717,3249,3,2
+panel_Wikipedia__en_,Wikipedia (en),112,4783,3286,2,1
+panel_Wikipedia__en_,Wikipedia (en),113,4787,3292,3,2
+panel_Wikipedia__en_,Wikipedia (en),114,4921,3383,2,1
+panel_Wikipedia__en_,Wikipedia (en),115,4932,3397,1,0
+panel_Wikipedia__en_,Wikipedia (en),116,4954,3425,1,0
+panel_Wikipedia__en_,Wikipedia (en),117,5038,3499,1,0
+panel_Wikipedia__en_,Wikipedia (en),118,5045,3507,1,0
+panel_Wikipedia__en_,Wikipedia (en),119,5048,3507,1,0
+panel_Wikipedia__en_,Wikipedia (en),120,5066,3522,1,0
+panel_Wikipedia__en_,Wikipedia (en),121,5120,3545,1,0
+panel_Wikipedia__en_,Wikipedia (en),122,5146,3565,1,0
+panel_Wikipedia__en_,Wikipedia (en),123,5182,3599,1,0
+panel_Wikipedia__en_,Wikipedia (en),124,5203,3607,1,0
+panel_Wikipedia__en_,Wikipedia (en),125,5217,3620,2,1
+panel_Wikipedia__en_,Wikipedia (en),126,5229,3637,3,2
+panel_Wikipedia__en_,Wikipedia (en),127,5258,3667,1,0
+panel_Wikipedia__en_,Wikipedia (en),128,5361,3724,1,0
+panel_Wikipedia__en_,Wikipedia (en),129,5380,3741,2,1
+panel_Wikipedia__en_,Wikipedia (en),130,5405,3764,2,1
+panel_Wikipedia__en_,Wikipedia (en),131,5414,3769,1,0
+panel_Wikipedia__en_,Wikipedia (en),132,5429,3776,2,1
+panel_Wikipedia__en_,Wikipedia (en),133,5506,3826,1,0
+panel_Wikipedia__en_,Wikipedia (en),134,5560,3881,2,1
+panel_Wikipedia__en_,Wikipedia (en),135,5578,3898,2,1
+panel_Wikipedia__en_,Wikipedia (en),136,5613,3927,1,0
+panel_Wikipedia__en_,Wikipedia (en),137,5633,3930,1,0
+panel_Wikipedia__en_,Wikipedia (en),138,5732,4014,2,1
+panel_Wikipedia__en_,Wikipedia (en),139,5820,4056,1,0
+panel_Wikipedia__en_,Wikipedia (en),140,5847,4067,2,1
+panel_Wikipedia__en_,Wikipedia (en),141,5906,4117,1,0
+panel_Wikipedia__en_,Wikipedia (en),142,5908,4120,3,2
+panel_Wikipedia__en_,Wikipedia (en),143,5922,4138,2,1
+panel_Wikipedia__en_,Wikipedia (en),144,5935,4145,2,1
+panel_Wikipedia__en_,Wikipedia (en),145,6000,4196,1,0
+panel_Wikipedia__en_,Wikipedia (en),146,6055,4231,1,0
+panel_Wikipedia__en_,Wikipedia (en),147,6152,4295,2,1
+panel_Wikipedia__en_,Wikipedia (en),148,6234,4350,1,0
+panel_Wikipedia__en_,Wikipedia (en),149,6337,4430,2,1
+panel_Wikipedia__en_,Wikipedia (en),150,6397,4472,4,3
+panel_Wikipedia__en_,Wikipedia (en),151,6400,4472,1,0
+panel_Wikipedia__en_,Wikipedia (en),152,6415,4486,1,0
+panel_Wikipedia__en_,Wikipedia (en),153,6417,4486,2,1
+panel_Wikipedia__en_,Wikipedia (en),154,6431,4495,2,1
+panel_Wikipedia__en_,Wikipedia (en),155,6473,4537,3,2
+panel_Wikipedia__en_,Wikipedia (en),156,6496,4541,1,0
+panel_Wikipedia__en_,Wikipedia (en),157,6642,4616,1,0
+panel_Wikipedia__en_,Wikipedia (en),158,6659,4624,1,0
+panel_Wikipedia__en_,Wikipedia (en),159,6676,4639,1,0
+panel_Wikipedia__en_,Wikipedia (en),160,6701,4658,4,3
+panel_Wikipedia__en_,Wikipedia (en),161,6722,4670,1,0
+panel_Wikipedia__en_,Wikipedia (en),162,6785,4720,2,1
+panel_Wikipedia__en_,Wikipedia (en),163,6847,4753,1,0
+panel_Wikipedia__en_,Wikipedia (en),164,6861,4762,2,1
+panel_Wikipedia__en_,Wikipedia (en),165,6886,4773,1,0
+panel_Wikipedia__en_,Wikipedia (en),166,6908,4784,2,1
+panel_Wikipedia__en_,Wikipedia (en),167,6982,4847,5,4
+panel_Wikipedia__en_,Wikipedia (en),168,6983,4850,3,2
+panel_Wikipedia__en_,Wikipedia (en),169,7003,4872,3,2
+panel_Wikipedia__en_,Wikipedia (en),170,7047,4880,1,0
+panel_Wikipedia__en_,Wikipedia (en),171,7082,4890,1,0
+panel_Wikipedia__en_,Wikipedia (en),172,7161,4946,1,0
+panel_Wikipedia__en_,Wikipedia (en),173,7165,4947,2,1
+panel_Wikipedia__en_,Wikipedia (en),174,7269,5027,1,0
+panel_Wikipedia__en_,Wikipedia (en),175,7323,5072,1,0
+panel_Wikipedia__en_,Wikipedia (en),176,7427,5133,3,2
+panel_Wikipedia__en_,Wikipedia (en),177,7433,5138,4,3
+panel_Wikipedia__en_,Wikipedia (en),178,7488,5170,2,1
+panel_Wikipedia__en_,Wikipedia (en),179,7509,5188,1,0
+panel_Wikipedia__en_,Wikipedia (en),180,7513,5188,1,0
+panel_Wikipedia__en_,Wikipedia (en),181,7574,5207,4,3
+panel_Wikipedia__en_,Wikipedia (en),182,7595,5233,4,3
+panel_Wikipedia__en_,Wikipedia (en),183,7682,5299,1,0
+panel_Wikipedia__en_,Wikipedia (en),184,7687,5301,2,1
+panel_Wikipedia__en_,Wikipedia (en),185,7780,5353,2,1
+panel_Wikipedia__en_,Wikipedia (en),186,7792,5364,2,1
+panel_Wikipedia__en_,Wikipedia (en),187,7819,5395,2,1
+panel_Wikipedia__en_,Wikipedia (en),188,7825,5403,4,3
+panel_Wikipedia__en_,Wikipedia (en),189,7939,5499,2,1
+panel_Wikipedia__en_,Wikipedia (en),190,8051,5562,1,0
+panel_Wikipedia__en_,Wikipedia (en),191,8054,5563,2,1
+panel_Wikipedia__en_,Wikipedia (en),192,8063,5565,2,1
+panel_Wikipedia__en_,Wikipedia (en),193,8124,5610,2,1
+panel_Wikipedia__en_,Wikipedia (en),194,8134,5624,2,1
+panel_Wikipedia__en_,Wikipedia (en),195,8144,5641,1,0
+panel_Wikipedia__en_,Wikipedia (en),196,8197,5666,1,0
+panel_Wikipedia__en_,Wikipedia (en),197,8354,5778,1,0
+panel_Wikipedia__en_,Wikipedia (en),198,8393,5808,1,0
+panel_Wikipedia__en_,Wikipedia (en),199,8409,5824,3,2
+panel_DM_Mathematics,DM Mathematics,0,43,5,1,0
+panel_DM_Mathematics,DM Mathematics,1,83,11,1,0
+panel_DM_Mathematics,DM Mathematics,2,117,17,1,0
+panel_DM_Mathematics,DM Mathematics,3,120,17,1,0
+panel_DM_Mathematics,DM Mathematics,4,138,20,1,0
+panel_DM_Mathematics,DM Mathematics,5,174,24,2,1
+panel_DM_Mathematics,DM Mathematics,6,215,31,1,0
+panel_DM_Mathematics,DM Mathematics,7,260,37,1,0
+panel_DM_Mathematics,DM Mathematics,8,309,44,1,0
+panel_DM_Mathematics,DM Mathematics,9,337,48,1,0
+panel_DM_Mathematics,DM Mathematics,10,359,51,1,0
+panel_DM_Mathematics,DM Mathematics,11,371,53,1,0
+panel_DM_Mathematics,DM Mathematics,12,377,54,2,1
+panel_DM_Mathematics,DM Mathematics,13,411,58,1,0
+panel_DM_Mathematics,DM Mathematics,14,420,59,1,0
+panel_DM_Mathematics,DM Mathematics,15,433,61,1,0
+panel_DM_Mathematics,DM Mathematics,16,461,65,1,0
+panel_DM_Mathematics,DM Mathematics,17,482,68,1,0
+panel_DM_Mathematics,DM Mathematics,18,495,69,1,0
+panel_DM_Mathematics,DM Mathematics,19,497,70,1,0
+panel_DM_Mathematics,DM Mathematics,20,504,70,1,0
+panel_DM_Mathematics,DM Mathematics,21,511,71,1,0
+panel_DM_Mathematics,DM Mathematics,22,512,71,2,1
+panel_DM_Mathematics,DM Mathematics,23,513,72,1,0
+panel_DM_Mathematics,DM Mathematics,24,517,72,1,0
+panel_DM_Mathematics,DM Mathematics,25,525,73,1,0
+panel_DM_Mathematics,DM Mathematics,26,544,76,1,0
+panel_DM_Mathematics,DM Mathematics,27,620,87,2,1
+panel_DM_Mathematics,DM Mathematics,28,621,87,1,0
+panel_DM_Mathematics,DM Mathematics,29,640,90,2,1
+panel_DM_Mathematics,DM Mathematics,30,691,97,1,0
+panel_DM_Mathematics,DM Mathematics,31,737,103,1,0
+panel_DM_Mathematics,DM Mathematics,32,742,103,1,0
+panel_DM_Mathematics,DM Mathematics,33,747,104,1,0
+panel_DM_Mathematics,DM Mathematics,34,759,105,1,0
+panel_DM_Mathematics,DM Mathematics,35,762,106,1,0
+panel_DM_Mathematics,DM Mathematics,36,817,113,1,0
+panel_DM_Mathematics,DM Mathematics,37,846,117,1,0
+panel_DM_Mathematics,DM Mathematics,38,881,121,2,1
+panel_DM_Mathematics,DM Mathematics,39,901,124,1,0
+panel_DM_Mathematics,DM Mathematics,40,929,129,1,0
+panel_DM_Mathematics,DM Mathematics,41,930,129,1,0
+panel_DM_Mathematics,DM Mathematics,42,936,130,1,0
+panel_DM_Mathematics,DM Mathematics,43,953,132,1,0
+panel_DM_Mathematics,DM Mathematics,44,976,136,1,0
+panel_DM_Mathematics,DM Mathematics,45,988,138,2,1
+panel_DM_Mathematics,DM Mathematics,46,996,139,1,0
+panel_DM_Mathematics,DM Mathematics,47,997,139,1,0
+panel_DM_Mathematics,DM Mathematics,48,1044,146,2,1
+panel_DM_Mathematics,DM Mathematics,49,1189,168,2,1
+panel_DM_Mathematics,DM Mathematics,50,1203,170,1,0
+panel_DM_Mathematics,DM Mathematics,51,1229,173,1,0
+panel_DM_Mathematics,DM Mathematics,52,1237,175,1,0
+panel_DM_Mathematics,DM Mathematics,53,1241,175,1,0
+panel_DM_Mathematics,DM Mathematics,54,1320,186,1,0
+panel_DM_Mathematics,DM Mathematics,55,1373,193,1,0
+panel_DM_Mathematics,DM Mathematics,56,1392,195,1,0
+panel_DM_Mathematics,DM Mathematics,57,1439,202,1,0
+panel_DM_Mathematics,DM Mathematics,58,1464,206,1,0
+panel_DM_Mathematics,DM Mathematics,59,1501,211,1,0
+panel_DM_Mathematics,DM Mathematics,60,1502,211,1,0
+panel_DM_Mathematics,DM Mathematics,61,1507,212,1,0
+panel_DM_Mathematics,DM Mathematics,62,1521,214,1,0
+panel_DM_Mathematics,DM Mathematics,63,1522,214,1,0
+panel_DM_Mathematics,DM Mathematics,64,1546,217,1,0
+panel_DM_Mathematics,DM Mathematics,65,1599,224,1,0
+panel_DM_Mathematics,DM Mathematics,66,1609,225,1,0
+panel_DM_Mathematics,DM Mathematics,67,1618,226,2,1
+panel_DM_Mathematics,DM Mathematics,68,1621,227,1,0
+panel_DM_Mathematics,DM Mathematics,69,1642,229,1,0
+panel_DM_Mathematics,DM Mathematics,70,1671,233,1,0
+panel_DM_Mathematics,DM Mathematics,71,1808,250,2,1
+panel_DM_Mathematics,DM Mathematics,72,1814,251,1,0
+panel_DM_Mathematics,DM Mathematics,73,1846,256,1,0
+panel_DM_Mathematics,DM Mathematics,74,1861,258,1,0
+panel_DM_Mathematics,DM Mathematics,75,1880,261,1,0
+panel_DM_Mathematics,DM Mathematics,76,1904,264,1,0
+panel_DM_Mathematics,DM Mathematics,77,1985,275,1,0
+panel_DM_Mathematics,DM Mathematics,78,2023,280,1,0
+panel_DM_Mathematics,DM Mathematics,79,2051,284,1,0
+panel_DM_Mathematics,DM Mathematics,80,2069,286,1,0
+panel_DM_Mathematics,DM Mathematics,81,2090,288,1,0
+panel_DM_Mathematics,DM Mathematics,82,2158,298,1,0
+panel_DM_Mathematics,DM Mathematics,83,2183,301,1,0
+panel_DM_Mathematics,DM Mathematics,84,2194,303,1,0
+panel_DM_Mathematics,DM Mathematics,85,2198,304,2,1
+panel_DM_Mathematics,DM Mathematics,86,2232,308,1,0
+panel_DM_Mathematics,DM Mathematics,87,2239,309,1,0
+panel_DM_Mathematics,DM Mathematics,88,2240,309,1,0
+panel_DM_Mathematics,DM Mathematics,89,2249,310,1,0
+panel_DM_Mathematics,DM Mathematics,90,2267,313,2,1
+panel_DM_Mathematics,DM Mathematics,91,2325,322,1,0
+panel_DM_Mathematics,DM Mathematics,92,2331,323,1,0
+panel_DM_Mathematics,DM Mathematics,93,2355,326,2,1
+panel_DM_Mathematics,DM Mathematics,94,2368,328,1,0
+panel_DM_Mathematics,DM Mathematics,95,2373,329,1,0
+panel_DM_Mathematics,DM Mathematics,96,2402,332,1,0
+panel_DM_Mathematics,DM Mathematics,97,2409,333,1,0
+panel_DM_Mathematics,DM Mathematics,98,2439,337,2,1
+panel_DM_Mathematics,DM Mathematics,99,2444,338,1,0
+panel_DM_Mathematics,DM Mathematics,100,2446,338,1,0
+panel_DM_Mathematics,DM Mathematics,101,2478,342,1,0
+panel_DM_Mathematics,DM Mathematics,102,2507,346,1,0
+panel_DM_Mathematics,DM Mathematics,103,2512,347,1,0
+panel_DM_Mathematics,DM Mathematics,104,2539,350,1,0
+panel_DM_Mathematics,DM Mathematics,105,2557,353,1,0
+panel_DM_Mathematics,DM Mathematics,106,2581,356,1,0
+panel_DM_Mathematics,DM Mathematics,107,2591,357,1,0
+panel_DM_Mathematics,DM Mathematics,108,2592,357,1,0
+panel_DM_Mathematics,DM Mathematics,109,2597,358,1,0
+panel_DM_Mathematics,DM Mathematics,110,2611,360,1,0
+panel_DM_Mathematics,DM Mathematics,111,2613,360,1,0
+panel_DM_Mathematics,DM Mathematics,112,2617,360,1,0
+panel_DM_Mathematics,DM Mathematics,113,2696,371,1,0
+panel_DM_Mathematics,DM Mathematics,114,2701,372,1,0
+panel_DM_Mathematics,DM Mathematics,115,2755,379,1,0
+panel_DM_Mathematics,DM Mathematics,116,2768,380,2,1
+panel_DM_Mathematics,DM Mathematics,117,2819,387,1,0
+panel_DM_Mathematics,DM Mathematics,118,2828,388,1,0
+panel_DM_Mathematics,DM Mathematics,119,2842,390,1,0
+panel_DM_Mathematics,DM Mathematics,120,2860,393,1,0
+panel_DM_Mathematics,DM Mathematics,121,2865,394,1,0
+panel_DM_Mathematics,DM Mathematics,122,2880,396,1,0
+panel_DM_Mathematics,DM Mathematics,123,2881,396,1,0
+panel_DM_Mathematics,DM Mathematics,124,2908,400,1,0
+panel_DM_Mathematics,DM Mathematics,125,2929,403,2,1
+panel_DM_Mathematics,DM Mathematics,126,2954,406,1,0
+panel_DM_Mathematics,DM Mathematics,127,2959,407,1,0
+panel_DM_Mathematics,DM Mathematics,128,2983,411,1,0
+panel_DM_Mathematics,DM Mathematics,129,2992,412,1,0
+panel_DM_Mathematics,DM Mathematics,130,3010,414,1,0
+panel_DM_Mathematics,DM Mathematics,131,3036,418,2,1
+panel_DM_Mathematics,DM Mathematics,132,3099,426,2,1
+panel_DM_Mathematics,DM Mathematics,133,3106,426,1,0
+panel_DM_Mathematics,DM Mathematics,134,3110,427,1,0
+panel_DM_Mathematics,DM Mathematics,135,3132,430,1,0
+panel_DM_Mathematics,DM Mathematics,136,3171,435,1,0
+panel_DM_Mathematics,DM Mathematics,137,3179,436,1,0
+panel_DM_Mathematics,DM Mathematics,138,3200,439,1,0
+panel_DM_Mathematics,DM Mathematics,139,3250,446,1,0
+panel_DM_Mathematics,DM Mathematics,140,3259,447,1,0
+panel_DM_Mathematics,DM Mathematics,141,3270,449,1,0
+panel_DM_Mathematics,DM Mathematics,142,3282,451,1,0
+panel_DM_Mathematics,DM Mathematics,143,3352,461,2,1
+panel_DM_Mathematics,DM Mathematics,144,3357,461,1,0
+panel_DM_Mathematics,DM Mathematics,145,3378,464,1,0
+panel_DM_Mathematics,DM Mathematics,146,3436,472,1,0
+panel_DM_Mathematics,DM Mathematics,147,3448,474,1,0
+panel_DM_Mathematics,DM Mathematics,148,3449,474,1,0
+panel_DM_Mathematics,DM Mathematics,149,3450,474,1,0
+panel_DM_Mathematics,DM Mathematics,150,3463,476,2,1
+panel_DM_Mathematics,DM Mathematics,151,3467,476,1,0
+panel_DM_Mathematics,DM Mathematics,152,3492,479,1,0
+panel_DM_Mathematics,DM Mathematics,153,3559,488,1,0
+panel_DM_Mathematics,DM Mathematics,154,3590,493,1,0
+panel_DM_Mathematics,DM Mathematics,155,3591,493,1,0
+panel_DM_Mathematics,DM Mathematics,156,3592,493,1,0
+panel_DM_Mathematics,DM Mathematics,157,3607,495,1,0
+panel_DM_Mathematics,DM Mathematics,158,3643,499,1,0
+panel_DM_Mathematics,DM Mathematics,159,3668,503,1,0
+panel_DM_Mathematics,DM Mathematics,160,3678,504,1,0
+panel_DM_Mathematics,DM Mathematics,161,3729,511,1,0
+panel_DM_Mathematics,DM Mathematics,162,3789,519,1,0
+panel_DM_Mathematics,DM Mathematics,163,3801,520,1,0
+panel_DM_Mathematics,DM Mathematics,164,3863,529,1,0
+panel_DM_Mathematics,DM Mathematics,165,3903,535,1,0
+panel_DM_Mathematics,DM Mathematics,166,3914,537,1,0
+panel_DM_Mathematics,DM Mathematics,167,3956,543,1,0
+panel_DM_Mathematics,DM Mathematics,168,3989,548,1,0
+panel_DM_Mathematics,DM Mathematics,169,4078,559,2,1
+panel_DM_Mathematics,DM Mathematics,170,4083,560,1,0
+panel_DM_Mathematics,DM Mathematics,171,4090,561,1,0
+panel_DM_Mathematics,DM Mathematics,172,4165,572,1,0
+panel_DM_Mathematics,DM Mathematics,173,4186,575,2,1
+panel_DM_Mathematics,DM Mathematics,174,4257,585,2,1
+panel_DM_Mathematics,DM Mathematics,175,4296,591,1,0
+panel_DM_Mathematics,DM Mathematics,176,4308,592,1,0
+panel_DM_Mathematics,DM Mathematics,177,4320,593,2,1
+panel_DM_Mathematics,DM Mathematics,178,4344,597,2,1
+panel_DM_Mathematics,DM Mathematics,179,4345,597,1,0
+panel_DM_Mathematics,DM Mathematics,180,4351,598,1,0
+panel_DM_Mathematics,DM Mathematics,181,4374,601,1,0
+panel_DM_Mathematics,DM Mathematics,182,4377,601,1,0
+panel_DM_Mathematics,DM Mathematics,183,4412,606,1,0
+panel_DM_Mathematics,DM Mathematics,184,4446,611,1,0
+panel_DM_Mathematics,DM Mathematics,185,4465,614,1,0
+panel_DM_Mathematics,DM Mathematics,186,4511,620,1,0
+panel_DM_Mathematics,DM Mathematics,187,4525,622,1,0
+panel_DM_Mathematics,DM Mathematics,188,4552,626,1,0
+panel_DM_Mathematics,DM Mathematics,189,4573,629,2,1
+panel_DM_Mathematics,DM Mathematics,190,4575,630,1,0
+panel_DM_Mathematics,DM Mathematics,191,4582,631,2,1
+panel_DM_Mathematics,DM Mathematics,192,4629,637,1,0
+panel_DM_Mathematics,DM Mathematics,193,4660,641,2,1
+panel_DM_Mathematics,DM Mathematics,194,4666,642,1,0
+panel_DM_Mathematics,DM Mathematics,195,4669,643,1,0
+panel_DM_Mathematics,DM Mathematics,196,4745,653,1,0
+panel_DM_Mathematics,DM Mathematics,197,4834,666,1,0
+panel_DM_Mathematics,DM Mathematics,198,4843,667,1,0
+panel_DM_Mathematics,DM Mathematics,199,4851,668,1,0
+panel_PubMed_Central,PubMed Central,0,49,5,1,0
+panel_PubMed_Central,PubMed Central,1,63,5,1,0
+panel_PubMed_Central,PubMed Central,2,115,9,1,0
+panel_PubMed_Central,PubMed Central,3,195,15,1,0
+panel_PubMed_Central,PubMed Central,4,430,35,1,0
+panel_PubMed_Central,PubMed Central,5,472,39,1,0
+panel_PubMed_Central,PubMed Central,6,503,43,1,0
+panel_PubMed_Central,PubMed Central,7,547,46,1,0
+panel_PubMed_Central,PubMed Central,8,563,48,1,0
+panel_PubMed_Central,PubMed Central,9,574,52,1,0
+panel_PubMed_Central,PubMed Central,10,643,58,1,0
+panel_PubMed_Central,PubMed Central,11,732,61,1,0
+panel_PubMed_Central,PubMed Central,12,887,72,1,0
+panel_PubMed_Central,PubMed Central,13,1028,84,1,0
+panel_PubMed_Central,PubMed Central,14,1200,96,1,0
+panel_PubMed_Central,PubMed Central,15,1215,97,1,0
+panel_PubMed_Central,PubMed Central,16,1223,98,2,1
+panel_PubMed_Central,PubMed Central,17,1233,98,1,0
+panel_PubMed_Central,PubMed Central,18,1259,100,1,0
+panel_PubMed_Central,PubMed Central,19,1417,120,1,0
+panel_PubMed_Central,PubMed Central,20,1507,128,2,1
+panel_PubMed_Central,PubMed Central,21,1685,142,1,0
+panel_PubMed_Central,PubMed Central,22,2023,167,1,0
+panel_PubMed_Central,PubMed Central,23,2054,167,1,0
+panel_PubMed_Central,PubMed Central,24,2258,183,2,1
+panel_PubMed_Central,PubMed Central,25,2381,189,1,0
+panel_PubMed_Central,PubMed Central,26,2609,203,1,0
+panel_PubMed_Central,PubMed Central,27,2875,222,1,0
+panel_PubMed_Central,PubMed Central,28,3039,232,1,0
+panel_PubMed_Central,PubMed Central,29,3141,242,1,0
+panel_PubMed_Central,PubMed Central,30,3283,255,1,0
+panel_PubMed_Central,PubMed Central,31,3358,258,1,0
+panel_PubMed_Central,PubMed Central,32,3552,273,1,0
+panel_PubMed_Central,PubMed Central,33,3648,282,1,0
+panel_PubMed_Central,PubMed Central,34,3650,282,1,0
+panel_PubMed_Central,PubMed Central,35,4119,316,1,0
+panel_PubMed_Central,PubMed Central,36,4168,321,1,0
+panel_PubMed_Central,PubMed Central,37,4221,324,1,0
+panel_PubMed_Central,PubMed Central,38,4233,325,1,0
+panel_PubMed_Central,PubMed Central,39,4436,343,1,0
+panel_PubMed_Central,PubMed Central,40,4512,352,1,0
+panel_PubMed_Central,PubMed Central,41,4549,354,1,0
+panel_PubMed_Central,PubMed Central,42,4739,366,1,0
+panel_PubMed_Central,PubMed Central,43,4744,366,1,0
+panel_PubMed_Central,PubMed Central,44,4990,382,3,2
+panel_PubMed_Central,PubMed Central,45,5052,388,1,0
+panel_PubMed_Central,PubMed Central,46,5115,394,1,0
+panel_PubMed_Central,PubMed Central,47,5346,409,1,0
+panel_PubMed_Central,PubMed Central,48,5369,410,1,0
+panel_PubMed_Central,PubMed Central,49,5534,417,1,0
+panel_PubMed_Central,PubMed Central,50,5767,432,1,0
+panel_PubMed_Central,PubMed Central,51,5775,433,1,0
+panel_PubMed_Central,PubMed Central,52,5864,440,1,0
+panel_PubMed_Central,PubMed Central,53,5961,447,1,0
+panel_PubMed_Central,PubMed Central,54,6024,451,1,0
+panel_PubMed_Central,PubMed Central,55,6144,464,1,0
+panel_PubMed_Central,PubMed Central,56,6390,484,1,0
+panel_PubMed_Central,PubMed Central,57,6633,501,1,0
+panel_PubMed_Central,PubMed Central,58,6852,522,1,0
+panel_PubMed_Central,PubMed Central,59,7430,562,1,0
+panel_PubMed_Central,PubMed Central,60,7464,564,1,0
+panel_PubMed_Central,PubMed Central,61,7521,569,1,0
+panel_PubMed_Central,PubMed Central,62,7527,571,1,0
+panel_PubMed_Central,PubMed Central,63,7640,578,1,0
+panel_PubMed_Central,PubMed Central,64,7815,591,1,0
+panel_PubMed_Central,PubMed Central,65,7996,604,2,1
+panel_PubMed_Central,PubMed Central,66,8050,610,1,0
+panel_PubMed_Central,PubMed Central,67,8110,614,2,1
+panel_PubMed_Central,PubMed Central,68,8138,615,1,0
+panel_PubMed_Central,PubMed Central,69,8145,615,1,0
+panel_PubMed_Central,PubMed Central,70,8201,617,1,0
+panel_PubMed_Central,PubMed Central,71,8739,657,1,0
+panel_PubMed_Central,PubMed Central,72,8892,668,1,0
+panel_PubMed_Central,PubMed Central,73,9055,679,1,0
+panel_PubMed_Central,PubMed Central,74,9078,680,1,0
+panel_PubMed_Central,PubMed Central,75,9083,681,1,0
+panel_PubMed_Central,PubMed Central,76,9146,685,1,0
+panel_PubMed_Central,PubMed Central,77,9333,700,1,0
+panel_PubMed_Central,PubMed Central,78,9592,719,1,0
+panel_PubMed_Central,PubMed Central,79,9600,719,1,0
+panel_PubMed_Central,PubMed Central,80,9793,737,1,0
+panel_PubMed_Central,PubMed Central,81,9858,746,1,0
+panel_PubMed_Central,PubMed Central,82,10133,764,1,0
+panel_PubMed_Central,PubMed Central,83,10134,764,1,0
+panel_PubMed_Central,PubMed Central,84,10241,771,1,0
+panel_PubMed_Central,PubMed Central,85,10283,774,1,0
+panel_PubMed_Central,PubMed Central,86,10347,778,1,0
+panel_PubMed_Central,PubMed Central,87,10856,812,1,0
+panel_PubMed_Central,PubMed Central,88,11386,851,1,0
+panel_PubMed_Central,PubMed Central,89,11478,860,1,0
+panel_PubMed_Central,PubMed Central,90,11561,864,1,0
+panel_PubMed_Central,PubMed Central,91,11712,872,1,0
+panel_PubMed_Central,PubMed Central,92,11759,878,1,0
+panel_PubMed_Central,PubMed Central,93,11824,880,1,0
+panel_PubMed_Central,PubMed Central,94,12098,895,1,0
+panel_PubMed_Central,PubMed Central,95,12649,938,1,0
+panel_PubMed_Central,PubMed Central,96,12732,943,1,0
+panel_PubMed_Central,PubMed Central,97,12757,944,1,0
+panel_PubMed_Central,PubMed Central,98,12773,945,1,0
+panel_PubMed_Central,PubMed Central,99,12866,954,1,0
+panel_PubMed_Central,PubMed Central,100,13017,965,1,0
+panel_PubMed_Central,PubMed Central,101,13163,976,1,0
+panel_PubMed_Central,PubMed Central,102,13472,994,1,0
+panel_PubMed_Central,PubMed Central,103,13551,1003,1,0
+panel_PubMed_Central,PubMed Central,104,13554,1003,1,0
+panel_PubMed_Central,PubMed Central,105,13841,1022,1,0
+panel_PubMed_Central,PubMed Central,106,13894,1026,1,0
+panel_PubMed_Central,PubMed Central,107,14088,1040,1,0
+panel_PubMed_Central,PubMed Central,108,14272,1059,1,0
+panel_PubMed_Central,PubMed Central,109,14273,1059,1,0
+panel_PubMed_Central,PubMed Central,110,14330,1064,1,0
+panel_PubMed_Central,PubMed Central,111,14557,1081,1,0
+panel_PubMed_Central,PubMed Central,112,14924,1105,3,2
+panel_PubMed_Central,PubMed Central,113,14943,1108,1,0
+panel_PubMed_Central,PubMed Central,114,15020,1113,1,0
+panel_PubMed_Central,PubMed Central,115,15045,1115,1,0
+panel_PubMed_Central,PubMed Central,116,15059,1115,1,0
+panel_PubMed_Central,PubMed Central,117,15163,1122,1,0
+panel_PubMed_Central,PubMed Central,118,15231,1132,1,0
+panel_PubMed_Central,PubMed Central,119,15339,1139,1,0
+panel_PubMed_Central,PubMed Central,120,15446,1145,1,0
+panel_PubMed_Central,PubMed Central,121,15564,1152,1,0
+panel_PubMed_Central,PubMed Central,122,15632,1155,1,0
+panel_PubMed_Central,PubMed Central,123,15819,1169,1,0
+panel_PubMed_Central,PubMed Central,124,15895,1172,1,0
+panel_PubMed_Central,PubMed Central,125,15978,1182,2,1
+panel_PubMed_Central,PubMed Central,126,16151,1191,1,0
+panel_PubMed_Central,PubMed Central,127,16276,1195,1,0
+panel_PubMed_Central,PubMed Central,128,16401,1198,1,0
+panel_PubMed_Central,PubMed Central,129,16441,1201,1,0
+panel_PubMed_Central,PubMed Central,130,16591,1211,1,0
+panel_PubMed_Central,PubMed Central,131,16620,1212,1,0
+panel_PubMed_Central,PubMed Central,132,16722,1220,1,0
+panel_PubMed_Central,PubMed Central,133,17064,1234,1,0
+panel_PubMed_Central,PubMed Central,134,17071,1234,1,0
+panel_PubMed_Central,PubMed Central,135,17288,1251,1,0
+panel_PubMed_Central,PubMed Central,136,17438,1264,1,0
+panel_PubMed_Central,PubMed Central,137,17657,1282,1,0
+panel_PubMed_Central,PubMed Central,138,17738,1284,1,0
+panel_PubMed_Central,PubMed Central,139,17825,1292,1,0
+panel_PubMed_Central,PubMed Central,140,17987,1304,1,0
+panel_PubMed_Central,PubMed Central,141,18024,1306,1,0
+panel_PubMed_Central,PubMed Central,142,18028,1306,1,1
+panel_PubMed_Central,PubMed Central,143,18046,1310,1,0
+panel_PubMed_Central,PubMed Central,144,18237,1324,1,0
+panel_PubMed_Central,PubMed Central,145,18744,1361,1,0
+panel_PubMed_Central,PubMed Central,146,19183,1388,1,0
+panel_PubMed_Central,PubMed Central,147,19190,1391,1,0
+panel_PubMed_Central,PubMed Central,148,19212,1392,1,0
+panel_PubMed_Central,PubMed Central,149,19374,1402,1,0
+panel_PubMed_Central,PubMed Central,150,19449,1407,1,0
+panel_PubMed_Central,PubMed Central,151,19652,1420,1,0
+panel_PubMed_Central,PubMed Central,152,19833,1435,2,1
+panel_PubMed_Central,PubMed Central,153,19889,1440,1,0
+panel_PubMed_Central,PubMed Central,154,20195,1466,1,0
+panel_PubMed_Central,PubMed Central,155,20223,1469,1,0
+panel_PubMed_Central,PubMed Central,156,20248,1471,1,0
+panel_PubMed_Central,PubMed Central,157,20318,1473,1,0
+panel_PubMed_Central,PubMed Central,158,20342,1474,1,0
+panel_PubMed_Central,PubMed Central,159,20383,1476,1,0
+panel_PubMed_Central,PubMed Central,160,20476,1484,1,0
+panel_PubMed_Central,PubMed Central,161,20596,1494,2,1
+panel_PubMed_Central,PubMed Central,162,20664,1498,1,0
+panel_PubMed_Central,PubMed Central,163,21782,1575,1,0
+panel_PubMed_Central,PubMed Central,164,21906,1580,2,1
+panel_PubMed_Central,PubMed Central,165,21938,1582,1,0
+panel_PubMed_Central,PubMed Central,166,21967,1584,1,0
+panel_PubMed_Central,PubMed Central,167,22014,1585,1,0
+panel_PubMed_Central,PubMed Central,168,22547,1625,1,0
+panel_PubMed_Central,PubMed Central,169,22891,1651,1,0
+panel_PubMed_Central,PubMed Central,170,23003,1660,1,0
+panel_PubMed_Central,PubMed Central,171,23009,1660,1,0
+panel_PubMed_Central,PubMed Central,172,23028,1662,1,0
+panel_PubMed_Central,PubMed Central,173,23311,1678,1,0
+panel_PubMed_Central,PubMed Central,174,23530,1696,1,0
+panel_PubMed_Central,PubMed Central,175,23573,1700,1,0
+panel_PubMed_Central,PubMed Central,176,23599,1702,1,0
+panel_PubMed_Central,PubMed Central,177,23714,1710,1,0
+panel_PubMed_Central,PubMed Central,178,24047,1739,1,0
+panel_PubMed_Central,PubMed Central,179,24249,1749,1,0
+panel_PubMed_Central,PubMed Central,180,24320,1752,2,1
+panel_PubMed_Central,PubMed Central,181,24544,1773,1,0
+panel_PubMed_Central,PubMed Central,182,24596,1774,1,0
+panel_PubMed_Central,PubMed Central,183,24598,1775,1,0
+panel_PubMed_Central,PubMed Central,184,24708,1781,1,0
+panel_PubMed_Central,PubMed Central,185,24776,1786,1,0
+panel_PubMed_Central,PubMed Central,186,24852,1794,1,0
+panel_PubMed_Central,PubMed Central,187,24892,1795,1,0
+panel_PubMed_Central,PubMed Central,188,25336,1828,2,1
+panel_PubMed_Central,PubMed Central,189,25566,1845,1,0
+panel_PubMed_Central,PubMed Central,190,25612,1850,1,0
+panel_PubMed_Central,PubMed Central,191,25631,1851,1,0
+panel_PubMed_Central,PubMed Central,192,25670,1853,1,0
+panel_PubMed_Central,PubMed Central,193,25718,1858,1,0
+panel_PubMed_Central,PubMed Central,194,26054,1887,1,0
+panel_PubMed_Central,PubMed Central,195,26215,1898,1,0
+panel_PubMed_Central,PubMed Central,196,26444,1918,1,0
+panel_PubMed_Central,PubMed Central,197,26957,1950,1,0
+panel_PubMed_Central,PubMed Central,198,27319,1974,2,1
+panel_PubMed_Central,PubMed Central,199,27338,1976,1,0
+panel_FreeLaw,FreeLaw,0,69,16,1,0
+panel_FreeLaw,FreeLaw,1,72,16,1,0
+panel_FreeLaw,FreeLaw,2,151,24,1,0
+panel_FreeLaw,FreeLaw,3,173,26,1,0
+panel_FreeLaw,FreeLaw,4,218,30,1,0
+panel_FreeLaw,FreeLaw,5,239,33,1,0
+panel_FreeLaw,FreeLaw,6,246,35,1,0
+panel_FreeLaw,FreeLaw,7,264,42,1,0
+panel_FreeLaw,FreeLaw,8,278,45,1,0
+panel_FreeLaw,FreeLaw,9,335,49,2,1
+panel_FreeLaw,FreeLaw,10,344,51,1,0
+panel_FreeLaw,FreeLaw,11,400,65,1,0
+panel_FreeLaw,FreeLaw,12,429,73,1,0
+panel_FreeLaw,FreeLaw,13,552,93,1,0
+panel_FreeLaw,FreeLaw,14,687,113,1,0
+panel_FreeLaw,FreeLaw,15,952,145,1,0
+panel_FreeLaw,FreeLaw,16,981,147,1,0
+panel_FreeLaw,FreeLaw,17,1034,150,1,0
+panel_FreeLaw,FreeLaw,18,1084,159,1,0
+panel_FreeLaw,FreeLaw,19,1248,178,1,0
+panel_FreeLaw,FreeLaw,20,1294,182,1,0
+panel_FreeLaw,FreeLaw,21,1297,182,1,0
+panel_FreeLaw,FreeLaw,22,1383,193,1,0
+panel_FreeLaw,FreeLaw,23,1417,196,1,0
+panel_FreeLaw,FreeLaw,24,1523,207,1,0
+panel_FreeLaw,FreeLaw,25,1765,247,1,0
+panel_FreeLaw,FreeLaw,26,1766,247,1,0
+panel_FreeLaw,FreeLaw,27,1793,253,1,0
+panel_FreeLaw,FreeLaw,28,1826,261,1,0
+panel_FreeLaw,FreeLaw,29,1926,270,1,0
+panel_FreeLaw,FreeLaw,30,1955,272,1,0
+panel_FreeLaw,FreeLaw,31,2011,277,1,0
+panel_FreeLaw,FreeLaw,32,2086,285,1,0
+panel_FreeLaw,FreeLaw,33,2143,293,1,0
+panel_FreeLaw,FreeLaw,34,2155,296,2,1
+panel_FreeLaw,FreeLaw,35,2225,312,1,0
+panel_FreeLaw,FreeLaw,36,2254,317,1,0
+panel_FreeLaw,FreeLaw,37,2429,341,1,0
+panel_FreeLaw,FreeLaw,38,2672,385,1,0
+panel_FreeLaw,FreeLaw,39,2775,397,2,1
+panel_FreeLaw,FreeLaw,40,2803,400,1,0
+panel_FreeLaw,FreeLaw,41,3001,426,1,0
+panel_FreeLaw,FreeLaw,42,3035,431,1,0
+panel_FreeLaw,FreeLaw,43,3083,440,1,0
+panel_FreeLaw,FreeLaw,44,3086,440,1,0
+panel_FreeLaw,FreeLaw,45,3174,454,1,0
+panel_FreeLaw,FreeLaw,46,3259,462,1,0
+panel_FreeLaw,FreeLaw,47,3272,465,1,0
+panel_FreeLaw,FreeLaw,48,3356,480,1,0
+panel_FreeLaw,FreeLaw,49,3362,480,1,0
+panel_FreeLaw,FreeLaw,50,3380,481,1,0
+panel_FreeLaw,FreeLaw,51,3481,494,1,0
+panel_FreeLaw,FreeLaw,52,3496,495,1,0
+panel_FreeLaw,FreeLaw,53,3542,505,1,0
+panel_FreeLaw,FreeLaw,54,3566,510,1,0
+panel_FreeLaw,FreeLaw,55,3619,519,1,0
+panel_FreeLaw,FreeLaw,56,3652,524,1,0
+panel_FreeLaw,FreeLaw,57,3694,535,1,0
+panel_FreeLaw,FreeLaw,58,3735,541,1,0
+panel_FreeLaw,FreeLaw,59,3803,550,1,0
+panel_FreeLaw,FreeLaw,60,3871,559,1,0
+panel_FreeLaw,FreeLaw,61,3992,578,1,0
+panel_FreeLaw,FreeLaw,62,4115,608,2,1
+panel_FreeLaw,FreeLaw,63,4288,634,1,0
+panel_FreeLaw,FreeLaw,64,4319,636,1,0
+panel_FreeLaw,FreeLaw,65,4432,654,1,0
+panel_FreeLaw,FreeLaw,66,4516,662,1,0
+panel_FreeLaw,FreeLaw,67,4533,664,1,0
+panel_FreeLaw,FreeLaw,68,4576,669,1,0
+panel_FreeLaw,FreeLaw,69,4596,670,2,1
+panel_FreeLaw,FreeLaw,70,4618,674,1,0
+panel_FreeLaw,FreeLaw,71,4619,674,1,0
+panel_FreeLaw,FreeLaw,72,4630,677,1,0
+panel_FreeLaw,FreeLaw,73,4661,680,1,0
+panel_FreeLaw,FreeLaw,74,4689,682,2,1
+panel_FreeLaw,FreeLaw,75,4692,684,1,0
+panel_FreeLaw,FreeLaw,76,4700,689,1,0
+panel_FreeLaw,FreeLaw,77,4706,689,1,0
+panel_FreeLaw,FreeLaw,78,4784,698,1,0
+panel_FreeLaw,FreeLaw,79,4828,701,1,0
+panel_FreeLaw,FreeLaw,80,4994,723,1,0
+panel_FreeLaw,FreeLaw,81,5050,732,1,0
+panel_FreeLaw,FreeLaw,82,5338,768,1,0
+panel_FreeLaw,FreeLaw,83,5367,776,1,0
+panel_FreeLaw,FreeLaw,84,5381,779,1,0
+panel_FreeLaw,FreeLaw,85,5459,783,1,0
+panel_FreeLaw,FreeLaw,86,5483,785,1,0
+panel_FreeLaw,FreeLaw,87,5515,786,1,0
+panel_FreeLaw,FreeLaw,88,5570,796,1,0
+panel_FreeLaw,FreeLaw,89,5646,805,1,0
+panel_FreeLaw,FreeLaw,90,5790,826,2,1
+panel_FreeLaw,FreeLaw,91,5821,832,1,0
+panel_FreeLaw,FreeLaw,92,5860,842,2,1
+panel_FreeLaw,FreeLaw,93,5867,845,1,0
+panel_FreeLaw,FreeLaw,94,5899,849,1,0
+panel_FreeLaw,FreeLaw,95,5922,850,1,0
+panel_FreeLaw,FreeLaw,96,5977,857,1,0
+panel_FreeLaw,FreeLaw,97,5998,860,1,0
+panel_FreeLaw,FreeLaw,98,6086,886,2,1
+panel_FreeLaw,FreeLaw,99,6119,892,1,0
+panel_FreeLaw,FreeLaw,100,6154,896,1,0
+panel_FreeLaw,FreeLaw,101,6249,908,1,0
+panel_FreeLaw,FreeLaw,102,6323,908,1,0
+panel_FreeLaw,FreeLaw,103,6336,909,1,0
+panel_FreeLaw,FreeLaw,104,6444,922,1,0
+panel_FreeLaw,FreeLaw,105,6448,922,1,0
+panel_FreeLaw,FreeLaw,106,6462,923,1,0
+panel_FreeLaw,FreeLaw,107,6484,928,1,0
+panel_FreeLaw,FreeLaw,108,6569,937,1,0
+panel_FreeLaw,FreeLaw,109,6605,945,1,0
+panel_FreeLaw,FreeLaw,110,6672,954,1,0
+panel_FreeLaw,FreeLaw,111,6812,988,1,0
+panel_FreeLaw,FreeLaw,112,6945,994,1,0
+panel_FreeLaw,FreeLaw,113,6951,994,1,0
+panel_FreeLaw,FreeLaw,114,6985,994,1,0
+panel_FreeLaw,FreeLaw,115,7052,1003,1,0
+panel_FreeLaw,FreeLaw,116,7055,1004,1,0
+panel_FreeLaw,FreeLaw,117,7118,1006,1,0
+panel_FreeLaw,FreeLaw,118,7130,1006,1,0
+panel_FreeLaw,FreeLaw,119,7249,1018,3,2
+panel_FreeLaw,FreeLaw,120,7277,1021,1,0
+panel_FreeLaw,FreeLaw,121,7325,1031,1,0
+panel_FreeLaw,FreeLaw,122,7329,1031,1,0
+panel_FreeLaw,FreeLaw,123,7457,1045,1,0
+panel_FreeLaw,FreeLaw,124,7496,1050,1,0
+panel_FreeLaw,FreeLaw,125,7505,1050,1,0
+panel_FreeLaw,FreeLaw,126,7634,1077,3,2
+panel_FreeLaw,FreeLaw,127,7643,1079,1,0
+panel_FreeLaw,FreeLaw,128,7647,1079,1,0
+panel_FreeLaw,FreeLaw,129,7701,1084,1,0
+panel_FreeLaw,FreeLaw,130,7791,1097,1,0
+panel_FreeLaw,FreeLaw,131,7863,1109,1,0
+panel_FreeLaw,FreeLaw,132,7993,1133,1,0
+panel_FreeLaw,FreeLaw,133,8047,1141,2,1
+panel_FreeLaw,FreeLaw,134,8154,1165,1,0
+panel_FreeLaw,FreeLaw,135,8364,1185,1,0
+panel_FreeLaw,FreeLaw,136,8374,1189,1,0
+panel_FreeLaw,FreeLaw,137,8388,1192,1,0
+panel_FreeLaw,FreeLaw,138,8667,1249,1,0
+panel_FreeLaw,FreeLaw,139,8703,1251,2,1
+panel_FreeLaw,FreeLaw,140,8731,1255,1,0
+panel_FreeLaw,FreeLaw,141,8734,1255,1,0
+panel_FreeLaw,FreeLaw,142,8803,1266,1,0
+panel_FreeLaw,FreeLaw,143,8836,1271,1,0
+panel_FreeLaw,FreeLaw,144,8969,1297,2,1
+panel_FreeLaw,FreeLaw,145,8989,1300,1,0
+panel_FreeLaw,FreeLaw,146,9002,1304,2,1
+panel_FreeLaw,FreeLaw,147,9054,1313,1,0
+panel_FreeLaw,FreeLaw,148,9250,1342,1,0
+panel_FreeLaw,FreeLaw,149,9276,1342,1,0
+panel_FreeLaw,FreeLaw,150,9468,1360,1,0
+panel_FreeLaw,FreeLaw,151,9529,1370,1,0
+panel_FreeLaw,FreeLaw,152,9560,1376,1,0
+panel_FreeLaw,FreeLaw,153,9616,1376,1,0
+panel_FreeLaw,FreeLaw,154,9758,1397,1,0
+panel_FreeLaw,FreeLaw,155,9853,1411,1,0
+panel_FreeLaw,FreeLaw,156,10155,1440,1,0
+panel_FreeLaw,FreeLaw,157,10173,1440,1,0
+panel_FreeLaw,FreeLaw,158,10246,1446,1,0
+panel_FreeLaw,FreeLaw,159,10326,1461,1,0
+panel_FreeLaw,FreeLaw,160,10411,1467,1,0
+panel_FreeLaw,FreeLaw,161,10477,1467,1,0
+panel_FreeLaw,FreeLaw,162,10510,1469,1,0
+panel_FreeLaw,FreeLaw,163,10590,1479,1,0
+panel_FreeLaw,FreeLaw,164,10608,1483,1,0
+panel_FreeLaw,FreeLaw,165,10685,1489,1,0
+panel_FreeLaw,FreeLaw,166,10686,1489,1,0
+panel_FreeLaw,FreeLaw,167,10862,1516,1,0
+panel_FreeLaw,FreeLaw,168,10926,1532,1,0
+panel_FreeLaw,FreeLaw,169,10968,1538,1,0
+panel_FreeLaw,FreeLaw,170,10975,1540,1,0
+panel_FreeLaw,FreeLaw,171,10989,1541,1,0
+panel_FreeLaw,FreeLaw,172,10991,1541,1,0
+panel_FreeLaw,FreeLaw,173,11010,1541,1,0
+panel_FreeLaw,FreeLaw,174,11078,1546,1,0
+panel_FreeLaw,FreeLaw,175,11093,1546,1,0
+panel_FreeLaw,FreeLaw,176,11105,1549,4,3
+panel_FreeLaw,FreeLaw,177,11116,1552,1,0
+panel_FreeLaw,FreeLaw,178,11187,1564,1,0
+panel_FreeLaw,FreeLaw,179,11204,1566,1,0
+panel_FreeLaw,FreeLaw,180,11284,1576,1,0
+panel_FreeLaw,FreeLaw,181,11297,1577,1,0
+panel_FreeLaw,FreeLaw,182,11307,1578,1,0
+panel_FreeLaw,FreeLaw,183,11321,1580,1,0
+panel_FreeLaw,FreeLaw,184,11384,1581,2,1
+panel_FreeLaw,FreeLaw,185,11395,1583,1,0
+panel_FreeLaw,FreeLaw,186,11514,1598,1,0
+panel_FreeLaw,FreeLaw,187,11549,1600,1,0
+panel_FreeLaw,FreeLaw,188,11880,1644,1,0
+panel_FreeLaw,FreeLaw,189,12018,1657,1,0
+panel_FreeLaw,FreeLaw,190,12051,1660,1,0
+panel_FreeLaw,FreeLaw,191,12059,1660,1,0
+panel_FreeLaw,FreeLaw,192,12079,1661,1,0
+panel_FreeLaw,FreeLaw,193,12273,1677,2,1
+panel_FreeLaw,FreeLaw,194,12277,1678,1,0
+panel_FreeLaw,FreeLaw,195,12303,1679,1,0
+panel_FreeLaw,FreeLaw,196,12325,1685,1,0
+panel_FreeLaw,FreeLaw,197,12326,1685,1,0
+panel_FreeLaw,FreeLaw,198,12417,1693,1,0
+panel_FreeLaw,FreeLaw,199,12436,1697,1,0

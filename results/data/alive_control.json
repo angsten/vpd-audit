@@ -1,0 +1,56 @@
+{
+  "control": {
+    "alive": {
+      "layer_0": 2172,
+      "layer_1": 992,
+      "layer_2": 1693,
+      "layer_3": 1498,
+      "total": 6355
+    },
+    "alive_sha256": "740596d5eab299b904fbd8e50ad84b4315a83a523a2a4a0b2aecc4ba3ab23bf1",
+    "cache": "D_unif_control",
+    "cache_sha256": {
+      "indices": "d9cc031f69960026a9fb8fb8209b838a7c756b52d2e400c2ce1a0292032345e7",
+      "indptr": "de500209f392f1342786259b7b714214b3512686e7266a3810f7fe2eba70f781",
+      "values": "31510091e962c908820292eb03df6842a182d51f2ec17b3dbc878487afb06e51"
+    },
+    "mean_g_min_alive": 1.0189192036769157e-06,
+    "n_positions": 524288,
+    "n_within_factor_2_of_threshold": 19,
+    "saved_vector": {
+      "file": "alive_D_unif_control.npy",
+      "n_alive": 6355,
+      "sha256": "740596d5eab299b904fbd8e50ad84b4315a83a523a2a4a0b2aecc4ba3ab23bf1",
+      "source": "this computation"
+    },
+    "threshold": 1e-06
+  },
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "main_recomputed_from_cache": {
+    "alive": {
+      "layer_0": 3698,
+      "layer_1": 847,
+      "layer_2": 1942,
+      "layer_3": 3472,
+      "total": 9959
+    },
+    "alive_sha256": "ca771bcb10585b0efb52a07c00257729f181eb706d6ee9c283441d84faad0302",
+    "cache": "D_unif_main",
+    "cache_sha256": {
+      "indices": "5410c3d7f4f8d50379e94ceca991149ab21c9ae224066a1a4d7f9e4005251e61",
+      "indptr": "9546b5a2d04e99dc41b8c3b4801712e99b5db7959c371089eecdbde6fd997462",
+      "values": "c819fa29cae6119ec52045fab92a0daa9ef62274355f00dd1729120bd035b275"
+    },
+    "mean_g_min_alive": 1.0599972632974186e-06,
+    "n_positions": 524288,
+    "n_within_factor_2_of_threshold": 25,
+    "saved_vector": {
+      "file": "alive_D_unif_main.npy",
+      "identical": true,
+      "n_alive": 9959,
+      "n_disagreements_with_cache": 0,
+      "sha256": "ca771bcb10585b0efb52a07c00257729f181eb706d6ee9c283441d84faad0302"
+    },
+    "threshold": 1e-06
+  }
+}

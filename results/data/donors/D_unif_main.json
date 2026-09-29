@@ -1,0 +1,212 @@
+{
+  "alive": {
+    "by_n_sequences": {
+      "1024": {
+        "alive": {
+          "layer_0": 3698,
+          "layer_1": 847,
+          "layer_2": 1942,
+          "layer_3": 3472,
+          "total": 9959
+        },
+        "mean_count_positive_per_position": {
+          "layer_0": 44.93504333496094,
+          "layer_1": 18.95561408996582,
+          "layer_2": 49.97951316833496,
+          "layer_3": 92.96864318847656,
+          "total": 206.83881378173828
+        },
+        "n_positions": 524288
+      },
+      "128": {
+        "alive": {
+          "layer_0": 3587,
+          "layer_1": 836,
+          "layer_2": 1936,
+          "layer_3": 3471,
+          "total": 9830
+        },
+        "mean_count_positive_per_position": {
+          "layer_0": 45.17521667480469,
+          "layer_1": 19.002822875976562,
+          "layer_2": 49.88594055175781,
+          "layer_3": 93.44560241699219,
+          "total": 207.50958251953125
+        },
+        "n_positions": 65536
+      },
+      "256": {
+        "alive": {
+          "layer_0": 3675,
+          "layer_1": 843,
+          "layer_2": 1942,
+          "layer_3": 3471,
+          "total": 9931
+        },
+        "mean_count_positive_per_position": {
+          "layer_0": 44.85490417480469,
+          "layer_1": 18.853347778320312,
+          "layer_2": 49.29644775390625,
+          "layer_3": 92.11101531982422,
+          "total": 205.11571502685547
+        },
+        "n_positions": 131072
+      },
+      "512": {
+        "alive": {
+          "layer_0": 3696,
+          "layer_1": 847,
+          "layer_2": 1943,
+          "layer_3": 3472,
+          "total": 9958
+        },
+        "mean_count_positive_per_position": {
+          "layer_0": 45.13033676147461,
+          "layer_1": 19.032020568847656,
+          "layer_2": 50.00474166870117,
+          "layer_3": 93.04781723022461,
+          "total": 207.21491622924805
+        },
+        "n_positions": 262144
+      },
+      "64": {
+        "alive": {
+          "layer_0": 3519,
+          "layer_1": 768,
+          "layer_2": 1894,
+          "layer_3": 3468,
+          "total": 9649
+        },
+        "mean_count_positive_per_position": {
+          "layer_0": 46.159637451171875,
+          "layer_1": 18.9737548828125,
+          "layer_2": 50.1004638671875,
+          "layer_3": 95.03375244140625,
+          "total": 210.26760864257812
+        },
+        "n_positions": 32768
+      }
+    },
+    "file": "alive_D_unif_main.npy",
+    "n_alive": 9959,
+    "sha256": "ca771bcb10585b0efb52a07c00257729f181eb706d6ee9c283441d84faad0302",
+    "threshold": 1e-06
+  },
+  "bytes": 654853716,
+  "checkpoint_hashes": {
+    "decomp": "fdd794abda8ca79e98f4644590c0c6e696261d9b84b34c8e83f94a2cc3607a93",
+    "target": "650f2eb603fe9fe649671c0c89b86746655bc49c96aa1ad00fbb4c1bf3c6c3b6"
+  },
+  "commits": {
+    "dirty": "1",
+    "project": "0b4ae4a58c7fa7f2324990cafe03eeff372c9227",
+    "submodule": "74146b555f3eb3cd2bc639c3789fd3b7a099094a"
+  },
+  "created_at": "2026-09-17T18:34:56+0000",
+  "deterministic_algorithms": true,
+  "device": "cuda:0",
+  "g_dtype": "torch.float32",
+  "gpu_name": "NVIDIA A100-SXM4-40GB",
+  "importance_chunk": 32,
+  "indices_dtype": "uint16",
+  "indptr_dtype": "int64",
+  "mean_nnz_per_position": 206.83881378173828,
+  "module_offsets": {
+    "h.0.attn.k_proj": 0,
+    "h.0.attn.o_proj": 512,
+    "h.0.attn.q_proj": 1536,
+    "h.0.attn.v_proj": 2048,
+    "h.0.mlp.c_fc": 3072,
+    "h.0.mlp.down_proj": 6144,
+    "h.1.attn.k_proj": 9728,
+    "h.1.attn.o_proj": 10240,
+    "h.1.attn.q_proj": 11264,
+    "h.1.attn.v_proj": 11776,
+    "h.1.mlp.c_fc": 12800,
+    "h.1.mlp.down_proj": 15872,
+    "h.2.attn.k_proj": 19456,
+    "h.2.attn.o_proj": 19968,
+    "h.2.attn.q_proj": 20992,
+    "h.2.attn.v_proj": 21504,
+    "h.2.mlp.c_fc": 22528,
+    "h.2.mlp.down_proj": 25600,
+    "h.3.attn.k_proj": 29184,
+    "h.3.attn.o_proj": 29696,
+    "h.3.attn.q_proj": 30720,
+    "h.3.attn.v_proj": 31232,
+    "h.3.mlp.c_fc": 32256,
+    "h.3.mlp.down_proj": 35328
+  },
+  "module_order": [
+    "h.0.attn.k_proj",
+    "h.0.attn.o_proj",
+    "h.0.attn.q_proj",
+    "h.0.attn.v_proj",
+    "h.0.mlp.c_fc",
+    "h.0.mlp.down_proj",
+    "h.1.attn.k_proj",
+    "h.1.attn.o_proj",
+    "h.1.attn.q_proj",
+    "h.1.attn.v_proj",
+    "h.1.mlp.c_fc",
+    "h.1.mlp.down_proj",
+    "h.2.attn.k_proj",
+    "h.2.attn.o_proj",
+    "h.2.attn.q_proj",
+    "h.2.attn.v_proj",
+    "h.2.mlp.c_fc",
+    "h.2.mlp.down_proj",
+    "h.3.attn.k_proj",
+    "h.3.attn.o_proj",
+    "h.3.attn.q_proj",
+    "h.3.attn.v_proj",
+    "h.3.mlp.c_fc",
+    "h.3.mlp.down_proj"
+  ],
+  "module_to_c": {
+    "h.0.attn.k_proj": 512,
+    "h.0.attn.o_proj": 1024,
+    "h.0.attn.q_proj": 512,
+    "h.0.attn.v_proj": 1024,
+    "h.0.mlp.c_fc": 3072,
+    "h.0.mlp.down_proj": 3584,
+    "h.1.attn.k_proj": 512,
+    "h.1.attn.o_proj": 1024,
+    "h.1.attn.q_proj": 512,
+    "h.1.attn.v_proj": 1024,
+    "h.1.mlp.c_fc": 3072,
+    "h.1.mlp.down_proj": 3584,
+    "h.2.attn.k_proj": 512,
+    "h.2.attn.o_proj": 1024,
+    "h.2.attn.q_proj": 512,
+    "h.2.attn.v_proj": 1024,
+    "h.2.mlp.c_fc": 3072,
+    "h.2.mlp.down_proj": 3584,
+    "h.3.attn.k_proj": 512,
+    "h.3.attn.o_proj": 1024,
+    "h.3.attn.q_proj": 512,
+    "h.3.attn.v_proj": 1024,
+    "h.3.mlp.c_fc": 3072,
+    "h.3.mlp.down_proj": 3584
+  },
+  "n_positions": 524288,
+  "n_sequences": 1024,
+  "n_subcomponents": 38912,
+  "nnz": 108443108,
+  "paper_mean_nnz": 205.0,
+  "precision": "bf16",
+  "reconstruction_check": "the dense g of the last sub-batch (64 sequences) equals the CSR bitwise",
+  "run": "main",
+  "seconds": 35.112956047058105,
+  "seq_len": 512,
+  "set_hash": "1807c12e26c0baec8065381127ee9b049d22aa85670680e03ea5e9b56ac8ed20",
+  "set_name": "D_unif",
+  "sha256": {
+    "indices": "5410c3d7f4f8d50379e94ceca991149ab21c9ae224066a1a4d7f9e4005251e61",
+    "indptr": "9546b5a2d04e99dc41b8c3b4801712e99b5db7959c371089eecdbde6fd997462",
+    "values": "c819fa29cae6119ec52045fab92a0daa9ef62274355f00dd1729120bd035b275"
+  },
+  "subbatch": 64,
+  "torch_version": "2.8.0+cu128",
+  "values_dtype": "float32"
+}

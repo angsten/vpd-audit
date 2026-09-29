@@ -1,0 +1,9 @@
+draw,random_alive_n_components,random_alive_rise,never_needed_n_components,never_needed_rise,random_alive_cell,never_needed_cell
+0,201,1.0599164172000997,201,0.007378779691350701,main/E/hard_zero/D_unif/tau0.1/ones/incl/k0/r1/ctl-plain,main/E/never_named_hard/D_unif/tau0.1/ones/incl/k0/r1
+1,222,2.9819089124195557,222,0.008237376081694947,main/E/hard_zero/D_unif/tau0.1/ones/incl/k1/r1/ctl-plain,main/E/never_named_hard/D_unif/tau0.1/ones/incl/k1/r1
+2,226,1.374896537394477,226,0.007756624108822052,main/E/hard_zero/D_unif/tau0.1/ones/incl/k2/r1/ctl-plain,main/E/never_named_hard/D_unif/tau0.1/ones/incl/k2/r1
+3,143,0.27808457932241026,143,0.005042041657304708,main/E/hard_zero/D_unif/tau0.1/ones/incl/k3/r1/ctl-plain,main/E/never_named_hard/D_unif/tau0.1/ones/incl/k3/r1
+4,212,0.45583030445976647,212,0.007758174115963357,main/E/hard_zero/D_unif/tau0.1/ones/incl/k4/r1/ctl-plain,main/E/never_named_hard/D_unif/tau0.1/ones/incl/k4/r1
+5,154,0.6011186383458949,154,0.0054870780402893615,main/E/hard_zero/D_unif/tau0.1/ones/incl/k5/r1/ctl-plain,main/E/never_named_hard/D_unif/tau0.1/ones/incl/k5/r1
+6,38,0.11466779843675567,38,0.00119433783538625,main/E/hard_zero/D_unif/tau0.1/ones/incl/k6/r1/ctl-plain,main/E/never_named_hard/D_unif/tau0.1/ones/incl/k6/r1
+7,156,2.0952324834053684,156,0.004914843452127116,main/E/hard_zero/D_unif/tau0.1/ones/incl/k7/r1/ctl-plain,main/E/never_named_hard/D_unif/tau0.1/ones/incl/k7/r1

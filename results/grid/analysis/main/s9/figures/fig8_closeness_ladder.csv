@@ -1,0 +1,5 @@
+group,donor,n_texts,n_documents,rise,interval_lo,interval_hi,standing,pieces_switched_on_mean,own_explanation_divergence,total_divergence,source_table,source_row
+the code texts,a general text (from the general pool),256,69.0,0.569857877882896,0.5163841171735581,0.6468337189238793,material,5600.9501953125,,,s9_run6_ladder.csv,source:Github | a general partner
+the code texts,another code file,256,69.0,1.0259515373278796,0.913491370932288,1.152715801681241,material,5249.732096354167,,,s9_run6_ladder.csv,"source:Github | a partner from the same source, another document"
+the code texts,the text itself,256,69.0,1.3966441380325705,1.3059295277163514,1.5118959027676118,material,5243.38671875,,,s9_run6_ladder.csv,source:Github | the text itself
+all texts,the text itself,1024,,1.0297604924926418,1.004709510925295,1.0556545911809736,material,5547.4794921875,0.3417225123921525,1.3714830048847944,s9_run6_self_merge_rule.csv,E

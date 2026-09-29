@@ -1,0 +1,99 @@
+{
+  "against_committed": {
+    "compared_per_pool": {
+      "D_code": 114,
+      "D_unif": 302
+    },
+    "headline": {
+      "n_cells": 73,
+      "rungs_compared": [
+        "1",
+        "2",
+        "2a",
+        "2b",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    "mismatched_cells": [],
+    "n_compared_with_a_committed_cell": 416,
+    "n_named_sets": 219
+  },
+  "one_text_donors": [
+    {
+      "committed_n_on": 6764,
+      "donor_row": 237,
+      "draw": 0,
+      "equal": true,
+      "hash_equal": true,
+      "self_merge_n_on": 6764
+    },
+    {
+      "committed_n_on": 4171,
+      "donor_row": 771,
+      "draw": 1,
+      "equal": true,
+      "hash_equal": true,
+      "self_merge_n_on": 4171
+    },
+    {
+      "committed_n_on": 5242,
+      "donor_row": 72,
+      "draw": 2,
+      "equal": true,
+      "hash_equal": true,
+      "self_merge_n_on": 5242
+    },
+    {
+      "committed_n_on": 1366,
+      "donor_row": 677,
+      "draw": 3,
+      "equal": true,
+      "hash_equal": true,
+      "self_merge_n_on": 1366
+    },
+    {
+      "committed_n_on": 4981,
+      "donor_row": 148,
+      "draw": 4,
+      "equal": true,
+      "hash_equal": true,
+      "self_merge_n_on": 4981
+    },
+    {
+      "committed_n_on": 5621,
+      "donor_row": 267,
+      "draw": 5,
+      "equal": true,
+      "hash_equal": true,
+      "self_merge_n_on": 5621
+    },
+    {
+      "committed_n_on": 5550,
+      "donor_row": 822,
+      "draw": 6,
+      "equal": true,
+      "hash_equal": true,
+      "self_merge_n_on": 5550
+    },
+    {
+      "committed_n_on": 5427,
+      "donor_row": 81,
+      "draw": 7,
+      "equal": true,
+      "hash_equal": true,
+      "self_merge_n_on": 5427
+    }
+  ],
+  "pass": true,
+  "run": "main",
+  "s9_commit": {
+    "dirty": "0",
+    "project": "b4a039bd1aeeb4b7a4564ba24f2b57f16620f5f5",
+    "submodule": "74146b555f3eb3cd2bc639c3789fd3b7a099094a"
+  }
+}

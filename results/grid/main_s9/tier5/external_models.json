@@ -1,0 +1,130 @@
+{
+  "gates": {
+    "ce_on_reference_set_in_range": {
+      "pythia-160m": true,
+      "pythia-70m": true
+    },
+    "ce_range": [
+      2.0,
+      4.0
+    ],
+    "larger_model_below_smaller_on_every_set": {
+      "E": true,
+      "E_lab": true,
+      "E_lab_other": true
+    },
+    "padded_mass_mean_at_most_1e-4": {
+      "pythia-160m": {
+        "E": true,
+        "E_lab": true,
+        "E_lab_other": true
+      },
+      "pythia-70m": {
+        "E": true,
+        "E_lab": true,
+        "E_lab_other": true
+      }
+    },
+    "pass": true,
+    "reference_set": "E_lab_other"
+  },
+  "models": {
+    "pythia-160m": {
+      "class": "GPTNeoXForCausalLM",
+      "config_dtype": "torch.float16",
+      "config_vocab_size": 50304,
+      "eval_mode": true,
+      "logits_last_dim": 50304,
+      "max_position_embeddings": 2048,
+      "n_parameters": 162322944,
+      "parameter_dtype": "torch.float32",
+      "repo": "EleutherAI/pythia-160m",
+      "resolved_commit": "b56d9bee36300031aeea723b73c4d62ac7fa71a2",
+      "revision": "step143000",
+      "tokenizer": {
+        "eos_ours": 0,
+        "eos_theirs": 0,
+        "ids_to_tokens_equal": true,
+        "len_ours": 50277,
+        "len_theirs": 50277,
+        "vocab_equal": true
+      },
+      "torch_version": "2.8.0+cu128",
+      "transformers_version": "4.57.3",
+      "weights_bytes": 649308728,
+      "weights_file": "model.safetensors",
+      "weights_sha256": "d829d1a5cf66032491679d64c5b18e85b82d37833a99c346905668b8553084d5"
+    },
+    "pythia-70m": {
+      "class": "GPTNeoXForCausalLM",
+      "config_dtype": "torch.float16",
+      "config_vocab_size": 50304,
+      "eval_mode": true,
+      "logits_last_dim": 50304,
+      "max_position_embeddings": 2048,
+      "n_parameters": 70426624,
+      "parameter_dtype": "torch.float32",
+      "repo": "EleutherAI/pythia-70m",
+      "resolved_commit": "de3e4e2d6cbb3b1a51f90fe153ea51fcd8c7c852",
+      "revision": "step143000",
+      "tokenizer": {
+        "eos_ours": 0,
+        "eos_theirs": 0,
+        "ids_to_tokens_equal": true,
+        "len_ours": 50277,
+        "len_theirs": 50277,
+        "vocab_equal": true
+      },
+      "torch_version": "2.8.0+cu128",
+      "transformers_version": "4.57.3",
+      "weights_bytes": 281715176,
+      "weights_file": "model.safetensors",
+      "weights_sha256": "737de0ce1e32a9559925b452921cdea0b12d3932133b6b0b70b61a351b9f6272"
+    }
+  },
+  "per_model_per_set": {
+    "pythia-160m": {
+      "E": {
+        "ce": 2.541453035075392,
+        "n_texts": 1024,
+        "padded_mass_max": 1.2142154446337372e-06,
+        "padded_mass_mean": 3.247819275962499e-12
+      },
+      "E_lab": {
+        "ce": 2.2538137015653774,
+        "n_texts": 512,
+        "padded_mass_max": 6.038405444996897e-06,
+        "padded_mass_mean": 5.124838077975247e-11
+      },
+      "E_lab_other": {
+        "ce": 2.792134650051594,
+        "n_texts": 256,
+        "padded_mass_max": 6.038405444996897e-06,
+        "padded_mass_mean": 5.124838077975247e-11
+      }
+    },
+    "pythia-70m": {
+      "E": {
+        "ce": 2.889790665009059,
+        "n_texts": 1024,
+        "padded_mass_max": 4.610830615092709e-07,
+        "padded_mass_mean": 1.859031191019741e-12
+      },
+      "E_lab": {
+        "ce": 2.6018148725270294,
+        "n_texts": 512,
+        "padded_mass_max": 1.0629860298649874e-06,
+        "padded_mass_mean": 9.788710458229263e-12
+      },
+      "E_lab_other": {
+        "ce": 3.1543608822394162,
+        "n_texts": 256,
+        "padded_mass_max": 1.0629860298649874e-06,
+        "padded_mass_mean": 9.788710458229263e-12
+      }
+    }
+  },
+  "primary": "pythia-70m",
+  "seconds": 21.023959159851074,
+  "vocab": 50277
+}

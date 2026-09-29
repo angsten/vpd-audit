@@ -1,0 +1,12 @@
+H4 (main, E[:128], fp32, residual excluded, one sequence at a time; union set 9966, complement 28946 of 38912; (a) via EditableModel._edited_forward_batched, unbound, on a stand-in exposing .model)
+
+| arm | mean KL against the target (nats) |
+|---|---|
+| (a) the authors' edit, the never-named set at 0 | 1.2944 |
+| (b) our hard-zero mask of the same set | 1.2944 |
+| (c) our union rung 8 (tau 0.1, r = 0, Delta excluded): the never-named set at g | 1.2944 |
+
+max over sequences of max |logits(a) - logits(b)|: 0.00e+00 (reading: at or below 1e-05 -> pass); |KL(a) - KL(b)| per sequence at most 0.00e+00
+(c) - (b): mean -0.0000 nats (per sequence -0.0030 to +0.0000); within 0.05: True
+readings stated before the run: max over the sequences of max |logits(a) - logits(b)| at or below 1e-5 (H2 found 0.00e+00 on one sequence at rung 4 and S4): our hard-zero mask path is not the source of the union's rung-8 divergence; mean KL(c) within a few hundredths of a nat of mean KL(b) (the flag below uses 0.05): the union's whole-pool cell is that mask, the never-named set at g rather than at 0 being worth the difference
+NVIDIA A100-SXM4-40GB, 95 s

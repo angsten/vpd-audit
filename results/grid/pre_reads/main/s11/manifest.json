@@ -1,0 +1,32 @@
+{
+  "alive_sha256": "ca771bcb10585b0efb52a07c00257729f181eb706d6ee9c283441d84faad0302",
+  "caches": {
+    "D_unif": {
+      "name": "D_unif_main",
+      "sha256": {
+        "indices": "5410c3d7f4f8d50379e94ceca991149ab21c9ae224066a1a4d7f9e4005251e61",
+        "indptr": "9546b5a2d04e99dc41b8c3b4801712e99b5db7959c371089eecdbde6fd997462",
+        "values": "c819fa29cae6119ec52045fab92a0daa9ef62274355f00dd1729120bd035b275"
+      }
+    },
+    "E": {
+      "n_sequences": 1024,
+      "name": "E_main",
+      "sha256": {
+        "indices": "d38845bac6777343174c6d97d12e0d08e9d97d1527b0067dae0fdda7db20026a",
+        "indptr": "d2154945a0a03dde52177a44f5007dd057f44e51e40f33fbcf4feb699a8b3101",
+        "values": "0429eaa5707467dd211070777d29df97ba8d460a2c6c668a0e5ddbaa58b1e131"
+      }
+    }
+  },
+  "commits": {
+    "dirty": "0",
+    "project": "c0d6f5852deb9def12dad95f5314cb3c5f4eab6b",
+    "submodule": "74146b555f3eb3cd2bc639c3789fd3b7a099094a"
+  },
+  "draws": 8,
+  "master_seed": 0,
+  "n_cells": 75,
+  "run": "main",
+  "sets_csv_sha256": "aedf8fa2649dbb9b5ec966acbaee8a654bc2a27098b9e2d203a5521b19e42801"
+}

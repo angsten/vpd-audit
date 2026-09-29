@@ -1,0 +1,2 @@
+outcome,verdict,reason,band_sizes
+A,fails,,"8 tokens, 16 tokens, 64 tokens, the self-merge"

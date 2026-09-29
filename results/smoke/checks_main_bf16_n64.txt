@@ -1,0 +1,19 @@
+[PASS] M1: g bitwise=True, target logits bitwise=True, stochastic-delta cell bitwise=True (max |dKL|=0.00e+00)
+[PASS] M2: g in [0.000, 1.000]; mean count g>0 per position {layer_0: 44.5, layer_1: 18.8, layer_2: 50.0, layer_3: 94.2, total: 207.4}; alive on these 64 seqs {'layer_0': 3312, 'layer_1': 754, 'layer_2': 1871, 'layer_3': 3456, 'total': 9393}; paper L0 {'layer_0': 44.6, 'layer_1': 18.9, 'layer_2': 49.5, 'layer_3': 92.0, 'total': 205.0}, paper alive {'layer_0': 3709, 'layer_1': 848, 'layer_2': 1943, 'layer_3': 3472, 'total': 9972} (gated in the acceptance test)
+[PASS] M3: on 8 sequences: ours 0.38254794 vs authors' 0.38254794 (|diff|=0.00e+00); all 32 finite and > -1e-4: True; min 3.25e-06
+[PASS] M4: max |g_clean - g_from_zero_masked_cache| = 1.0000 (must be > 0); stored g == clean g bitwise: True
+[PASS] M5: sub-batch sizes (1, 16, 32), g fixed at chunk 32 and sliced: max |dKL_b| = 3.58e-04 (tol 1e-03)
+[----] M5: sub-batch sizes (1, 16, 32), g recomputed at each size (reported): max |dKL_b| = 1.34e-03
+[PASS] M6a: union(empty, r=0) vs importances-as-masks: masks bitwise, KL bitwise (max |d|=0.0e+00), hashes equal=True
+[PASS] M6b: erase(empty, r=1) vs unmasked: masks bitwise (all ones), KL bitwise, hashes equal=True; mean KL 1.081e-02
+[PASS] M6c: union(empty, uniform k=0) vs stochastic reference: masks bitwise, KL bitwise, hashes equal=True
+[PASS] M6d: mean KL = 6.34e-04 (< 1e-03, the gate in bf16); reported: max |logits - target| = 1.14e+00, unmasked/this = 17.1
+[PASS] M6e: rounded-own-g union(empty, tau=0.1) vs rounded-0.1: masks bitwise, KL bitwise, hashes equal=True
+[----] M12: ce ordering unmasked < stochastic_delta < rounded_0 < rounded_0.1 < importances < rounded_0.5: {'unmasked': 2.6873, 'stochastic_delta': 2.8158, 'rounded_0': 2.9109, 'rounded_0.1': 2.9182, 'importances': 2.9533, 'rounded_0.5': 2.9839} -> holds
+[----] M12: kl coarse ordering with stochastic: unmasked < stochastic < rounded rows and importances < zero_all: {'unmasked': 0.011, 'stochastic': 0.2205, 'stochastic_delta': 0.2205, 'rounded_0': 0.3148, 'rounded_0.1': 0.3201, 'rounded_0.5': 0.3736, 'importances': 0.3441, 'zero_all': 67.53} -> holds
+[----] M12: kl coarse ordering with stochastic_delta: unmasked < stochastic_delta < rounded rows and importances < zero_all: {'unmasked': 0.011, 'stochastic': 0.2205, 'stochastic_delta': 0.2205, 'rounded_0': 0.3148, 'rounded_0.1': 0.3201, 'rounded_0.5': 0.3736, 'importances': 0.3441, 'zero_all': 67.53} -> holds
+[----] M12: kl fine ordering (reported, not gated): unmasked < stochastic_delta < stochastic < rounded_0 < rounded_0.1 < importances < rounded_0.5 < zero_all -> reported
+[----] M13: max |(a-b)_bf16 - (a-b)_fp32| over condition pairs (zero-all and random-illegal excluded) = 0.0043 (<= 0.01)
+[----] M13: ce_mean: bf16 {'target': 2.6765, 'unmasked': 2.6873, 'unmasked_delta': 2.6763, 'stochastic': 2.8159, 'stochastic_delta': 2.8158, 'rounded_0': 2.9109, 'rounded_0.1': 2.9182, 'importances': 2.9533, 'rounded_0.5': 2.9839, 'zero_all': 70.267, 'random_illegal': 9.3159} fp32 {'target': 2.6762, 'unmasked': 2.6871, 'unmasked_delta': 2.6762, 'stochastic': 2.8128, 'stochastic_delta': 2.8127, 'rounded_0': 2.9066, 'rounded_0.1': 2.9154, 'importances': 2.95, 'rounded_0.5': 2.9809, 'zero_all': 70.2669, 'random_illegal': 9.3169}
+[----] M13: kl_mean: bf16 {'target': 0.0, 'unmasked': 0.011, 'unmasked_delta': 0.0006, 'stochastic': 0.2205, 'stochastic_delta': 0.2205, 'rounded_0': 0.3148, 'rounded_0.1': 0.3201, 'importances': 0.3441, 'rounded_0.5': 0.3736, 'zero_all': 67.53, 'random_illegal': 6.6121} fp32 {'target': 0.0, 'unmasked': 0.0104, 'unmasked_delta': -0.0, 'stochastic': 0.2202, 'stochastic_delta': 0.2202, 'rounded_0': 0.3145, 'rounded_0.1': 0.3199, 'importances': 0.3437, 'rounded_0.5': 0.3729, 'zero_all': 67.5303, 'random_illegal': 6.6134}
+[----] M13: thresholded entries flipping between bf16 and fp32 g out of 1275068416: {'0.0': 113696, '0.1': 100184, '0.5': 77699}

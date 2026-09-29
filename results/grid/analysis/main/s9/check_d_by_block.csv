@@ -1,0 +1,89 @@
+cells,family,rung,unit,size,texts,block,first_position,last_position,mean_rise
+curve 1,curve 1,1,position,1,all texts,0,0,63,0.0033959883134002666
+curve 1,curve 1,1,position,1,all texts,1,64,127,0.004330234755684614
+curve 1,curve 1,1,position,1,all texts,2,128,191,0.003963888406815386
+curve 1,curve 1,1,position,1,all texts,3,192,255,0.004093149470804747
+curve 1,curve 1,1,position,1,all texts,4,256,319,0.0038705034305621666
+curve 1,curve 1,1,position,1,all texts,5,320,383,0.003626989755048271
+curve 1,curve 1,1,position,1,all texts,6,384,447,0.003453831159049514
+curve 1,curve 1,1,position,1,all texts,7,448,511,0.003394193150938918
+curve 1,curve 1,2,position,8,all texts,0,0,63,0.0334929717940895
+curve 1,curve 1,2,position,8,all texts,1,64,127,0.039726037798004654
+curve 1,curve 1,2,position,8,all texts,2,128,191,0.040362361511597555
+curve 1,curve 1,2,position,8,all texts,3,192,255,0.04110221668270242
+curve 1,curve 1,2,position,8,all texts,4,256,319,0.04107677737101767
+curve 1,curve 1,2,position,8,all texts,5,320,383,0.0415257719141664
+curve 1,curve 1,2,position,8,all texts,6,384,447,0.041371948510800394
+curve 1,curve 1,2,position,8,all texts,7,448,511,0.04268573086278593
+curve 1,curve 1,2a,position,16,all texts,0,0,63,0.08549701501146956
+curve 1,curve 1,2a,position,16,all texts,1,64,127,0.09797405345614152
+curve 1,curve 1,2a,position,16,all texts,2,128,191,0.10078567127573024
+curve 1,curve 1,2a,position,16,all texts,3,192,255,0.10261205542553853
+curve 1,curve 1,2a,position,16,all texts,4,256,319,0.10453809310718043
+curve 1,curve 1,2a,position,16,all texts,5,320,383,0.10567956412114654
+curve 1,curve 1,2a,position,16,all texts,6,384,447,0.10660720279634006
+curve 1,curve 1,2a,position,16,all texts,7,448,511,0.10930368357162479
+curve 1,curve 1,2b,position,32,all texts,0,0,63,0.1972093072070038
+curve 1,curve 1,2b,position,32,all texts,1,64,127,0.22087426630969276
+curve 1,curve 1,2b,position,32,all texts,2,128,191,0.22704108835660008
+curve 1,curve 1,2b,position,32,all texts,3,192,255,0.23289285892292355
+curve 1,curve 1,2b,position,32,all texts,4,256,319,0.2363493295662238
+curve 1,curve 1,2b,position,32,all texts,5,320,383,0.24148260680635758
+curve 1,curve 1,2b,position,32,all texts,6,384,447,0.24480076479187574
+curve 1,curve 1,2b,position,32,all texts,7,448,511,0.2485549722371161
+curve 1,curve 1,3,position,64,all texts,0,0,63,0.404488928070009
+curve 1,curve 1,3,position,64,all texts,1,64,127,0.440726022471722
+curve 1,curve 1,3,position,64,all texts,2,128,191,0.4483265993549139
+curve 1,curve 1,3,position,64,all texts,3,192,255,0.45901493886003664
+curve 1,curve 1,3,position,64,all texts,4,256,319,0.46548213791049875
+curve 1,curve 1,3,position,64,all texts,5,320,383,0.47470198279313536
+curve 1,curve 1,3,position,64,all texts,6,384,447,0.4826682301090841
+curve 1,curve 1,3,position,64,all texts,7,448,511,0.4848217142473459
+curve 1,curve 1,4,sequence,1,all texts,0,0,63,0.4466075358661783
+curve 1,curve 1,4,sequence,1,all texts,1,64,127,0.48074612929008254
+curve 1,curve 1,4,sequence,1,all texts,2,128,191,0.4809891631221035
+curve 1,curve 1,4,sequence,1,all texts,3,192,255,0.4905422509232267
+curve 1,curve 1,4,sequence,1,all texts,4,256,319,0.49185871058045905
+curve 1,curve 1,4,sequence,1,all texts,5,320,383,0.4996123741584597
+curve 1,curve 1,4,sequence,1,all texts,6,384,447,0.5026061811039426
+curve 1,curve 1,4,sequence,1,all texts,7,448,511,0.5085001369723159
+its same-size random control (ctl-plain),control,3,position,64,all texts,0,0,63,0.03408714410556968
+its same-size random control (ctl-plain),control,3,position,64,all texts,1,64,127,0.03821690894017138
+its same-size random control (ctl-plain),control,3,position,64,all texts,2,128,191,0.04002210250530425
+its same-size random control (ctl-plain),control,3,position,64,all texts,3,192,255,0.039465702719667206
+its same-size random control (ctl-plain),control,3,position,64,all texts,4,256,319,0.040650186821039824
+its same-size random control (ctl-plain),control,3,position,64,all texts,5,320,383,0.041304244153479885
+its same-size random control (ctl-plain),control,3,position,64,all texts,6,384,447,0.04178401976571422
+its same-size random control (ctl-plain),control,3,position,64,all texts,7,448,511,0.04205095398879166
+its same-size random control (ctl-plain),control,4,sequence,1,all texts,0,0,63,0.05246447712977442
+its same-size random control (ctl-plain),control,4,sequence,1,all texts,1,64,127,0.056685468118757854
+its same-size random control (ctl-plain),control,4,sequence,1,all texts,2,128,191,0.057738822553346836
+its same-size random control (ctl-plain),control,4,sequence,1,all texts,3,192,255,0.05732713165230052
+its same-size random control (ctl-plain),control,4,sequence,1,all texts,4,256,319,0.058555235767926206
+its same-size random control (ctl-plain),control,4,sequence,1,all texts,5,320,383,0.058255316860936546
+its same-size random control (ctl-plain),control,4,sequence,1,all texts,6,384,447,0.05856917042854093
+its same-size random control (ctl-plain),control,4,sequence,1,all texts,7,448,511,0.05805764678950709
+the never-named removal at its whole-set rung (residual included),never-named,8,set,28946,all texts,0,0,63,1.2287120233941096
+the never-named removal at its whole-set rung (residual included),never-named,8,set,28946,all texts,1,64,127,1.2765603512543748
+the never-named removal at its whole-set rung (residual included),never-named,8,set,28946,all texts,2,128,191,1.274256791391963
+the never-named removal at its whole-set rung (residual included),never-named,8,set,28946,all texts,3,192,255,1.2816897948387123
+the never-named removal at its whole-set rung (residual included),never-named,8,set,28946,all texts,4,256,319,1.286813932356381
+the never-named removal at its whole-set rung (residual included),never-named,8,set,28946,all texts,5,320,383,1.303585101567478
+the never-named removal at its whole-set rung (residual included),never-named,8,set,28946,all texts,6,384,447,1.310486567591397
+the never-named removal at its whole-set rung (residual included),never-named,8,set,28946,all texts,7,448,511,1.3104578414304342
+the code-leaning edit at 256 members,code-leaning,G256,members,256,the GitHub half,0,0,63,0.7136765304094297
+the code-leaning edit at 256 members,code-leaning,G256,members,256,the GitHub half,1,64,127,0.6962910199545149
+the code-leaning edit at 256 members,code-leaning,G256,members,256,the GitHub half,2,128,191,0.6502061748833512
+the code-leaning edit at 256 members,code-leaning,G256,members,256,the GitHub half,3,192,255,0.6252423522855679
+the code-leaning edit at 256 members,code-leaning,G256,members,256,the GitHub half,4,256,319,0.6153320911325864
+the code-leaning edit at 256 members,code-leaning,G256,members,256,the GitHub half,5,320,383,0.6423165255328058
+the code-leaning edit at 256 members,code-leaning,G256,members,256,the GitHub half,6,384,447,0.5969202102569398
+the code-leaning edit at 256 members,code-leaning,G256,members,256,the GitHub half,7,448,511,0.5716467259226192
+the code-leaning edit at 256 members,code-leaning,G256,members,256,the other half,0,0,63,0.16539892923174193
+the code-leaning edit at 256 members,code-leaning,G256,members,256,the other half,1,64,127,0.15767592492920812
+the code-leaning edit at 256 members,code-leaning,G256,members,256,the other half,2,128,191,0.1778899802666274
+the code-leaning edit at 256 members,code-leaning,G256,members,256,the other half,3,192,255,0.14480438198370393
+the code-leaning edit at 256 members,code-leaning,G256,members,256,the other half,4,256,319,0.13866154611241654
+the code-leaning edit at 256 members,code-leaning,G256,members,256,the other half,5,320,383,0.1537080246162077
+the code-leaning edit at 256 members,code-leaning,G256,members,256,the other half,6,384,447,0.1566703828430036
+the code-leaning edit at 256 members,code-leaning,G256,members,256,the other half,7,448,511,0.14935306477855192

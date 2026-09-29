@@ -1,0 +1,2 @@
+label,read,R1,R1_rungs,R2,R3,R4_beside,conditions_unread,computed_R1_rungs,computed_R1_conditional_claim,computed_R2,computed_R3,computed_R4,computed_text,first_rung_D_other_material,first_rung_D_github_usable,budget_other_tau_q_0.1,budget_other_tau_q_0
+"otherwise (none of R1 to R3): reported as measured, rung by rung",True,False,,False,False,False,False,,{},False,False,False,"otherwise (none of R1 to R3): reported as measured, rung by rung",G256,G256,G64,G64

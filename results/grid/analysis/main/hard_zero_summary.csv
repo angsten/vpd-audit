@@ -1,0 +1,21 @@
+chain,part,stratum,positive_control,verdict_read,testable_rungs_at_0.1,budget_at_0.1,budget_at_0
+hard_zero/E/D_unif/tau0.1/ones/incl/ctl-none,donor_chain,all,pass,True,none,,
+hard_zero/E/D_unif/tau0.1/ones/incl/ctl-plain,donor_chain,all,n/a,True,none,,
+code_specific_hard/E/D_code/tau0.1/ones/incl/ctl-none,donor_chain,all,n/a,True,"1, 2, 3, 4, 5a, 5, 6a, 6, 7",7,7
+code_specific_hard/E/D_code/tau0.1/ones/incl/ctl-none,sub_rung_chain,all,n/a,True,"S4, S16, S64",S64,S64
+never_named_hard/E/D_unif/tau0.1/ones/incl/ctl-none,donor_chain,all,n/a,True,"1, 2, 3, 4, 5a, 5, 6a, 6, 7, B50, B75",1,2
+never_named_hard/E/D_unif/tau0.1/ones/incl/ctl-none,rung 8 alone (one-cell rule),all,n/a,True,8,fails,not testable with these donors
+never_named_hard/E/D_unif/tau0.1/ones/excl/ctl-none,rung 8 alone (one-cell rule),all,n/a,True,8,fails,not testable with these donors
+never_named_hard/E/D_unif/tau0/ones/incl/ctl-none,rung 8 alone (one-cell rule),all,n/a,True,8,fails,fails
+hard_zero/E_lab/D_code/tau0.1/ones/incl/ctl-none,donor_chain,other,FAIL,False,none,,
+code_specific_hard/E_lab/D_code/tau0.1/ones/incl/ctl-none,donor_chain,other,FAIL,False,"1, 2, 3, 4, 5a, 5, 6a, 6, 7",7,7
+code_specific_hard/E_lab/D_code/tau0.1/ones/incl/ctl-none,sub_rung_chain,other,FAIL,False,"S4, S16, S64",S64,S64
+hard_zero/E_lab/D_code/tau0.1/ones/incl/ctl-plain,donor_chain,other,n/a,True,none,,
+code_specific_hard/E_lab/D_code/tau0.1/ones/incl/ctl-complement,donor_chain,other,n/a,True,"1, 2, 3, 4, 5a, 5, 6a, 6, 7",7,7
+code_specific_hard/E_lab/D_code/tau0.1/ones/incl/ctl-complement,sub_rung_chain,other,n/a,True,"S4, S16, S64",S64,S64
+code_specific_hard/E_lab/D_code/tau0.1/ones/incl/ctl-plain,donor_chain,other,n/a,True,"1, 2, 3",3,3
+code_specific_hard/E_lab/D_code/tau0.1/ones/incl/ctl-plain,sub_rung_chain,other,n/a,True,none,,
+code_specific_hard/E_lab/D_code/tau0.5/ones/incl/ctl-none,donor_chain,other,pass,True,"1, 2, 3, 4, 5a, 5, 6a, 6, 7",7,6a
+code_specific_hard/E_lab/D_code/tau0.5/ones/incl/ctl-none,sub_rung_chain,other,pass,True,"S4, S16, S64",S64,S64
+code_specific_hard/E_lab/D_code/tau0.5/ones/incl/ctl-complement,donor_chain,other,n/a,True,"1, 2, 3, 4, 5a, 5, 6a, 6, 7",7,6a
+code_specific_hard/E_lab/D_code/tau0.5/ones/incl/ctl-complement,sub_rung_chain,other,n/a,True,"S4, S16, S64",S64,S64

@@ -1,0 +1,69 @@
+{
+  "checkpoint_hashes": {
+    "decomp": "04f0d2effdf165d7eb7f7c1b43ec41e39b8c7b0116df15ca6c312a32ab10e9e2",
+    "target": "650f2eb603fe9fe649671c0c89b86746655bc49c96aa1ad00fbb4c1bf3c6c3b6"
+  },
+  "commits": {
+    "project": "049932d95800304993654a1c4f47d26212fdce58",
+    "submodule": "74146b555f3eb3cd2bc639c3789fd3b7a099094a"
+  },
+  "created_at": "2026-09-17T00:23:57+0000",
+  "device": "cuda:0",
+  "extra": {
+    "cells": [
+      "target",
+      "unmasked",
+      "unmasked_delta",
+      "stochastic/k0",
+      "stochastic/k1",
+      "stochastic/k2",
+      "stochastic/k3",
+      "stochastic/k4",
+      "stochastic/k5",
+      "stochastic/k6",
+      "stochastic/k7",
+      "stochastic_delta/k0",
+      "stochastic_delta/k1",
+      "stochastic_delta/k2",
+      "stochastic_delta/k3",
+      "stochastic_delta/k4",
+      "stochastic_delta/k5",
+      "stochastic_delta/k6",
+      "stochastic_delta/k7",
+      "rounded_0",
+      "rounded_0.1",
+      "importances",
+      "rounded_0.5",
+      "zero_all",
+      "random_illegal"
+    ],
+    "conditions": [
+      "target",
+      "unmasked",
+      "unmasked_delta",
+      "stochastic",
+      "stochastic_delta",
+      "rounded_0",
+      "rounded_0.1",
+      "importances",
+      "rounded_0.5",
+      "zero_all",
+      "random_illegal"
+    ],
+    "deterministic_algorithms": true,
+    "do_hash": true
+  },
+  "g_dtype": "torch.float32",
+  "gpu_name": "NVIDIA A100-SXM4-80GB",
+  "importance_chunk": 32,
+  "job": "control_bf16",
+  "master_seed": 0,
+  "n_draws": 8,
+  "n_sequences": 1024,
+  "precision": "bf16",
+  "run": "control",
+  "set_hash": "81f8b75b4c31fc95836841062b0c49c4237b3e83dce43397b8ad7e927c18d103",
+  "set_name": "E",
+  "subbatch": 64,
+  "torch_version": "2.8.0+cu128"
+}

@@ -1,0 +1,8 @@
+rung,n_off,mean_contributing,clean_prefix_fraction,testable,label,d_hat,interval,half_width,draws_above_X,unconditional
+1,63.0,3.125,0.002880096435546875,False,not testable with these donors,,,,,0.7568897941919204
+2,316.5,0.0,0.0,False,not testable with these donors,,,,,2.608609833844639
+3,1444.75,0.0,0.0,False,not testable with these donors,,,,,7.04641613315016
+4,2508.5,0.0,0.0,False,not testable with these donors,,,,,7.6129347053092715
+5,3971.625,0.0,0.0,False,not testable with these donors,,,,,8.034187201849818
+6,5081.0,0.0,0.0,False,not testable with these donors,,,,,8.398744449458718
+7,5550.5,0.0,0.0,False,not testable with these donors,,,,,9.4194098771286

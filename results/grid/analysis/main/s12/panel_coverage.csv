@@ -1,0 +1,17 @@
+source,panel,n_members,set,tau_q,n_texts,mean_n_contributing,mean_clean_prefix_fraction,cell
+StackExchange,panel_StackExchange,256,group,0.1,200,27.0,0.0085546875,main/panel_StackExchange/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG256
+StackExchange,panel_StackExchange,256,group,0,200,16.0,0.0041796875,main/panel_StackExchange/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG256
+StackExchange,panel_StackExchange,1007,group,0.1,200,0.0,9.765625e-06,main/panel_StackExchange/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG1007
+StackExchange,panel_StackExchange,1007,group,0,200,0.0,0.0,main/panel_StackExchange/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG1007
+ArXiv,panel_ArXiv,256,group,0.1,200,35.0,0.0115625,main/panel_ArXiv/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG256
+ArXiv,panel_ArXiv,256,group,0,200,27.0,0.006796875,main/panel_ArXiv/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG256
+ArXiv,panel_ArXiv,1007,group,0.1,200,0.0,0.0,main/panel_ArXiv/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG1007
+ArXiv,panel_ArXiv,1007,group,0,200,0.0,0.0,main/panel_ArXiv/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG1007
+Pile-CC,panel_Pile_CC,256,group,0.1,200,128.0,0.0742578125,main/panel_Pile_CC/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG256
+Pile-CC,panel_Pile_CC,256,group,0,200,87.0,0.02458984375,main/panel_Pile_CC/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG256
+Pile-CC,panel_Pile_CC,1007,group,0.1,200,0.0,0.0,main/panel_Pile_CC/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG1007
+Pile-CC,panel_Pile_CC,1007,group,0,200,0.0,0.0,main/panel_Pile_CC/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG1007
+Wikipedia (en),panel_Wikipedia__en_,256,group,0.1,200,109.0,0.05794921875,main/panel_Wikipedia__en_/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG256
+Wikipedia (en),panel_Wikipedia__en_,256,group,0,200,69.0,0.0169140625,main/panel_Wikipedia__en_/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG256
+Wikipedia (en),panel_Wikipedia__en_,1007,group,0.1,200,0.0,0.0,main/panel_Wikipedia__en_/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG1007
+Wikipedia (en),panel_Wikipedia__en_,1007,group,0,200,0.0,0.0,main/panel_Wikipedia__en_/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG1007

@@ -1,0 +1,6 @@
+panel,source,rows,within_rows,n_pairs_within,n_pairs_at_distance_1,n_rows_in_a_flagged_pair
+panel_ArXiv,ArXiv,200,29,52,1,86
+panel_Wikipedia__en_,Wikipedia (en),200,14,76,6,105
+panel_Pile_CC,Pile-CC,200,36,48,0,81
+panel_StackExchange,StackExchange,200,6,22,4,38
+panel_Github,Github,200,56,101,2,134

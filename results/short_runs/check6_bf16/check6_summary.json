@@ -1,0 +1,174 @@
+{
+  "acceptance_table": {
+    "job_sha256": "b7fc655e778d5eed7fedd60516ec43b35cdeaf182cf952fe6893dab83ac2de36",
+    "path": "results/acceptance/main_bf16/per_sequence.parquet",
+    "same_file_as_job_used": true,
+    "sha256": "b7fc655e778d5eed7fedd60516ec43b35cdeaf182cf952fe6893dab83ac2de36"
+  },
+  "attempts": [
+    {
+      "batch": 32,
+      "error": "CUDA out of memory. Tried to allocate 3.07 GiB. GPU 0 has a total capacity of 39.49 GiB of which 2.34 GiB is free. Process 1 has 37.14 GiB memory in use. Of the allocated memory 36.43 GiB is allocated by PyTorch, and 198.73 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  Se",
+      "max_memory_allocated_gb": 41.507609088,
+      "n_batches": 4,
+      "ok": false,
+      "seconds": 7.058146891999996
+    },
+    {
+      "batch": 16,
+      "n_batches": 8,
+      "ok": true,
+      "seconds": 195.19310731399997
+    }
+  ],
+  "check6_batch": 16,
+  "dtypes_distinct": {
+    "ci_lower_leaky_dtype": [
+      "torch.float32"
+    ],
+    "stochastic_component_mask_dtype": [
+      "torch.float32"
+    ],
+    "stochastic_residual_mask_dtype": [
+      "torch.float32"
+    ],
+    "weight_delta_dtype": [
+      "torch.float32"
+    ]
+  },
+  "matched": {
+    "common_sign_every_quantity_and_batch": false,
+    "epsilon": 0.0003106445074081421,
+    "label": "pass, localize",
+    "n_gated": 189,
+    "n_negative": 113,
+    "n_pass": 189,
+    "n_positive": 76,
+    "n_zero": 0,
+    "worst_item": "threshold 0.0, batch 4: importances ce diff"
+  },
+  "n_batches": 8,
+  "n_sequences": 128,
+  "oom_at_attempted_batch": true,
+  "ours_manifest": {
+    "g_dtype": "torch.float32",
+    "gpu_name": "NVIDIA A100-SXM4-40GB",
+    "importance_chunk": 16,
+    "precision": "bf16",
+    "subbatch": 16
+  },
+  "precision": "bf16",
+  "rules": {
+    "fail": "epsilon > tol, or a common sign across every quantity and batch",
+    "identical": 0.0001,
+    "tol": 0.001
+  },
+  "shape_sensitivity": {
+    "importances/ce": {
+      "max_abs_diff": 0.0,
+      "mean_abs_diff": 0.0,
+      "n": 128,
+      "n_over_1e-3": 0,
+      "n_over_1e-4": 0
+    },
+    "importances/kl_mean": {
+      "max_abs_diff": 0.0,
+      "mean_abs_diff": 0.0,
+      "n": 128,
+      "n_over_1e-3": 0,
+      "n_over_1e-4": 0
+    },
+    "rounded_0.1/ce": {
+      "max_abs_diff": 0.0,
+      "mean_abs_diff": 0.0,
+      "n": 128,
+      "n_over_1e-3": 0,
+      "n_over_1e-4": 0
+    },
+    "rounded_0.1/kl_mean": {
+      "max_abs_diff": 0.0,
+      "mean_abs_diff": 0.0,
+      "n": 128,
+      "n_over_1e-3": 0,
+      "n_over_1e-4": 0
+    },
+    "rounded_0.5/ce": {
+      "max_abs_diff": 0.0,
+      "mean_abs_diff": 0.0,
+      "n": 128,
+      "n_over_1e-3": 0,
+      "n_over_1e-4": 0
+    },
+    "rounded_0.5/kl_mean": {
+      "max_abs_diff": 0.0,
+      "mean_abs_diff": 0.0,
+      "n": 128,
+      "n_over_1e-3": 0,
+      "n_over_1e-4": 0
+    },
+    "rounded_0/ce": {
+      "max_abs_diff": 0.0,
+      "mean_abs_diff": 0.0,
+      "n": 128,
+      "n_over_1e-3": 0,
+      "n_over_1e-4": 0
+    },
+    "rounded_0/kl_mean": {
+      "max_abs_diff": 0.0,
+      "mean_abs_diff": 0.0,
+      "n": 128,
+      "n_over_1e-3": 0,
+      "n_over_1e-4": 0
+    },
+    "target/ce": {
+      "max_abs_diff": 0.0,
+      "mean_abs_diff": 0.0,
+      "n": 128,
+      "n_over_1e-3": 0,
+      "n_over_1e-4": 0
+    },
+    "unmasked/ce": {
+      "max_abs_diff": 0.0,
+      "mean_abs_diff": 0.0,
+      "n": 128,
+      "n_over_1e-3": 0,
+      "n_over_1e-4": 0
+    },
+    "unmasked/kl_mean": {
+      "max_abs_diff": 0.0,
+      "mean_abs_diff": 0.0,
+      "n": 128,
+      "n_over_1e-3": 0,
+      "n_over_1e-4": 0
+    },
+    "zero_all/ce": {
+      "max_abs_diff": 0.0,
+      "mean_abs_diff": 0.0,
+      "n": 128,
+      "n_over_1e-3": 0,
+      "n_over_1e-4": 0
+    },
+    "zero_all/kl_mean": {
+      "max_abs_diff": 0.0,
+      "mean_abs_diff": 0.0,
+      "n": 128,
+      "n_over_1e-3": 0,
+      "n_over_1e-4": 0
+    }
+  },
+  "shape_sensitivity_max_kl": 0.0,
+  "target_logits_dtype": "torch.bfloat16",
+  "unmatched": {
+    "acceptance_chunk": 32,
+    "acceptance_gpu": "NVIDIA A100-SXM4-80GB",
+    "acceptance_subbatch": 64,
+    "common_sign_every_quantity_and_batch": false,
+    "epsilon": 0.0003106445074081421,
+    "n_gated": 189,
+    "n_negative": 113,
+    "n_pass": 189,
+    "n_positive": 76,
+    "n_zero": 0,
+    "worst_item": "threshold 0.0, batch 4: importances ce diff"
+  }
+}

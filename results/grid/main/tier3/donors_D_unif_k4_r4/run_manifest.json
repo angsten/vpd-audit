@@ -1,0 +1,144 @@
+{
+  "checkpoint_hashes": {
+    "decomp": "fdd794abda8ca79e98f4644590c0c6e696261d9b84b34c8e83f94a2cc3607a93",
+    "target": "650f2eb603fe9fe649671c0c89b86746655bc49c96aa1ad00fbb4c1bf3c6c3b6"
+  },
+  "commits": {
+    "dirty": "0",
+    "project": "28e35f515062ad4332c51d30183ea20cad99d7b9",
+    "submodule": "74146b555f3eb3cd2bc639c3789fd3b7a099094a"
+  },
+  "created_at": "2026-09-18T08:03:37+0000",
+  "device": "cuda:0",
+  "extra": {
+    "cells": [
+      "main/donors/union/D_unif/tau0.1/r0/excl/k4/r4",
+      "main/donors/union/D_unif/tau0.1/r0/excl/k4/r4/donorref-importances",
+      "main/donors/union/D_unif/tau0.1/r0/excl/k4/r4/donorref-rounded"
+    ],
+    "n_cells": 3,
+    "sources": {
+      "main/donors/union/D_unif/tau0.1/r0/excl/k4/r4": {
+        "donor_sequences": [
+          148
+        ],
+        "donor_size": 512,
+        "donor_unit": "sequence",
+        "draw": 4,
+        "family": "union",
+        "n_on": {
+          "h.0.attn.k_proj": 13,
+          "h.0.attn.o_proj": 93,
+          "h.0.attn.q_proj": 13,
+          "h.0.attn.v_proj": 96,
+          "h.0.mlp.c_fc": 660,
+          "h.0.mlp.down_proj": 668,
+          "h.1.attn.k_proj": 11,
+          "h.1.attn.o_proj": 73,
+          "h.1.attn.q_proj": 5,
+          "h.1.attn.v_proj": 92,
+          "h.1.mlp.c_fc": 99,
+          "h.1.mlp.down_proj": 90,
+          "h.2.attn.k_proj": 108,
+          "h.2.attn.o_proj": 361,
+          "h.2.attn.q_proj": 78,
+          "h.2.attn.v_proj": 338,
+          "h.2.mlp.c_fc": 141,
+          "h.2.mlp.down_proj": 179,
+          "h.3.attn.k_proj": 29,
+          "h.3.attn.o_proj": 146,
+          "h.3.attn.q_proj": 17,
+          "h.3.attn.v_proj": 157,
+          "h.3.mlp.c_fc": 593,
+          "h.3.mlp.down_proj": 921,
+          "total": 4981
+        },
+        "named_n_on": {
+          "h.0.attn.k_proj": 13,
+          "h.0.attn.o_proj": 93,
+          "h.0.attn.q_proj": 13,
+          "h.0.attn.v_proj": 96,
+          "h.0.mlp.c_fc": 660,
+          "h.0.mlp.down_proj": 668,
+          "h.1.attn.k_proj": 11,
+          "h.1.attn.o_proj": 73,
+          "h.1.attn.q_proj": 5,
+          "h.1.attn.v_proj": 92,
+          "h.1.mlp.c_fc": 99,
+          "h.1.mlp.down_proj": 90,
+          "h.2.attn.k_proj": 108,
+          "h.2.attn.o_proj": 361,
+          "h.2.attn.q_proj": 78,
+          "h.2.attn.v_proj": 338,
+          "h.2.mlp.c_fc": 141,
+          "h.2.mlp.down_proj": 179,
+          "h.3.attn.k_proj": 29,
+          "h.3.attn.o_proj": 146,
+          "h.3.attn.q_proj": 17,
+          "h.3.attn.v_proj": 157,
+          "h.3.mlp.c_fc": 593,
+          "h.3.mlp.down_proj": 921,
+          "total": 4981
+        },
+        "pool": "D_unif",
+        "rung": "4",
+        "seed_tuple": "[0, \"seqperm\", \"D_unif\", 4]",
+        "source_sha256": "0b903af5844863b6adbeb556393f90c638559cc51cc8b82a95588fa6b185f0c5",
+        "tau": 0.1
+      },
+      "main/donors/union/D_unif/tau0.1/r0/excl/k4/r4/donorref-importances": {
+        "kind": "reference"
+      },
+      "main/donors/union/D_unif/tau0.1/r0/excl/k4/r4/donorref-rounded": {
+        "kind": "reference"
+      }
+    },
+    "tiers": [
+      3
+    ]
+  },
+  "fingerprint": {
+    "dtype_codes": {
+      "torch.bfloat16": 16,
+      "torch.float32": 32
+    },
+    "hex": "16 lowercase hex characters of the value modulo 2^64",
+    "levels": "1: h_b^(l) = sum W x; 2: phi_b; 3: F_i, H_i^(l) with global sequence salts; 4: F = sum_i F_i mod 2^64",
+    "mixer": "splitmix64",
+    "mixer_constants": {
+      "c1": "0xbf58476d1ce4e5b9",
+      "c2": "0x94d049bb133111eb",
+      "shifts": [
+        30,
+        27,
+        31
+      ]
+    },
+    "mixer_reference": "Steele, Lea, Flood, OOPSLA 2014; Vigna, splitmix64.c (public domain), https://prng.di.unimi.it/splitmix64.c",
+    "salts": {
+      "W": 4294967296,
+      "delta": 8589934592,
+      "dtype": 25769803776,
+      "mod": 12884901888,
+      "mod_delta": 17179869184,
+      "res": 30064771072,
+      "seq": 21474836480
+    },
+    "slab": 8,
+    "version": 1
+  },
+  "finished_at": "2026-09-18T08:03:37+0000",
+  "g_dtype": "torch.float32",
+  "gpu_name": "NVIDIA A100-SXM4-40GB",
+  "importance_chunk": 32,
+  "job": "grid_main_t3_donors_D_unif_k4_r4",
+  "master_seed": 0,
+  "n_draws": 5,
+  "n_sequences": 1,
+  "precision": "bf16",
+  "run": "main",
+  "set_hash": "1807c12e26c0baec8065381127ee9b049d22aa85670680e03ea5e9b56ac8ed20",
+  "set_name": "D_unif[148]",
+  "subbatch": 1,
+  "torch_version": "2.8.0+cu128"
+}

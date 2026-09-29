@@ -1,0 +1,2282 @@
+{
+  "checkpoint_hashes": {
+    "decomp": "fdd794abda8ca79e98f4644590c0c6e696261d9b84b34c8e83f94a2cc3607a93",
+    "target": "650f2eb603fe9fe649671c0c89b86746655bc49c96aa1ad00fbb4c1bf3c6c3b6"
+  },
+  "commits": {
+    "dirty": "0",
+    "project": "73da70211d8e7a1d4a9c10784354fa75f338dbe0",
+    "submodule": "74146b555f3eb3cd2bc639c3789fd3b7a099094a"
+  },
+  "created_at": "2026-09-29T14:52:59+0000",
+  "device": "cuda:0",
+  "extra": {
+    "cells": [
+      "main/panel_Wikipedia__en_/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG256",
+      "main/panel_Wikipedia__en_/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG1007",
+      "main/panel_Wikipedia__en_/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG256/ctl-usage",
+      "main/panel_Wikipedia__en_/code_leaning_hard/D_code/tau0.1/ones/incl/k1/rG256/ctl-usage",
+      "main/panel_Wikipedia__en_/code_leaning_hard/D_code/tau0.1/ones/incl/k2/rG256/ctl-usage",
+      "main/panel_Wikipedia__en_/code_leaning_hard/D_code/tau0.1/ones/incl/k3/rG256/ctl-usage",
+      "main/panel_Wikipedia__en_/code_leaning_hard/D_code/tau0.1/ones/incl/k4/rG256/ctl-usage",
+      "main/panel_Wikipedia__en_/code_leaning_hard/D_code/tau0.1/ones/incl/k5/rG256/ctl-usage",
+      "main/panel_Wikipedia__en_/code_leaning_hard/D_code/tau0.1/ones/incl/k6/rG256/ctl-usage",
+      "main/panel_Wikipedia__en_/code_leaning_hard/D_code/tau0.1/ones/incl/k7/rG256/ctl-usage",
+      "main/panel_Wikipedia__en_/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG1007/ctl-usage",
+      "main/panel_Wikipedia__en_/code_leaning_hard/D_code/tau0.1/ones/incl/k1/rG1007/ctl-usage",
+      "main/panel_Wikipedia__en_/code_leaning_hard/D_code/tau0.1/ones/incl/k2/rG1007/ctl-usage",
+      "main/panel_Wikipedia__en_/code_leaning_hard/D_code/tau0.1/ones/incl/k3/rG1007/ctl-usage",
+      "main/panel_Wikipedia__en_/code_leaning_hard/D_code/tau0.1/ones/incl/k4/rG1007/ctl-usage",
+      "main/panel_Wikipedia__en_/code_leaning_hard/D_code/tau0.1/ones/incl/k5/rG1007/ctl-usage",
+      "main/panel_Wikipedia__en_/code_leaning_hard/D_code/tau0.1/ones/incl/k6/rG1007/ctl-usage",
+      "main/panel_Wikipedia__en_/code_leaning_hard/D_code/tau0.1/ones/incl/k7/rG1007/ctl-usage",
+      "main/panel_Wikipedia__en_/ref/unmasked_delta"
+    ],
+    "n_cells": 19,
+    "sources": {
+      "main/panel_Wikipedia__en_/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG1007": {
+        "code_leaning": {
+          "group_threshold": 0.9,
+          "ladder": [
+            [
+              16,
+              false
+            ],
+            [
+              64,
+              false
+            ],
+            [
+              256,
+              false
+            ],
+            [
+              1007,
+              false
+            ],
+            [
+              1862,
+              true
+            ]
+          ],
+          "min_selectivity": 0.9001492334825668,
+          "n_group": 1007,
+          "n_wide": 1862,
+          "order_sha256": "7727d4fbe3fe34fd714358e6e16b68cd71431bc942ceda6b16dfdc5415c498f2",
+          "wide_sha256": "5ce83cbb794be3aed7ef9a1520ff6798586f28e063880d5f78f25c443f1eb877",
+          "wide_threshold": 0.75
+        },
+        "donor_size": 1007,
+        "donor_unit": "code_leaning",
+        "draw": 0,
+        "family": "code_leaning_hard",
+        "n_on": {
+          "h.0.attn.k_proj": 3,
+          "h.0.attn.o_proj": 13,
+          "h.0.attn.q_proj": 2,
+          "h.0.attn.v_proj": 37,
+          "h.0.mlp.c_fc": 94,
+          "h.0.mlp.down_proj": 105,
+          "h.1.attn.k_proj": 0,
+          "h.1.attn.o_proj": 5,
+          "h.1.attn.q_proj": 0,
+          "h.1.attn.v_proj": 15,
+          "h.1.mlp.c_fc": 7,
+          "h.1.mlp.down_proj": 10,
+          "h.2.attn.k_proj": 7,
+          "h.2.attn.o_proj": 133,
+          "h.2.attn.q_proj": 4,
+          "h.2.attn.v_proj": 59,
+          "h.2.mlp.c_fc": 6,
+          "h.2.mlp.down_proj": 20,
+          "h.3.attn.k_proj": 2,
+          "h.3.attn.o_proj": 18,
+          "h.3.attn.q_proj": 4,
+          "h.3.attn.v_proj": 4,
+          "h.3.mlp.c_fc": 145,
+          "h.3.mlp.down_proj": 314,
+          "total": 1007
+        },
+        "named_n_on": {
+          "h.0.attn.k_proj": 3,
+          "h.0.attn.o_proj": 13,
+          "h.0.attn.q_proj": 2,
+          "h.0.attn.v_proj": 37,
+          "h.0.mlp.c_fc": 94,
+          "h.0.mlp.down_proj": 105,
+          "h.1.attn.k_proj": 0,
+          "h.1.attn.o_proj": 5,
+          "h.1.attn.q_proj": 0,
+          "h.1.attn.v_proj": 15,
+          "h.1.mlp.c_fc": 7,
+          "h.1.mlp.down_proj": 10,
+          "h.2.attn.k_proj": 7,
+          "h.2.attn.o_proj": 133,
+          "h.2.attn.q_proj": 4,
+          "h.2.attn.v_proj": 59,
+          "h.2.mlp.c_fc": 6,
+          "h.2.mlp.down_proj": 20,
+          "h.3.attn.k_proj": 2,
+          "h.3.attn.o_proj": 18,
+          "h.3.attn.q_proj": 4,
+          "h.3.attn.v_proj": 4,
+          "h.3.mlp.c_fc": 145,
+          "h.3.mlp.down_proj": 314,
+          "total": 1007
+        },
+        "pool": "D_code",
+        "rung": "G1007",
+        "seed_tuple": "",
+        "source_sha256": "a89a180ae474f278d3012671a6e642ca8affdcc58609909cf109017c4fbc0b86",
+        "tau": 0.1
+      },
+      "main/panel_Wikipedia__en_/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG1007/ctl-usage": {
+        "code_leaning": {
+          "group_threshold": 0.9,
+          "ladder": [
+            [
+              16,
+              false
+            ],
+            [
+              64,
+              false
+            ],
+            [
+              256,
+              false
+            ],
+            [
+              1007,
+              false
+            ],
+            [
+              1862,
+              true
+            ]
+          ],
+          "min_selectivity": 0.9001492334825668,
+          "n_group": 1007,
+          "n_wide": 1862,
+          "order_sha256": "7727d4fbe3fe34fd714358e6e16b68cd71431bc942ceda6b16dfdc5415c498f2",
+          "wide_sha256": "5ce83cbb794be3aed7ef9a1520ff6798586f28e063880d5f78f25c443f1eb877",
+          "wide_threshold": 0.75
+        },
+        "control": {
+          "alive_run": "main",
+          "alive_sha256": "ca771bcb10585b0efb52a07c00257729f181eb706d6ee9c283441d84faad0302",
+          "candidates": "alive minus the excluded set (G_0.75)",
+          "draw": 0,
+          "excluded_sha256": "5ce83cbb794be3aed7ef9a1520ff6798586f28e063880d5f78f25c443f1eb877",
+          "family": "code_leaning_hard",
+          "n_alive": 9959,
+          "n_candidates": 8097,
+          "n_members": 1862,
+          "n_twins": 1862,
+          "sampler": "usage_nearest",
+          "seed_pattern": [
+            0,
+            "rand",
+            "code_leaning_hard",
+            0,
+            "<member's global index>"
+          ],
+          "shortfall": {},
+          "shortfall_at_this_rung": 0,
+          "tie_seed_tuple": [
+            0,
+            "rand",
+            "ranked_ties"
+          ],
+          "window": 8
+        },
+        "donor_size": 1007,
+        "donor_unit": "code_leaning",
+        "draw": 0,
+        "family": "code_leaning_hard",
+        "matched_source_sha256": "a89a180ae474f278d3012671a6e642ca8affdcc58609909cf109017c4fbc0b86",
+        "n_on": {
+          "h.0.attn.k_proj": 3,
+          "h.0.attn.o_proj": 13,
+          "h.0.attn.q_proj": 2,
+          "h.0.attn.v_proj": 37,
+          "h.0.mlp.c_fc": 94,
+          "h.0.mlp.down_proj": 105,
+          "h.1.attn.k_proj": 0,
+          "h.1.attn.o_proj": 5,
+          "h.1.attn.q_proj": 0,
+          "h.1.attn.v_proj": 15,
+          "h.1.mlp.c_fc": 7,
+          "h.1.mlp.down_proj": 10,
+          "h.2.attn.k_proj": 7,
+          "h.2.attn.o_proj": 133,
+          "h.2.attn.q_proj": 4,
+          "h.2.attn.v_proj": 59,
+          "h.2.mlp.c_fc": 6,
+          "h.2.mlp.down_proj": 20,
+          "h.3.attn.k_proj": 2,
+          "h.3.attn.o_proj": 18,
+          "h.3.attn.q_proj": 4,
+          "h.3.attn.v_proj": 4,
+          "h.3.mlp.c_fc": 145,
+          "h.3.mlp.down_proj": 314,
+          "total": 1007
+        },
+        "named_n_on": {
+          "h.0.attn.k_proj": 3,
+          "h.0.attn.o_proj": 13,
+          "h.0.attn.q_proj": 2,
+          "h.0.attn.v_proj": 37,
+          "h.0.mlp.c_fc": 94,
+          "h.0.mlp.down_proj": 105,
+          "h.1.attn.k_proj": 0,
+          "h.1.attn.o_proj": 5,
+          "h.1.attn.q_proj": 0,
+          "h.1.attn.v_proj": 15,
+          "h.1.mlp.c_fc": 7,
+          "h.1.mlp.down_proj": 10,
+          "h.2.attn.k_proj": 7,
+          "h.2.attn.o_proj": 133,
+          "h.2.attn.q_proj": 4,
+          "h.2.attn.v_proj": 59,
+          "h.2.mlp.c_fc": 6,
+          "h.2.mlp.down_proj": 20,
+          "h.3.attn.k_proj": 2,
+          "h.3.attn.o_proj": 18,
+          "h.3.attn.q_proj": 4,
+          "h.3.attn.v_proj": 4,
+          "h.3.mlp.c_fc": 145,
+          "h.3.mlp.down_proj": 314,
+          "total": 1007
+        },
+        "pool": "D_code",
+        "rung": "G1007",
+        "seed_tuple": "",
+        "source_sha256": "7b50356097b5fea6f7e769ee361b3996ae5dd02e0c442815ee64af2990ecbb7a",
+        "tau": 0.1
+      },
+      "main/panel_Wikipedia__en_/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG256": {
+        "code_leaning": {
+          "group_threshold": 0.9,
+          "ladder": [
+            [
+              16,
+              false
+            ],
+            [
+              64,
+              false
+            ],
+            [
+              256,
+              false
+            ],
+            [
+              1007,
+              false
+            ],
+            [
+              1862,
+              true
+            ]
+          ],
+          "min_selectivity": 0.9893133242382901,
+          "n_group": 1007,
+          "n_wide": 1862,
+          "order_sha256": "7727d4fbe3fe34fd714358e6e16b68cd71431bc942ceda6b16dfdc5415c498f2",
+          "wide_sha256": "5ce83cbb794be3aed7ef9a1520ff6798586f28e063880d5f78f25c443f1eb877",
+          "wide_threshold": 0.75
+        },
+        "donor_size": 256,
+        "donor_unit": "code_leaning",
+        "draw": 0,
+        "family": "code_leaning_hard",
+        "n_on": {
+          "h.0.attn.k_proj": 1,
+          "h.0.attn.o_proj": 3,
+          "h.0.attn.q_proj": 1,
+          "h.0.attn.v_proj": 12,
+          "h.0.mlp.c_fc": 28,
+          "h.0.mlp.down_proj": 26,
+          "h.1.attn.k_proj": 0,
+          "h.1.attn.o_proj": 1,
+          "h.1.attn.q_proj": 0,
+          "h.1.attn.v_proj": 3,
+          "h.1.mlp.c_fc": 1,
+          "h.1.mlp.down_proj": 0,
+          "h.2.attn.k_proj": 1,
+          "h.2.attn.o_proj": 29,
+          "h.2.attn.q_proj": 1,
+          "h.2.attn.v_proj": 16,
+          "h.2.mlp.c_fc": 2,
+          "h.2.mlp.down_proj": 3,
+          "h.3.attn.k_proj": 2,
+          "h.3.attn.o_proj": 2,
+          "h.3.attn.q_proj": 3,
+          "h.3.attn.v_proj": 0,
+          "h.3.mlp.c_fc": 40,
+          "h.3.mlp.down_proj": 81,
+          "total": 256
+        },
+        "named_n_on": {
+          "h.0.attn.k_proj": 1,
+          "h.0.attn.o_proj": 3,
+          "h.0.attn.q_proj": 1,
+          "h.0.attn.v_proj": 12,
+          "h.0.mlp.c_fc": 28,
+          "h.0.mlp.down_proj": 26,
+          "h.1.attn.k_proj": 0,
+          "h.1.attn.o_proj": 1,
+          "h.1.attn.q_proj": 0,
+          "h.1.attn.v_proj": 3,
+          "h.1.mlp.c_fc": 1,
+          "h.1.mlp.down_proj": 0,
+          "h.2.attn.k_proj": 1,
+          "h.2.attn.o_proj": 29,
+          "h.2.attn.q_proj": 1,
+          "h.2.attn.v_proj": 16,
+          "h.2.mlp.c_fc": 2,
+          "h.2.mlp.down_proj": 3,
+          "h.3.attn.k_proj": 2,
+          "h.3.attn.o_proj": 2,
+          "h.3.attn.q_proj": 3,
+          "h.3.attn.v_proj": 0,
+          "h.3.mlp.c_fc": 40,
+          "h.3.mlp.down_proj": 81,
+          "total": 256
+        },
+        "pool": "D_code",
+        "rung": "G256",
+        "seed_tuple": "",
+        "source_sha256": "745e0066cdcf744d52629d5a5b78db56b878871173fb2f63af8e17069226fe6b",
+        "tau": 0.1
+      },
+      "main/panel_Wikipedia__en_/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG256/ctl-usage": {
+        "code_leaning": {
+          "group_threshold": 0.9,
+          "ladder": [
+            [
+              16,
+              false
+            ],
+            [
+              64,
+              false
+            ],
+            [
+              256,
+              false
+            ],
+            [
+              1007,
+              false
+            ],
+            [
+              1862,
+              true
+            ]
+          ],
+          "min_selectivity": 0.9893133242382901,
+          "n_group": 1007,
+          "n_wide": 1862,
+          "order_sha256": "7727d4fbe3fe34fd714358e6e16b68cd71431bc942ceda6b16dfdc5415c498f2",
+          "wide_sha256": "5ce83cbb794be3aed7ef9a1520ff6798586f28e063880d5f78f25c443f1eb877",
+          "wide_threshold": 0.75
+        },
+        "control": {
+          "alive_run": "main",
+          "alive_sha256": "ca771bcb10585b0efb52a07c00257729f181eb706d6ee9c283441d84faad0302",
+          "candidates": "alive minus the excluded set (G_0.75)",
+          "draw": 0,
+          "excluded_sha256": "5ce83cbb794be3aed7ef9a1520ff6798586f28e063880d5f78f25c443f1eb877",
+          "family": "code_leaning_hard",
+          "n_alive": 9959,
+          "n_candidates": 8097,
+          "n_members": 1862,
+          "n_twins": 1862,
+          "sampler": "usage_nearest",
+          "seed_pattern": [
+            0,
+            "rand",
+            "code_leaning_hard",
+            0,
+            "<member's global index>"
+          ],
+          "shortfall": {},
+          "shortfall_at_this_rung": 0,
+          "tie_seed_tuple": [
+            0,
+            "rand",
+            "ranked_ties"
+          ],
+          "window": 8
+        },
+        "donor_size": 256,
+        "donor_unit": "code_leaning",
+        "draw": 0,
+        "family": "code_leaning_hard",
+        "matched_source_sha256": "745e0066cdcf744d52629d5a5b78db56b878871173fb2f63af8e17069226fe6b",
+        "n_on": {
+          "h.0.attn.k_proj": 1,
+          "h.0.attn.o_proj": 3,
+          "h.0.attn.q_proj": 1,
+          "h.0.attn.v_proj": 12,
+          "h.0.mlp.c_fc": 28,
+          "h.0.mlp.down_proj": 26,
+          "h.1.attn.k_proj": 0,
+          "h.1.attn.o_proj": 1,
+          "h.1.attn.q_proj": 0,
+          "h.1.attn.v_proj": 3,
+          "h.1.mlp.c_fc": 1,
+          "h.1.mlp.down_proj": 0,
+          "h.2.attn.k_proj": 1,
+          "h.2.attn.o_proj": 29,
+          "h.2.attn.q_proj": 1,
+          "h.2.attn.v_proj": 16,
+          "h.2.mlp.c_fc": 2,
+          "h.2.mlp.down_proj": 3,
+          "h.3.attn.k_proj": 2,
+          "h.3.attn.o_proj": 2,
+          "h.3.attn.q_proj": 3,
+          "h.3.attn.v_proj": 0,
+          "h.3.mlp.c_fc": 40,
+          "h.3.mlp.down_proj": 81,
+          "total": 256
+        },
+        "named_n_on": {
+          "h.0.attn.k_proj": 1,
+          "h.0.attn.o_proj": 3,
+          "h.0.attn.q_proj": 1,
+          "h.0.attn.v_proj": 12,
+          "h.0.mlp.c_fc": 28,
+          "h.0.mlp.down_proj": 26,
+          "h.1.attn.k_proj": 0,
+          "h.1.attn.o_proj": 1,
+          "h.1.attn.q_proj": 0,
+          "h.1.attn.v_proj": 3,
+          "h.1.mlp.c_fc": 1,
+          "h.1.mlp.down_proj": 0,
+          "h.2.attn.k_proj": 1,
+          "h.2.attn.o_proj": 29,
+          "h.2.attn.q_proj": 1,
+          "h.2.attn.v_proj": 16,
+          "h.2.mlp.c_fc": 2,
+          "h.2.mlp.down_proj": 3,
+          "h.3.attn.k_proj": 2,
+          "h.3.attn.o_proj": 2,
+          "h.3.attn.q_proj": 3,
+          "h.3.attn.v_proj": 0,
+          "h.3.mlp.c_fc": 40,
+          "h.3.mlp.down_proj": 81,
+          "total": 256
+        },
+        "pool": "D_code",
+        "rung": "G256",
+        "seed_tuple": "",
+        "source_sha256": "1eb16f9615f459edd5bdad8c3da15266e9993b1e4bd54953d8056dc436550a8a",
+        "tau": 0.1
+      },
+      "main/panel_Wikipedia__en_/code_leaning_hard/D_code/tau0.1/ones/incl/k1/rG1007/ctl-usage": {
+        "code_leaning": {
+          "group_threshold": 0.9,
+          "ladder": [
+            [
+              16,
+              false
+            ],
+            [
+              64,
+              false
+            ],
+            [
+              256,
+              false
+            ],
+            [
+              1007,
+              false
+            ],
+            [
+              1862,
+              true
+            ]
+          ],
+          "min_selectivity": 0.9001492334825668,
+          "n_group": 1007,
+          "n_wide": 1862,
+          "order_sha256": "7727d4fbe3fe34fd714358e6e16b68cd71431bc942ceda6b16dfdc5415c498f2",
+          "wide_sha256": "5ce83cbb794be3aed7ef9a1520ff6798586f28e063880d5f78f25c443f1eb877",
+          "wide_threshold": 0.75
+        },
+        "control": {
+          "alive_run": "main",
+          "alive_sha256": "ca771bcb10585b0efb52a07c00257729f181eb706d6ee9c283441d84faad0302",
+          "candidates": "alive minus the excluded set (G_0.75)",
+          "draw": 1,
+          "excluded_sha256": "5ce83cbb794be3aed7ef9a1520ff6798586f28e063880d5f78f25c443f1eb877",
+          "family": "code_leaning_hard",
+          "n_alive": 9959,
+          "n_candidates": 8097,
+          "n_members": 1862,
+          "n_twins": 1862,
+          "sampler": "usage_nearest",
+          "seed_pattern": [
+            0,
+            "rand",
+            "code_leaning_hard",
+            1,
+            "<member's global index>"
+          ],
+          "shortfall": {},
+          "shortfall_at_this_rung": 0,
+          "tie_seed_tuple": [
+            0,
+            "rand",
+            "ranked_ties"
+          ],
+          "window": 8
+        },
+        "donor_size": 1007,
+        "donor_unit": "code_leaning",
+        "draw": 1,
+        "family": "code_leaning_hard",
+        "matched_source_sha256": "a89a180ae474f278d3012671a6e642ca8affdcc58609909cf109017c4fbc0b86",
+        "n_on": {
+          "h.0.attn.k_proj": 3,
+          "h.0.attn.o_proj": 13,
+          "h.0.attn.q_proj": 2,
+          "h.0.attn.v_proj": 37,
+          "h.0.mlp.c_fc": 94,
+          "h.0.mlp.down_proj": 105,
+          "h.1.attn.k_proj": 0,
+          "h.1.attn.o_proj": 5,
+          "h.1.attn.q_proj": 0,
+          "h.1.attn.v_proj": 15,
+          "h.1.mlp.c_fc": 7,
+          "h.1.mlp.down_proj": 10,
+          "h.2.attn.k_proj": 7,
+          "h.2.attn.o_proj": 133,
+          "h.2.attn.q_proj": 4,
+          "h.2.attn.v_proj": 59,
+          "h.2.mlp.c_fc": 6,
+          "h.2.mlp.down_proj": 20,
+          "h.3.attn.k_proj": 2,
+          "h.3.attn.o_proj": 18,
+          "h.3.attn.q_proj": 4,
+          "h.3.attn.v_proj": 4,
+          "h.3.mlp.c_fc": 145,
+          "h.3.mlp.down_proj": 314,
+          "total": 1007
+        },
+        "named_n_on": {
+          "h.0.attn.k_proj": 3,
+          "h.0.attn.o_proj": 13,
+          "h.0.attn.q_proj": 2,
+          "h.0.attn.v_proj": 37,
+          "h.0.mlp.c_fc": 94,
+          "h.0.mlp.down_proj": 105,
+          "h.1.attn.k_proj": 0,
+          "h.1.attn.o_proj": 5,
+          "h.1.attn.q_proj": 0,
+          "h.1.attn.v_proj": 15,
+          "h.1.mlp.c_fc": 7,
+          "h.1.mlp.down_proj": 10,
+          "h.2.attn.k_proj": 7,
+          "h.2.attn.o_proj": 133,
+          "h.2.attn.q_proj": 4,
+          "h.2.attn.v_proj": 59,
+          "h.2.mlp.c_fc": 6,
+          "h.2.mlp.down_proj": 20,
+          "h.3.attn.k_proj": 2,
+          "h.3.attn.o_proj": 18,
+          "h.3.attn.q_proj": 4,
+          "h.3.attn.v_proj": 4,
+          "h.3.mlp.c_fc": 145,
+          "h.3.mlp.down_proj": 314,
+          "total": 1007
+        },
+        "pool": "D_code",
+        "rung": "G1007",
+        "seed_tuple": "",
+        "source_sha256": "28db86b1e54d20201f6aa87a838960d71f7b0f8fabbb4901c954122ed457140d",
+        "tau": 0.1
+      },
+      "main/panel_Wikipedia__en_/code_leaning_hard/D_code/tau0.1/ones/incl/k1/rG256/ctl-usage": {
+        "code_leaning": {
+          "group_threshold": 0.9,
+          "ladder": [
+            [
+              16,
+              false
+            ],
+            [
+              64,
+              false
+            ],
+            [
+              256,
+              false
+            ],
+            [
+              1007,
+              false
+            ],
+            [
+              1862,
+              true
+            ]
+          ],
+          "min_selectivity": 0.9893133242382901,
+          "n_group": 1007,
+          "n_wide": 1862,
+          "order_sha256": "7727d4fbe3fe34fd714358e6e16b68cd71431bc942ceda6b16dfdc5415c498f2",
+          "wide_sha256": "5ce83cbb794be3aed7ef9a1520ff6798586f28e063880d5f78f25c443f1eb877",
+          "wide_threshold": 0.75
+        },
+        "control": {
+          "alive_run": "main",
+          "alive_sha256": "ca771bcb10585b0efb52a07c00257729f181eb706d6ee9c283441d84faad0302",
+          "candidates": "alive minus the excluded set (G_0.75)",
+          "draw": 1,
+          "excluded_sha256": "5ce83cbb794be3aed7ef9a1520ff6798586f28e063880d5f78f25c443f1eb877",
+          "family": "code_leaning_hard",
+          "n_alive": 9959,
+          "n_candidates": 8097,
+          "n_members": 1862,
+          "n_twins": 1862,
+          "sampler": "usage_nearest",
+          "seed_pattern": [
+            0,
+            "rand",
+            "code_leaning_hard",
+            1,
+            "<member's global index>"
+          ],
+          "shortfall": {},
+          "shortfall_at_this_rung": 0,
+          "tie_seed_tuple": [
+            0,
+            "rand",
+            "ranked_ties"
+          ],
+          "window": 8
+        },
+        "donor_size": 256,
+        "donor_unit": "code_leaning",
+        "draw": 1,
+        "family": "code_leaning_hard",
+        "matched_source_sha256": "745e0066cdcf744d52629d5a5b78db56b878871173fb2f63af8e17069226fe6b",
+        "n_on": {
+          "h.0.attn.k_proj": 1,
+          "h.0.attn.o_proj": 3,
+          "h.0.attn.q_proj": 1,
+          "h.0.attn.v_proj": 12,
+          "h.0.mlp.c_fc": 28,
+          "h.0.mlp.down_proj": 26,
+          "h.1.attn.k_proj": 0,
+          "h.1.attn.o_proj": 1,
+          "h.1.attn.q_proj": 0,
+          "h.1.attn.v_proj": 3,
+          "h.1.mlp.c_fc": 1,
+          "h.1.mlp.down_proj": 0,
+          "h.2.attn.k_proj": 1,
+          "h.2.attn.o_proj": 29,
+          "h.2.attn.q_proj": 1,
+          "h.2.attn.v_proj": 16,
+          "h.2.mlp.c_fc": 2,
+          "h.2.mlp.down_proj": 3,
+          "h.3.attn.k_proj": 2,
+          "h.3.attn.o_proj": 2,
+          "h.3.attn.q_proj": 3,
+          "h.3.attn.v_proj": 0,
+          "h.3.mlp.c_fc": 40,
+          "h.3.mlp.down_proj": 81,
+          "total": 256
+        },
+        "named_n_on": {
+          "h.0.attn.k_proj": 1,
+          "h.0.attn.o_proj": 3,
+          "h.0.attn.q_proj": 1,
+          "h.0.attn.v_proj": 12,
+          "h.0.mlp.c_fc": 28,
+          "h.0.mlp.down_proj": 26,
+          "h.1.attn.k_proj": 0,
+          "h.1.attn.o_proj": 1,
+          "h.1.attn.q_proj": 0,
+          "h.1.attn.v_proj": 3,
+          "h.1.mlp.c_fc": 1,
+          "h.1.mlp.down_proj": 0,
+          "h.2.attn.k_proj": 1,
+          "h.2.attn.o_proj": 29,
+          "h.2.attn.q_proj": 1,
+          "h.2.attn.v_proj": 16,
+          "h.2.mlp.c_fc": 2,
+          "h.2.mlp.down_proj": 3,
+          "h.3.attn.k_proj": 2,
+          "h.3.attn.o_proj": 2,
+          "h.3.attn.q_proj": 3,
+          "h.3.attn.v_proj": 0,
+          "h.3.mlp.c_fc": 40,
+          "h.3.mlp.down_proj": 81,
+          "total": 256
+        },
+        "pool": "D_code",
+        "rung": "G256",
+        "seed_tuple": "",
+        "source_sha256": "25cd899bdc20b19b55442e7e268730b73b96dea5b3e5b5b43d3c7c22b6a47c96",
+        "tau": 0.1
+      },
+      "main/panel_Wikipedia__en_/code_leaning_hard/D_code/tau0.1/ones/incl/k2/rG1007/ctl-usage": {
+        "code_leaning": {
+          "group_threshold": 0.9,
+          "ladder": [
+            [
+              16,
+              false
+            ],
+            [
+              64,
+              false
+            ],
+            [
+              256,
+              false
+            ],
+            [
+              1007,
+              false
+            ],
+            [
+              1862,
+              true
+            ]
+          ],
+          "min_selectivity": 0.9001492334825668,
+          "n_group": 1007,
+          "n_wide": 1862,
+          "order_sha256": "7727d4fbe3fe34fd714358e6e16b68cd71431bc942ceda6b16dfdc5415c498f2",
+          "wide_sha256": "5ce83cbb794be3aed7ef9a1520ff6798586f28e063880d5f78f25c443f1eb877",
+          "wide_threshold": 0.75
+        },
+        "control": {
+          "alive_run": "main",
+          "alive_sha256": "ca771bcb10585b0efb52a07c00257729f181eb706d6ee9c283441d84faad0302",
+          "candidates": "alive minus the excluded set (G_0.75)",
+          "draw": 2,
+          "excluded_sha256": "5ce83cbb794be3aed7ef9a1520ff6798586f28e063880d5f78f25c443f1eb877",
+          "family": "code_leaning_hard",
+          "n_alive": 9959,
+          "n_candidates": 8097,
+          "n_members": 1862,
+          "n_twins": 1862,
+          "sampler": "usage_nearest",
+          "seed_pattern": [
+            0,
+            "rand",
+            "code_leaning_hard",
+            2,
+            "<member's global index>"
+          ],
+          "shortfall": {},
+          "shortfall_at_this_rung": 0,
+          "tie_seed_tuple": [
+            0,
+            "rand",
+            "ranked_ties"
+          ],
+          "window": 8
+        },
+        "donor_size": 1007,
+        "donor_unit": "code_leaning",
+        "draw": 2,
+        "family": "code_leaning_hard",
+        "matched_source_sha256": "a89a180ae474f278d3012671a6e642ca8affdcc58609909cf109017c4fbc0b86",
+        "n_on": {
+          "h.0.attn.k_proj": 3,
+          "h.0.attn.o_proj": 13,
+          "h.0.attn.q_proj": 2,
+          "h.0.attn.v_proj": 37,
+          "h.0.mlp.c_fc": 94,
+          "h.0.mlp.down_proj": 105,
+          "h.1.attn.k_proj": 0,
+          "h.1.attn.o_proj": 5,
+          "h.1.attn.q_proj": 0,
+          "h.1.attn.v_proj": 15,
+          "h.1.mlp.c_fc": 7,
+          "h.1.mlp.down_proj": 10,
+          "h.2.attn.k_proj": 7,
+          "h.2.attn.o_proj": 133,
+          "h.2.attn.q_proj": 4,
+          "h.2.attn.v_proj": 59,
+          "h.2.mlp.c_fc": 6,
+          "h.2.mlp.down_proj": 20,
+          "h.3.attn.k_proj": 2,
+          "h.3.attn.o_proj": 18,
+          "h.3.attn.q_proj": 4,
+          "h.3.attn.v_proj": 4,
+          "h.3.mlp.c_fc": 145,
+          "h.3.mlp.down_proj": 314,
+          "total": 1007
+        },
+        "named_n_on": {
+          "h.0.attn.k_proj": 3,
+          "h.0.attn.o_proj": 13,
+          "h.0.attn.q_proj": 2,
+          "h.0.attn.v_proj": 37,
+          "h.0.mlp.c_fc": 94,
+          "h.0.mlp.down_proj": 105,
+          "h.1.attn.k_proj": 0,
+          "h.1.attn.o_proj": 5,
+          "h.1.attn.q_proj": 0,
+          "h.1.attn.v_proj": 15,
+          "h.1.mlp.c_fc": 7,
+          "h.1.mlp.down_proj": 10,
+          "h.2.attn.k_proj": 7,
+          "h.2.attn.o_proj": 133,
+          "h.2.attn.q_proj": 4,
+          "h.2.attn.v_proj": 59,
+          "h.2.mlp.c_fc": 6,
+          "h.2.mlp.down_proj": 20,
+          "h.3.attn.k_proj": 2,
+          "h.3.attn.o_proj": 18,
+          "h.3.attn.q_proj": 4,
+          "h.3.attn.v_proj": 4,
+          "h.3.mlp.c_fc": 145,
+          "h.3.mlp.down_proj": 314,
+          "total": 1007
+        },
+        "pool": "D_code",
+        "rung": "G1007",
+        "seed_tuple": "",
+        "source_sha256": "956a75cc8b38b1150dd1f1aa94721c63515458654d20e7d8ba83be0717b2e8ce",
+        "tau": 0.1
+      },
+      "main/panel_Wikipedia__en_/code_leaning_hard/D_code/tau0.1/ones/incl/k2/rG256/ctl-usage": {
+        "code_leaning": {
+          "group_threshold": 0.9,
+          "ladder": [
+            [
+              16,
+              false
+            ],
+            [
+              64,
+              false
+            ],
+            [
+              256,
+              false
+            ],
+            [
+              1007,
+              false
+            ],
+            [
+              1862,
+              true
+            ]
+          ],
+          "min_selectivity": 0.9893133242382901,
+          "n_group": 1007,
+          "n_wide": 1862,
+          "order_sha256": "7727d4fbe3fe34fd714358e6e16b68cd71431bc942ceda6b16dfdc5415c498f2",
+          "wide_sha256": "5ce83cbb794be3aed7ef9a1520ff6798586f28e063880d5f78f25c443f1eb877",
+          "wide_threshold": 0.75
+        },
+        "control": {
+          "alive_run": "main",
+          "alive_sha256": "ca771bcb10585b0efb52a07c00257729f181eb706d6ee9c283441d84faad0302",
+          "candidates": "alive minus the excluded set (G_0.75)",
+          "draw": 2,
+          "excluded_sha256": "5ce83cbb794be3aed7ef9a1520ff6798586f28e063880d5f78f25c443f1eb877",
+          "family": "code_leaning_hard",
+          "n_alive": 9959,
+          "n_candidates": 8097,
+          "n_members": 1862,
+          "n_twins": 1862,
+          "sampler": "usage_nearest",
+          "seed_pattern": [
+            0,
+            "rand",
+            "code_leaning_hard",
+            2,
+            "<member's global index>"
+          ],
+          "shortfall": {},
+          "shortfall_at_this_rung": 0,
+          "tie_seed_tuple": [
+            0,
+            "rand",
+            "ranked_ties"
+          ],
+          "window": 8
+        },
+        "donor_size": 256,
+        "donor_unit": "code_leaning",
+        "draw": 2,
+        "family": "code_leaning_hard",
+        "matched_source_sha256": "745e0066cdcf744d52629d5a5b78db56b878871173fb2f63af8e17069226fe6b",
+        "n_on": {
+          "h.0.attn.k_proj": 1,
+          "h.0.attn.o_proj": 3,
+          "h.0.attn.q_proj": 1,
+          "h.0.attn.v_proj": 12,
+          "h.0.mlp.c_fc": 28,
+          "h.0.mlp.down_proj": 26,
+          "h.1.attn.k_proj": 0,
+          "h.1.attn.o_proj": 1,
+          "h.1.attn.q_proj": 0,
+          "h.1.attn.v_proj": 3,
+          "h.1.mlp.c_fc": 1,
+          "h.1.mlp.down_proj": 0,
+          "h.2.attn.k_proj": 1,
+          "h.2.attn.o_proj": 29,
+          "h.2.attn.q_proj": 1,
+          "h.2.attn.v_proj": 16,
+          "h.2.mlp.c_fc": 2,
+          "h.2.mlp.down_proj": 3,
+          "h.3.attn.k_proj": 2,
+          "h.3.attn.o_proj": 2,
+          "h.3.attn.q_proj": 3,
+          "h.3.attn.v_proj": 0,
+          "h.3.mlp.c_fc": 40,
+          "h.3.mlp.down_proj": 81,
+          "total": 256
+        },
+        "named_n_on": {
+          "h.0.attn.k_proj": 1,
+          "h.0.attn.o_proj": 3,
+          "h.0.attn.q_proj": 1,
+          "h.0.attn.v_proj": 12,
+          "h.0.mlp.c_fc": 28,
+          "h.0.mlp.down_proj": 26,
+          "h.1.attn.k_proj": 0,
+          "h.1.attn.o_proj": 1,
+          "h.1.attn.q_proj": 0,
+          "h.1.attn.v_proj": 3,
+          "h.1.mlp.c_fc": 1,
+          "h.1.mlp.down_proj": 0,
+          "h.2.attn.k_proj": 1,
+          "h.2.attn.o_proj": 29,
+          "h.2.attn.q_proj": 1,
+          "h.2.attn.v_proj": 16,
+          "h.2.mlp.c_fc": 2,
+          "h.2.mlp.down_proj": 3,
+          "h.3.attn.k_proj": 2,
+          "h.3.attn.o_proj": 2,
+          "h.3.attn.q_proj": 3,
+          "h.3.attn.v_proj": 0,
+          "h.3.mlp.c_fc": 40,
+          "h.3.mlp.down_proj": 81,
+          "total": 256
+        },
+        "pool": "D_code",
+        "rung": "G256",
+        "seed_tuple": "",
+        "source_sha256": "4042412976ca3902bb6ed8eadb0a474df19e5ecc415a0f2d916d3834ab9f2ca5",
+        "tau": 0.1
+      },
+      "main/panel_Wikipedia__en_/code_leaning_hard/D_code/tau0.1/ones/incl/k3/rG1007/ctl-usage": {
+        "code_leaning": {
+          "group_threshold": 0.9,
+          "ladder": [
+            [
+              16,
+              false
+            ],
+            [
+              64,
+              false
+            ],
+            [
+              256,
+              false
+            ],
+            [
+              1007,
+              false
+            ],
+            [
+              1862,
+              true
+            ]
+          ],
+          "min_selectivity": 0.9001492334825668,
+          "n_group": 1007,
+          "n_wide": 1862,
+          "order_sha256": "7727d4fbe3fe34fd714358e6e16b68cd71431bc942ceda6b16dfdc5415c498f2",
+          "wide_sha256": "5ce83cbb794be3aed7ef9a1520ff6798586f28e063880d5f78f25c443f1eb877",
+          "wide_threshold": 0.75
+        },
+        "control": {
+          "alive_run": "main",
+          "alive_sha256": "ca771bcb10585b0efb52a07c00257729f181eb706d6ee9c283441d84faad0302",
+          "candidates": "alive minus the excluded set (G_0.75)",
+          "draw": 3,
+          "excluded_sha256": "5ce83cbb794be3aed7ef9a1520ff6798586f28e063880d5f78f25c443f1eb877",
+          "family": "code_leaning_hard",
+          "n_alive": 9959,
+          "n_candidates": 8097,
+          "n_members": 1862,
+          "n_twins": 1862,
+          "sampler": "usage_nearest",
+          "seed_pattern": [
+            0,
+            "rand",
+            "code_leaning_hard",
+            3,
+            "<member's global index>"
+          ],
+          "shortfall": {},
+          "shortfall_at_this_rung": 0,
+          "tie_seed_tuple": [
+            0,
+            "rand",
+            "ranked_ties"
+          ],
+          "window": 8
+        },
+        "donor_size": 1007,
+        "donor_unit": "code_leaning",
+        "draw": 3,
+        "family": "code_leaning_hard",
+        "matched_source_sha256": "a89a180ae474f278d3012671a6e642ca8affdcc58609909cf109017c4fbc0b86",
+        "n_on": {
+          "h.0.attn.k_proj": 3,
+          "h.0.attn.o_proj": 13,
+          "h.0.attn.q_proj": 2,
+          "h.0.attn.v_proj": 37,
+          "h.0.mlp.c_fc": 94,
+          "h.0.mlp.down_proj": 105,
+          "h.1.attn.k_proj": 0,
+          "h.1.attn.o_proj": 5,
+          "h.1.attn.q_proj": 0,
+          "h.1.attn.v_proj": 15,
+          "h.1.mlp.c_fc": 7,
+          "h.1.mlp.down_proj": 10,
+          "h.2.attn.k_proj": 7,
+          "h.2.attn.o_proj": 133,
+          "h.2.attn.q_proj": 4,
+          "h.2.attn.v_proj": 59,
+          "h.2.mlp.c_fc": 6,
+          "h.2.mlp.down_proj": 20,
+          "h.3.attn.k_proj": 2,
+          "h.3.attn.o_proj": 18,
+          "h.3.attn.q_proj": 4,
+          "h.3.attn.v_proj": 4,
+          "h.3.mlp.c_fc": 145,
+          "h.3.mlp.down_proj": 314,
+          "total": 1007
+        },
+        "named_n_on": {
+          "h.0.attn.k_proj": 3,
+          "h.0.attn.o_proj": 13,
+          "h.0.attn.q_proj": 2,
+          "h.0.attn.v_proj": 37,
+          "h.0.mlp.c_fc": 94,
+          "h.0.mlp.down_proj": 105,
+          "h.1.attn.k_proj": 0,
+          "h.1.attn.o_proj": 5,
+          "h.1.attn.q_proj": 0,
+          "h.1.attn.v_proj": 15,
+          "h.1.mlp.c_fc": 7,
+          "h.1.mlp.down_proj": 10,
+          "h.2.attn.k_proj": 7,
+          "h.2.attn.o_proj": 133,
+          "h.2.attn.q_proj": 4,
+          "h.2.attn.v_proj": 59,
+          "h.2.mlp.c_fc": 6,
+          "h.2.mlp.down_proj": 20,
+          "h.3.attn.k_proj": 2,
+          "h.3.attn.o_proj": 18,
+          "h.3.attn.q_proj": 4,
+          "h.3.attn.v_proj": 4,
+          "h.3.mlp.c_fc": 145,
+          "h.3.mlp.down_proj": 314,
+          "total": 1007
+        },
+        "pool": "D_code",
+        "rung": "G1007",
+        "seed_tuple": "",
+        "source_sha256": "685bed134969c271f66d1998d70abd87c036d3585fd17bd2f77c1791fb58c66d",
+        "tau": 0.1
+      },
+      "main/panel_Wikipedia__en_/code_leaning_hard/D_code/tau0.1/ones/incl/k3/rG256/ctl-usage": {
+        "code_leaning": {
+          "group_threshold": 0.9,
+          "ladder": [
+            [
+              16,
+              false
+            ],
+            [
+              64,
+              false
+            ],
+            [
+              256,
+              false
+            ],
+            [
+              1007,
+              false
+            ],
+            [
+              1862,
+              true
+            ]
+          ],
+          "min_selectivity": 0.9893133242382901,
+          "n_group": 1007,
+          "n_wide": 1862,
+          "order_sha256": "7727d4fbe3fe34fd714358e6e16b68cd71431bc942ceda6b16dfdc5415c498f2",
+          "wide_sha256": "5ce83cbb794be3aed7ef9a1520ff6798586f28e063880d5f78f25c443f1eb877",
+          "wide_threshold": 0.75
+        },
+        "control": {
+          "alive_run": "main",
+          "alive_sha256": "ca771bcb10585b0efb52a07c00257729f181eb706d6ee9c283441d84faad0302",
+          "candidates": "alive minus the excluded set (G_0.75)",
+          "draw": 3,
+          "excluded_sha256": "5ce83cbb794be3aed7ef9a1520ff6798586f28e063880d5f78f25c443f1eb877",
+          "family": "code_leaning_hard",
+          "n_alive": 9959,
+          "n_candidates": 8097,
+          "n_members": 1862,
+          "n_twins": 1862,
+          "sampler": "usage_nearest",
+          "seed_pattern": [
+            0,
+            "rand",
+            "code_leaning_hard",
+            3,
+            "<member's global index>"
+          ],
+          "shortfall": {},
+          "shortfall_at_this_rung": 0,
+          "tie_seed_tuple": [
+            0,
+            "rand",
+            "ranked_ties"
+          ],
+          "window": 8
+        },
+        "donor_size": 256,
+        "donor_unit": "code_leaning",
+        "draw": 3,
+        "family": "code_leaning_hard",
+        "matched_source_sha256": "745e0066cdcf744d52629d5a5b78db56b878871173fb2f63af8e17069226fe6b",
+        "n_on": {
+          "h.0.attn.k_proj": 1,
+          "h.0.attn.o_proj": 3,
+          "h.0.attn.q_proj": 1,
+          "h.0.attn.v_proj": 12,
+          "h.0.mlp.c_fc": 28,
+          "h.0.mlp.down_proj": 26,
+          "h.1.attn.k_proj": 0,
+          "h.1.attn.o_proj": 1,
+          "h.1.attn.q_proj": 0,
+          "h.1.attn.v_proj": 3,
+          "h.1.mlp.c_fc": 1,
+          "h.1.mlp.down_proj": 0,
+          "h.2.attn.k_proj": 1,
+          "h.2.attn.o_proj": 29,
+          "h.2.attn.q_proj": 1,
+          "h.2.attn.v_proj": 16,
+          "h.2.mlp.c_fc": 2,
+          "h.2.mlp.down_proj": 3,
+          "h.3.attn.k_proj": 2,
+          "h.3.attn.o_proj": 2,
+          "h.3.attn.q_proj": 3,
+          "h.3.attn.v_proj": 0,
+          "h.3.mlp.c_fc": 40,
+          "h.3.mlp.down_proj": 81,
+          "total": 256
+        },
+        "named_n_on": {
+          "h.0.attn.k_proj": 1,
+          "h.0.attn.o_proj": 3,
+          "h.0.attn.q_proj": 1,
+          "h.0.attn.v_proj": 12,
+          "h.0.mlp.c_fc": 28,
+          "h.0.mlp.down_proj": 26,
+          "h.1.attn.k_proj": 0,
+          "h.1.attn.o_proj": 1,
+          "h.1.attn.q_proj": 0,
+          "h.1.attn.v_proj": 3,
+          "h.1.mlp.c_fc": 1,
+          "h.1.mlp.down_proj": 0,
+          "h.2.attn.k_proj": 1,
+          "h.2.attn.o_proj": 29,
+          "h.2.attn.q_proj": 1,
+          "h.2.attn.v_proj": 16,
+          "h.2.mlp.c_fc": 2,
+          "h.2.mlp.down_proj": 3,
+          "h.3.attn.k_proj": 2,
+          "h.3.attn.o_proj": 2,
+          "h.3.attn.q_proj": 3,
+          "h.3.attn.v_proj": 0,
+          "h.3.mlp.c_fc": 40,
+          "h.3.mlp.down_proj": 81,
+          "total": 256
+        },
+        "pool": "D_code",
+        "rung": "G256",
+        "seed_tuple": "",
+        "source_sha256": "9480934a31f5dfd1ff2b6c6cd814012c2fa0b8d55ea4df3e05ffc6f591e8bf0f",
+        "tau": 0.1
+      },
+      "main/panel_Wikipedia__en_/code_leaning_hard/D_code/tau0.1/ones/incl/k4/rG1007/ctl-usage": {
+        "code_leaning": {
+          "group_threshold": 0.9,
+          "ladder": [
+            [
+              16,
+              false
+            ],
+            [
+              64,
+              false
+            ],
+            [
+              256,
+              false
+            ],
+            [
+              1007,
+              false
+            ],
+            [
+              1862,
+              true
+            ]
+          ],
+          "min_selectivity": 0.9001492334825668,
+          "n_group": 1007,
+          "n_wide": 1862,
+          "order_sha256": "7727d4fbe3fe34fd714358e6e16b68cd71431bc942ceda6b16dfdc5415c498f2",
+          "wide_sha256": "5ce83cbb794be3aed7ef9a1520ff6798586f28e063880d5f78f25c443f1eb877",
+          "wide_threshold": 0.75
+        },
+        "control": {
+          "alive_run": "main",
+          "alive_sha256": "ca771bcb10585b0efb52a07c00257729f181eb706d6ee9c283441d84faad0302",
+          "candidates": "alive minus the excluded set (G_0.75)",
+          "draw": 4,
+          "excluded_sha256": "5ce83cbb794be3aed7ef9a1520ff6798586f28e063880d5f78f25c443f1eb877",
+          "family": "code_leaning_hard",
+          "n_alive": 9959,
+          "n_candidates": 8097,
+          "n_members": 1862,
+          "n_twins": 1862,
+          "sampler": "usage_nearest",
+          "seed_pattern": [
+            0,
+            "rand",
+            "code_leaning_hard",
+            4,
+            "<member's global index>"
+          ],
+          "shortfall": {},
+          "shortfall_at_this_rung": 0,
+          "tie_seed_tuple": [
+            0,
+            "rand",
+            "ranked_ties"
+          ],
+          "window": 8
+        },
+        "donor_size": 1007,
+        "donor_unit": "code_leaning",
+        "draw": 4,
+        "family": "code_leaning_hard",
+        "matched_source_sha256": "a89a180ae474f278d3012671a6e642ca8affdcc58609909cf109017c4fbc0b86",
+        "n_on": {
+          "h.0.attn.k_proj": 3,
+          "h.0.attn.o_proj": 13,
+          "h.0.attn.q_proj": 2,
+          "h.0.attn.v_proj": 37,
+          "h.0.mlp.c_fc": 94,
+          "h.0.mlp.down_proj": 105,
+          "h.1.attn.k_proj": 0,
+          "h.1.attn.o_proj": 5,
+          "h.1.attn.q_proj": 0,
+          "h.1.attn.v_proj": 15,
+          "h.1.mlp.c_fc": 7,
+          "h.1.mlp.down_proj": 10,
+          "h.2.attn.k_proj": 7,
+          "h.2.attn.o_proj": 133,
+          "h.2.attn.q_proj": 4,
+          "h.2.attn.v_proj": 59,
+          "h.2.mlp.c_fc": 6,
+          "h.2.mlp.down_proj": 20,
+          "h.3.attn.k_proj": 2,
+          "h.3.attn.o_proj": 18,
+          "h.3.attn.q_proj": 4,
+          "h.3.attn.v_proj": 4,
+          "h.3.mlp.c_fc": 145,
+          "h.3.mlp.down_proj": 314,
+          "total": 1007
+        },
+        "named_n_on": {
+          "h.0.attn.k_proj": 3,
+          "h.0.attn.o_proj": 13,
+          "h.0.attn.q_proj": 2,
+          "h.0.attn.v_proj": 37,
+          "h.0.mlp.c_fc": 94,
+          "h.0.mlp.down_proj": 105,
+          "h.1.attn.k_proj": 0,
+          "h.1.attn.o_proj": 5,
+          "h.1.attn.q_proj": 0,
+          "h.1.attn.v_proj": 15,
+          "h.1.mlp.c_fc": 7,
+          "h.1.mlp.down_proj": 10,
+          "h.2.attn.k_proj": 7,
+          "h.2.attn.o_proj": 133,
+          "h.2.attn.q_proj": 4,
+          "h.2.attn.v_proj": 59,
+          "h.2.mlp.c_fc": 6,
+          "h.2.mlp.down_proj": 20,
+          "h.3.attn.k_proj": 2,
+          "h.3.attn.o_proj": 18,
+          "h.3.attn.q_proj": 4,
+          "h.3.attn.v_proj": 4,
+          "h.3.mlp.c_fc": 145,
+          "h.3.mlp.down_proj": 314,
+          "total": 1007
+        },
+        "pool": "D_code",
+        "rung": "G1007",
+        "seed_tuple": "",
+        "source_sha256": "6ee09131bb93a9fb52aaa0cb54c33d56b54cd7254b25b903d0a70cf15abf2897",
+        "tau": 0.1
+      },
+      "main/panel_Wikipedia__en_/code_leaning_hard/D_code/tau0.1/ones/incl/k4/rG256/ctl-usage": {
+        "code_leaning": {
+          "group_threshold": 0.9,
+          "ladder": [
+            [
+              16,
+              false
+            ],
+            [
+              64,
+              false
+            ],
+            [
+              256,
+              false
+            ],
+            [
+              1007,
+              false
+            ],
+            [
+              1862,
+              true
+            ]
+          ],
+          "min_selectivity": 0.9893133242382901,
+          "n_group": 1007,
+          "n_wide": 1862,
+          "order_sha256": "7727d4fbe3fe34fd714358e6e16b68cd71431bc942ceda6b16dfdc5415c498f2",
+          "wide_sha256": "5ce83cbb794be3aed7ef9a1520ff6798586f28e063880d5f78f25c443f1eb877",
+          "wide_threshold": 0.75
+        },
+        "control": {
+          "alive_run": "main",
+          "alive_sha256": "ca771bcb10585b0efb52a07c00257729f181eb706d6ee9c283441d84faad0302",
+          "candidates": "alive minus the excluded set (G_0.75)",
+          "draw": 4,
+          "excluded_sha256": "5ce83cbb794be3aed7ef9a1520ff6798586f28e063880d5f78f25c443f1eb877",
+          "family": "code_leaning_hard",
+          "n_alive": 9959,
+          "n_candidates": 8097,
+          "n_members": 1862,
+          "n_twins": 1862,
+          "sampler": "usage_nearest",
+          "seed_pattern": [
+            0,
+            "rand",
+            "code_leaning_hard",
+            4,
+            "<member's global index>"
+          ],
+          "shortfall": {},
+          "shortfall_at_this_rung": 0,
+          "tie_seed_tuple": [
+            0,
+            "rand",
+            "ranked_ties"
+          ],
+          "window": 8
+        },
+        "donor_size": 256,
+        "donor_unit": "code_leaning",
+        "draw": 4,
+        "family": "code_leaning_hard",
+        "matched_source_sha256": "745e0066cdcf744d52629d5a5b78db56b878871173fb2f63af8e17069226fe6b",
+        "n_on": {
+          "h.0.attn.k_proj": 1,
+          "h.0.attn.o_proj": 3,
+          "h.0.attn.q_proj": 1,
+          "h.0.attn.v_proj": 12,
+          "h.0.mlp.c_fc": 28,
+          "h.0.mlp.down_proj": 26,
+          "h.1.attn.k_proj": 0,
+          "h.1.attn.o_proj": 1,
+          "h.1.attn.q_proj": 0,
+          "h.1.attn.v_proj": 3,
+          "h.1.mlp.c_fc": 1,
+          "h.1.mlp.down_proj": 0,
+          "h.2.attn.k_proj": 1,
+          "h.2.attn.o_proj": 29,
+          "h.2.attn.q_proj": 1,
+          "h.2.attn.v_proj": 16,
+          "h.2.mlp.c_fc": 2,
+          "h.2.mlp.down_proj": 3,
+          "h.3.attn.k_proj": 2,
+          "h.3.attn.o_proj": 2,
+          "h.3.attn.q_proj": 3,
+          "h.3.attn.v_proj": 0,
+          "h.3.mlp.c_fc": 40,
+          "h.3.mlp.down_proj": 81,
+          "total": 256
+        },
+        "named_n_on": {
+          "h.0.attn.k_proj": 1,
+          "h.0.attn.o_proj": 3,
+          "h.0.attn.q_proj": 1,
+          "h.0.attn.v_proj": 12,
+          "h.0.mlp.c_fc": 28,
+          "h.0.mlp.down_proj": 26,
+          "h.1.attn.k_proj": 0,
+          "h.1.attn.o_proj": 1,
+          "h.1.attn.q_proj": 0,
+          "h.1.attn.v_proj": 3,
+          "h.1.mlp.c_fc": 1,
+          "h.1.mlp.down_proj": 0,
+          "h.2.attn.k_proj": 1,
+          "h.2.attn.o_proj": 29,
+          "h.2.attn.q_proj": 1,
+          "h.2.attn.v_proj": 16,
+          "h.2.mlp.c_fc": 2,
+          "h.2.mlp.down_proj": 3,
+          "h.3.attn.k_proj": 2,
+          "h.3.attn.o_proj": 2,
+          "h.3.attn.q_proj": 3,
+          "h.3.attn.v_proj": 0,
+          "h.3.mlp.c_fc": 40,
+          "h.3.mlp.down_proj": 81,
+          "total": 256
+        },
+        "pool": "D_code",
+        "rung": "G256",
+        "seed_tuple": "",
+        "source_sha256": "bd8033db81c8effb1f626ce8b8b8d5bce026ffbb087d87d04cf10d62c3f3270f",
+        "tau": 0.1
+      },
+      "main/panel_Wikipedia__en_/code_leaning_hard/D_code/tau0.1/ones/incl/k5/rG1007/ctl-usage": {
+        "code_leaning": {
+          "group_threshold": 0.9,
+          "ladder": [
+            [
+              16,
+              false
+            ],
+            [
+              64,
+              false
+            ],
+            [
+              256,
+              false
+            ],
+            [
+              1007,
+              false
+            ],
+            [
+              1862,
+              true
+            ]
+          ],
+          "min_selectivity": 0.9001492334825668,
+          "n_group": 1007,
+          "n_wide": 1862,
+          "order_sha256": "7727d4fbe3fe34fd714358e6e16b68cd71431bc942ceda6b16dfdc5415c498f2",
+          "wide_sha256": "5ce83cbb794be3aed7ef9a1520ff6798586f28e063880d5f78f25c443f1eb877",
+          "wide_threshold": 0.75
+        },
+        "control": {
+          "alive_run": "main",
+          "alive_sha256": "ca771bcb10585b0efb52a07c00257729f181eb706d6ee9c283441d84faad0302",
+          "candidates": "alive minus the excluded set (G_0.75)",
+          "draw": 5,
+          "excluded_sha256": "5ce83cbb794be3aed7ef9a1520ff6798586f28e063880d5f78f25c443f1eb877",
+          "family": "code_leaning_hard",
+          "n_alive": 9959,
+          "n_candidates": 8097,
+          "n_members": 1862,
+          "n_twins": 1862,
+          "sampler": "usage_nearest",
+          "seed_pattern": [
+            0,
+            "rand",
+            "code_leaning_hard",
+            5,
+            "<member's global index>"
+          ],
+          "shortfall": {},
+          "shortfall_at_this_rung": 0,
+          "tie_seed_tuple": [
+            0,
+            "rand",
+            "ranked_ties"
+          ],
+          "window": 8
+        },
+        "donor_size": 1007,
+        "donor_unit": "code_leaning",
+        "draw": 5,
+        "family": "code_leaning_hard",
+        "matched_source_sha256": "a89a180ae474f278d3012671a6e642ca8affdcc58609909cf109017c4fbc0b86",
+        "n_on": {
+          "h.0.attn.k_proj": 3,
+          "h.0.attn.o_proj": 13,
+          "h.0.attn.q_proj": 2,
+          "h.0.attn.v_proj": 37,
+          "h.0.mlp.c_fc": 94,
+          "h.0.mlp.down_proj": 105,
+          "h.1.attn.k_proj": 0,
+          "h.1.attn.o_proj": 5,
+          "h.1.attn.q_proj": 0,
+          "h.1.attn.v_proj": 15,
+          "h.1.mlp.c_fc": 7,
+          "h.1.mlp.down_proj": 10,
+          "h.2.attn.k_proj": 7,
+          "h.2.attn.o_proj": 133,
+          "h.2.attn.q_proj": 4,
+          "h.2.attn.v_proj": 59,
+          "h.2.mlp.c_fc": 6,
+          "h.2.mlp.down_proj": 20,
+          "h.3.attn.k_proj": 2,
+          "h.3.attn.o_proj": 18,
+          "h.3.attn.q_proj": 4,
+          "h.3.attn.v_proj": 4,
+          "h.3.mlp.c_fc": 145,
+          "h.3.mlp.down_proj": 314,
+          "total": 1007
+        },
+        "named_n_on": {
+          "h.0.attn.k_proj": 3,
+          "h.0.attn.o_proj": 13,
+          "h.0.attn.q_proj": 2,
+          "h.0.attn.v_proj": 37,
+          "h.0.mlp.c_fc": 94,
+          "h.0.mlp.down_proj": 105,
+          "h.1.attn.k_proj": 0,
+          "h.1.attn.o_proj": 5,
+          "h.1.attn.q_proj": 0,
+          "h.1.attn.v_proj": 15,
+          "h.1.mlp.c_fc": 7,
+          "h.1.mlp.down_proj": 10,
+          "h.2.attn.k_proj": 7,
+          "h.2.attn.o_proj": 133,
+          "h.2.attn.q_proj": 4,
+          "h.2.attn.v_proj": 59,
+          "h.2.mlp.c_fc": 6,
+          "h.2.mlp.down_proj": 20,
+          "h.3.attn.k_proj": 2,
+          "h.3.attn.o_proj": 18,
+          "h.3.attn.q_proj": 4,
+          "h.3.attn.v_proj": 4,
+          "h.3.mlp.c_fc": 145,
+          "h.3.mlp.down_proj": 314,
+          "total": 1007
+        },
+        "pool": "D_code",
+        "rung": "G1007",
+        "seed_tuple": "",
+        "source_sha256": "fe8da1850197c02736da06d82b5acd9717e3fdf4b2d2a95388975a29fb841097",
+        "tau": 0.1
+      },
+      "main/panel_Wikipedia__en_/code_leaning_hard/D_code/tau0.1/ones/incl/k5/rG256/ctl-usage": {
+        "code_leaning": {
+          "group_threshold": 0.9,
+          "ladder": [
+            [
+              16,
+              false
+            ],
+            [
+              64,
+              false
+            ],
+            [
+              256,
+              false
+            ],
+            [
+              1007,
+              false
+            ],
+            [
+              1862,
+              true
+            ]
+          ],
+          "min_selectivity": 0.9893133242382901,
+          "n_group": 1007,
+          "n_wide": 1862,
+          "order_sha256": "7727d4fbe3fe34fd714358e6e16b68cd71431bc942ceda6b16dfdc5415c498f2",
+          "wide_sha256": "5ce83cbb794be3aed7ef9a1520ff6798586f28e063880d5f78f25c443f1eb877",
+          "wide_threshold": 0.75
+        },
+        "control": {
+          "alive_run": "main",
+          "alive_sha256": "ca771bcb10585b0efb52a07c00257729f181eb706d6ee9c283441d84faad0302",
+          "candidates": "alive minus the excluded set (G_0.75)",
+          "draw": 5,
+          "excluded_sha256": "5ce83cbb794be3aed7ef9a1520ff6798586f28e063880d5f78f25c443f1eb877",
+          "family": "code_leaning_hard",
+          "n_alive": 9959,
+          "n_candidates": 8097,
+          "n_members": 1862,
+          "n_twins": 1862,
+          "sampler": "usage_nearest",
+          "seed_pattern": [
+            0,
+            "rand",
+            "code_leaning_hard",
+            5,
+            "<member's global index>"
+          ],
+          "shortfall": {},
+          "shortfall_at_this_rung": 0,
+          "tie_seed_tuple": [
+            0,
+            "rand",
+            "ranked_ties"
+          ],
+          "window": 8
+        },
+        "donor_size": 256,
+        "donor_unit": "code_leaning",
+        "draw": 5,
+        "family": "code_leaning_hard",
+        "matched_source_sha256": "745e0066cdcf744d52629d5a5b78db56b878871173fb2f63af8e17069226fe6b",
+        "n_on": {
+          "h.0.attn.k_proj": 1,
+          "h.0.attn.o_proj": 3,
+          "h.0.attn.q_proj": 1,
+          "h.0.attn.v_proj": 12,
+          "h.0.mlp.c_fc": 28,
+          "h.0.mlp.down_proj": 26,
+          "h.1.attn.k_proj": 0,
+          "h.1.attn.o_proj": 1,
+          "h.1.attn.q_proj": 0,
+          "h.1.attn.v_proj": 3,
+          "h.1.mlp.c_fc": 1,
+          "h.1.mlp.down_proj": 0,
+          "h.2.attn.k_proj": 1,
+          "h.2.attn.o_proj": 29,
+          "h.2.attn.q_proj": 1,
+          "h.2.attn.v_proj": 16,
+          "h.2.mlp.c_fc": 2,
+          "h.2.mlp.down_proj": 3,
+          "h.3.attn.k_proj": 2,
+          "h.3.attn.o_proj": 2,
+          "h.3.attn.q_proj": 3,
+          "h.3.attn.v_proj": 0,
+          "h.3.mlp.c_fc": 40,
+          "h.3.mlp.down_proj": 81,
+          "total": 256
+        },
+        "named_n_on": {
+          "h.0.attn.k_proj": 1,
+          "h.0.attn.o_proj": 3,
+          "h.0.attn.q_proj": 1,
+          "h.0.attn.v_proj": 12,
+          "h.0.mlp.c_fc": 28,
+          "h.0.mlp.down_proj": 26,
+          "h.1.attn.k_proj": 0,
+          "h.1.attn.o_proj": 1,
+          "h.1.attn.q_proj": 0,
+          "h.1.attn.v_proj": 3,
+          "h.1.mlp.c_fc": 1,
+          "h.1.mlp.down_proj": 0,
+          "h.2.attn.k_proj": 1,
+          "h.2.attn.o_proj": 29,
+          "h.2.attn.q_proj": 1,
+          "h.2.attn.v_proj": 16,
+          "h.2.mlp.c_fc": 2,
+          "h.2.mlp.down_proj": 3,
+          "h.3.attn.k_proj": 2,
+          "h.3.attn.o_proj": 2,
+          "h.3.attn.q_proj": 3,
+          "h.3.attn.v_proj": 0,
+          "h.3.mlp.c_fc": 40,
+          "h.3.mlp.down_proj": 81,
+          "total": 256
+        },
+        "pool": "D_code",
+        "rung": "G256",
+        "seed_tuple": "",
+        "source_sha256": "c479d4d372af9f4145422826360e52ab4519ce5f0d02153f89f56917a1c304de",
+        "tau": 0.1
+      },
+      "main/panel_Wikipedia__en_/code_leaning_hard/D_code/tau0.1/ones/incl/k6/rG1007/ctl-usage": {
+        "code_leaning": {
+          "group_threshold": 0.9,
+          "ladder": [
+            [
+              16,
+              false
+            ],
+            [
+              64,
+              false
+            ],
+            [
+              256,
+              false
+            ],
+            [
+              1007,
+              false
+            ],
+            [
+              1862,
+              true
+            ]
+          ],
+          "min_selectivity": 0.9001492334825668,
+          "n_group": 1007,
+          "n_wide": 1862,
+          "order_sha256": "7727d4fbe3fe34fd714358e6e16b68cd71431bc942ceda6b16dfdc5415c498f2",
+          "wide_sha256": "5ce83cbb794be3aed7ef9a1520ff6798586f28e063880d5f78f25c443f1eb877",
+          "wide_threshold": 0.75
+        },
+        "control": {
+          "alive_run": "main",
+          "alive_sha256": "ca771bcb10585b0efb52a07c00257729f181eb706d6ee9c283441d84faad0302",
+          "candidates": "alive minus the excluded set (G_0.75)",
+          "draw": 6,
+          "excluded_sha256": "5ce83cbb794be3aed7ef9a1520ff6798586f28e063880d5f78f25c443f1eb877",
+          "family": "code_leaning_hard",
+          "n_alive": 9959,
+          "n_candidates": 8097,
+          "n_members": 1862,
+          "n_twins": 1862,
+          "sampler": "usage_nearest",
+          "seed_pattern": [
+            0,
+            "rand",
+            "code_leaning_hard",
+            6,
+            "<member's global index>"
+          ],
+          "shortfall": {},
+          "shortfall_at_this_rung": 0,
+          "tie_seed_tuple": [
+            0,
+            "rand",
+            "ranked_ties"
+          ],
+          "window": 8
+        },
+        "donor_size": 1007,
+        "donor_unit": "code_leaning",
+        "draw": 6,
+        "family": "code_leaning_hard",
+        "matched_source_sha256": "a89a180ae474f278d3012671a6e642ca8affdcc58609909cf109017c4fbc0b86",
+        "n_on": {
+          "h.0.attn.k_proj": 3,
+          "h.0.attn.o_proj": 13,
+          "h.0.attn.q_proj": 2,
+          "h.0.attn.v_proj": 37,
+          "h.0.mlp.c_fc": 94,
+          "h.0.mlp.down_proj": 105,
+          "h.1.attn.k_proj": 0,
+          "h.1.attn.o_proj": 5,
+          "h.1.attn.q_proj": 0,
+          "h.1.attn.v_proj": 15,
+          "h.1.mlp.c_fc": 7,
+          "h.1.mlp.down_proj": 10,
+          "h.2.attn.k_proj": 7,
+          "h.2.attn.o_proj": 133,
+          "h.2.attn.q_proj": 4,
+          "h.2.attn.v_proj": 59,
+          "h.2.mlp.c_fc": 6,
+          "h.2.mlp.down_proj": 20,
+          "h.3.attn.k_proj": 2,
+          "h.3.attn.o_proj": 18,
+          "h.3.attn.q_proj": 4,
+          "h.3.attn.v_proj": 4,
+          "h.3.mlp.c_fc": 145,
+          "h.3.mlp.down_proj": 314,
+          "total": 1007
+        },
+        "named_n_on": {
+          "h.0.attn.k_proj": 3,
+          "h.0.attn.o_proj": 13,
+          "h.0.attn.q_proj": 2,
+          "h.0.attn.v_proj": 37,
+          "h.0.mlp.c_fc": 94,
+          "h.0.mlp.down_proj": 105,
+          "h.1.attn.k_proj": 0,
+          "h.1.attn.o_proj": 5,
+          "h.1.attn.q_proj": 0,
+          "h.1.attn.v_proj": 15,
+          "h.1.mlp.c_fc": 7,
+          "h.1.mlp.down_proj": 10,
+          "h.2.attn.k_proj": 7,
+          "h.2.attn.o_proj": 133,
+          "h.2.attn.q_proj": 4,
+          "h.2.attn.v_proj": 59,
+          "h.2.mlp.c_fc": 6,
+          "h.2.mlp.down_proj": 20,
+          "h.3.attn.k_proj": 2,
+          "h.3.attn.o_proj": 18,
+          "h.3.attn.q_proj": 4,
+          "h.3.attn.v_proj": 4,
+          "h.3.mlp.c_fc": 145,
+          "h.3.mlp.down_proj": 314,
+          "total": 1007
+        },
+        "pool": "D_code",
+        "rung": "G1007",
+        "seed_tuple": "",
+        "source_sha256": "dc08df64bc07ce74d392625c6b45621a06a2a72854db827d41c5c1871538956f",
+        "tau": 0.1
+      },
+      "main/panel_Wikipedia__en_/code_leaning_hard/D_code/tau0.1/ones/incl/k6/rG256/ctl-usage": {
+        "code_leaning": {
+          "group_threshold": 0.9,
+          "ladder": [
+            [
+              16,
+              false
+            ],
+            [
+              64,
+              false
+            ],
+            [
+              256,
+              false
+            ],
+            [
+              1007,
+              false
+            ],
+            [
+              1862,
+              true
+            ]
+          ],
+          "min_selectivity": 0.9893133242382901,
+          "n_group": 1007,
+          "n_wide": 1862,
+          "order_sha256": "7727d4fbe3fe34fd714358e6e16b68cd71431bc942ceda6b16dfdc5415c498f2",
+          "wide_sha256": "5ce83cbb794be3aed7ef9a1520ff6798586f28e063880d5f78f25c443f1eb877",
+          "wide_threshold": 0.75
+        },
+        "control": {
+          "alive_run": "main",
+          "alive_sha256": "ca771bcb10585b0efb52a07c00257729f181eb706d6ee9c283441d84faad0302",
+          "candidates": "alive minus the excluded set (G_0.75)",
+          "draw": 6,
+          "excluded_sha256": "5ce83cbb794be3aed7ef9a1520ff6798586f28e063880d5f78f25c443f1eb877",
+          "family": "code_leaning_hard",
+          "n_alive": 9959,
+          "n_candidates": 8097,
+          "n_members": 1862,
+          "n_twins": 1862,
+          "sampler": "usage_nearest",
+          "seed_pattern": [
+            0,
+            "rand",
+            "code_leaning_hard",
+            6,
+            "<member's global index>"
+          ],
+          "shortfall": {},
+          "shortfall_at_this_rung": 0,
+          "tie_seed_tuple": [
+            0,
+            "rand",
+            "ranked_ties"
+          ],
+          "window": 8
+        },
+        "donor_size": 256,
+        "donor_unit": "code_leaning",
+        "draw": 6,
+        "family": "code_leaning_hard",
+        "matched_source_sha256": "745e0066cdcf744d52629d5a5b78db56b878871173fb2f63af8e17069226fe6b",
+        "n_on": {
+          "h.0.attn.k_proj": 1,
+          "h.0.attn.o_proj": 3,
+          "h.0.attn.q_proj": 1,
+          "h.0.attn.v_proj": 12,
+          "h.0.mlp.c_fc": 28,
+          "h.0.mlp.down_proj": 26,
+          "h.1.attn.k_proj": 0,
+          "h.1.attn.o_proj": 1,
+          "h.1.attn.q_proj": 0,
+          "h.1.attn.v_proj": 3,
+          "h.1.mlp.c_fc": 1,
+          "h.1.mlp.down_proj": 0,
+          "h.2.attn.k_proj": 1,
+          "h.2.attn.o_proj": 29,
+          "h.2.attn.q_proj": 1,
+          "h.2.attn.v_proj": 16,
+          "h.2.mlp.c_fc": 2,
+          "h.2.mlp.down_proj": 3,
+          "h.3.attn.k_proj": 2,
+          "h.3.attn.o_proj": 2,
+          "h.3.attn.q_proj": 3,
+          "h.3.attn.v_proj": 0,
+          "h.3.mlp.c_fc": 40,
+          "h.3.mlp.down_proj": 81,
+          "total": 256
+        },
+        "named_n_on": {
+          "h.0.attn.k_proj": 1,
+          "h.0.attn.o_proj": 3,
+          "h.0.attn.q_proj": 1,
+          "h.0.attn.v_proj": 12,
+          "h.0.mlp.c_fc": 28,
+          "h.0.mlp.down_proj": 26,
+          "h.1.attn.k_proj": 0,
+          "h.1.attn.o_proj": 1,
+          "h.1.attn.q_proj": 0,
+          "h.1.attn.v_proj": 3,
+          "h.1.mlp.c_fc": 1,
+          "h.1.mlp.down_proj": 0,
+          "h.2.attn.k_proj": 1,
+          "h.2.attn.o_proj": 29,
+          "h.2.attn.q_proj": 1,
+          "h.2.attn.v_proj": 16,
+          "h.2.mlp.c_fc": 2,
+          "h.2.mlp.down_proj": 3,
+          "h.3.attn.k_proj": 2,
+          "h.3.attn.o_proj": 2,
+          "h.3.attn.q_proj": 3,
+          "h.3.attn.v_proj": 0,
+          "h.3.mlp.c_fc": 40,
+          "h.3.mlp.down_proj": 81,
+          "total": 256
+        },
+        "pool": "D_code",
+        "rung": "G256",
+        "seed_tuple": "",
+        "source_sha256": "332fc33ef5ad4395cbf8543e07c66602b7b830a6afb8c9207778cd9971bad32a",
+        "tau": 0.1
+      },
+      "main/panel_Wikipedia__en_/code_leaning_hard/D_code/tau0.1/ones/incl/k7/rG1007/ctl-usage": {
+        "code_leaning": {
+          "group_threshold": 0.9,
+          "ladder": [
+            [
+              16,
+              false
+            ],
+            [
+              64,
+              false
+            ],
+            [
+              256,
+              false
+            ],
+            [
+              1007,
+              false
+            ],
+            [
+              1862,
+              true
+            ]
+          ],
+          "min_selectivity": 0.9001492334825668,
+          "n_group": 1007,
+          "n_wide": 1862,
+          "order_sha256": "7727d4fbe3fe34fd714358e6e16b68cd71431bc942ceda6b16dfdc5415c498f2",
+          "wide_sha256": "5ce83cbb794be3aed7ef9a1520ff6798586f28e063880d5f78f25c443f1eb877",
+          "wide_threshold": 0.75
+        },
+        "control": {
+          "alive_run": "main",
+          "alive_sha256": "ca771bcb10585b0efb52a07c00257729f181eb706d6ee9c283441d84faad0302",
+          "candidates": "alive minus the excluded set (G_0.75)",
+          "draw": 7,
+          "excluded_sha256": "5ce83cbb794be3aed7ef9a1520ff6798586f28e063880d5f78f25c443f1eb877",
+          "family": "code_leaning_hard",
+          "n_alive": 9959,
+          "n_candidates": 8097,
+          "n_members": 1862,
+          "n_twins": 1862,
+          "sampler": "usage_nearest",
+          "seed_pattern": [
+            0,
+            "rand",
+            "code_leaning_hard",
+            7,
+            "<member's global index>"
+          ],
+          "shortfall": {},
+          "shortfall_at_this_rung": 0,
+          "tie_seed_tuple": [
+            0,
+            "rand",
+            "ranked_ties"
+          ],
+          "window": 8
+        },
+        "donor_size": 1007,
+        "donor_unit": "code_leaning",
+        "draw": 7,
+        "family": "code_leaning_hard",
+        "matched_source_sha256": "a89a180ae474f278d3012671a6e642ca8affdcc58609909cf109017c4fbc0b86",
+        "n_on": {
+          "h.0.attn.k_proj": 3,
+          "h.0.attn.o_proj": 13,
+          "h.0.attn.q_proj": 2,
+          "h.0.attn.v_proj": 37,
+          "h.0.mlp.c_fc": 94,
+          "h.0.mlp.down_proj": 105,
+          "h.1.attn.k_proj": 0,
+          "h.1.attn.o_proj": 5,
+          "h.1.attn.q_proj": 0,
+          "h.1.attn.v_proj": 15,
+          "h.1.mlp.c_fc": 7,
+          "h.1.mlp.down_proj": 10,
+          "h.2.attn.k_proj": 7,
+          "h.2.attn.o_proj": 133,
+          "h.2.attn.q_proj": 4,
+          "h.2.attn.v_proj": 59,
+          "h.2.mlp.c_fc": 6,
+          "h.2.mlp.down_proj": 20,
+          "h.3.attn.k_proj": 2,
+          "h.3.attn.o_proj": 18,
+          "h.3.attn.q_proj": 4,
+          "h.3.attn.v_proj": 4,
+          "h.3.mlp.c_fc": 145,
+          "h.3.mlp.down_proj": 314,
+          "total": 1007
+        },
+        "named_n_on": {
+          "h.0.attn.k_proj": 3,
+          "h.0.attn.o_proj": 13,
+          "h.0.attn.q_proj": 2,
+          "h.0.attn.v_proj": 37,
+          "h.0.mlp.c_fc": 94,
+          "h.0.mlp.down_proj": 105,
+          "h.1.attn.k_proj": 0,
+          "h.1.attn.o_proj": 5,
+          "h.1.attn.q_proj": 0,
+          "h.1.attn.v_proj": 15,
+          "h.1.mlp.c_fc": 7,
+          "h.1.mlp.down_proj": 10,
+          "h.2.attn.k_proj": 7,
+          "h.2.attn.o_proj": 133,
+          "h.2.attn.q_proj": 4,
+          "h.2.attn.v_proj": 59,
+          "h.2.mlp.c_fc": 6,
+          "h.2.mlp.down_proj": 20,
+          "h.3.attn.k_proj": 2,
+          "h.3.attn.o_proj": 18,
+          "h.3.attn.q_proj": 4,
+          "h.3.attn.v_proj": 4,
+          "h.3.mlp.c_fc": 145,
+          "h.3.mlp.down_proj": 314,
+          "total": 1007
+        },
+        "pool": "D_code",
+        "rung": "G1007",
+        "seed_tuple": "",
+        "source_sha256": "87a25b3faca635384591840ecd1f0518485adc0e1ea765a3939f69ef2ce2612a",
+        "tau": 0.1
+      },
+      "main/panel_Wikipedia__en_/code_leaning_hard/D_code/tau0.1/ones/incl/k7/rG256/ctl-usage": {
+        "code_leaning": {
+          "group_threshold": 0.9,
+          "ladder": [
+            [
+              16,
+              false
+            ],
+            [
+              64,
+              false
+            ],
+            [
+              256,
+              false
+            ],
+            [
+              1007,
+              false
+            ],
+            [
+              1862,
+              true
+            ]
+          ],
+          "min_selectivity": 0.9893133242382901,
+          "n_group": 1007,
+          "n_wide": 1862,
+          "order_sha256": "7727d4fbe3fe34fd714358e6e16b68cd71431bc942ceda6b16dfdc5415c498f2",
+          "wide_sha256": "5ce83cbb794be3aed7ef9a1520ff6798586f28e063880d5f78f25c443f1eb877",
+          "wide_threshold": 0.75
+        },
+        "control": {
+          "alive_run": "main",
+          "alive_sha256": "ca771bcb10585b0efb52a07c00257729f181eb706d6ee9c283441d84faad0302",
+          "candidates": "alive minus the excluded set (G_0.75)",
+          "draw": 7,
+          "excluded_sha256": "5ce83cbb794be3aed7ef9a1520ff6798586f28e063880d5f78f25c443f1eb877",
+          "family": "code_leaning_hard",
+          "n_alive": 9959,
+          "n_candidates": 8097,
+          "n_members": 1862,
+          "n_twins": 1862,
+          "sampler": "usage_nearest",
+          "seed_pattern": [
+            0,
+            "rand",
+            "code_leaning_hard",
+            7,
+            "<member's global index>"
+          ],
+          "shortfall": {},
+          "shortfall_at_this_rung": 0,
+          "tie_seed_tuple": [
+            0,
+            "rand",
+            "ranked_ties"
+          ],
+          "window": 8
+        },
+        "donor_size": 256,
+        "donor_unit": "code_leaning",
+        "draw": 7,
+        "family": "code_leaning_hard",
+        "matched_source_sha256": "745e0066cdcf744d52629d5a5b78db56b878871173fb2f63af8e17069226fe6b",
+        "n_on": {
+          "h.0.attn.k_proj": 1,
+          "h.0.attn.o_proj": 3,
+          "h.0.attn.q_proj": 1,
+          "h.0.attn.v_proj": 12,
+          "h.0.mlp.c_fc": 28,
+          "h.0.mlp.down_proj": 26,
+          "h.1.attn.k_proj": 0,
+          "h.1.attn.o_proj": 1,
+          "h.1.attn.q_proj": 0,
+          "h.1.attn.v_proj": 3,
+          "h.1.mlp.c_fc": 1,
+          "h.1.mlp.down_proj": 0,
+          "h.2.attn.k_proj": 1,
+          "h.2.attn.o_proj": 29,
+          "h.2.attn.q_proj": 1,
+          "h.2.attn.v_proj": 16,
+          "h.2.mlp.c_fc": 2,
+          "h.2.mlp.down_proj": 3,
+          "h.3.attn.k_proj": 2,
+          "h.3.attn.o_proj": 2,
+          "h.3.attn.q_proj": 3,
+          "h.3.attn.v_proj": 0,
+          "h.3.mlp.c_fc": 40,
+          "h.3.mlp.down_proj": 81,
+          "total": 256
+        },
+        "named_n_on": {
+          "h.0.attn.k_proj": 1,
+          "h.0.attn.o_proj": 3,
+          "h.0.attn.q_proj": 1,
+          "h.0.attn.v_proj": 12,
+          "h.0.mlp.c_fc": 28,
+          "h.0.mlp.down_proj": 26,
+          "h.1.attn.k_proj": 0,
+          "h.1.attn.o_proj": 1,
+          "h.1.attn.q_proj": 0,
+          "h.1.attn.v_proj": 3,
+          "h.1.mlp.c_fc": 1,
+          "h.1.mlp.down_proj": 0,
+          "h.2.attn.k_proj": 1,
+          "h.2.attn.o_proj": 29,
+          "h.2.attn.q_proj": 1,
+          "h.2.attn.v_proj": 16,
+          "h.2.mlp.c_fc": 2,
+          "h.2.mlp.down_proj": 3,
+          "h.3.attn.k_proj": 2,
+          "h.3.attn.o_proj": 2,
+          "h.3.attn.q_proj": 3,
+          "h.3.attn.v_proj": 0,
+          "h.3.mlp.c_fc": 40,
+          "h.3.mlp.down_proj": 81,
+          "total": 256
+        },
+        "pool": "D_code",
+        "rung": "G256",
+        "seed_tuple": "",
+        "source_sha256": "ec2e24c751d75e7270f0dd8b799e5df92819145601d64163dbe43ea07143312e",
+        "tau": 0.1
+      },
+      "main/panel_Wikipedia__en_/ref/unmasked_delta": {
+        "kind": "reference"
+      }
+    },
+    "tiers": [
+      1,
+      7
+    ]
+  },
+  "fingerprint": {
+    "dtype_codes": {
+      "torch.bfloat16": 16,
+      "torch.float32": 32
+    },
+    "hex": "16 lowercase hex characters of the value modulo 2^64",
+    "levels": "1: h_b^(l) = sum W x; 2: phi_b; 3: F_i, H_i^(l) with global sequence salts; 4: F = sum_i F_i mod 2^64",
+    "mixer": "splitmix64",
+    "mixer_constants": {
+      "c1": "0xbf58476d1ce4e5b9",
+      "c2": "0x94d049bb133111eb",
+      "shifts": [
+        30,
+        27,
+        31
+      ]
+    },
+    "mixer_reference": "Steele, Lea, Flood, OOPSLA 2014; Vigna, splitmix64.c (public domain), https://prng.di.unimi.it/splitmix64.c",
+    "salts": {
+      "W": 4294967296,
+      "delta": 8589934592,
+      "dtype": 25769803776,
+      "mod": 12884901888,
+      "mod_delta": 17179869184,
+      "res": 30064771072,
+      "seq": 21474836480
+    },
+    "slab": 8,
+    "version": 1
+  },
+  "finished_at": "2026-09-29T14:53:34+0000",
+  "g_dtype": "torch.float32",
+  "gpu_name": "NVIDIA A100-SXM4-40GB",
+  "importance_chunk": 32,
+  "job": "grid_main_t7_panel_Wikipedia__en___panel_edit",
+  "master_seed": 0,
+  "n_draws": 8,
+  "n_sequences": 200,
+  "precision": "bf16",
+  "run": "main",
+  "set_hash": "db20cc73603516ebcc62062e8452ad642478931eda51283c97ef023fa7802018",
+  "set_name": "panel_Wikipedia__en_",
+  "subbatch": 64,
+  "torch_version": "2.8.0+cu128"
+}

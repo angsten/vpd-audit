@@ -1,0 +1,32 @@
+{
+  "committed": "2026-09-17, before the first grid launch",
+  "date": "2026-09-17",
+  "files": {
+    "labels_first_pass.tsv": {
+      "bytes": 42392,
+      "sha256": "caacace68876a02845cdba5cdcdbee186ce76d58c90a125dcd91f63499756730",
+      "source_mtime_utc": "2026-09-17T19:41:53Z"
+    },
+    "labels_labeled_sample.tsv": {
+      "bytes": 10037,
+      "sha256": "418aade40cdaae4bea3255b597bdc57f81f6c70829bd061ee04b3cb309fb1cbc",
+      "source_mtime_utc": "2026-09-17T19:41:53Z"
+    },
+    "labels_second_pass.tsv": {
+      "bytes": 4196,
+      "sha256": "43db6e287d6aba03f255c7628cf5d5857423f60d31383094bfa73837f5fa1279",
+      "source_mtime_utc": "2026-09-17T19:41:53Z"
+    },
+    "rubric.md": {
+      "bytes": 3371,
+      "sha256": "adb5c3c3172525b907e315c4d86b0acc3634a9525c75a9a7927b16731174f1f9",
+      "source_mtime_utc": "2026-09-17T19:24:59Z"
+    },
+    "summary.json": {
+      "bytes": 1875,
+      "sha256": "6e23dd16b59ff071de666d4fc04564676f4278a191828318e64bf37d51636d07",
+      "source_mtime_utc": "2026-09-17T19:43:06Z"
+    }
+  },
+  "note": "These labels were produced by the readers against the rubric (rubric.md) before any grid cell ran; the first grid launch on Modal was at 2026-09-17T19:49:20Z, the files' last modification 2026-09-17T19:43Z or earlier."
+}

@@ -1,0 +1,125 @@
+{
+  "chain_digests": {
+    "hard_zero": {
+      "1": "82ec53e68876850e",
+      "2": "49b19a3a820bcd50",
+      "3": "9732918fc0e6c1e0",
+      "4": "611f682a988bc03c",
+      "5": "b66ad66bf69af64c",
+      "6": "bde0ba2624187245",
+      "7": "f28401c568fe6cfc",
+      "8": "f84c097a5753d180"
+    },
+    "union": {
+      "1": "bdda80035950260c",
+      "2": "79b9cb84b60542fc",
+      "3": "1477d87b326375e2",
+      "4": "249138797deea6b6",
+      "5": "21c3f6ac558e1f42",
+      "6": "f12aed4fcd20b10f",
+      "7": "45db03fddb1ff4dc",
+      "8": "c9a7613ed0301910"
+    }
+  },
+  "checks": [
+    {
+      "detail": "donor position 414199 (seq 808, t 503) of D_unif: n_on at tau 0 = 216 (= the position's count of g > 0: 216); at 0.5 = 164 (strictly fewer); mask = g + (1 - g) rho entrywise on sequence 0 of E: True",
+      "id": "M7",
+      "passed": true
+    },
+    {
+      "detail": "self-union on 5 sequences at tau 0.1: mask bitwise 1 on every subcomponent the sequence itself uses above tau (anywhere in the sequence) and g elsewhere: True; divergence recorded, no expectation: [1.3514, 1.4868, 1.2251, 2.7944, 1.3434]",
+      "id": "M8",
+      "passed": true
+    },
+    {
+      "detail": "float32, 4 sequences: zeroing all 24 masks at position 100 of sequence 0: positions 0-99 max |dlogit| 0.00e+00 (< 1e-5), position 100 changed by 91.511, later positions max 2.731, every other sequence bitwise unchanged: True",
+      "id": "M9",
+      "passed": true
+    },
+    {
+      "detail": "hard-zero chain, entries with m < g over the whole set per rung: {'1': 14565698, '2': 37484767, '3': 88750308, '4': 99734732, '5': 104728643, '6': 106103990, '7': 106399508, '8': 106411664, '0': 0}; zero at rung 0, non-decreasing within rungs 1-3 and 4-8, positive at rung 8: True; positions with at least one such entry at rung 8: 524288",
+      "id": "M10b",
+      "passed": true
+    },
+    {
+      "detail": "hard_zero chain: mask_fp_cell over rungs 0-8 pairwise distinct: True; rung 0 is the unmasked_delta reference's digest 024234d03dac9c1f; digests {'1': '82ec53e68876850e', '2': '49b19a3a820bcd50', '3': '9732918fc0e6c1e0', '4': '611f682a988bc03c', '5': 'b66ad66bf69af64c', '6': 'bde0ba2624187245', '7': 'f28401c568fe6cfc', '8': 'f84c097a5753d180', '0': '024234d03dac9c1f'}",
+      "id": "M11",
+      "passed": true
+    },
+    {
+      "detail": "union chain: mask_fp_cell over rungs 0-8 pairwise distinct: True; rung 0 is the importances reference's digest 4f2c2f16c0dff16f; digests {'1': 'bdda80035950260c', '2': '79b9cb84b60542fc', '3': '1477d87b326375e2', '4': '249138797deea6b6', '5': '21c3f6ac558e1f42', '6': 'f12aed4fcd20b10f', '7': '45db03fddb1ff4dc', '8': 'c9a7613ed0301910', '0': '4f2c2f16c0dff16f'}",
+      "id": "M11",
+      "passed": true
+    },
+    {
+      "detail": "union chain ends: rung 0 (importances) 0.3417, rung 8 (the whole pool) 1.2876: |difference| 0.9458 > 0.01 (P1); P2 reported: rung 8 against unmasked 0.0115 and importances 0.3417",
+      "id": "M14",
+      "passed": true
+    },
+    {
+      "detail": "hard-zero rung 8 (Delta included) mean divergence 11.314 against zero-all 67.105: order of tens of nats, reported",
+      "id": "H3",
+      "passed": null
+    },
+    {
+      "detail": "rung 4: erased (6764) exactly 0 at every position: True; others exactly 1: True; residual 1 when included: True, absent when excluded: True; rung 8: erased (9966) exactly 0 at every position: True; others exactly 1: True; residual 1 when included: True, absent when excluded: True; rung 0 excluded: digest equals the unmasked reference's on this sub-batch: True; rung 0 included: divergence from the target over the set 6.23e-04 (< 1e-03 in bf16); the float32 clause on one sub-batch of 32: -3.73e-09 (< 1e-5); teeth: M10b's rung-8 count 106411664 > 0",
+      "id": "H1",
+      "passed": true
+    },
+    {
+      "detail": "every rung and draw at tau 0.1 and 0.5: rho_spec <= rho_union(J_code), rho_spec . rho_union(D_prose) = 0, one prose hash per tau (2 values), 1[f_prose > 0] = rho_union(D_prose) exactly, rung-8 identity, sub-rungs inside rung 8: True; tau 0.1: prose-named 9513, rung-8 specific 270 of code 9624; sub-rungs [4, 16, 64] all subsets of rung 8: True; tau 0.5: prose-named 9183, rung-8 specific 379 of code 9378; sub-rungs [4, 16, 64] all subsets of rung 8: True",
+      "id": "M15",
+      "passed": true
+    },
+    {
+      "detail": "256 sequences of E_lab_other, draw 0, tau 0.1: t*(specific) >= t*(plain) for every sequence, rung, tau_q: True; t*(tau_q=0) <= t*(tau_q=0.1): True; non-increasing within each nested run: True; clean-prefix fraction at tau_q 0.1 per rung, plain [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], specific [1.0, 0.934, 0.827, 0.738, 0.694, 0.585, 0.57, 0.529]",
+      "id": "M16",
+      "passed": true
+    },
+    {
+      "detail": "float32, sequence 0, residual excluded, against EditableModel._edited_forward_batched, unbound, on a stand-in exposing .model: rung 4 (6058 edits): max |ours - theirs| = 0.00e+00; S4 (4 edits): max |ours - theirs| = 0.00e+00 (< 1e-4)",
+      "id": "H2",
+      "passed": true
+    }
+  ],
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "hard_zero_counts": {
+    "0": 0,
+    "1": 14565698,
+    "2": 37484767,
+    "3": 88750308,
+    "4": 99734732,
+    "5": 104728643,
+    "6": 106103990,
+    "7": 106399508,
+    "8": 106411664
+  },
+  "hard_zero_rung_8": 11.314352989196777,
+  "inputs": {
+    "cache_tag": "main",
+    "chunk": 32,
+    "e_lab_other": "E_lab_other",
+    "e_lab_other_subbatches": 4,
+    "eval_set": "E",
+    "pool_code": "D_code",
+    "pool_prose": "D_prose",
+    "pool_unif": "D_unif",
+    "precision": "bf16",
+    "run": "main",
+    "subbatch": 64
+  },
+  "reference_digests": {
+    "importances": "4f2c2f16c0dff16f",
+    "unmasked": "4163b1ae47afd749",
+    "unmasked_delta": "024234d03dac9c1f",
+    "zero_all": "5d52e5dd34e12e7a"
+  },
+  "seconds": 90.3653211593628,
+  "union_ends": {
+    "rung_0_importances": 0.3417224884033203,
+    "rung_8": 1.2875717878341675,
+    "unmasked": 0.011456811800599098
+  },
+  "zero_all": 67.10455322265625
+}

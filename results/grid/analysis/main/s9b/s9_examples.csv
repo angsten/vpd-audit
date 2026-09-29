@@ -1,0 +1,86 @@
+example_of,mask,percentile,percentile_value,rank_by_nearness,shown,seq,position,kl_at_position,context,real_next_token,top5: the original model,top5: own labels,"top5: the merge of general donors, 8 tokens","top5: the merge of general donors, 64 tokens","top5: the merge of general donors, 1 text",top5: the full decomposed model with the residual,top5: the removal of the never-named pieces
+merge,main/E/union/D_unif/tau0.1/r0/excl/k0/r4,10.0,0.138671875,0,True,313,181,0.13916015625," * right.M23 + left.M33 * right.M33 + left.M34 * right.M43,
+                left.M31 * right.M14 + left.M32 * right.M24 +", left,' left' 0.957; ' right' 0.035; ' Left' 0.001; ' top' 0.001; ' bottom' 0.000,' left' 0.903; ' right' 0.035; 'left' 0.008; ' Left' 0.002; ' bottom' 0.001,' left' 0.776; ' right' 0.050; ' Left' 0.009; 'left' 0.005; ' top' 0.004,' left' 0.896; ' right' 0.089; ' Left' 0.003; ' Right' 0.001; ' top' 0.001,' left' 0.775; ' right' 0.196; ' Left' 0.007; ' middle' 0.004; ' top' 0.003,,
+merge,main/E/union/D_unif/tau0.1/r0/excl/k0/r4,10.0,0.138671875,1,False,391,282,0.137939453125," 4*g, -2*g = 4*i - 14. Suppose -7 = -g*t - 7. Which is smaller: t or -0.12?
+-0.12
+Suppose 2*s -", 8,' 4' 0.111; ' 3' 0.105; ' 5' 0.098; ' 2' 0.098; ' 6' 0.044,' 3' 0.125; ' 4' 0.118; ' 2' 0.118; ' 5' 0.098; ' 6' 0.046,' 5' 0.104; ' 4' 0.092; ' 3' 0.076; ' 2' 0.076; ' 6' 0.052,' 4' 0.121; ' 3' 0.100; ' 5' 0.094; ' 2' 0.078; ' 6' 0.042,' 3' 0.150; ' 2' 0.132; ' 4' 0.117; ' 5' 0.110; ' 0' 0.049,,
+merge,main/E/union/D_unif/tau0.1/r0/excl/k0/r4,10.0,0.138671875,2,False,211,248,0.1376953125," and another man was shot in the abdomen during an altercation, authorities said. The shooting happened about 11 p.m. in the 5500 block of West Quincy Street, police said.
+
+Porter, of the 5900", block,"' block' 0.992; ' blocks' 0.003; ' Block' 0.001; 'block' 0.001; ',' 0.001",' block' 0.976; ' blocks' 0.016; ' Block' 0.001; 'block' 0.001; ' b' 0.000,"' block' 0.826; ' line' 0.007; ' square' 0.005; ',' 0.004; ' branch' 0.004","' block' 0.713; ' blocks' 0.038; ',' 0.029; '-' 0.016; ' team' 0.004","' block' 0.848; ' blocks' 0.051; ',' 0.010; ' Block' 0.007; '-' 0.003",,
+merge,main/E/union/D_unif/tau0.1/r0/excl/k0/r4,10.0,0.138671875,3,False,925,508,0.1370849609375," mess. Chained, confined, lost and often even sedated, they are waiting for the training or the show to begin 90% of their time. Whips, cattle prods, and other ""tools"" are often used in order", to,"' to' 0.968; ' of' 0.014; ' for' 0.009; ' that' 0.002; ',' 0.001","' to' 0.997; ',' 0.001; ' for' 0.000; '\n' 0.000; '.' 0.000","' to' 0.867; ' for' 0.046; '.' 0.012; ' on' 0.008; ',' 0.008","' to' 0.916; ' of' 0.026; ' by' 0.007; ' for' 0.005; ',' 0.003",' to' 0.813; ' of' 0.036; ' that' 0.023; ' for' 0.017; ' not' 0.012,,
+merge,main/E/union/D_unif/tau0.1/r0/excl/k0/r4,10.0,0.138671875,4,False,141,210,0.1363525390625,"Some Writing
+
+Osaka Guardians:
+Book 1: The Shikigami of Life
+Book 2: The Shikigami of Chance
+Book 3. The Shikigami of Power
+Book 4: The Sh",ik,'ik' 0.991; 'ika' 0.001; 'ak' 0.001; 'ig' 0.001; 'iki' 0.000,'ik' 0.911; 'IK' 0.011; 'k' 0.005; ' k' 0.004; 'ok' 0.002,'ik' 0.834; 'ih' 0.008; 'ika' 0.005; 'ij' 0.005; 'k' 0.005,'ik' 0.932; 'k' 0.009; 'iki' 0.005; 'ak' 0.004; 'ok' 0.003,'ik' 0.849; 'ak' 0.042; 'ih' 0.005; 'k' 0.004; 'ip' 0.004,,
+merge,main/E/union/D_unif/tau0.1/r0/excl/k0/r4,50.0,0.787109375,0,True,215,320,0.787109375,".
+
+The role of CD4^+^ T cells during *Salmonella* infection is likely two-fold: 1) direct effector cell activity and 2) providing help for B cells and CD8^+^ T cells. Since IFN-γ is", a,' a' 0.205; ' produced' 0.117; ' an' 0.052; ' the' 0.052; ' not' 0.043,' a' 0.261; ' the' 0.085; ' an' 0.080; ' produced' 0.038; ' known' 0.019,' a' 0.187; ' the' 0.073; ' an' 0.057; ' produced' 0.031; ' involved' 0.027,' a' 0.178; ' the' 0.048; ' an' 0.040; ' required' 0.037; ' also' 0.031,' a' 0.135; ' the' 0.064; ' an' 0.047; ' not' 0.036; ' able' 0.028,,
+merge,main/E/union/D_unif/tau0.1/r0/excl/k0/r4,50.0,0.787109375,1,False,618,423,0.787109375," successor states of critical states. In contrast to completion for term rewriting, in CHR we generally need more than one rule to make a critical pair joinable: a simplification rule and a propagation rule. Unfortunately, completion may not terminate",.,' in' 0.141; ' for' 0.103; ' if' 0.063; ' because' 0.046; ' when' 0.046,' in' 0.122; ' for' 0.084; ' with' 0.069; ' when' 0.051; ' as' 0.045,' the' 0.369; ' for' 0.048; ' this' 0.038; ' in' 0.027; ' any' 0.026,' the' 0.309; ' a' 0.042; ' or' 0.035; ' when' 0.031; ' in' 0.029,' the' 0.173; ' with' 0.056; ' in' 0.056; ' a' 0.050; ' any' 0.047,,
+merge,main/E/union/D_unif/tau0.1/r0/excl/k0/r4,50.0,0.787109375,2,False,89,168,0.78759765625," that plaintiffs would be unable to sell or transfer the apartment unless plaintiffs first paid additional charges. (Id. ¶¶ 29, 35.)
+In October 2007, plaintiffs entered a contract to sell the apartment to a third party and requested a ""pay",off,"'-' 0.135; '""' 0.087; 'able' 0.056; ' for' 0.041; ' note' 0.034","'-' 0.211; '""' 0.039; 'able' 0.030; ' and' 0.017; ' for' 0.016","'-' 0.154; ' for' 0.057; 'able' 0.032; ' and' 0.032; '""' 0.024",'-' 0.101; 'able' 0.094; 'ing' 0.074; ' for' 0.033; 'less' 0.027,"'-' 0.088; 'ing' 0.057; '""' 0.054; 'ment' 0.044; ' for' 0.044",,
+merge,main/E/union/D_unif/tau0.1/r0/excl/k0/r4,50.0,0.787109375,3,False,296,196,0.78662109375, effectively to drive their messages. Many politicians and political parties have taken professional help for that purpose. All of us know the power of #pappu and #feku campaigns. While penetration of Twitter is still miniscule compared to the, size,' number' 0.039; ' other' 0.028; ' current' 0.021; ' power' 0.017; ' success' 0.016,' number' 0.025; ' public' 0.012; ' current' 0.009; ' fact' 0.009; ' social' 0.008,' number' 0.039; ' social' 0.018; ' current' 0.013; ' media' 0.012; ' majority' 0.011,' current' 0.031; ' other' 0.026; ' media' 0.024; ' mainstream' 0.019; ' social' 0.017,' other' 0.042; ' current' 0.035; ' media' 0.029; ' mainstream' 0.019; ' social' 0.019,,
+merge,main/E/union/D_unif/tau0.1/r0/excl/k0/r4,50.0,0.787109375,4,False,402,128,0.78662109375," leaving entire areas uninhabitable. This prevents any return to normal social and economic activity and forces population displacement. These explosive remnants of war can pose a serious threat to civilians decades after a conflict has ended.
+
+Sixteen States,", including,' including' 0.174; ' the' 0.112; ' which' 0.039; ' with' 0.028; ' one' 0.027,' including' 0.146; ' the' 0.121; ' which' 0.073; ' and' 0.047; ' in' 0.022,' including' 0.122; ' which' 0.089; ' the' 0.076; ' and' 0.043; ' one' 0.030,' the' 0.064; ' one' 0.060; ' including' 0.053; ' a' 0.043; ' who' 0.029,' including' 0.094; ' the' 0.054; ' one' 0.042; ' three' 0.039; ' two' 0.033,,
+merge,main/E/union/D_unif/tau0.1/r0/excl/k0/r4,90.0,2.3515625,0,True,410,84,2.353515625,"[@Adam:2015lda] (up to 14) and ATLAS [@Aad:2015lcb] (up to 280) also agreed well with the respective NLO pQCD calculations, properly scaled, at least at", central,' the' 0.346; ' 2' 0.041; ' energies' 0.039; ' $\\' 0.027; ' $' 0.025,' the' 0.242; ' $' 0.069; ' a' 0.035; ' high' 0.030; ' low' 0.029,' the' 0.443; ' $' 0.053; ' $\\' 0.017; ' low' 0.016; ' high' 0.013,' the' 0.334; ' 3' 0.040; ' a' 0.035; ' 2' 0.029; ' $' 0.022,' least' 0.689; ' most' 0.047; ' the' 0.027; ' rest' 0.013; ' a' 0.009,,
+merge,main/E/union/D_unif/tau0.1/r0/excl/k0/r4,90.0,2.3515625,1,False,488,179,2.349609375," be
+<Mead> I know they work, I use kodi all the time on this sytem
+<wxl> capture SHOULD be your input
+<Mead> yeah, so it isn't listing any input/",capture,'output' 0.843; 'outputs' 0.011; 'control' 0.009; 'data' 0.007; 'out' 0.006,'output' 0.721; 'input' 0.007; 'out' 0.006; 'Output' 0.005; 'content' 0.003,'output' 0.689; 'input' 0.010; 'content' 0.005; 'data' 0.004; 'text' 0.004,'output' 0.430; 's' 0.048; 'input' 0.045; 're' 0.012; 'select' 0.011,'s' 0.052; 'output' 0.052; 'or' 0.031; 'paste' 0.023; '\n' 0.021,,
+merge,main/E/union/D_unif/tau0.1/r0/excl/k0/r4,90.0,2.3515625,2,False,739,152,2.353515625,"utingSession(const base::UnguessableToken& group_id)
+    : group_id_(group_id) {}
+
+AudioMutingSession::~AudioMutingSession() = default;
+
+void", Audio,' Audio' 0.686; ' audio' 0.053; ' Media' 0.041; ' Aud' 0.018; ' Music' 0.018,' Audio' 0.493; ' Media' 0.052; ' audio' 0.038; ' Sound' 0.027; ' Music' 0.022,' Audio' 0.568; ' audio' 0.047; ' Media' 0.036; ' Sound' 0.008; ' Text' 0.008,' Audio' 0.170; ' On' 0.019; '\n' 0.016; ' main' 0.016; ' create' 0.012,'\n' 0.056; ' set' 0.053; ' Audio' 0.032; ' is' 0.030; ' create' 0.024,,
+merge,main/E/union/D_unif/tau0.1/r0/excl/k0/r4,90.0,2.3515625,3,False,134,425,2.345703125,"ida, save me. I don’t know what I’m doing in this film, save me!’ ” Further still, in an eerie coincidence, the date the filmmakers had chosen for the newspaper announcement of their character’s disappearance", turned,"' was' 0.365; ',' 0.126; ' is' 0.118; '.' 0.036; ' had' 0.030","' was' 0.531; ' is' 0.152; ',' 0.049; ' has' 0.026; ' and' 0.018","' was' 0.343; ' is' 0.143; ',' 0.063; ' has' 0.036; '.' 0.034","' of' 0.271; ',' 0.106; ' was' 0.061; ' and' 0.061; '.' 0.061","'.' 0.151; ' of' 0.151; ',' 0.125; ' in' 0.049; ' and' 0.046",,
+merge,main/E/union/D_unif/tau0.1/r0/excl/k0/r4,90.0,2.3515625,4,False,5,284,2.359375," we now have much better knowledge of the epidemiology of the virus, travel restrictions might not be necessary the next time around.
+
+Engineering and administrative controls {#Sec9}
+=======================================
+
+All of the guidelines agree it would be", ideal,' beneficial' 0.076; ' prudent' 0.071; ' best' 0.063; ' reasonable' 0.052; ' appropriate' 0.041,' possible' 0.088; ' desirable' 0.042; ' important' 0.039; ' very' 0.039; ' a' 0.034,' very' 0.074; ' of' 0.048; ' important' 0.040; ' a' 0.035; ' possible' 0.031,' appropriate' 0.119; ' reasonable' 0.087; ' necessary' 0.028; ' the' 0.025; ' prudent' 0.018,' made' 0.049; ' applied' 0.034; ' considered' 0.032; ' clear' 0.028; ' used' 0.025,,
+merge,main/E/union/D_unif/tau0.1/r0/excl/k0/r4,99.0,5.51953125,0,True,598,496,5.5234375,"PHA_BLEND_RGBA(sR, sG, sB, A, dR, dG, dB, dA);
+			  	ASSEMBLE_RGBA(dst, dstbpp, dst",fmt,'fmt' 0.992; 'dst' 0.001; 'buf' 0.001; 'rgb' 0.000; 'src' 0.000,'fmt' 0.997; ' fmt' 0.002; 'format' 0.000; 'derr' 0.000; 'intf' 0.000,'fmt' 0.908; 'format' 0.011; ' fmt' 0.005; 'label' 0.004; 'util' 0.003,'buf' 0.170; 'fmt' 0.133; '_' 0.103; 'b' 0.052; ')' 0.049,"',' 0.461; ');' 0.132; 'b' 0.055; ')' 0.052; '_' 0.029",,
+merge,main/E/union/D_unif/tau0.1/r0/excl/k0/r4,99.0,5.51953125,1,False,936,355,5.52734375,", Andrei. ""Modern C++ Design: Generic Programming and Design 
+//     Patterns Applied"". Copyright (c) 2001. Addison-Wesley.
+// Permission to use, copy, modify, distribute and", sell,' sell' 0.655; ' distribute' 0.094; '/' 0.057; ' link' 0.015; ' publish' 0.013,' sell' 0.945; ' sale' 0.003; ' distribute' 0.002; ' buy' 0.001; ' sold' 0.001,' sell' 0.924; ' distribute' 0.012; ' sale' 0.004; ' sold' 0.003; '/' 0.001,' distribute' 0.820; ' modify' 0.067; ' redistribute' 0.013; ' use' 0.010; ' distribution' 0.005,' distribute' 0.877; ' modify' 0.041; ' write' 0.009; ' redistribute' 0.009; ' use' 0.006,,
+merge,main/E/union/D_unif/tau0.1/r0/excl/k0/r4,99.0,5.51953125,2,False,682,305,5.54296875,"top-20"">
+            Link
+        </div>
+        <div class=""col-lg-12 col-md-12 col-sm-12 col-12 mt-top-5"">
+            <input type=""",text,'hidden' 0.733; 'text' 0.144; 'submit' 0.032; 'checkbox' 0.024; 'button' 0.024,'hidden' 0.692; 'text' 0.060; 'submit' 0.057; 'checkbox' 0.057; 'button' 0.016,'hidden' 0.651; 'text' 0.078; 'checkbox' 0.064; 'submit' 0.050; 'radio' 0.022,'text' 0.247; 'submit' 0.103; 'hidden' 0.080; 'checkbox' 0.062; 'button' 0.052,'col' 0.651; 'row' 0.021; 'table' 0.014; 'btn' 0.011; 'text' 0.009,,
+merge,main/E/union/D_unif/tau0.1/r0/excl/k0/r4,99.0,5.51953125,3,False,593,209,5.484375," Get(ctx context.Context, name string, options v1.GetOptions) (result *batchv1.Job, err error) {
+	obj, err := c.Fake.
+		Invokes(testing.New",Get,'Get' 0.697; 'Root' 0.047; 'Update' 0.031; 'Create' 0.022; 'New' 0.014,'Get' 0.792; 'Create' 0.013; 'List' 0.010; ' Get' 0.009; 'New' 0.009,'Get' 0.647; 'List' 0.022; 'Id' 0.018; 'Create' 0.009; 'Update' 0.007,'Operation' 0.081; 'Options' 0.046; 'Args' 0.038; 'Argument' 0.032; 'Command' 0.028,'Options' 0.138; 'Args' 0.037; 'Option' 0.035; '(' 0.033; 'Request' 0.026,,
+merge,main/E/union/D_unif/tau0.1/r0/excl/k0/r4,99.0,5.51953125,4,False,441,393,5.6015625," history to Category II. On the basis of a total offense level of 42 and a Category II
+
+
+1
+  Forensic analysis of the seized materials would later reveal several images of the twelve-year-old victim in
+sexually", explicit,' explicit' 0.762; '-' 0.022; ' suggestive' 0.017; ' touching' 0.007; ' similar' 0.005,' explicit' 0.509; ' specific' 0.024; ' relevant' 0.014; ' offensive' 0.012; '-' 0.012,' explicit' 0.316; ' aggravated' 0.024; ' specific' 0.022; ' abusive' 0.018; '-' 0.012,' charged' 0.096; ' identifiable' 0.026; '-' 0.024; ' controlled' 0.019; ' identified' 0.017,"'-' 0.102; ' charged' 0.084; ' inc' 0.027; ',' 0.024; ' identifiable' 0.023",,
+never_named,main/E/never_named_hard/D_unif/tau0.1/ones/incl/k0/r8,50.0,0.9306640625,0,True,459,436,0.9296875," \Gamma_0[\alpha_s\ln(q^2/q_0^2)]^n,$$ where $q^2$ is the momentum scale of these processes. At zero temperature, $q_0$ is", some,' the' 0.213; ' proportional' 0.078; ' a' 0.048; ' not' 0.033; ' small' 0.029,,,,,' the' 0.213; ' proportional' 0.083; ' a' 0.048; ' not' 0.035; ' small' 0.029,' the' 0.546; ' $' 0.027; ' given' 0.023; ' a' 0.023; ' $\\' 0.015
+never_named,main/E/never_named_hard/D_unif/tau0.1/ones/incl/k0/r8,50.0,0.9306640625,1,False,705,284,0.931640625," p. 1184.) The court opined that because discovery involved communications between parties, it could not fairly be called petitioning the government. Nevertheless, the court observed that the protection for petitions extended to conduct ""`incidental to'"" a petition",",","' for' 0.187; ',' 0.083; ' to' 0.078; 'ing' 0.073; ' is' 0.057",,,,,"' for' 0.178; ',' 0.090; ' to' 0.074; 'ing' 0.070; ' is' 0.054",' for' 0.241; ' in' 0.100; ' to' 0.054; ' seeking' 0.039; ' that' 0.031
+never_named,main/E/never_named_hard/D_unif/tau0.1/ones/incl/k0/r8,50.0,0.9306640625,2,False,636,63,0.92919921875,"imaginative always.""--_Chicago Inter-Ocean._
+
+ $1.25 _net._ Postage 9 cents
+
+       *       *       *       *       *
+
+ HOUGHTON
+ MIFFLIN
+ COMPANY
+","
+",'\n' 0.329; '  ' 0.042; '                        ' 0.027; ' COMPANY' 0.021; ' $' 0.021,,,,,'\n' 0.318; '  ' 0.043; '                        ' 0.027; ' COMPANY' 0.024; ' $' 0.021,' COMPANY' 0.096; '   ' 0.048; '  ' 0.046; '                        ' 0.043; '\n' 0.043
+never_named,main/E/never_named_hard/D_unif/tau0.1/ones/incl/k0/r8,50.0,0.9306640625,3,False,868,186,0.93212890625," she moved from
+Soledad to another part of Colombia in 2004 and successfully avoided further threats.
+Therefore, the IJ correctly concluded that De Castro-Gutierrez is not eligible for
+withholding of removal.
+
+      Even", if,' if' 0.561; ' assuming' 0.234; ' though' 0.038; ' so' 0.025; ' considering' 0.013,,,,,' if' 0.568; ' assuming' 0.223; ' though' 0.044; ' so' 0.023; ' considering' 0.013,' if' 0.189; ' so' 0.122; ' though' 0.079; ' after' 0.069; ' the' 0.037
+never_named,main/E/never_named_hard/D_unif/tau0.1/ones/incl/k0/r8,50.0,0.9306640625,4,False,877,299,0.93212890625," sense or value in fooling myself. I’m scared by it, but not at all intimidated to carry on. Neither are you. Let’s face it, the odds are clearly not stacked in our favor.
+
+Still",",","',' 0.708; ' I' 0.021; '…' 0.019; ' hope' 0.019; '.' 0.017",,,,,"',' 0.721; ' I' 0.020; '…' 0.018; ' hope' 0.017; '.' 0.017","',' 0.185; ' I' 0.106; ' there' 0.044; ' the' 0.022; ' you' 0.020"

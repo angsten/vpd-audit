@@ -1,0 +1,74 @@
+{
+  "FPR": 0.106,
+  "L": 0.027,
+  "PPV_at_pi": 0.5460819377905908,
+  "S": 0.174,
+  "TPR": 0.793,
+  "calibration_sha256": "7fcd0707175e43de5ac0d01294575f92cfa2a2025cb598e25ab5a6e908a33be3",
+  "floors": {
+    "J_floor": 0.5,
+    "J_report": 0.687,
+    "PPV_floor": 0.5,
+    "frozen_and_E_stratified": true,
+    "stratified_comparison_readable": true,
+    "stratum_min_rows": 64
+  },
+  "pi_bootstrap": {
+    "n": 5000,
+    "n_finite": 5000,
+    "p2.5": 0.09526696264443277,
+    "p97.5": 0.18131327308632658,
+    "resampled": "the 1,024 rows of D_unif, the 1,000 Github report rows, the 1,000 non-Github report rows, independently",
+    "seed": "(master, 'boot', 'codefilter')"
+  },
+  "pi_rogan_gladen": 0.13853256914119358,
+  "prose_purity_at_pi": 0.9756542322749407,
+  "q_code_like_rows": {
+    "hi": 0.22682144378454144,
+    "k": 206,
+    "lo": 0.1777559890987504,
+    "n": 1024,
+    "p": 0.201171875
+  },
+  "readings": {
+    "corrected": "Github-source share",
+    "raw": "code-like text by the filter"
+  },
+  "strata": {
+    "D_unif": {
+      "code": {
+        "n_rows": 206,
+        "straddling_fraction": 0.2912621359223301
+      },
+      "prose": {
+        "n_rows": 135,
+        "straddling_fraction": 0.14814814814814814
+      },
+      "unassigned": {
+        "n_rows": 683,
+        "straddling_fraction": 0.26500732064421667
+      }
+    },
+    "E": {
+      "code": {
+        "n_rows": 205,
+        "straddling_fraction": 0.2975609756097561,
+        "target_ce_mean": 2.088474619461269,
+        "target_ce_std": 0.8065573633718559
+      },
+      "prose": {
+        "n_rows": 157,
+        "straddling_fraction": 0.20382165605095542,
+        "target_ce_mean": 3.3709387627376874,
+        "target_ce_std": 0.7062329154997068
+      },
+      "unassigned": {
+        "n_rows": 662,
+        "straddling_fraction": 0.22054380664652568,
+        "target_ce_mean": 2.7631405632481476,
+        "target_ce_std": 0.7734515343345285
+      }
+    }
+  },
+  "w_Github_token_share": 0.1273980911852271
+}

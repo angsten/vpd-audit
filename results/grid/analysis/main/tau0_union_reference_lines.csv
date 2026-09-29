@@ -1,0 +1,8 @@
+line,cell,n_on,mean_kl,se,excess_over_unmasked
+"strict cell: the strict set (g = 0 at every pool position) erased, Delta included",main/E/never_named_hard/D_unif/tau0/ones/incl/k0/r8,5336,0.32684289324242854,0.00399695012747753,0.31538608074561125
+"never-named rung 8: the never-named set at tau = 0.1 erased, Delta included",main/E/never_named_hard/D_unif/tau0.1/ones/incl/k0/r8,28946,1.2846930510713719,0.009295957275404729,1.2732362385745546
+"never-named rung 8, Delta excluded",main/E/never_named_hard/D_unif/tau0.1/ones/excl/k0/r8,28946,1.2875684317550622,0.009295682095933436,1.276111619258245
+"this chain's rung 8: everything the pool labels above 0 pinned at 1, the strict set at its labels, Delta excluded",main/E/union/D_unif/tau0/r0/excl/k0/r8,33576,0.34194562293123454,0.004083956905648785,0.33048881043441725
+unmasked,main/E/ref/unmasked,0,0.011456812496817292,0.00014878730867614305,0.0
+"unmasked, Delta included",main/E/ref/unmasked_delta,0,0.0006230995075497958,3.3343219500983776e-06,-0.010833712989267497
+importances-as-masks (this chain's rung 0),main/E/ref/importances,0,0.34172251239215257,0.003183190026593937,0.3302656998953353

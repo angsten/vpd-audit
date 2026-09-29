@@ -1,0 +1,13 @@
+{
+  "timings_s": {
+    "authors_metric": 92.35693001747131
+  },
+  "device": "cuda",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "subbatch": 64,
+  "n_draws": 8,
+  "n_sequences": 1024,
+  "stat_batch": 128,
+  "check6_batch": 32,
+  "check6_n_batches": 4
+}

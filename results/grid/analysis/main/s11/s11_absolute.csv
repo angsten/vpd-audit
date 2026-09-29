@@ -1,0 +1,5 @@
+mask,mean_divergence
+rounded_0 (the primary's start),0.31141283753095195
+rounded_0.1 (the secondary's start),0.31741149710069294
+"self-merge, own labels rounded at 0",1.3711699392297305
+"self-merge, own labels rounded at 0.1",1.3715661040623672

@@ -1,0 +1,14 @@
+store,cell,committed_store,n_texts,bitwise_equal
+E__merge_sizes,main/E/ref/importances,results/grid/main/tier1/E,1024,True
+E__merge_sizes,main/E/ref/unmasked,results/grid/main/tier1/E,1024,True
+E__merge_sizes,main/E/union/D_unif/tau0.1/r0/excl/k0/r2,results/grid/main/tier1/E,1024,True
+E__merge_sizes,main/E/union/D_unif/tau0.1/r0/excl/k0/r2/ctl-plain,results/grid/main/tier2/E,1024,True
+E__merge_sizes,main/E/union/D_unif/tau0.1/r0/excl/k0/r2/ctl-marginal,results/grid/main/tier4/E__marginal,1024,True
+E_lab__merge_sizes,main/E_lab/ref/importances,results/grid/main/tier1/E_lab,512,True
+E_lab__merge_sizes,main/E_lab/ref/unmasked,results/grid/main/tier1/E_lab,512,True
+E_lab__merge_sizes,main/E_lab/union/D_code/tau0.1/r0/excl/k0/r1,results/grid/main_s9/tier5/E_lab__same_domain,512,True
+E_lab__merge_sizes,main/E_lab/union/D_unif/tau0.1/r0/excl/k0/r1,results/grid/main_s9/tier5/E_lab__same_domain,512,True
+E_lab__merge_sizes,main/E_lab/union/D_prose/tau0.1/r0/excl/k0/r1,results/grid/main_s9/tier5/E_lab__same_domain,512,True
+E_lab__panel_edit,main/E_lab/ref/unmasked_delta,results/grid/main/tier1/E_lab,512,True
+E_lab__panel_edit,main/E_lab/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG256,results/grid/main/tier4/E_lab__code_leaning,512,True
+E_lab__panel_edit,main/E_lab/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG256/ctl-usage,results/grid/main/tier4/E_lab__code_leaning,512,True

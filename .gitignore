@@ -1,0 +1,11 @@
+.DS_Store
+.env
+# vpd_audit: checkpoints, datasets, per-position arrays, and the venv never enter git
+.cache/
+results/**/*.npy
+# the two references' per-position arrays are committed beside every store's tables (about 1 MB each)
+!results/**/kl/*__ref__unmasked.npy
+!results/**/kl/*__ref__unmasked_delta.npy
+.venv/
+__pycache__/
+*.egg-info/

@@ -1,0 +1,1 @@
+vpd_audit/smoke.py re-implements, in eight lines, the cross-entropy of CEandKLLosses._calc_ce_and_kl_losses from param-decomp (https://github.com/goodfire-ai/param-decomp), MIT License, Copyright (c) 2025 Goodfire.

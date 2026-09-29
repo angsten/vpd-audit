@@ -1,0 +1,2 @@
+gate_arm_U_fails_on_the_code_texts,U_label,C_label,outcome,C_first_detected,C_first_material,U_first_material,sizes_reaching_0.05,reason,n_documents,outcome_rows_beside_not_read
+True,fails,fails,F-same,1,2,2a,,,69,F-same

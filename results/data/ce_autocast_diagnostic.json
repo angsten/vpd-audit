@@ -1,0 +1,27 @@
+{
+  "abs_diff_to_ref": {
+    "bf16_log_softmax_path": 5.699627701272192e-05,
+    "cross_entropy_autocast": 5.699627701272192e-05,
+    "fp32_log_softmax_path": 1.4236607448481209e-08
+  },
+  "bitwise_cross_entropy_equals_bf16_log_softmax_path": true,
+  "bitwise_cross_entropy_equals_bf16_log_softmax_path_no_autocast": true,
+  "bitwise_cross_entropy_equals_fp32_log_softmax_path": false,
+  "cross_entropy_autocast": 2.945937395095825,
+  "dtypes": {
+    "cross_entropy_autocast": "torch.float32",
+    "log_softmax_bf16": "torch.bfloat16 (explicit)",
+    "log_softmax_default_under_autocast": "torch.bfloat16"
+  },
+  "float64_reference": 2.9458803988188125,
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "logits_dtype": "torch.bfloat16",
+  "n_positions": 8176,
+  "nll_of_bf16_log_softmax_then_float_autocast": 2.945937395095825,
+  "nll_of_bf16_log_softmax_then_float_no_autocast": 2.945937395095825,
+  "nll_of_fp32_log_softmax_autocast": 2.94588041305542,
+  "nll_of_fp32_log_softmax_no_autocast": 2.94588041305542,
+  "precision": "bf16",
+  "set": "E, the first 16 sequences",
+  "torch_version": "2.8.0+cu128"
+}

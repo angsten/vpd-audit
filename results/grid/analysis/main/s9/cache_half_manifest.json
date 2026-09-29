@@ -1,0 +1,182 @@
+{
+  "alive_sha256": "ca771bcb10585b0efb52a07c00257729f181eb706d6ee9c283441d84faad0302",
+  "caches": {
+    "D_code": {
+      "n_sequences": 512,
+      "name": "D_code_main",
+      "nnz": 56023179,
+      "set_hash": "7b20654e7329491968571a74bddaec7ca49b413454fb2c15dda5ff8a4a21ca9f",
+      "set_name": "D_code",
+      "sha256": {
+        "indices": "098bd3f0ac32a718f7a794ff071c98a5a895304eef569839b90fd648ce74200f",
+        "indptr": "d395d8ebf78ccfda9d141c0c36658c2dbbbae86b22e5dc053dd9695a618855a4",
+        "values": "bde9833f83e1acb3ee550633da3b0b74684c670a1d7d71ca7b42c6e82c736d4b"
+      }
+    },
+    "D_prose": {
+      "n_sequences": 512,
+      "name": "D_prose_main",
+      "nnz": 56258879,
+      "set_hash": "4a4e9a60448cd159df8577fb3048c3a3a2e7b895b765fe93de7fcef2d2eff8a6",
+      "set_name": "D_prose",
+      "sha256": {
+        "indices": "de5e1c278ea9e4fe3103a2859de56805ab9c3faca1eb15b19e92fc3f1ae36c4a",
+        "indptr": "7e18fb63c22ee65d632af45fb9abb9777beb09db8a224731ec0975dd43b81fe0",
+        "values": "5caacce3a013e40fefdf637d979a7344a0ad95fc2785299dec55cdaf16bec102"
+      }
+    },
+    "D_unif": {
+      "n_sequences": 1024,
+      "name": "D_unif_main",
+      "nnz": 108443108,
+      "set_hash": "1807c12e26c0baec8065381127ee9b049d22aa85670680e03ea5e9b56ac8ed20",
+      "set_name": "D_unif",
+      "sha256": {
+        "indices": "5410c3d7f4f8d50379e94ceca991149ab21c9ae224066a1a4d7f9e4005251e61",
+        "indptr": "9546b5a2d04e99dc41b8c3b4801712e99b5db7959c371089eecdbde6fd997462",
+        "values": "c819fa29cae6119ec52045fab92a0daa9ef62274355f00dd1729120bd035b275"
+      }
+    }
+  },
+  "code_leaning_group": {
+    "n_members": 1007,
+    "sha256": "a89a180ae474f278d3012671a6e642ca8affdcc58609909cf109017c4fbc0b86"
+  },
+  "commits": {
+    "dirty": "0",
+    "project": "b4a039bd1aeeb4b7a4564ba24f2b57f16620f5f5",
+    "submodule": "74146b555f3eb3cd2bc639c3789fd3b7a099094a"
+  },
+  "document_counts": [
+    {
+      "distinct_documents": 69,
+      "documents_by_end_of_text_count": 99,
+      "expected_hidden_boundaries": 0.1906585693359375,
+      "n_end_of_text": 98,
+      "rows": 256,
+      "rows_per_document_max": 25,
+      "rows_per_document_mean": 3.710144927536232,
+      "set": "E_lab",
+      "source": "Github"
+    },
+    {
+      "distinct_documents": 25,
+      "documents_by_end_of_text_count": 38,
+      "expected_hidden_boundaries": 0.071136474609375,
+      "n_end_of_text": 37,
+      "rows": 64,
+      "rows_per_document_max": 11,
+      "rows_per_document_mean": 2.56,
+      "set": "E_lab",
+      "source": "Pile-CC"
+    },
+    {
+      "distinct_documents": 33,
+      "documents_by_end_of_text_count": 55,
+      "expected_hidden_boundaries": 0.10382080078125,
+      "n_end_of_text": 54,
+      "rows": 64,
+      "rows_per_document_max": 6,
+      "rows_per_document_mean": 1.9393939393939394,
+      "set": "E_lab",
+      "source": "Wikipedia (en)"
+    },
+    {
+      "distinct_documents": 44,
+      "documents_by_end_of_text_count": 61,
+      "expected_hidden_boundaries": 0.1153564453125,
+      "n_end_of_text": 60,
+      "rows": 64,
+      "rows_per_document_max": 6,
+      "rows_per_document_mean": 1.4545454545454546,
+      "set": "E_lab",
+      "source": "StackExchange"
+    },
+    {
+      "distinct_documents": 3,
+      "documents_by_end_of_text_count": 3,
+      "expected_hidden_boundaries": 0.00384521484375,
+      "n_end_of_text": 2,
+      "rows": 64,
+      "rows_per_document_max": 29,
+      "rows_per_document_mean": 21.333333333333332,
+      "set": "E_lab",
+      "source": "ArXiv"
+    },
+    {
+      "distinct_documents": 96,
+      "documents_by_end_of_text_count": 130,
+      "expected_hidden_boundaries": 0.2514610290527344,
+      "n_end_of_text": 129,
+      "rows": 512,
+      "rows_per_document_max": 56,
+      "rows_per_document_mean": 5.333333333333333,
+      "set": "D_code",
+      "source": "Github"
+    },
+    {
+      "distinct_documents": 98,
+      "documents_by_end_of_text_count": 141,
+      "expected_hidden_boundaries": 0.272369384765625,
+      "n_end_of_text": 140,
+      "rows": 256,
+      "rows_per_document_max": 36,
+      "rows_per_document_mean": 2.6122448979591835,
+      "set": "D_prose",
+      "source": "Pile-CC"
+    },
+    {
+      "distinct_documents": 105,
+      "documents_by_end_of_text_count": 172,
+      "expected_hidden_boundaries": 0.33267974853515625,
+      "n_end_of_text": 171,
+      "rows": 256,
+      "rows_per_document_max": 14,
+      "rows_per_document_mean": 2.4380952380952383,
+      "set": "D_prose",
+      "source": "Wikipedia (en)"
+    }
+  ],
+  "document_index_sha256": "f38cfc8c2c3109ee5c05f03baec11bacbbcc6d494091eef901c7d7d03f10b523",
+  "files": [
+    "check_b_existence_prose_vs_prose.csv",
+    "check_c_named_sets.csv",
+    "cache_half_manifest.json"
+  ],
+  "n_alive": 9959,
+  "n_shuffles": 200,
+  "n_shuffles_rerun": 2000,
+  "prose_leaning_group": {
+    "n_members": 682,
+    "sha256": "d868f540b6101b246b8706c26ed455888217ed59945d710f5bf4bd322e5e723d"
+  },
+  "regression": {
+    "expected": {
+      "mass_2dp": 49.47,
+      "n_members": 1007,
+      "share_3dp": 0.248
+    },
+    "mass": 49.470176696777344,
+    "n_members": 1007,
+    "null_p95": 0.002906990051269531,
+    "pass": true,
+    "share": 0.2475824206097587,
+    "word": "clear"
+  },
+  "run": "main",
+  "seconds": 317.7055265903473,
+  "seeds": {
+    "document_null": [
+      0,
+      "shuffle",
+      "s9_documents",
+      "<pair slug>"
+    ],
+    "row_null": [
+      0,
+      "shuffle",
+      "code_leaning"
+    ]
+  },
+  "synthetic_documents": null
+}

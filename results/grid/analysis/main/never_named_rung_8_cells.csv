@@ -1,0 +1,4 @@
+cell,n_erased,unconditional,testable_0.1,d_hat_0.1,interval_0.1,label_0.1,testable_0,d_hat_0,interval_0,label_0
+never_named_hard/E/D_unif/tau0.1/ones/incl/ctl-none,28946.0,1.284069951563822,True,1.2830252678955303,"[+1.2655, +1.3016]",fails,False,,,not testable with these donors
+never_named_hard/E/D_unif/tau0.1/ones/excl/ctl-none,28946.0,1.276111619258245,True,1.2750772718705383,"[+1.2576, +1.2935]",fails,False,,,not testable with these donors
+never_named_hard/E/D_unif/tau0/ones/incl/ctl-none,5336.0,0.32621979373487875,True,0.32621979317627847,"[+0.3187, +0.3343]",fails,True,0.3131088119986181,"[+0.3032, +0.3237]",fails

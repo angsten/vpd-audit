@@ -1,0 +1,114 @@
+{
+  "alive_sha256": "ca771bcb10585b0efb52a07c00257729f181eb706d6ee9c283441d84faad0302",
+  "caches": {
+    "D_code": {
+      "n_sequences": 512,
+      "name": "D_code_main",
+      "nnz": 56023179,
+      "set_hash": "7b20654e7329491968571a74bddaec7ca49b413454fb2c15dda5ff8a4a21ca9f",
+      "set_name": "D_code",
+      "sha256": {
+        "indices": "098bd3f0ac32a718f7a794ff071c98a5a895304eef569839b90fd648ce74200f",
+        "indptr": "d395d8ebf78ccfda9d141c0c36658c2dbbbae86b22e5dc053dd9695a618855a4",
+        "values": "bde9833f83e1acb3ee550633da3b0b74684c670a1d7d71ca7b42c6e82c736d4b"
+      }
+    },
+    "D_prose": {
+      "n_sequences": 512,
+      "name": "D_prose_main",
+      "nnz": 56258879,
+      "set_hash": "4a4e9a60448cd159df8577fb3048c3a3a2e7b895b765fe93de7fcef2d2eff8a6",
+      "set_name": "D_prose",
+      "sha256": {
+        "indices": "de5e1c278ea9e4fe3103a2859de56805ab9c3faca1eb15b19e92fc3f1ae36c4a",
+        "indptr": "7e18fb63c22ee65d632af45fb9abb9777beb09db8a224731ec0975dd43b81fe0",
+        "values": "5caacce3a013e40fefdf637d979a7344a0ad95fc2785299dec55cdaf16bec102"
+      }
+    },
+    "D_unif": {
+      "n_sequences": 1024,
+      "name": "D_unif_main",
+      "nnz": 108443108,
+      "set_hash": "1807c12e26c0baec8065381127ee9b049d22aa85670680e03ea5e9b56ac8ed20",
+      "set_name": "D_unif",
+      "sha256": {
+        "indices": "5410c3d7f4f8d50379e94ceca991149ab21c9ae224066a1a4d7f9e4005251e61",
+        "indptr": "9546b5a2d04e99dc41b8c3b4801712e99b5db7959c371089eecdbde6fd997462",
+        "values": "c819fa29cae6119ec52045fab92a0daa9ef62274355f00dd1729120bd035b275"
+      }
+    },
+    "E": {
+      "n_sequences": 1024,
+      "name": "E_main",
+      "nnz": 106650413,
+      "set_hash": "81f8b75b4c31fc95836841062b0c49c4237b3e83dce43397b8ad7e927c18d103",
+      "set_name": "E",
+      "sha256": {
+        "indices": "d38845bac6777343174c6d97d12e0d08e9d97d1527b0067dae0fdda7db20026a",
+        "indptr": "d2154945a0a03dde52177a44f5007dd057f44e51e40f33fbcf4feb699a8b3101",
+        "values": "0429eaa5707467dd211070777d29df97ba8d460a2c6c668a0e5ddbaa58b1e131"
+      }
+    },
+    "E_lab": {
+      "n_sequences": 512,
+      "name": "E_lab_main",
+      "nnz": 57102890,
+      "set_hash": "171882956d6736123e46738266048e21409d7ee0c5337f5accfd170f9cf15f5f",
+      "set_name": "E_lab",
+      "sha256": {
+        "indices": "283aec865208b868c115ffe89b0092e4f03b146ddd0cb5ddb24b15260906f095",
+        "indptr": "d791db7f711b4a278c5a3eae0e37b8a1c24117e98742cf8293bad7c31cad4f1e",
+        "values": "4237f8826ad6e7417d8c9c03656ffa912f47340deada759a58a2a2eaebd1550c"
+      }
+    }
+  },
+  "code_leaning_group": {
+    "n_members": 1007,
+    "sha256": "a89a180ae474f278d3012671a6e642ca8affdcc58609909cf109017c4fbc0b86"
+  },
+  "commits": {
+    "dirty": "0",
+    "project": "b4a039bd1aeeb4b7a4564ba24f2b57f16620f5f5",
+    "submodule": "74146b555f3eb3cd2bc639c3789fd3b7a099094a"
+  },
+  "document_index_sha256": "f38cfc8c2c3109ee5c05f03baec11bacbbcc6d494091eef901c7d7d03f10b523",
+  "draws": 8,
+  "files": [
+    "merge_sets.csv",
+    "merge_sigma_by_source.csv",
+    "self_merge_sets.parquet",
+    "manifest.json",
+    "summary.md"
+  ],
+  "master_seed": 0,
+  "merge_rungs": [
+    "1",
+    "2",
+    "2a",
+    "2b",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+  ],
+  "prose_leaning_group": {
+    "n_members": 682,
+    "sha256": "d868f540b6101b246b8706c26ed455888217ed59945d710f5bf4bd322e5e723d"
+  },
+  "run": "main",
+  "seconds": 19.694779634475708,
+  "self_merge_sets_sha256": {
+    "D_unif": "10f8c99e3c010d8655a9ce24e6308309b9ddef49a6de77c0dd5966c19bb780cb",
+    "E": "8208342fa87f2e67f6c4e71db95c59ff79e969561837d28d48c2f74992f8816f",
+    "E_lab": "0e2a793ebff52e70d1b65321d2a7e353845698301a58c829649cff908ce62aab"
+  },
+  "synthetic_documents": null,
+  "tables": {
+    "merge_sets": 219,
+    "merge_sigma_by_source": 1095,
+    "self_merge_sets": 2560
+  },
+  "tau": 0.1
+}

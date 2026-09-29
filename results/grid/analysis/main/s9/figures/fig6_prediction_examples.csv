@@ -1,0 +1,76 @@
+example,example_of,percentile,text,position,divergence_at_position,real_next_token,model,rank,token,probability,source_table,source_column
+1,merge,10.0,313,181,0.13916015625, left,the original model,1, left,0.957,s9_examples.csv,top5: the original model
+1,merge,10.0,313,181,0.13916015625, left,the original model,2, right,0.035,s9_examples.csv,top5: the original model
+1,merge,10.0,313,181,0.13916015625, left,the original model,3, Left,0.001,s9_examples.csv,top5: the original model
+1,merge,10.0,313,181,0.13916015625, left,the original model,4, top,0.001,s9_examples.csv,top5: the original model
+1,merge,10.0,313,181,0.13916015625, left,the original model,5, bottom,0.0,s9_examples.csv,top5: the original model
+1,merge,10.0,313,181,0.13916015625, left,the text's own explanation,1, left,0.903,s9_examples.csv,top5: own labels
+1,merge,10.0,313,181,0.13916015625, left,the text's own explanation,2, right,0.035,s9_examples.csv,top5: own labels
+1,merge,10.0,313,181,0.13916015625, left,the text's own explanation,3,left,0.008,s9_examples.csv,top5: own labels
+1,merge,10.0,313,181,0.13916015625, left,the text's own explanation,4, Left,0.002,s9_examples.csv,top5: own labels
+1,merge,10.0,313,181,0.13916015625, left,the text's own explanation,5, bottom,0.001,s9_examples.csv,top5: own labels
+1,merge,10.0,313,181,0.13916015625, left,one whole other text merged in,1, left,0.775,s9_examples.csv,"top5: the merge of general donors, 1 text"
+1,merge,10.0,313,181,0.13916015625, left,one whole other text merged in,2, right,0.196,s9_examples.csv,"top5: the merge of general donors, 1 text"
+1,merge,10.0,313,181,0.13916015625, left,one whole other text merged in,3, Left,0.007,s9_examples.csv,"top5: the merge of general donors, 1 text"
+1,merge,10.0,313,181,0.13916015625, left,one whole other text merged in,4, middle,0.004,s9_examples.csv,"top5: the merge of general donors, 1 text"
+1,merge,10.0,313,181,0.13916015625, left,one whole other text merged in,5, top,0.003,s9_examples.csv,"top5: the merge of general donors, 1 text"
+2,merge,50.0,215,320,0.787109375, a,the original model,1, a,0.205,s9_examples.csv,top5: the original model
+2,merge,50.0,215,320,0.787109375, a,the original model,2, produced,0.117,s9_examples.csv,top5: the original model
+2,merge,50.0,215,320,0.787109375, a,the original model,3, an,0.052,s9_examples.csv,top5: the original model
+2,merge,50.0,215,320,0.787109375, a,the original model,4, the,0.052,s9_examples.csv,top5: the original model
+2,merge,50.0,215,320,0.787109375, a,the original model,5, not,0.043,s9_examples.csv,top5: the original model
+2,merge,50.0,215,320,0.787109375, a,the text's own explanation,1, a,0.261,s9_examples.csv,top5: own labels
+2,merge,50.0,215,320,0.787109375, a,the text's own explanation,2, the,0.085,s9_examples.csv,top5: own labels
+2,merge,50.0,215,320,0.787109375, a,the text's own explanation,3, an,0.08,s9_examples.csv,top5: own labels
+2,merge,50.0,215,320,0.787109375, a,the text's own explanation,4, produced,0.038,s9_examples.csv,top5: own labels
+2,merge,50.0,215,320,0.787109375, a,the text's own explanation,5, known,0.019,s9_examples.csv,top5: own labels
+2,merge,50.0,215,320,0.787109375, a,one whole other text merged in,1, a,0.135,s9_examples.csv,"top5: the merge of general donors, 1 text"
+2,merge,50.0,215,320,0.787109375, a,one whole other text merged in,2, the,0.064,s9_examples.csv,"top5: the merge of general donors, 1 text"
+2,merge,50.0,215,320,0.787109375, a,one whole other text merged in,3, an,0.047,s9_examples.csv,"top5: the merge of general donors, 1 text"
+2,merge,50.0,215,320,0.787109375, a,one whole other text merged in,4, not,0.036,s9_examples.csv,"top5: the merge of general donors, 1 text"
+2,merge,50.0,215,320,0.787109375, a,one whole other text merged in,5, able,0.028,s9_examples.csv,"top5: the merge of general donors, 1 text"
+3,merge,90.0,410,84,2.353515625, central,the original model,1, the,0.346,s9_examples.csv,top5: the original model
+3,merge,90.0,410,84,2.353515625, central,the original model,2, 2,0.041,s9_examples.csv,top5: the original model
+3,merge,90.0,410,84,2.353515625, central,the original model,3, energies,0.039,s9_examples.csv,top5: the original model
+3,merge,90.0,410,84,2.353515625, central,the original model,4, $\,0.027,s9_examples.csv,top5: the original model
+3,merge,90.0,410,84,2.353515625, central,the original model,5, $,0.025,s9_examples.csv,top5: the original model
+3,merge,90.0,410,84,2.353515625, central,the text's own explanation,1, the,0.242,s9_examples.csv,top5: own labels
+3,merge,90.0,410,84,2.353515625, central,the text's own explanation,2, $,0.069,s9_examples.csv,top5: own labels
+3,merge,90.0,410,84,2.353515625, central,the text's own explanation,3, a,0.035,s9_examples.csv,top5: own labels
+3,merge,90.0,410,84,2.353515625, central,the text's own explanation,4, high,0.03,s9_examples.csv,top5: own labels
+3,merge,90.0,410,84,2.353515625, central,the text's own explanation,5, low,0.029,s9_examples.csv,top5: own labels
+3,merge,90.0,410,84,2.353515625, central,one whole other text merged in,1, least,0.689,s9_examples.csv,"top5: the merge of general donors, 1 text"
+3,merge,90.0,410,84,2.353515625, central,one whole other text merged in,2, most,0.047,s9_examples.csv,"top5: the merge of general donors, 1 text"
+3,merge,90.0,410,84,2.353515625, central,one whole other text merged in,3, the,0.027,s9_examples.csv,"top5: the merge of general donors, 1 text"
+3,merge,90.0,410,84,2.353515625, central,one whole other text merged in,4, rest,0.013,s9_examples.csv,"top5: the merge of general donors, 1 text"
+3,merge,90.0,410,84,2.353515625, central,one whole other text merged in,5, a,0.009,s9_examples.csv,"top5: the merge of general donors, 1 text"
+4,merge,99.0,598,496,5.5234375,fmt,the original model,1,fmt,0.992,s9_examples.csv,top5: the original model
+4,merge,99.0,598,496,5.5234375,fmt,the original model,2,dst,0.001,s9_examples.csv,top5: the original model
+4,merge,99.0,598,496,5.5234375,fmt,the original model,3,buf,0.001,s9_examples.csv,top5: the original model
+4,merge,99.0,598,496,5.5234375,fmt,the original model,4,rgb,0.0,s9_examples.csv,top5: the original model
+4,merge,99.0,598,496,5.5234375,fmt,the original model,5,src,0.0,s9_examples.csv,top5: the original model
+4,merge,99.0,598,496,5.5234375,fmt,the text's own explanation,1,fmt,0.997,s9_examples.csv,top5: own labels
+4,merge,99.0,598,496,5.5234375,fmt,the text's own explanation,2, fmt,0.002,s9_examples.csv,top5: own labels
+4,merge,99.0,598,496,5.5234375,fmt,the text's own explanation,3,format,0.0,s9_examples.csv,top5: own labels
+4,merge,99.0,598,496,5.5234375,fmt,the text's own explanation,4,derr,0.0,s9_examples.csv,top5: own labels
+4,merge,99.0,598,496,5.5234375,fmt,the text's own explanation,5,intf,0.0,s9_examples.csv,top5: own labels
+4,merge,99.0,598,496,5.5234375,fmt,one whole other text merged in,1,",",0.461,s9_examples.csv,"top5: the merge of general donors, 1 text"
+4,merge,99.0,598,496,5.5234375,fmt,one whole other text merged in,2,);,0.132,s9_examples.csv,"top5: the merge of general donors, 1 text"
+4,merge,99.0,598,496,5.5234375,fmt,one whole other text merged in,3,b,0.055,s9_examples.csv,"top5: the merge of general donors, 1 text"
+4,merge,99.0,598,496,5.5234375,fmt,one whole other text merged in,4,),0.052,s9_examples.csv,"top5: the merge of general donors, 1 text"
+4,merge,99.0,598,496,5.5234375,fmt,one whole other text merged in,5,_,0.029,s9_examples.csv,"top5: the merge of general donors, 1 text"
+5,never_named,50.0,459,436,0.9296875, some,the original model,1, the,0.213,s9_examples.csv,top5: the original model
+5,never_named,50.0,459,436,0.9296875, some,the original model,2, proportional,0.078,s9_examples.csv,top5: the original model
+5,never_named,50.0,459,436,0.9296875, some,the original model,3, a,0.048,s9_examples.csv,top5: the original model
+5,never_named,50.0,459,436,0.9296875, some,the original model,4, not,0.033,s9_examples.csv,top5: the original model
+5,never_named,50.0,459,436,0.9296875, some,the original model,5, small,0.029,s9_examples.csv,top5: the original model
+5,never_named,50.0,459,436,0.9296875, some,"the full model, every piece on",1, the,0.213,s9_examples.csv,top5: the full decomposed model with the residual
+5,never_named,50.0,459,436,0.9296875, some,"the full model, every piece on",2, proportional,0.083,s9_examples.csv,top5: the full decomposed model with the residual
+5,never_named,50.0,459,436,0.9296875, some,"the full model, every piece on",3, a,0.048,s9_examples.csv,top5: the full decomposed model with the residual
+5,never_named,50.0,459,436,0.9296875, some,"the full model, every piece on",4, not,0.035,s9_examples.csv,top5: the full decomposed model with the residual
+5,never_named,50.0,459,436,0.9296875, some,"the full model, every piece on",5, small,0.029,s9_examples.csv,top5: the full decomposed model with the residual
+5,never_named,50.0,459,436,0.9296875, some,the never-named pieces removed,1, the,0.546,s9_examples.csv,top5: the removal of the never-named pieces
+5,never_named,50.0,459,436,0.9296875, some,the never-named pieces removed,2, $,0.027,s9_examples.csv,top5: the removal of the never-named pieces
+5,never_named,50.0,459,436,0.9296875, some,the never-named pieces removed,3, given,0.023,s9_examples.csv,top5: the removal of the never-named pieces
+5,never_named,50.0,459,436,0.9296875, some,the never-named pieces removed,4, a,0.023,s9_examples.csv,top5: the removal of the never-named pieces
+5,never_named,50.0,459,436,0.9296875, some,the never-named pieces removed,5, $\,0.015,s9_examples.csv,top5: the removal of the never-named pieces

@@ -1,0 +1,300 @@
+panel,source,row_a,row_b,row_index_a,row_index_b,distance
+panel_ArXiv,ArXiv,0,1,33,36,3
+panel_ArXiv,ArXiv,2,3,381,403,22
+panel_ArXiv,ArXiv,2,4,381,410,29
+panel_ArXiv,ArXiv,3,4,403,410,7
+panel_ArXiv,ArXiv,3,5,403,426,23
+panel_ArXiv,ArXiv,4,5,410,426,16
+panel_ArXiv,ArXiv,8,9,816,845,29
+panel_ArXiv,ArXiv,14,15,1434,1436,2
+panel_ArXiv,ArXiv,22,23,2786,2788,2
+panel_ArXiv,ArXiv,24,25,2951,2961,10
+panel_ArXiv,ArXiv,27,28,3265,3273,8
+panel_ArXiv,ArXiv,31,32,3629,3647,18
+panel_ArXiv,ArXiv,35,36,4186,4192,6
+panel_ArXiv,ArXiv,38,39,4409,4413,4
+panel_ArXiv,ArXiv,42,43,4912,4930,18
+panel_ArXiv,ArXiv,45,46,5325,5340,15
+panel_ArXiv,ArXiv,49,50,5517,5540,23
+panel_ArXiv,ArXiv,56,57,6274,6296,22
+panel_ArXiv,ArXiv,60,61,6500,6529,29
+panel_ArXiv,ArXiv,62,63,6590,6603,13
+panel_ArXiv,ArXiv,64,65,6692,6708,16
+panel_ArXiv,ArXiv,68,69,6905,6909,4
+panel_ArXiv,ArXiv,71,72,7094,7099,5
+panel_ArXiv,ArXiv,73,74,7321,7340,19
+panel_ArXiv,ArXiv,77,78,7612,7632,20
+panel_ArXiv,ArXiv,79,80,7670,7673,3
+panel_ArXiv,ArXiv,87,88,8840,8856,16
+panel_ArXiv,ArXiv,92,93,9657,9686,29
+panel_ArXiv,ArXiv,98,99,10054,10075,21
+panel_ArXiv,ArXiv,101,102,10190,10208,18
+panel_ArXiv,ArXiv,106,107,10616,10618,2
+panel_ArXiv,ArXiv,110,111,11148,11160,12
+panel_ArXiv,ArXiv,111,112,11160,11179,19
+panel_ArXiv,ArXiv,111,113,11160,11180,20
+panel_ArXiv,ArXiv,112,113,11179,11180,1
+panel_ArXiv,ArXiv,114,115,11362,11388,26
+panel_ArXiv,ArXiv,117,118,11725,11737,12
+panel_ArXiv,ArXiv,133,134,14054,14069,15
+panel_ArXiv,ArXiv,139,140,14687,14701,14
+panel_ArXiv,ArXiv,143,144,15285,15301,16
+panel_ArXiv,ArXiv,149,150,16267,16275,8
+panel_ArXiv,ArXiv,149,151,16267,16285,18
+panel_ArXiv,ArXiv,149,152,16267,16293,26
+panel_ArXiv,ArXiv,150,151,16275,16285,10
+panel_ArXiv,ArXiv,150,152,16275,16293,18
+panel_ArXiv,ArXiv,151,152,16285,16293,8
+panel_ArXiv,ArXiv,159,160,17440,17462,22
+panel_ArXiv,ArXiv,168,169,18124,18131,7
+panel_ArXiv,ArXiv,183,184,20541,20569,28
+panel_ArXiv,ArXiv,190,191,21188,21213,25
+panel_ArXiv,ArXiv,192,193,21254,21259,5
+panel_ArXiv,ArXiv,196,197,21799,21811,12
+panel_Wikipedia__en_,Wikipedia (en),0,1,29,30,1
+panel_Wikipedia__en_,Wikipedia (en),0,2,29,40,11
+panel_Wikipedia__en_,Wikipedia (en),1,2,30,40,10
+panel_Wikipedia__en_,Wikipedia (en),2,3,40,47,7
+panel_Wikipedia__en_,Wikipedia (en),4,5,124,126,2
+panel_Wikipedia__en_,Wikipedia (en),10,11,504,516,12
+panel_Wikipedia__en_,Wikipedia (en),11,12,516,526,10
+panel_Wikipedia__en_,Wikipedia (en),12,13,526,531,5
+panel_Wikipedia__en_,Wikipedia (en),13,14,531,542,11
+panel_Wikipedia__en_,Wikipedia (en),17,18,619,629,10
+panel_Wikipedia__en_,Wikipedia (en),20,21,677,679,2
+panel_Wikipedia__en_,Wikipedia (en),20,22,677,680,3
+panel_Wikipedia__en_,Wikipedia (en),20,23,677,681,4
+panel_Wikipedia__en_,Wikipedia (en),21,22,679,680,1
+panel_Wikipedia__en_,Wikipedia (en),21,23,679,681,2
+panel_Wikipedia__en_,Wikipedia (en),22,23,680,681,1
+panel_Wikipedia__en_,Wikipedia (en),25,26,868,875,7
+panel_Wikipedia__en_,Wikipedia (en),29,30,1107,1108,1
+panel_Wikipedia__en_,Wikipedia (en),29,31,1107,1112,5
+panel_Wikipedia__en_,Wikipedia (en),29,32,1107,1120,13
+panel_Wikipedia__en_,Wikipedia (en),30,31,1108,1112,4
+panel_Wikipedia__en_,Wikipedia (en),30,32,1108,1120,12
+panel_Wikipedia__en_,Wikipedia (en),31,32,1112,1120,8
+panel_Wikipedia__en_,Wikipedia (en),33,34,1212,1213,1
+panel_Wikipedia__en_,Wikipedia (en),37,38,1552,1554,2
+panel_Wikipedia__en_,Wikipedia (en),46,47,1889,1895,6
+panel_Wikipedia__en_,Wikipedia (en),56,57,2358,2368,10
+panel_Wikipedia__en_,Wikipedia (en),59,60,2484,2490,6
+panel_Wikipedia__en_,Wikipedia (en),66,67,2867,2874,7
+panel_Wikipedia__en_,Wikipedia (en),68,69,2911,2913,2
+panel_Wikipedia__en_,Wikipedia (en),70,71,2960,2971,11
+panel_Wikipedia__en_,Wikipedia (en),72,73,2990,2996,6
+panel_Wikipedia__en_,Wikipedia (en),72,74,2990,3004,14
+panel_Wikipedia__en_,Wikipedia (en),73,74,2996,3004,8
+panel_Wikipedia__en_,Wikipedia (en),78,79,3380,3387,7
+panel_Wikipedia__en_,Wikipedia (en),83,84,3560,3563,3
+panel_Wikipedia__en_,Wikipedia (en),83,85,3560,3567,7
+panel_Wikipedia__en_,Wikipedia (en),84,85,3563,3567,4
+panel_Wikipedia__en_,Wikipedia (en),86,87,3591,3602,11
+panel_Wikipedia__en_,Wikipedia (en),88,89,3665,3669,4
+panel_Wikipedia__en_,Wikipedia (en),88,90,3665,3673,8
+panel_Wikipedia__en_,Wikipedia (en),89,90,3669,3673,4
+panel_Wikipedia__en_,Wikipedia (en),91,92,3714,3722,8
+panel_Wikipedia__en_,Wikipedia (en),92,93,3722,3733,11
+panel_Wikipedia__en_,Wikipedia (en),94,95,3794,3806,12
+panel_Wikipedia__en_,Wikipedia (en),97,98,3867,3872,5
+panel_Wikipedia__en_,Wikipedia (en),104,105,4119,4127,8
+panel_Wikipedia__en_,Wikipedia (en),104,106,4119,4129,10
+panel_Wikipedia__en_,Wikipedia (en),105,106,4127,4129,2
+panel_Wikipedia__en_,Wikipedia (en),112,113,4783,4787,4
+panel_Wikipedia__en_,Wikipedia (en),114,115,4921,4932,11
+panel_Wikipedia__en_,Wikipedia (en),117,118,5038,5045,7
+panel_Wikipedia__en_,Wikipedia (en),117,119,5038,5048,10
+panel_Wikipedia__en_,Wikipedia (en),118,119,5045,5048,3
+panel_Wikipedia__en_,Wikipedia (en),124,125,5203,5217,14
+panel_Wikipedia__en_,Wikipedia (en),125,126,5217,5229,12
+panel_Wikipedia__en_,Wikipedia (en),130,131,5405,5414,9
+panel_Wikipedia__en_,Wikipedia (en),141,142,5906,5908,2
+panel_Wikipedia__en_,Wikipedia (en),142,143,5908,5922,14
+panel_Wikipedia__en_,Wikipedia (en),143,144,5922,5935,13
+panel_Wikipedia__en_,Wikipedia (en),150,151,6397,6400,3
+panel_Wikipedia__en_,Wikipedia (en),152,153,6415,6417,2
+panel_Wikipedia__en_,Wikipedia (en),153,154,6417,6431,14
+panel_Wikipedia__en_,Wikipedia (en),163,164,6847,6861,14
+panel_Wikipedia__en_,Wikipedia (en),167,168,6982,6983,1
+panel_Wikipedia__en_,Wikipedia (en),172,173,7161,7165,4
+panel_Wikipedia__en_,Wikipedia (en),176,177,7427,7433,6
+panel_Wikipedia__en_,Wikipedia (en),179,180,7509,7513,4
+panel_Wikipedia__en_,Wikipedia (en),183,184,7682,7687,5
+panel_Wikipedia__en_,Wikipedia (en),185,186,7780,7792,12
+panel_Wikipedia__en_,Wikipedia (en),187,188,7819,7825,6
+panel_Wikipedia__en_,Wikipedia (en),190,191,8051,8054,3
+panel_Wikipedia__en_,Wikipedia (en),190,192,8051,8063,12
+panel_Wikipedia__en_,Wikipedia (en),191,192,8054,8063,9
+panel_Wikipedia__en_,Wikipedia (en),193,194,8124,8134,10
+panel_Wikipedia__en_,Wikipedia (en),194,195,8134,8144,10
+panel_Pile_CC,Pile-CC,2,3,296,321,25
+panel_Pile_CC,Pile-CC,12,13,2662,2698,36
+panel_Pile_CC,Pile-CC,15,16,2904,2918,14
+panel_Pile_CC,Pile-CC,15,17,2904,2927,23
+panel_Pile_CC,Pile-CC,16,17,2918,2927,9
+panel_Pile_CC,Pile-CC,18,19,3047,3050,3
+panel_Pile_CC,Pile-CC,18,20,3047,3057,10
+panel_Pile_CC,Pile-CC,19,20,3050,3057,7
+panel_Pile_CC,Pile-CC,21,22,3293,3323,30
+panel_Pile_CC,Pile-CC,23,24,3589,3595,6
+panel_Pile_CC,Pile-CC,28,29,4911,4932,21
+panel_Pile_CC,Pile-CC,37,38,6401,6427,26
+panel_Pile_CC,Pile-CC,43,44,7114,7137,23
+panel_Pile_CC,Pile-CC,46,47,7799,7828,29
+panel_Pile_CC,Pile-CC,47,48,7828,7840,12
+panel_Pile_CC,Pile-CC,55,56,9989,9998,9
+panel_Pile_CC,Pile-CC,57,58,10091,10120,29
+panel_Pile_CC,Pile-CC,63,64,10925,10951,26
+panel_Pile_CC,Pile-CC,66,67,11959,11988,29
+panel_Pile_CC,Pile-CC,68,69,12331,12360,29
+panel_Pile_CC,Pile-CC,71,72,13620,13653,33
+panel_Pile_CC,Pile-CC,72,73,13653,13677,24
+panel_Pile_CC,Pile-CC,77,78,14310,14325,15
+panel_Pile_CC,Pile-CC,80,81,14703,14735,32
+panel_Pile_CC,Pile-CC,85,86,15568,15585,17
+panel_Pile_CC,Pile-CC,93,94,16751,16758,7
+panel_Pile_CC,Pile-CC,100,101,18258,18271,13
+panel_Pile_CC,Pile-CC,101,102,18271,18297,26
+panel_Pile_CC,Pile-CC,103,104,18374,18398,24
+panel_Pile_CC,Pile-CC,105,106,18641,18651,10
+panel_Pile_CC,Pile-CC,108,109,19165,19183,18
+panel_Pile_CC,Pile-CC,123,124,22677,22693,16
+panel_Pile_CC,Pile-CC,145,146,26429,26461,32
+panel_Pile_CC,Pile-CC,148,149,27013,27017,4
+panel_Pile_CC,Pile-CC,153,154,27602,27632,30
+panel_Pile_CC,Pile-CC,158,159,28474,28500,26
+panel_Pile_CC,Pile-CC,160,161,28698,28717,19
+panel_Pile_CC,Pile-CC,164,165,30034,30038,4
+panel_Pile_CC,Pile-CC,169,170,30749,30766,17
+panel_Pile_CC,Pile-CC,175,176,31548,31566,18
+panel_Pile_CC,Pile-CC,180,181,32533,32543,10
+panel_Pile_CC,Pile-CC,180,182,32533,32552,19
+panel_Pile_CC,Pile-CC,181,182,32543,32552,9
+panel_Pile_CC,Pile-CC,183,184,32622,32633,11
+panel_Pile_CC,Pile-CC,189,190,33213,33223,10
+panel_Pile_CC,Pile-CC,192,193,34231,34259,28
+panel_Pile_CC,Pile-CC,192,194,34231,34267,36
+panel_Pile_CC,Pile-CC,193,194,34259,34267,8
+panel_StackExchange,StackExchange,14,15,654,657,3
+panel_StackExchange,StackExchange,26,27,1277,1282,5
+panel_StackExchange,StackExchange,46,47,2767,2769,2
+panel_StackExchange,StackExchange,49,50,2900,2903,3
+panel_StackExchange,StackExchange,59,60,3305,3306,1
+panel_StackExchange,StackExchange,63,64,3440,3444,4
+panel_StackExchange,StackExchange,65,66,3456,3457,1
+panel_StackExchange,StackExchange,77,78,4071,4075,4
+panel_StackExchange,StackExchange,86,87,4967,4973,6
+panel_StackExchange,StackExchange,87,88,4973,4976,3
+panel_StackExchange,StackExchange,93,94,5086,5092,6
+panel_StackExchange,StackExchange,102,103,5477,5481,4
+panel_StackExchange,StackExchange,103,104,5481,5484,3
+panel_StackExchange,StackExchange,103,105,5481,5485,4
+panel_StackExchange,StackExchange,104,105,5484,5485,1
+panel_StackExchange,StackExchange,105,106,5485,5491,6
+panel_StackExchange,StackExchange,121,122,6454,6460,6
+panel_StackExchange,StackExchange,133,134,7218,7219,1
+panel_StackExchange,StackExchange,136,137,7343,7346,3
+panel_StackExchange,StackExchange,162,163,9234,9239,5
+panel_StackExchange,StackExchange,168,169,9864,9867,3
+panel_StackExchange,StackExchange,182,183,10579,10583,4
+panel_Github,Github,1,173,3743,3796,53
+panel_Github,Github,4,95,19135,19115,20
+panel_Github,Github,8,57,7176,7202,26
+panel_Github,Github,8,127,7176,7195,19
+panel_Github,Github,8,130,7176,7180,4
+panel_Github,Github,10,104,7656,7683,27
+panel_Github,Github,11,83,9292,9256,36
+panel_Github,Github,14,76,6256,6207,49
+panel_Github,Github,14,142,6256,6297,41
+panel_Github,Github,16,39,6533,6504,29
+panel_Github,Github,17,172,15842,15890,48
+panel_Github,Github,18,194,11220,11208,12
+panel_Github,Github,19,81,8910,8865,45
+panel_Github,Github,19,158,8910,8932,22
+panel_Github,Github,20,118,8549,8508,41
+panel_Github,Github,20,186,8549,8532,17
+panel_Github,Github,21,46,14481,14531,50
+panel_Github,Github,22,112,2398,2441,43
+panel_Github,Github,23,61,20487,20539,52
+panel_Github,Github,23,108,20487,20443,44
+panel_Github,Github,24,101,11107,11152,45
+panel_Github,Github,25,74,11631,11681,50
+panel_Github,Github,26,89,13390,13385,5
+panel_Github,Github,27,193,7269,7270,1
+panel_Github,Github,28,165,7032,7081,49
+panel_Github,Github,31,96,16962,16916,46
+panel_Github,Github,32,102,9627,9633,6
+panel_Github,Github,33,51,15340,15284,56
+panel_Github,Github,33,80,15340,15317,23
+panel_Github,Github,33,179,15340,15288,52
+panel_Github,Github,34,45,3290,3329,39
+panel_Github,Github,34,195,3290,3296,6
+panel_Github,Github,36,174,14346,14304,42
+panel_Github,Github,37,42,13692,13650,42
+panel_Github,Github,37,164,13692,13704,12
+panel_Github,Github,38,104,7737,7683,54
+panel_Github,Github,41,75,1894,1928,34
+panel_Github,Github,41,128,1894,1937,43
+panel_Github,Github,42,164,13650,13704,54
+panel_Github,Github,43,48,20569,20554,15
+panel_Github,Github,43,61,20569,20539,30
+panel_Github,Github,43,161,20569,20565,4
+panel_Github,Github,44,132,19688,19667,21
+panel_Github,Github,44,155,19688,19683,5
+panel_Github,Github,45,195,3329,3296,33
+panel_Github,Github,47,63,16706,16705,1
+panel_Github,Github,48,61,20554,20539,15
+panel_Github,Github,48,161,20554,20565,11
+panel_Github,Github,50,54,20118,20093,25
+panel_Github,Github,50,149,20118,20163,45
+panel_Github,Github,51,80,15284,15317,33
+panel_Github,Github,51,170,15284,15243,41
+panel_Github,Github,51,179,15284,15288,4
+panel_Github,Github,51,198,15284,15274,10
+panel_Github,Github,53,143,15690,15700,10
+panel_Github,Github,55,119,21061,21033,28
+panel_Github,Github,56,176,14842,14791,51
+panel_Github,Github,57,127,7202,7195,7
+panel_Github,Github,57,130,7202,7180,22
+panel_Github,Github,58,137,8686,8738,52
+panel_Github,Github,60,140,850,884,34
+panel_Github,Github,61,161,20539,20565,26
+panel_Github,Github,64,92,5500,5510,10
+panel_Github,Github,67,94,14050,13997,53
+panel_Github,Github,68,132,19625,19667,42
+panel_Github,Github,69,76,6195,6207,12
+panel_Github,Github,70,71,3565,3568,3
+panel_Github,Github,73,79,18818,18874,56
+panel_Github,Github,75,128,1928,1937,9
+panel_Github,Github,78,82,3118,3147,29
+panel_Github,Github,80,179,15317,15288,29
+panel_Github,Github,80,198,15317,15274,43
+panel_Github,Github,84,196,19253,19284,31
+panel_Github,Github,85,197,12105,12135,30
+panel_Github,Github,88,98,4024,3998,26
+panel_Github,Github,93,105,7565,7597,32
+panel_Github,Github,99,107,4321,4272,49
+panel_Github,Github,99,191,4321,4366,45
+panel_Github,Github,101,194,11152,11208,56
+panel_Github,Github,103,158,8981,8932,49
+panel_Github,Github,106,152,1528,1539,11
+panel_Github,Github,109,159,18979,19032,53
+panel_Github,Github,111,166,2169,2134,35
+panel_Github,Github,113,185,19492,19496,4
+panel_Github,Github,114,138,13546,13561,15
+panel_Github,Github,118,186,8508,8532,24
+panel_Github,Github,123,193,7326,7270,56
+panel_Github,Github,125,129,1780,1736,44
+panel_Github,Github,125,148,1780,1798,18
+panel_Github,Github,125,199,1780,1743,37
+panel_Github,Github,127,130,7195,7180,15
+panel_Github,Github,129,199,1736,1743,7
+panel_Github,Github,131,188,6725,6690,35
+panel_Github,Github,132,155,19667,19683,16
+panel_Github,Github,148,199,1798,1743,55
+panel_Github,Github,157,169,2521,2503,18
+panel_Github,Github,167,178,11368,11349,19
+panel_Github,Github,170,179,15243,15288,45
+panel_Github,Github,170,198,15243,15274,31
+panel_Github,Github,179,198,15288,15274,14
+panel_Github,Github,187,189,21301,21285,16

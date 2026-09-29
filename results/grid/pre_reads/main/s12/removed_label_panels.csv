@@ -1,0 +1,11 @@
+panel,source,size,n_rows,omega_group,omega_twins,omega_twins_draw_min,omega_twins_draw_max,group_cell,n_twin_draws,rank_by_omega_group
+panel_Github,Github,256,200,9.79207044328916,0.7907726410424644,0.6982366798772108,0.8560070395113764,main/E_lab/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG256,8,1
+panel_Github,Github,1007,200,43.025019542218054,6.430781806549801,5.459187420981286,7.40016055320711,main/E_lab/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG1007,8,1
+panel_StackExchange,StackExchange,256,200,5.713767991285519,1.1033070992781202,0.9958734650372014,1.2108238786609729,main/E_lab/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG256,8,2
+panel_StackExchange,StackExchange,1007,200,31.02226825208728,7.858903562195551,7.106650955679741,8.618401028745136,main/E_lab/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG1007,8,2
+panel_ArXiv,ArXiv,256,200,1.386342198717146,1.6896154855110934,1.2570520681681125,2.089392604359887,main/E_lab/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG256,8,3
+panel_ArXiv,ArXiv,1007,200,15.445546995330696,10.017078297256061,9.067994593400327,10.692670132562926,main/E_lab/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG1007,8,3
+panel_Pile_CC,Pile-CC,256,200,0.16032217820060113,2.053951090606242,1.8994182507133366,2.244454679651435,main/E_lab/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG256,8,4
+panel_Pile_CC,Pile-CC,1007,200,2.1107749568328735,12.450123693552717,11.605210609127344,13.572961199640863,main/E_lab/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG1007,8,4
+panel_Wikipedia__en_,Wikipedia (en),256,200,0.057482168561831484,2.3324254437714456,2.045380313526569,2.5842125346575635,main/E_lab/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG256,8,5
+panel_Wikipedia__en_,Wikipedia (en),1007,200,1.2402656506915606,13.979852643380783,13.11331114274693,15.1459322710977,main/E_lab/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG1007,8,5

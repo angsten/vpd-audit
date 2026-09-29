@@ -1,0 +1,2 @@
+size,size_words,lambda,nonfinite_share,flag,lambda_without_flagged_sources,interval_lo,interval_hi,interval_rows_beside_lo,interval_rows_beside_hi,interval_without_flagged_sources_lo,interval_without_flagged_sources_hi
+3,64 tokens,0.729608308123781,0.0,pooled; ArXiv contributes 3 documents; the value without it is beside,0.6396784653858788,0.5175240175060847,0.9172405718964913,0.5837420822115699,0.8885088604290426,0.43005073521679577,0.8299862070679979

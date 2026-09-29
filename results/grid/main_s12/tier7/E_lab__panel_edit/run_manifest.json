@@ -1,0 +1,295 @@
+{
+  "checkpoint_hashes": {
+    "decomp": "fdd794abda8ca79e98f4644590c0c6e696261d9b84b34c8e83f94a2cc3607a93",
+    "target": "650f2eb603fe9fe649671c0c89b86746655bc49c96aa1ad00fbb4c1bf3c6c3b6"
+  },
+  "commits": {
+    "dirty": "0",
+    "project": "73da70211d8e7a1d4a9c10784354fa75f338dbe0",
+    "submodule": "74146b555f3eb3cd2bc639c3789fd3b7a099094a"
+  },
+  "created_at": "2026-09-29T14:55:22+0000",
+  "device": "cuda:0",
+  "extra": {
+    "cells": [
+      "main/E_lab/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG256",
+      "main/E_lab/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG256/ctl-usage",
+      "main/E_lab/ref/unmasked_delta"
+    ],
+    "n_cells": 3,
+    "sources": {
+      "main/E_lab/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG256": {
+        "code_leaning": {
+          "group_threshold": 0.9,
+          "ladder": [
+            [
+              16,
+              false
+            ],
+            [
+              64,
+              false
+            ],
+            [
+              256,
+              false
+            ],
+            [
+              1007,
+              false
+            ],
+            [
+              1862,
+              true
+            ]
+          ],
+          "min_selectivity": 0.9893133242382901,
+          "n_group": 1007,
+          "n_wide": 1862,
+          "order_sha256": "7727d4fbe3fe34fd714358e6e16b68cd71431bc942ceda6b16dfdc5415c498f2",
+          "wide_sha256": "5ce83cbb794be3aed7ef9a1520ff6798586f28e063880d5f78f25c443f1eb877",
+          "wide_threshold": 0.75
+        },
+        "donor_size": 256,
+        "donor_unit": "code_leaning",
+        "draw": 0,
+        "family": "code_leaning_hard",
+        "n_on": {
+          "h.0.attn.k_proj": 1,
+          "h.0.attn.o_proj": 3,
+          "h.0.attn.q_proj": 1,
+          "h.0.attn.v_proj": 12,
+          "h.0.mlp.c_fc": 28,
+          "h.0.mlp.down_proj": 26,
+          "h.1.attn.k_proj": 0,
+          "h.1.attn.o_proj": 1,
+          "h.1.attn.q_proj": 0,
+          "h.1.attn.v_proj": 3,
+          "h.1.mlp.c_fc": 1,
+          "h.1.mlp.down_proj": 0,
+          "h.2.attn.k_proj": 1,
+          "h.2.attn.o_proj": 29,
+          "h.2.attn.q_proj": 1,
+          "h.2.attn.v_proj": 16,
+          "h.2.mlp.c_fc": 2,
+          "h.2.mlp.down_proj": 3,
+          "h.3.attn.k_proj": 2,
+          "h.3.attn.o_proj": 2,
+          "h.3.attn.q_proj": 3,
+          "h.3.attn.v_proj": 0,
+          "h.3.mlp.c_fc": 40,
+          "h.3.mlp.down_proj": 81,
+          "total": 256
+        },
+        "named_n_on": {
+          "h.0.attn.k_proj": 1,
+          "h.0.attn.o_proj": 3,
+          "h.0.attn.q_proj": 1,
+          "h.0.attn.v_proj": 12,
+          "h.0.mlp.c_fc": 28,
+          "h.0.mlp.down_proj": 26,
+          "h.1.attn.k_proj": 0,
+          "h.1.attn.o_proj": 1,
+          "h.1.attn.q_proj": 0,
+          "h.1.attn.v_proj": 3,
+          "h.1.mlp.c_fc": 1,
+          "h.1.mlp.down_proj": 0,
+          "h.2.attn.k_proj": 1,
+          "h.2.attn.o_proj": 29,
+          "h.2.attn.q_proj": 1,
+          "h.2.attn.v_proj": 16,
+          "h.2.mlp.c_fc": 2,
+          "h.2.mlp.down_proj": 3,
+          "h.3.attn.k_proj": 2,
+          "h.3.attn.o_proj": 2,
+          "h.3.attn.q_proj": 3,
+          "h.3.attn.v_proj": 0,
+          "h.3.mlp.c_fc": 40,
+          "h.3.mlp.down_proj": 81,
+          "total": 256
+        },
+        "pool": "D_code",
+        "rung": "G256",
+        "seed_tuple": "",
+        "source_sha256": "745e0066cdcf744d52629d5a5b78db56b878871173fb2f63af8e17069226fe6b",
+        "tau": 0.1
+      },
+      "main/E_lab/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG256/ctl-usage": {
+        "code_leaning": {
+          "group_threshold": 0.9,
+          "ladder": [
+            [
+              16,
+              false
+            ],
+            [
+              64,
+              false
+            ],
+            [
+              256,
+              false
+            ],
+            [
+              1007,
+              false
+            ],
+            [
+              1862,
+              true
+            ]
+          ],
+          "min_selectivity": 0.9893133242382901,
+          "n_group": 1007,
+          "n_wide": 1862,
+          "order_sha256": "7727d4fbe3fe34fd714358e6e16b68cd71431bc942ceda6b16dfdc5415c498f2",
+          "wide_sha256": "5ce83cbb794be3aed7ef9a1520ff6798586f28e063880d5f78f25c443f1eb877",
+          "wide_threshold": 0.75
+        },
+        "control": {
+          "alive_run": "main",
+          "alive_sha256": "ca771bcb10585b0efb52a07c00257729f181eb706d6ee9c283441d84faad0302",
+          "candidates": "alive minus the excluded set (G_0.75)",
+          "draw": 0,
+          "excluded_sha256": "5ce83cbb794be3aed7ef9a1520ff6798586f28e063880d5f78f25c443f1eb877",
+          "family": "code_leaning_hard",
+          "n_alive": 9959,
+          "n_candidates": 8097,
+          "n_members": 1862,
+          "n_twins": 1862,
+          "sampler": "usage_nearest",
+          "seed_pattern": [
+            0,
+            "rand",
+            "code_leaning_hard",
+            0,
+            "<member's global index>"
+          ],
+          "shortfall": {},
+          "shortfall_at_this_rung": 0,
+          "tie_seed_tuple": [
+            0,
+            "rand",
+            "ranked_ties"
+          ],
+          "window": 8
+        },
+        "donor_size": 256,
+        "donor_unit": "code_leaning",
+        "draw": 0,
+        "family": "code_leaning_hard",
+        "matched_source_sha256": "745e0066cdcf744d52629d5a5b78db56b878871173fb2f63af8e17069226fe6b",
+        "n_on": {
+          "h.0.attn.k_proj": 1,
+          "h.0.attn.o_proj": 3,
+          "h.0.attn.q_proj": 1,
+          "h.0.attn.v_proj": 12,
+          "h.0.mlp.c_fc": 28,
+          "h.0.mlp.down_proj": 26,
+          "h.1.attn.k_proj": 0,
+          "h.1.attn.o_proj": 1,
+          "h.1.attn.q_proj": 0,
+          "h.1.attn.v_proj": 3,
+          "h.1.mlp.c_fc": 1,
+          "h.1.mlp.down_proj": 0,
+          "h.2.attn.k_proj": 1,
+          "h.2.attn.o_proj": 29,
+          "h.2.attn.q_proj": 1,
+          "h.2.attn.v_proj": 16,
+          "h.2.mlp.c_fc": 2,
+          "h.2.mlp.down_proj": 3,
+          "h.3.attn.k_proj": 2,
+          "h.3.attn.o_proj": 2,
+          "h.3.attn.q_proj": 3,
+          "h.3.attn.v_proj": 0,
+          "h.3.mlp.c_fc": 40,
+          "h.3.mlp.down_proj": 81,
+          "total": 256
+        },
+        "named_n_on": {
+          "h.0.attn.k_proj": 1,
+          "h.0.attn.o_proj": 3,
+          "h.0.attn.q_proj": 1,
+          "h.0.attn.v_proj": 12,
+          "h.0.mlp.c_fc": 28,
+          "h.0.mlp.down_proj": 26,
+          "h.1.attn.k_proj": 0,
+          "h.1.attn.o_proj": 1,
+          "h.1.attn.q_proj": 0,
+          "h.1.attn.v_proj": 3,
+          "h.1.mlp.c_fc": 1,
+          "h.1.mlp.down_proj": 0,
+          "h.2.attn.k_proj": 1,
+          "h.2.attn.o_proj": 29,
+          "h.2.attn.q_proj": 1,
+          "h.2.attn.v_proj": 16,
+          "h.2.mlp.c_fc": 2,
+          "h.2.mlp.down_proj": 3,
+          "h.3.attn.k_proj": 2,
+          "h.3.attn.o_proj": 2,
+          "h.3.attn.q_proj": 3,
+          "h.3.attn.v_proj": 0,
+          "h.3.mlp.c_fc": 40,
+          "h.3.mlp.down_proj": 81,
+          "total": 256
+        },
+        "pool": "D_code",
+        "rung": "G256",
+        "seed_tuple": "",
+        "source_sha256": "1eb16f9615f459edd5bdad8c3da15266e9993b1e4bd54953d8056dc436550a8a",
+        "tau": 0.1
+      },
+      "main/E_lab/ref/unmasked_delta": {
+        "kind": "reference"
+      }
+    },
+    "tiers": [
+      1,
+      4
+    ]
+  },
+  "fingerprint": {
+    "dtype_codes": {
+      "torch.bfloat16": 16,
+      "torch.float32": 32
+    },
+    "hex": "16 lowercase hex characters of the value modulo 2^64",
+    "levels": "1: h_b^(l) = sum W x; 2: phi_b; 3: F_i, H_i^(l) with global sequence salts; 4: F = sum_i F_i mod 2^64",
+    "mixer": "splitmix64",
+    "mixer_constants": {
+      "c1": "0xbf58476d1ce4e5b9",
+      "c2": "0x94d049bb133111eb",
+      "shifts": [
+        30,
+        27,
+        31
+      ]
+    },
+    "mixer_reference": "Steele, Lea, Flood, OOPSLA 2014; Vigna, splitmix64.c (public domain), https://prng.di.unimi.it/splitmix64.c",
+    "salts": {
+      "W": 4294967296,
+      "delta": 8589934592,
+      "dtype": 25769803776,
+      "mod": 12884901888,
+      "mod_delta": 17179869184,
+      "res": 30064771072,
+      "seq": 21474836480
+    },
+    "slab": 8,
+    "version": 1
+  },
+  "finished_at": "2026-09-29T14:55:45+0000",
+  "g_dtype": "torch.float32",
+  "gpu_name": "NVIDIA A100-SXM4-40GB",
+  "importance_chunk": 32,
+  "job": "grid_main_t7_E_lab__panel_edit",
+  "master_seed": 0,
+  "n_draws": 1,
+  "n_sequences": 512,
+  "precision": "bf16",
+  "run": "main",
+  "set_hash": "171882956d6736123e46738266048e21409d7ee0c5337f5accfd170f9cf15f5f",
+  "set_name": "E_lab",
+  "subbatch": 64,
+  "torch_version": "2.8.0+cu128"
+}

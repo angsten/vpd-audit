@@ -1,0 +1,50 @@
+{
+  "canary": {
+    "aggregation_curve": {
+      "checks": [
+        "U r1 m2",
+        "U r2 m2",
+        "U r2a m1",
+        "U r2b m1",
+        "U r3 m1",
+        "P r1 m2",
+        "P r2 m2",
+        "P r2a m1",
+        "P r2b m1",
+        "P r3 m1",
+        "M r1 m2",
+        "M r2 m2",
+        "M r2a m1",
+        "M r2b m1",
+        "M r3 m1",
+        "curve 1 none whole text m10",
+        "curve 1 plain whole text m10"
+      ],
+      "m_curve_1": 10,
+      "m_curve_1_plain": 10
+    },
+    "code_edit": {
+      "n_bars": 10
+    },
+    "similar_donors": {
+      "m": 10,
+      "n_points": 36
+    }
+  },
+  "files": [
+    "aggregation_curve.csv",
+    "aggregation_curve.png",
+    "aggregation_schematic.png",
+    "code_edit_panels.csv",
+    "code_edit_panels.png",
+    "delete_schematic.png",
+    "similar_donors.csv",
+    "similar_donors.png"
+  ],
+  "inputs": {
+    "master_seed": 0,
+    "replicates": 10000,
+    "results_root": "results",
+    "run": "main"
+  }
+}

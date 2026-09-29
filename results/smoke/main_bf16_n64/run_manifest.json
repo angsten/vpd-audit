@@ -1,0 +1,57 @@
+{
+  "checkpoint_hashes": {
+    "decomp": "fdd794abda8ca79e98f4644590c0c6e696261d9b84b34c8e83f94a2cc3607a93",
+    "target": "650f2eb603fe9fe649671c0c89b86746655bc49c96aa1ad00fbb4c1bf3c6c3b6"
+  },
+  "commits": {
+    "project": "049932d95800304993654a1c4f47d26212fdce58",
+    "submodule": "74146b555f3eb3cd2bc639c3789fd3b7a099094a"
+  },
+  "created_at": "2026-09-16T20:55:06+0000",
+  "device": "cuda:0",
+  "extra": {
+    "cells": [
+      "target",
+      "unmasked",
+      "unmasked_delta",
+      "stochastic/k0",
+      "stochastic/k1",
+      "stochastic_delta/k0",
+      "stochastic_delta/k1",
+      "rounded_0",
+      "rounded_0.1",
+      "importances",
+      "rounded_0.5",
+      "zero_all",
+      "random_illegal"
+    ],
+    "conditions": [
+      "target",
+      "unmasked",
+      "unmasked_delta",
+      "stochastic",
+      "stochastic_delta",
+      "rounded_0",
+      "rounded_0.1",
+      "importances",
+      "rounded_0.5",
+      "zero_all",
+      "random_illegal"
+    ],
+    "deterministic_algorithms": true,
+    "do_hash": true
+  },
+  "g_dtype": "torch.float32",
+  "gpu_name": "NVIDIA A100-SXM4-40GB",
+  "importance_chunk": 32,
+  "job": "smoke_main_bf16_n64",
+  "master_seed": 0,
+  "n_draws": 2,
+  "n_sequences": 64,
+  "precision": "bf16",
+  "run": "main",
+  "set_hash": "81f8b75b4c31fc95836841062b0c49c4237b3e83dce43397b8ad7e927c18d103",
+  "set_name": "E",
+  "subbatch": 32,
+  "torch_version": "2.8.0+cu128"
+}

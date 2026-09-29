@@ -1,0 +1,44 @@
+[project]
+name = "vpd-audit"
+version = "0.1.0"
+description = "Faithfulness audit harness for the VPD decomposition"
+requires-python = "==3.13.*"
+dependencies = [
+    # The authors' library, as an editable path dependency on the submodule.
+    "param-decomp",
+    # Pinned to the versions in third_party/param-decomp/uv.lock at commit 74146b5.
+    "torch==2.8.0",
+    "pydantic==2.11.10",
+    # Also pinned to the authors' lockfile: their `wandb_utils` imports `wandb_workspaces.reports.v2`,
+    # which needs the `wandb_gql` module that wandb 0.23.1 ships and wandb >= 0.30 does not; the
+    # other three are what the authors' data and loader code was tested against.
+    "wandb==0.23.1",
+    "transformers==4.57.3",
+    "datasets==4.4.2",
+    "huggingface_hub==0.36.0",
+    "numpy==2.4.0",
+    # Ours.
+    "modal",
+    "pytest",
+    "pandas",
+    "pyarrow",
+    "python-dotenv",
+    "pyyaml",
+]
+
+[project.scripts]
+vpd-audit = "vpd_audit.cli:main"
+
+[tool.uv.sources]
+param-decomp = { path = "third_party/param-decomp", editable = true }
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["vpd_audit*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

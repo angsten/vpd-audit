@@ -1,0 +1,141 @@
+chain,rung_size,descriptive,tau_q,stratum,n_draws,n_sequences,mean_n_contributing,min_n_contributing,mean_clean_prefix_fraction,fraction_never_touched,floor_met
+group,16,False,tau_q0.1,all,1,512,394.0,394,0.43907928466796875,0.361328125,True
+group,16,False,tau_q0.1,ArXiv,1,64,61.0,61,0.679046630859375,0.53125,False
+group,16,False,tau_q0.1,Github,1,256,156.0,156,0.1461944580078125,0.07421875,True
+group,16,False,tau_q0.1,Pile-CC,1,64,64.0,64,0.980499267578125,0.96875,True
+group,16,False,tau_q0.1,StackExchange,1,64,49.0,49,0.3016357421875,0.15625,False
+group,16,False,tau_q0.1,Wikipedia (en),1,64,64.0,64,0.9666748046875,0.9375,True
+group,16,False,tau_q0.1,other,1,256,238.0,238,0.731964111328125,0.6484375,True
+group,16,False,tau_q0,all,1,512,366.0,366,0.3096885681152344,0.171875,True
+group,16,False,tau_q0,ArXiv,1,64,57.0,57,0.458770751953125,0.25,False
+group,16,False,tau_q0,Github,1,256,136.0,136,0.106658935546875,0.01953125,True
+group,16,False,tau_q0,Pile-CC,1,64,63.0,63,0.6497802734375,0.4375,False
+group,16,False,tau_q0,StackExchange,1,64,46.0,46,0.19659423828125,0.046875,False
+group,16,False,tau_q0,Wikipedia (en),1,64,64.0,64,0.7457275390625,0.5625,True
+group,16,False,tau_q0,other,1,256,230.0,230,0.5127182006835938,0.32421875,True
+control,16,False,tau_q0.1,all,8,512,279.5,103,0.20633888244628906,0.08837890625,True
+control,16,False,tau_q0.1,ArXiv,8,64,34.25,11,0.12224960327148438,0.025390625,False
+control,16,False,tau_q0.1,Github,8,256,146.25,60,0.2954883575439453,0.1572265625,True
+control,16,False,tau_q0.1,Pile-CC,8,64,35.5,14,0.10653305053710938,0.0078125,False
+control,16,False,tau_q0.1,StackExchange,8,64,32.375,8,0.1471099853515625,0.033203125,False
+control,16,False,tau_q0.1,Wikipedia (en),8,64,31.125,9,0.092864990234375,0.01171875,False
+control,16,False,tau_q0.1,other,8,256,133.25,43,0.11718940734863281,0.01953125,True
+control,16,False,tau_q0,all,8,512,254.25,96,0.13665771484375,0.032958984375,True
+control,16,False,tau_q0,ArXiv,8,64,31.625,8,0.093170166015625,0.005859375,False
+control,16,False,tau_q0,Github,8,256,130.625,57,0.18642044067382812,0.05908203125,True
+control,16,False,tau_q0,Pile-CC,8,64,32.5,12,0.08141326904296875,0.001953125,False
+control,16,False,tau_q0,StackExchange,8,64,29.75,8,0.10318756103515625,0.009765625,False
+control,16,False,tau_q0,Wikipedia (en),8,64,29.75,9,0.0698089599609375,0.009765625,False
+control,16,False,tau_q0,other,8,256,123.625,39,0.08689498901367188,0.0068359375,True
+group,64,False,tau_q0.1,all,1,512,226.0,226,0.222259521484375,0.146484375,True
+group,64,False,tau_q0.1,ArXiv,1,64,33.0,33,0.139801025390625,0.0625,False
+group,64,False,tau_q0.1,Github,1,256,47.0,47,0.0505523681640625,0.015625,False
+group,64,False,tau_q0.1,Pile-CC,1,64,59.0,59,0.706512451171875,0.546875,False
+group,64,False,tau_q0.1,StackExchange,1,64,30.0,30,0.0771484375,0.0,False
+group,64,False,tau_q0.1,Wikipedia (en),1,64,57.0,57,0.65240478515625,0.5,False
+group,64,False,tau_q0.1,other,1,256,179.0,179,0.3939666748046875,0.27734375,True
+group,64,False,tau_q0,all,1,512,204.0,204,0.07896041870117188,0.001953125,True
+group,64,False,tau_q0,ArXiv,1,64,30.0,30,0.07110595703125,0.0,False
+group,64,False,tau_q0,Github,1,256,36.0,36,0.01929473876953125,0.0,False
+group,64,False,tau_q0,Pile-CC,1,64,55.0,55,0.204803466796875,0.0,False
+group,64,False,tau_q0,StackExchange,1,64,28.0,28,0.05609130859375,0.0,False
+group,64,False,tau_q0,Wikipedia (en),1,64,55.0,55,0.222503662109375,0.015625,False
+group,64,False,tau_q0,other,1,256,168.0,168,0.1386260986328125,0.00390625,True
+control,64,False,tau_q0.1,all,8,512,2.625,0,0.0002818107604980469,0.0,False
+control,64,False,tau_q0.1,ArXiv,8,64,0.0,0,2.6702880859375e-05,0.0,False
+control,64,False,tau_q0.1,Github,8,256,2.0,0,0.000457763671875,0.0,False
+control,64,False,tau_q0.1,Pile-CC,8,64,0.375,0,0.00019073486328125,0.0,False
+control,64,False,tau_q0.1,StackExchange,8,64,0.125,0,8.7738037109375e-05,0.0,False
+control,64,False,tau_q0.1,Wikipedia (en),8,64,0.125,0,0.000118255615234375,0.0,False
+control,64,False,tau_q0.1,other,8,256,0.625,0,0.00010585784912109375,0.0,False
+control,64,False,tau_q0,all,8,512,2.125,0,0.00018453598022460938,0.0,False
+control,64,False,tau_q0,ArXiv,8,64,0.0,0,2.6702880859375e-05,0.0,False
+control,64,False,tau_q0,Github,8,256,1.625,0,0.00028133392333984375,0.0,False
+control,64,False,tau_q0,Pile-CC,8,64,0.375,0,0.00019073486328125,0.0,False
+control,64,False,tau_q0,StackExchange,8,64,0.125,0,8.392333984375e-05,0.0,False
+control,64,False,tau_q0,Wikipedia (en),8,64,0.0,0,4.9591064453125e-05,0.0,False
+control,64,False,tau_q0,other,8,256,0.5,0,8.7738037109375e-05,0.0,False
+group,256,False,tau_q0.1,all,1,512,99.0,99,0.023937225341796875,0.0,False
+group,256,False,tau_q0.1,ArXiv,1,64,15.0,15,0.018585205078125,0.0,False
+group,256,False,tau_q0.1,Github,1,256,4.0,4,0.0013275146484375,0.0,False
+group,256,False,tau_q0.1,Pile-CC,1,64,39.0,39,0.08953857421875,0.0,False
+group,256,False,tau_q0.1,StackExchange,1,64,8.0,8,0.007659912109375,0.0,False
+group,256,False,tau_q0.1,Wikipedia (en),1,64,33.0,33,0.070404052734375,0.0,False
+group,256,False,tau_q0.1,other,1,256,95.0,95,0.04654693603515625,0.0,False
+group,256,False,tau_q0,all,1,512,73.0,73,0.0071258544921875,0.0,False
+group,256,False,tau_q0,ArXiv,1,64,14.0,14,0.01080322265625,0.0,False
+group,256,False,tau_q0,Github,1,256,3.0,3,0.00110626220703125,0.0,False
+group,256,False,tau_q0,Pile-CC,1,64,28.0,28,0.0191650390625,0.0,False
+group,256,False,tau_q0,StackExchange,1,64,4.0,4,0.0035400390625,0.0,False
+group,256,False,tau_q0,Wikipedia (en),1,64,24.0,24,0.019073486328125,0.0,False
+group,256,False,tau_q0,other,1,256,70.0,70,0.01314544677734375,0.0,False
+control,256,False,tau_q0.1,all,8,512,0.0,0,0.0,0.0,False
+control,256,False,tau_q0.1,ArXiv,8,64,0.0,0,0.0,0.0,False
+control,256,False,tau_q0.1,Github,8,256,0.0,0,0.0,0.0,False
+control,256,False,tau_q0.1,Pile-CC,8,64,0.0,0,0.0,0.0,False
+control,256,False,tau_q0.1,StackExchange,8,64,0.0,0,0.0,0.0,False
+control,256,False,tau_q0.1,Wikipedia (en),8,64,0.0,0,0.0,0.0,False
+control,256,False,tau_q0.1,other,8,256,0.0,0,0.0,0.0,False
+control,256,False,tau_q0,all,8,512,0.0,0,0.0,0.0,False
+control,256,False,tau_q0,ArXiv,8,64,0.0,0,0.0,0.0,False
+control,256,False,tau_q0,Github,8,256,0.0,0,0.0,0.0,False
+control,256,False,tau_q0,Pile-CC,8,64,0.0,0,0.0,0.0,False
+control,256,False,tau_q0,StackExchange,8,64,0.0,0,0.0,0.0,False
+control,256,False,tau_q0,Wikipedia (en),8,64,0.0,0,0.0,0.0,False
+control,256,False,tau_q0,other,8,256,0.0,0,0.0,0.0,False
+group,1007,False,tau_q0.1,all,1,512,0.0,0,0.0,0.0,False
+group,1007,False,tau_q0.1,ArXiv,1,64,0.0,0,0.0,0.0,False
+group,1007,False,tau_q0.1,Github,1,256,0.0,0,0.0,0.0,False
+group,1007,False,tau_q0.1,Pile-CC,1,64,0.0,0,0.0,0.0,False
+group,1007,False,tau_q0.1,StackExchange,1,64,0.0,0,0.0,0.0,False
+group,1007,False,tau_q0.1,Wikipedia (en),1,64,0.0,0,0.0,0.0,False
+group,1007,False,tau_q0.1,other,1,256,0.0,0,0.0,0.0,False
+group,1007,False,tau_q0,all,1,512,0.0,0,0.0,0.0,False
+group,1007,False,tau_q0,ArXiv,1,64,0.0,0,0.0,0.0,False
+group,1007,False,tau_q0,Github,1,256,0.0,0,0.0,0.0,False
+group,1007,False,tau_q0,Pile-CC,1,64,0.0,0,0.0,0.0,False
+group,1007,False,tau_q0,StackExchange,1,64,0.0,0,0.0,0.0,False
+group,1007,False,tau_q0,Wikipedia (en),1,64,0.0,0,0.0,0.0,False
+group,1007,False,tau_q0,other,1,256,0.0,0,0.0,0.0,False
+control,1007,False,tau_q0.1,all,8,512,0.0,0,0.0,0.0,False
+control,1007,False,tau_q0.1,ArXiv,8,64,0.0,0,0.0,0.0,False
+control,1007,False,tau_q0.1,Github,8,256,0.0,0,0.0,0.0,False
+control,1007,False,tau_q0.1,Pile-CC,8,64,0.0,0,0.0,0.0,False
+control,1007,False,tau_q0.1,StackExchange,8,64,0.0,0,0.0,0.0,False
+control,1007,False,tau_q0.1,Wikipedia (en),8,64,0.0,0,0.0,0.0,False
+control,1007,False,tau_q0.1,other,8,256,0.0,0,0.0,0.0,False
+control,1007,False,tau_q0,all,8,512,0.0,0,0.0,0.0,False
+control,1007,False,tau_q0,ArXiv,8,64,0.0,0,0.0,0.0,False
+control,1007,False,tau_q0,Github,8,256,0.0,0,0.0,0.0,False
+control,1007,False,tau_q0,Pile-CC,8,64,0.0,0,0.0,0.0,False
+control,1007,False,tau_q0,StackExchange,8,64,0.0,0,0.0,0.0,False
+control,1007,False,tau_q0,Wikipedia (en),8,64,0.0,0,0.0,0.0,False
+control,1007,False,tau_q0,other,8,256,0.0,0,0.0,0.0,False
+group,1862,True,tau_q0.1,all,1,512,0.0,0,0.0,0.0,False
+group,1862,True,tau_q0.1,ArXiv,1,64,0.0,0,0.0,0.0,False
+group,1862,True,tau_q0.1,Github,1,256,0.0,0,0.0,0.0,False
+group,1862,True,tau_q0.1,Pile-CC,1,64,0.0,0,0.0,0.0,False
+group,1862,True,tau_q0.1,StackExchange,1,64,0.0,0,0.0,0.0,False
+group,1862,True,tau_q0.1,Wikipedia (en),1,64,0.0,0,0.0,0.0,False
+group,1862,True,tau_q0.1,other,1,256,0.0,0,0.0,0.0,False
+group,1862,True,tau_q0,all,1,512,0.0,0,0.0,0.0,False
+group,1862,True,tau_q0,ArXiv,1,64,0.0,0,0.0,0.0,False
+group,1862,True,tau_q0,Github,1,256,0.0,0,0.0,0.0,False
+group,1862,True,tau_q0,Pile-CC,1,64,0.0,0,0.0,0.0,False
+group,1862,True,tau_q0,StackExchange,1,64,0.0,0,0.0,0.0,False
+group,1862,True,tau_q0,Wikipedia (en),1,64,0.0,0,0.0,0.0,False
+group,1862,True,tau_q0,other,1,256,0.0,0,0.0,0.0,False
+control,1862,True,tau_q0.1,all,8,512,0.0,0,0.0,0.0,False
+control,1862,True,tau_q0.1,ArXiv,8,64,0.0,0,0.0,0.0,False
+control,1862,True,tau_q0.1,Github,8,256,0.0,0,0.0,0.0,False
+control,1862,True,tau_q0.1,Pile-CC,8,64,0.0,0,0.0,0.0,False
+control,1862,True,tau_q0.1,StackExchange,8,64,0.0,0,0.0,0.0,False
+control,1862,True,tau_q0.1,Wikipedia (en),8,64,0.0,0,0.0,0.0,False
+control,1862,True,tau_q0.1,other,8,256,0.0,0,0.0,0.0,False
+control,1862,True,tau_q0,all,8,512,0.0,0,0.0,0.0,False
+control,1862,True,tau_q0,ArXiv,8,64,0.0,0,0.0,0.0,False
+control,1862,True,tau_q0,Github,8,256,0.0,0,0.0,0.0,False
+control,1862,True,tau_q0,Pile-CC,8,64,0.0,0,0.0,0.0,False
+control,1862,True,tau_q0,StackExchange,8,64,0.0,0,0.0,0.0,False
+control,1862,True,tau_q0,Wikipedia (en),8,64,0.0,0,0.0,0.0,False
+control,1862,True,tau_q0,other,8,256,0.0,0,0.0,0.0,False

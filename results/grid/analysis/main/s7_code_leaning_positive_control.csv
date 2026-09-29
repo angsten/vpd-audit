@@ -1,0 +1,6 @@
+rung,n_members,descriptive,judged,paired_erase_minus_control,interval_95,above_zero
+G16,16,False,False,0.014369736258231569,"[+0.0123, +0.0165]",True
+G64,64,False,True,0.08938992446860539,"[+0.0806, +0.0982]",True
+G256,256,False,True,0.5394087209197096,"[+0.4859, +0.5929]",True
+G1007,1007,False,True,2.1359406025658245,"[+1.9331, +2.3313]",True
+G1862,1862,True,False,2.784316765551921,"[+2.4820, +3.0720]",True

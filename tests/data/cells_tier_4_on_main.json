@@ -1,0 +1,209 @@
+{
+ "configs": {
+  "default_runs_with_tier_4": {
+   "first_tier_4": "main/E/union/D_unif/tau0.1/r0/excl/k0/r1/ctl-marginal",
+   "kwargs": {
+    "code_leaning": {
+     "control": [
+      [
+       16,
+       false
+      ],
+      [
+       64,
+       false
+      ],
+      [
+       256,
+       false
+      ],
+      [
+       1007,
+       false
+      ],
+      [
+       1862,
+       true
+      ]
+     ],
+     "main": [
+      [
+       16,
+       false
+      ],
+      [
+       64,
+       false
+      ],
+      [
+       256,
+       false
+      ],
+      [
+       1007,
+       false
+      ],
+      [
+       1862,
+       true
+      ]
+     ]
+    },
+    "tier_4": true
+   },
+   "last_tier_4": "main/E_lab/code_leaning_hard/D_code/tau0.1/ones/incl/k7/rG1862/ctl-usage",
+   "n_cells_tier_4": 149,
+   "n_cells_tiers_1_to_4": 6495,
+   "per_tier": {
+    "1": 1046,
+    "2": 1066,
+    "3": 4234,
+    "4": 149
+   },
+   "sha256_of_tier_4_lines": "0261eb9049c2cf5892bcd8dca495e08c7bbbf50fe516524105244d12ac93eb11",
+   "sha256_of_tiers_1_to_4_lines": "562d3845152f8be43c7a734bb98f3368bdb9ac9e12bd324ffe8d1478cd1727bd"
+  },
+  "main_as_launched": {
+   "first_tier_4": "main/E/union/D_unif/tau0.1/r0/excl/k0/r1/ctl-marginal",
+   "kwargs": {
+    "adaptive": {
+     "D_code|0.1": [
+      "5a",
+      "6a"
+     ],
+     "D_unif|0.1": [
+      "5a",
+      "6a"
+     ]
+    },
+    "code_leaning": {
+     "main": [
+      [
+       16,
+       false
+      ],
+      [
+       64,
+       false
+      ],
+      [
+       256,
+       false
+      ],
+      [
+       1007,
+       false
+      ],
+      [
+       1862,
+       true
+      ]
+     ]
+    },
+    "draws": 8,
+    "runs": [
+     "main"
+    ],
+    "tier_4": true
+   },
+   "last_tier_4": "main/E_lab/code_leaning_hard/D_code/tau0.1/ones/incl/k7/rG1862/ctl-usage",
+   "n_cells_tier_4": 149,
+   "n_cells_tiers_1_to_4": 4124,
+   "per_tier": {
+    "1": 651,
+    "2": 677,
+    "3": 2647,
+    "4": 149
+   },
+   "sha256_of_tier_4_lines": "0261eb9049c2cf5892bcd8dca495e08c7bbbf50fe516524105244d12ac93eb11",
+   "sha256_of_tiers_1_to_4_lines": "c7431ee468006beb6cba1be2ecff31c874329e4bc16ece6534b513c55d1230e6"
+  },
+  "main_without_a_ladder": {
+   "first_tier_4": "main/E/union/D_unif/tau0.1/r0/excl/k0/r1/ctl-marginal",
+   "kwargs": {
+    "adaptive": {
+     "D_code|0.1": [
+      "5a",
+      "6a"
+     ],
+     "D_unif|0.1": [
+      "5a",
+      "6a"
+     ]
+    },
+    "draws": 8,
+    "runs": [
+     "main"
+    ],
+    "tier_4": true
+   },
+   "last_tier_4": "main/E/union/D_unif/tau0.1/uniform/excl/k7/r3/ctl-marginal",
+   "n_cells_tier_4": 104,
+   "n_cells_tiers_1_to_4": 4079,
+   "per_tier": {
+    "1": 651,
+    "2": 677,
+    "3": 2647,
+    "4": 104
+   },
+   "sha256_of_tier_4_lines": "f26b3510f24d7cb001c5c3303832536a291b7899a0706cdf85a62bc4e18836d2",
+   "sha256_of_tiers_1_to_4_lines": "01f0fc2a90dccd669f631f755cf0bd83e977d60bb85cc9f59308d0b941afb30c"
+  },
+  "simplestories_two_draws_adaptive": {
+   "first_tier_4": "simplestories/E/union/D_unif/tau0.1/r0/excl/k0/r1/ctl-marginal",
+   "kwargs": {
+    "adaptive": {
+     "D_code|0.1": [
+      "5a",
+      "6a"
+     ],
+     "D_unif|0.1": [
+      "5a",
+      "6a"
+     ]
+    },
+    "code_leaning": {
+     "simplestories": [
+      [
+       16,
+       false
+      ],
+      [
+       64,
+       false
+      ],
+      [
+       94,
+       false
+      ],
+      [
+       256,
+       true
+      ],
+      [
+       456,
+       true
+      ]
+     ]
+    },
+    "draws": 2,
+    "runs": [
+     "simplestories"
+    ],
+    "tier_4": true
+   },
+   "last_tier_4": "simplestories/E_lab/code_leaning_hard/D_code/tau0.1/ones/incl/k1/rG456/ctl-usage",
+   "n_cells_tier_4": 41,
+   "n_cells_tiers_1_to_4": 1130,
+   "per_tier": {
+    "1": 183,
+    "2": 179,
+    "3": 727,
+    "4": 41
+   },
+   "sha256_of_tier_4_lines": "26017900123b0e36391ae7e320561cf17388b9d5e675a947db756613a0639822",
+   "sha256_of_tiers_1_to_4_lines": "92bcf1ab0b6ae3af4d4180c211cfe06515d06a7024ea8001e4406c25b7ffb06f"
+  }
+ },
+ "note": "the enumeration of tier 4 (and of tiers 1 to 4 together), written before tier 5 existed: tiers 1 to 4 must enumerate exactly as before once tier 5 exists"
+}

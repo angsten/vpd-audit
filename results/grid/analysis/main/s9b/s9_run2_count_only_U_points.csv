@@ -1,0 +1,21 @@
+amount_measured_as,size,amount,rise,used,size_words
+switched mass (primary),1,150.2710759313777,0.007130113408493344,True,1 token
+switched mass (primary),2,1059.4566269814968,0.05679844813494128,True,8 tokens
+switched mass (primary),2a,1884.3175594806671,0.12764887848607032,True,16 tokens
+switched mass (primary),2b,3075.605745792389,0.3393247739513754,True,32 tokens
+switched mass (primary),3,4399.042729616165,0.6076016392908059,True,64 tokens
+switched mass (primary),4,4755.043452858925,0.6344676870176045,True,1 text
+switched mass (primary),5,7547.687050580978,1.0441041685116943,True,4 texts
+switched mass (primary),6,8890.679120540619,1.27749647127348,True,16 texts
+switched mass (primary),7,9489.703614234924,1.2761722024006303,True,64 texts
+switched mass (primary),8,9796.445949554443,1.2674696857575327,True,the whole pool
+count of named pieces (beside),1,169.0,0.007130113408493344,True,1 token
+count of named pieces (beside),2,1120.625,0.05679844813494128,True,8 tokens
+count of named pieces (beside),2a,1973.75,0.12764887848607032,True,16 tokens
+count of named pieces (beside),2b,3198.5,0.3393247739513754,True,32 tokens
+count of named pieces (beside),3,4543.625,0.6076016392908059,True,64 tokens
+count of named pieces (beside),4,4890.25,0.6344676870176045,True,1 text
+count of named pieces (beside),5,7711.0,1.0441041685116943,True,4 texts
+count of named pieces (beside),6,9060.0,1.27749647127348,True,16 texts
+count of named pieces (beside),7,9659.25,1.2761722024006303,True,64 texts
+count of named pieces (beside),8,9966.0,1.2674696857575327,True,the whole pool

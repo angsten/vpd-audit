@@ -1,0 +1,8 @@
+quantity,claimed,computed,decimals,agrees
+n_texts,1024.0,1024.0,0,True
+n_texts_below,1024.0,1024.0,0,True
+median_paired_difference,-0.138,-0.13845475018024445,3,True
+p10_paired_difference,-0.176,-0.17577844858169556,3,True
+p90_paired_difference,-0.068,-0.06834294274449347,3,True
+mean_level,0.2126,0.212647605145321,4,True
+mean_importances,0.3417,0.34172251239215257,4,True

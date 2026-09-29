@@ -1,0 +1,472 @@
+{
+  "alive_sha256": "ca771bcb10585b0efb52a07c00257729f181eb706d6ee9c283441d84faad0302",
+  "caches": {
+    "D_code": {
+      "n_sequences": 512,
+      "name": "D_code_main",
+      "nnz": 56023179,
+      "set_hash": "7b20654e7329491968571a74bddaec7ca49b413454fb2c15dda5ff8a4a21ca9f",
+      "set_name": "D_code",
+      "sha256": {
+        "indices": "098bd3f0ac32a718f7a794ff071c98a5a895304eef569839b90fd648ce74200f",
+        "indptr": "d395d8ebf78ccfda9d141c0c36658c2dbbbae86b22e5dc053dd9695a618855a4",
+        "values": "bde9833f83e1acb3ee550633da3b0b74684c670a1d7d71ca7b42c6e82c736d4b"
+      }
+    },
+    "D_prose": {
+      "n_sequences": 512,
+      "name": "D_prose_main",
+      "nnz": 56258879,
+      "set_hash": "4a4e9a60448cd159df8577fb3048c3a3a2e7b895b765fe93de7fcef2d2eff8a6",
+      "set_name": "D_prose",
+      "sha256": {
+        "indices": "de5e1c278ea9e4fe3103a2859de56805ab9c3faca1eb15b19e92fc3f1ae36c4a",
+        "indptr": "7e18fb63c22ee65d632af45fb9abb9777beb09db8a224731ec0975dd43b81fe0",
+        "values": "5caacce3a013e40fefdf637d979a7344a0ad95fc2785299dec55cdaf16bec102"
+      }
+    },
+    "D_unif": {
+      "n_sequences": 1024,
+      "name": "D_unif_main",
+      "nnz": 108443108,
+      "set_hash": "1807c12e26c0baec8065381127ee9b049d22aa85670680e03ea5e9b56ac8ed20",
+      "set_name": "D_unif",
+      "sha256": {
+        "indices": "5410c3d7f4f8d50379e94ceca991149ab21c9ae224066a1a4d7f9e4005251e61",
+        "indptr": "9546b5a2d04e99dc41b8c3b4801712e99b5db7959c371089eecdbde6fd997462",
+        "values": "c819fa29cae6119ec52045fab92a0daa9ef62274355f00dd1729120bd035b275"
+      }
+    },
+    "E": {
+      "n_sequences": 1024,
+      "name": "E_main",
+      "nnz": 106650413,
+      "set_hash": "81f8b75b4c31fc95836841062b0c49c4237b3e83dce43397b8ad7e927c18d103",
+      "set_name": "E",
+      "sha256": {
+        "indices": "d38845bac6777343174c6d97d12e0d08e9d97d1527b0067dae0fdda7db20026a",
+        "indptr": "d2154945a0a03dde52177a44f5007dd057f44e51e40f33fbcf4feb699a8b3101",
+        "values": "0429eaa5707467dd211070777d29df97ba8d460a2c6c668a0e5ddbaa58b1e131"
+      }
+    },
+    "E_lab": {
+      "n_sequences": 512,
+      "name": "E_lab_main",
+      "nnz": 57102890,
+      "set_hash": "171882956d6736123e46738266048e21409d7ee0c5337f5accfd170f9cf15f5f",
+      "set_name": "E_lab",
+      "sha256": {
+        "indices": "283aec865208b868c115ffe89b0092e4f03b146ddd0cb5ddb24b15260906f095",
+        "indptr": "d791db7f711b4a278c5a3eae0e37b8a1c24117e98742cf8293bad7c31cad4f1e",
+        "values": "4237f8826ad6e7417d8c9c03656ffa912f47340deada759a58a2a2eaebd1550c"
+      }
+    }
+  },
+  "checked_against": {
+    "alive_sha256_equal": true,
+    "pre_reads_commit": "b77d68d49caad3d16c3d807cd1623e1b18154616",
+    "pre_reads_manifest": "/__modal/volumes/vo-xfe4c8WeGXnr3wSRcYxKOM/results/grid/pre_reads/main/manifest.json",
+    "weight_norms_sha256_equal": true
+  },
+  "commits": {
+    "dirty": "0",
+    "project": "442fc4f96a58ecd113f57a2dc026914c13799dd0",
+    "submodule": "74146b555f3eb3cd2bc639c3789fd3b7a099094a"
+  },
+  "draws": 8,
+  "files": [
+    "code_leaning_chain.csv",
+    "code_leaning_control_by_rung.csv",
+    "code_leaning_control_per_draw.csv",
+    "code_leaning_control_shortfall.csv",
+    "code_leaning_control_twins.csv",
+    "code_leaning_groups.csv",
+    "code_leaning_groups_per_matrix.csv",
+    "code_leaning_histogram.csv",
+    "code_leaning_null.csv",
+    "code_leaning_stray_code_members.csv",
+    "code_leaning_stray_code_rows.csv",
+    "code_leaning_table.csv",
+    "code_leaning_testability.csv",
+    "manifest.json",
+    "marginal_composition.csv",
+    "marginal_gate.csv",
+    "marginal_overlap_by_rung.csv",
+    "marginal_overlap_per_draw.csv",
+    "marginal_pairwise_real_draws.csv",
+    "marginal_real_position_sets.csv",
+    "marginal_sampler_seeds.csv",
+    "summary.json",
+    "summary.md",
+    "usage_distribution.csv"
+  ],
+  "master_seed": 0,
+  "n_seeds": 200,
+  "n_shuffles": 200,
+  "positive_stratum": "Github",
+  "run": "main",
+  "seconds": 93.58736896514893,
+  "strata_file": "E_lab.strata.json",
+  "tables": {
+    "code_leaning_chain": {
+      "columns": [
+        "rung_size",
+        "descriptive",
+        "min_selectivity",
+        "code_firing_mass",
+        "share_of_alive_code_firing_mass",
+        "mean_weight_norm",
+        "mean_usage_unif",
+        "n_matrices",
+        "source_sha256"
+      ],
+      "rows": 5
+    },
+    "code_leaning_control_by_rung": {
+      "columns": [
+        "rung_size",
+        "descriptive",
+        "judged_by_the_gate",
+        "group_mean_weight_norm",
+        "control_mean_weight_norm",
+        "norm_ratio_control_to_group",
+        "group_mean_usage_unif",
+        "control_mean_usage_unif",
+        "usage_ratio_control_to_group",
+        "median_pair_usage_ratio",
+        "n_pairs_member_usage_zero",
+        "norm_off_by_more_than_10_percent",
+        "usage_off_by_more_than_10_percent",
+        "gate_pass",
+        "mean_n_control",
+        "total_shortfall"
+      ],
+      "rows": 5
+    },
+    "code_leaning_control_per_draw": {
+      "columns": [
+        "rung_size",
+        "descriptive",
+        "draw",
+        "n_control",
+        "mean_weight_norm",
+        "mean_usage_unif",
+        "median_pair_usage_ratio",
+        "shortfall",
+        "overlap_with_group",
+        "source_sha256"
+      ],
+      "rows": 40
+    },
+    "code_leaning_control_shortfall": {
+      "columns": [
+        "rung_size",
+        "draw",
+        "module",
+        "shortfall"
+      ],
+      "rows": 0
+    },
+    "code_leaning_control_twins": {
+      "columns": [
+        "draw",
+        "position_in_chain",
+        "member",
+        "member_module",
+        "twin",
+        "member_usage_unif",
+        "twin_usage_unif",
+        "member_weight_norm",
+        "twin_weight_norm"
+      ],
+      "rows": 14896
+    },
+    "code_leaning_groups": {
+      "columns": [
+        "group",
+        "toward",
+        "n_members",
+        "firing_mass",
+        "share_of_alive_firing_mass",
+        "alive_firing_mass",
+        "mean_weight_norm",
+        "mean_usage_unif",
+        "min_selectivity",
+        "max_selectivity"
+      ],
+      "rows": 12
+    },
+    "code_leaning_groups_per_matrix": {
+      "columns": [
+        "group",
+        "h.0.attn.k_proj",
+        "h.0.attn.o_proj",
+        "h.0.attn.q_proj",
+        "h.0.attn.v_proj",
+        "h.0.mlp.c_fc",
+        "h.0.mlp.down_proj",
+        "h.1.attn.k_proj",
+        "h.1.attn.o_proj",
+        "h.1.attn.q_proj",
+        "h.1.attn.v_proj",
+        "h.1.mlp.c_fc",
+        "h.1.mlp.down_proj",
+        "h.2.attn.k_proj",
+        "h.2.attn.o_proj",
+        "h.2.attn.q_proj",
+        "h.2.attn.v_proj",
+        "h.2.mlp.c_fc",
+        "h.2.mlp.down_proj",
+        "h.3.attn.k_proj",
+        "h.3.attn.o_proj",
+        "h.3.attn.q_proj",
+        "h.3.attn.v_proj",
+        "h.3.mlp.c_fc",
+        "h.3.mlp.down_proj",
+        "total"
+      ],
+      "rows": 12
+    },
+    "code_leaning_histogram": {
+      "columns": [
+        "bin_low",
+        "bin_high",
+        "n_members",
+        "weight_u_code",
+        "n_members_floor_passed",
+        "weight_u_code_floor_passed",
+        "share_of_alive_code_firing_mass"
+      ],
+      "rows": 20
+    },
+    "code_leaning_null": {
+      "columns": [
+        "shuffle",
+        "n_members",
+        "mass",
+        "total_mass",
+        "share",
+        "n_true_code_documents_in_pseudo_code"
+      ],
+      "rows": 201
+    },
+    "code_leaning_stray_code_members": {
+      "columns": [
+        "index",
+        "module",
+        "n_code",
+        "n_prose",
+        "rows_prose",
+        "selectivity",
+        "share_of_prose_firings_in_own_top_10_rows"
+      ],
+      "rows": 989
+    },
+    "code_leaning_stray_code_rows": {
+      "columns": [
+        "rank",
+        "prose_row",
+        "firings_of_the_group",
+        "share_of_the_groups_prose_firings",
+        "n_members_firing_in_row"
+      ],
+      "rows": 10
+    },
+    "code_leaning_table": {
+      "columns": [
+        "index",
+        "module",
+        "c",
+        "n_code",
+        "n_prose",
+        "rows_code",
+        "rows_prose",
+        "u_code",
+        "u_prose",
+        "selectivity",
+        "floor_code",
+        "floor_prose",
+        "weight_norm",
+        "usage_unif",
+        "usage_bin",
+        "in_G_0.75",
+        "in_G_0.9",
+        "in_G_0.95",
+        "in_G_0.99"
+      ],
+      "rows": 9959
+    },
+    "code_leaning_testability": {
+      "columns": [
+        "chain",
+        "rung_size",
+        "descriptive",
+        "tau_q",
+        "stratum",
+        "n_draws",
+        "n_sequences",
+        "mean_n_contributing",
+        "min_n_contributing",
+        "mean_clean_prefix_fraction",
+        "fraction_never_touched",
+        "floor_met"
+      ],
+      "rows": 140
+    },
+    "marginal_composition": {
+      "columns": [
+        "control",
+        "family",
+        "replicate",
+        "rung",
+        "draw",
+        "n",
+        "mean_norm",
+        "median_norm",
+        "p90_norm",
+        "mean_usage",
+        "median_usage",
+        "p90_usage",
+        "mean_sigma",
+        "n_not_alive",
+        "source_sha256",
+        "cell"
+      ],
+      "rows": 180
+    },
+    "marginal_gate": {
+      "columns": [
+        "rung",
+        "statistic",
+        "gated",
+        "union_value",
+        "plain_value",
+        "seeds_mean",
+        "seeds_sd",
+        "seeds_min",
+        "seeds_p2_5",
+        "seeds_p5",
+        "seeds_p25",
+        "seeds_p50",
+        "seeds_p75",
+        "seeds_p95",
+        "seeds_p97_5",
+        "seeds_max",
+        "ratio_seeds_mean_to_union",
+        "bound_low",
+        "bound_high",
+        "within_bounds",
+        "ratio_plain_to_union",
+        "union_percentile_in_seeds",
+        "replicate_0_value",
+        "replicate_0_percentile",
+        "replicate_1_value",
+        "replicate_1_percentile"
+      ],
+      "rows": 15
+    },
+    "marginal_overlap_by_rung": {
+      "columns": [
+        "control",
+        "family",
+        "replicate",
+        "rung",
+        "n_draws",
+        "overlap_mass_pooled",
+        "overlap_mass_mean_of_draw_ratios",
+        "overlap_mass_mean_over_texts",
+        "overlap_count_pooled",
+        "overlap_count_mean_of_draw_ratios",
+        "overlap_mass_min_draw",
+        "overlap_mass_max_draw"
+      ],
+      "rows": 15
+    },
+    "marginal_overlap_per_draw": {
+      "columns": [
+        "control",
+        "family",
+        "replicate",
+        "rung",
+        "draw",
+        "n_named",
+        "n_control",
+        "n_shared",
+        "overlap_count",
+        "sigma_named",
+        "sigma_shared",
+        "overlap_mass",
+        "overlap_mass_mean_over_texts",
+        "n_texts_sigma_named_zero",
+        "cell"
+      ],
+      "rows": 120
+    },
+    "marginal_pairwise_real_draws": {
+      "columns": [
+        "rung",
+        "draw_a",
+        "draw_b",
+        "n_a",
+        "n_b",
+        "n_shared",
+        "overlap_count_of_a",
+        "jaccard"
+      ],
+      "rows": 280
+    },
+    "marginal_real_position_sets": {
+      "columns": [
+        "set",
+        "realized",
+        "first_draw",
+        "n",
+        "mean_usage",
+        "mean_norm",
+        "min_count",
+        "max_count",
+        "positions"
+      ],
+      "rows": 201
+    },
+    "marginal_sampler_seeds": {
+      "columns": [
+        "replicate",
+        "rung",
+        "n",
+        "mean_usage",
+        "mean_norm",
+        "mean_sigma",
+        "sigma_per_member"
+      ],
+      "rows": 1000
+    },
+    "usage_distribution": {
+      "columns": [
+        "set",
+        "n",
+        "p0",
+        "p10",
+        "p20",
+        "p30",
+        "p40",
+        "p50",
+        "p60",
+        "p70",
+        "p80",
+        "p90",
+        "p100",
+        "mean",
+        "n_above_0.1",
+        "n_above_0.5",
+        "n_above_0.9",
+        "n_at_clip_or_above"
+      ],
+      "rows": 2
+    }
+  },
+  "weight_norms": {
+    "definition": "||U_c|| ||V_c|| in float64 from the components' write and read directions (residual_rank.components_by_name), global index order; squares in float64, sums by math.fsum (correctly rounded), so the bytes are device- and machine-independent",
+    "sha256": "8b1eba2ee5c089a676af7c1c158a77b214ba47d15324c0770c0da09c1b69c417"
+  }
+}

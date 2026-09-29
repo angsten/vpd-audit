@@ -1,0 +1,157 @@
+check,item,value,target,tolerance,pass,note
+1,ce ordering unmasked < stochastic_delta < rounded_0 < rounded_0.1 < importances < rounded_0.5,"{'unmasked': 2.7317, 'stochastic_delta': 2.8561, 'rounded_0': 2.957, 'rounded_0.1': 2.9651, 'importances': 3.0011, 'rounded_0.5': 3.0316}",strict,,True,
+1,kl coarse ordering with stochastic: unmasked < stochastic < rounded rows and importances < zero_all,"{'unmasked': 0.0115, 'stochastic': 0.2151, 'stochastic_delta': 0.2151, 'rounded_0': 0.3114, 'rounded_0.1': 0.3174, 'rounded_0.5': 0.3717, 'importances': 0.3417, 'zero_all': 67.1046}",coarse,,True,
+1,kl coarse ordering with stochastic_delta: unmasked < stochastic_delta < rounded rows and importances < zero_all,"{'unmasked': 0.0115, 'stochastic': 0.2151, 'stochastic_delta': 0.2151, 'rounded_0': 0.3114, 'rounded_0.1': 0.3174, 'rounded_0.5': 0.3717, 'importances': 0.3417, 'zero_all': 67.1046}",coarse,,True,
+1,"kl fine ordering (reported, not gated)",unmasked < stochastic_delta < stochastic < rounded_0 < rounded_0.1 < importances < rounded_0.5 < zero_all,,,,
+2,main_bf16: unmasked ce - target,0.0105,0.01,0.03,True,"s_d=0.0012; batch means [0.0117, 0.011, 0.01, 0.0103, 0.0112, 0.0088, 0.0119, 0.0088]"
+2,main_bf16: stochastic_delta ce - target,0.1352,0.13,0.03,True,"gate: draw k on batch k, draws [0, 1, 2, 3, 4, 5, 6, 7], batch means [0.1317, 0.1389, 0.1359, 0.1317, 0.1312, 0.1408, 0.1343, 0.1369], s_d=0.0036; draw-averaged: mean 0.1348, s_d 0.0036; all 64 (batch, draw) cells: mean 0.1348, s 0.0035"
+2,main_bf16: rounded_0 ce - target,0.2357,0.23,0.03,True,"s_d=0.0042; batch means [0.229, 0.2392, 0.233, 0.2339, 0.2338, 0.241, 0.235, 0.2406]"
+2,main_bf16: rounded_0.1 ce - target,0.2439,0.24,0.03,True,"s_d=0.0041; batch means [0.2367, 0.2479, 0.2424, 0.242, 0.2421, 0.2477, 0.2435, 0.2489]"
+2,main_bf16: importances ce - target,0.2798,0.28,0.03,True,"s_d=0.0048; batch means [0.2733, 0.2838, 0.2774, 0.2748, 0.2785, 0.287, 0.2805, 0.2837]"
+2,main_bf16: rounded_0.5 ce - target,0.3103,0.31,0.03,True,"s_d=0.0050; batch means [0.3054, 0.3148, 0.3065, 0.3048, 0.3075, 0.3181, 0.311, 0.3147]"
+2,main_fp32: unmasked ce - target,0.0103,0.01,0.03,True,"s_d=0.0012; batch means [0.0116, 0.0109, 0.0099, 0.0101, 0.011, 0.0086, 0.0117, 0.0089]"
+2,main_fp32: stochastic_delta ce - target,0.1322,0.13,0.03,True,"gate: draw k on batch k, draws [0, 1, 2, 3, 4, 5, 6, 7], batch means [0.1284, 0.1358, 0.1333, 0.129, 0.1282, 0.1379, 0.1312, 0.1341], s_d=0.0036; draw-averaged: mean 0.1319, s_d 0.0036; all 64 (batch, draw) cells: mean 0.1319, s 0.0035"
+2,main_fp32: rounded_0 ce - target,0.2323,0.23,0.03,True,"s_d=0.0044; batch means [0.225, 0.2356, 0.2296, 0.2311, 0.2302, 0.2379, 0.2317, 0.2373]"
+2,main_fp32: rounded_0.1 ce - target,0.2406,0.24,0.03,True,"s_d=0.0040; batch means [0.2336, 0.2438, 0.2394, 0.2389, 0.2388, 0.2445, 0.2398, 0.2458]"
+2,main_fp32: importances ce - target,0.2766,0.28,0.03,True,"s_d=0.0048; batch means [0.2698, 0.2801, 0.2744, 0.2716, 0.2751, 0.284, 0.277, 0.2806]"
+2,main_fp32: rounded_0.5 ce - target,0.307,0.31,0.03,True,"s_d=0.0049; batch means [0.3018, 0.3112, 0.3036, 0.3016, 0.3042, 0.3144, 0.3075, 0.3114]"
+3,target ce,2.7213,2.71,0.1209,True,"s=0.0547; batch means [2.6954, 2.7159, 2.6392, 2.7453, 2.7892, 2.6631, 2.7314, 2.7906]"
+4,"mean count g > 0 per position, layer_0",44.27,44.6,10%,True,
+4,"mean count g > 0 per position, layer_1",18.76,18.9,10%,True,
+4,"mean count g > 0 per position, layer_2",49.03,49.5,10%,True,
+4,"mean count g > 0 per position, layer_3",91.36,92.0,10%,True,
+4,"mean count g > 0 per position, total",203.42,205.0,10%,True,
+4,"alive count (mean g > 1e-6 over the set), layer_0",3680,3709,15%,True,
+4,"alive count (mean g > 1e-6 over the set), layer_1",852,848,15%,True,
+4,"alive count (mean g > 1e-6 over the set), layer_2",1943,1943,15%,True,
+4,"alive count (mean g > 1e-6 over the set), layer_3",3472,3472,15%,True,
+4,"alive count (mean g > 1e-6 over the set), total",9947,9972,reported,,
+4,alive ordering layer 1 < 2 < 3 < 0,"{'layer_1': 852, 'layer_2': 1943, 'layer_3': 3472, 'layer_0': 3680}",,,True,
+5,zero-all divergence,67.1046,67.2449,0.5665,True,"s=0.2671; batch means [67.3457, 67.2521, 67.3636, 66.8647, 66.759, 67.4145, 66.9888, 66.848]"
+6,"threshold 0.0, batch 0: unmasked ce diff",0.00994,0.00994,0.001,True,
+6,"threshold 0.0, batch 1: unmasked ce diff",0.01182,0.01182,0.001,True,
+6,"threshold 0.0, batch 2: unmasked ce diff",0.0109,0.0109,0.001,True,
+6,"threshold 0.0, batch 3: unmasked ce diff",0.01356,0.01356,0.001,True,
+6,"threshold 0.0, mean over 4 batches: unmasked ce diff",0.01156,0.01156,0.001,True,
+6,"threshold 0.0, batch 0: importances ce diff",0.2852,0.2852,0.001,True,
+6,"threshold 0.0, batch 1: importances ce diff",0.26236,0.26236,0.001,True,
+6,"threshold 0.0, batch 2: importances ce diff",0.28243,0.28243,0.001,True,
+6,"threshold 0.0, batch 3: importances ce diff",0.24928,0.24928,0.001,True,
+6,"threshold 0.0, mean over 4 batches: importances ce diff",0.26981,0.26982,0.001,True,
+6,"threshold 0.0, batch 0: rounded_0 ce diff",0.24073,0.24073,0.001,True,
+6,"threshold 0.0, batch 1: rounded_0 ce diff",0.22,0.22,0.001,True,
+6,"threshold 0.0, batch 2: rounded_0 ce diff",0.23216,0.23216,0.001,True,
+6,"threshold 0.0, batch 3: rounded_0 ce diff",0.20717,0.20717,0.001,True,
+6,"threshold 0.0, mean over 4 batches: rounded_0 ce diff",0.22502,0.22502,0.001,True,
+6,"threshold 0.0, batch 0: unmasked kl",0.01014,0.01014,0.001,True,
+6,"threshold 0.0, batch 1: unmasked kl",0.01061,0.01061,0.001,True,
+6,"threshold 0.0, batch 2: unmasked kl",0.01122,0.01122,0.001,True,
+6,"threshold 0.0, batch 3: unmasked kl",0.01452,0.01452,0.001,True,
+6,"threshold 0.0, mean over 4 batches: unmasked kl",0.01162,0.01162,0.001,True,
+6,"threshold 0.0, batch 0: importances kl",0.35658,0.35658,0.001,True,
+6,"threshold 0.0, batch 1: importances kl",0.33085,0.33085,0.001,True,
+6,"threshold 0.0, batch 2: importances kl",0.35711,0.35711,0.001,True,
+6,"threshold 0.0, batch 3: importances kl",0.3298,0.3298,0.001,True,
+6,"threshold 0.0, mean over 4 batches: importances kl",0.34359,0.34359,0.001,True,
+6,"threshold 0.0, batch 0: rounded_0 kl",0.32582,0.32582,0.001,True,
+6,"threshold 0.0, batch 1: rounded_0 kl",0.30311,0.30311,0.001,True,
+6,"threshold 0.0, batch 2: rounded_0 kl",0.32378,0.32378,0.001,True,
+6,"threshold 0.0, batch 3: rounded_0 kl",0.30262,0.30262,0.001,True,
+6,"threshold 0.0, mean over 4 batches: rounded_0 kl",0.31383,0.31383,0.001,True,
+6,"threshold 0.0, batch 0: zero_all kl",67.40802,67.40801,0.001,True,
+6,"threshold 0.0, batch 1: zero_all kl",67.65259,67.65259,0.001,True,
+6,"threshold 0.0, batch 2: zero_all kl",66.58302,66.58302,0.001,True,
+6,"threshold 0.0, batch 3: zero_all kl",67.74453,67.74452,0.001,True,
+6,"threshold 0.0, mean over 4 batches: zero_all kl",67.34704,67.34703,0.001,True,
+6,"threshold 0.0, batch 0: zero_all ce diff (derived, not gated)",67.48036,67.48036,,,|diff|=4.03e-06
+6,"threshold 0.0, batch 1: zero_all ce diff (derived, not gated)",67.70108,67.70109,,,|diff|=5.29e-06
+6,"threshold 0.0, batch 2: zero_all ce diff (derived, not gated)",66.56226,66.56227,,,|diff|=1.69e-06
+6,"threshold 0.0, batch 3: zero_all ce diff (derived, not gated)",67.89493,67.89493,,,|diff|=6.12e-06
+6,"threshold 0.0, mean over 4 batches: zero_all ce diff (derived, not gated)",67.40966,67.40966,,,|diff|=2.27e-06
+6,"threshold 0.1, batch 0: unmasked ce diff",0.00994,0.00994,0.001,True,
+6,"threshold 0.1, batch 1: unmasked ce diff",0.01182,0.01182,0.001,True,
+6,"threshold 0.1, batch 2: unmasked ce diff",0.0109,0.0109,0.001,True,
+6,"threshold 0.1, batch 3: unmasked ce diff",0.01356,0.01356,0.001,True,
+6,"threshold 0.1, mean over 4 batches: unmasked ce diff",0.01156,0.01156,0.001,True,
+6,"threshold 0.1, batch 0: importances ce diff",0.2852,0.2852,0.001,True,
+6,"threshold 0.1, batch 1: importances ce diff",0.26236,0.26236,0.001,True,
+6,"threshold 0.1, batch 2: importances ce diff",0.28243,0.28243,0.001,True,
+6,"threshold 0.1, batch 3: importances ce diff",0.24928,0.24928,0.001,True,
+6,"threshold 0.1, mean over 4 batches: importances ce diff",0.26981,0.26982,0.001,True,
+6,"threshold 0.1, batch 0: rounded_0.1 ce diff",0.24939,0.24939,0.001,True,
+6,"threshold 0.1, batch 1: rounded_0.1 ce diff",0.22892,0.22892,0.001,True,
+6,"threshold 0.1, batch 2: rounded_0.1 ce diff",0.24061,0.24061,0.001,True,
+6,"threshold 0.1, batch 3: rounded_0.1 ce diff",0.21548,0.21548,0.001,True,
+6,"threshold 0.1, mean over 4 batches: rounded_0.1 ce diff",0.2336,0.2336,0.001,True,
+6,"threshold 0.1, batch 0: unmasked kl",0.01014,0.01014,0.001,True,
+6,"threshold 0.1, batch 1: unmasked kl",0.01061,0.01061,0.001,True,
+6,"threshold 0.1, batch 2: unmasked kl",0.01122,0.01122,0.001,True,
+6,"threshold 0.1, batch 3: unmasked kl",0.01452,0.01452,0.001,True,
+6,"threshold 0.1, mean over 4 batches: unmasked kl",0.01162,0.01162,0.001,True,
+6,"threshold 0.1, batch 0: importances kl",0.35658,0.35658,0.001,True,
+6,"threshold 0.1, batch 1: importances kl",0.33085,0.33085,0.001,True,
+6,"threshold 0.1, batch 2: importances kl",0.35711,0.35711,0.001,True,
+6,"threshold 0.1, batch 3: importances kl",0.3298,0.3298,0.001,True,
+6,"threshold 0.1, mean over 4 batches: importances kl",0.34359,0.34359,0.001,True,
+6,"threshold 0.1, batch 0: rounded_0.1 kl",0.33218,0.33218,0.001,True,
+6,"threshold 0.1, batch 1: rounded_0.1 kl",0.30762,0.30762,0.001,True,
+6,"threshold 0.1, batch 2: rounded_0.1 kl",0.33078,0.33078,0.001,True,
+6,"threshold 0.1, batch 3: rounded_0.1 kl",0.3076,0.3076,0.001,True,
+6,"threshold 0.1, mean over 4 batches: rounded_0.1 kl",0.31955,0.31955,0.001,True,
+6,"threshold 0.1, batch 0: zero_all kl",67.40802,67.40801,0.001,True,
+6,"threshold 0.1, batch 1: zero_all kl",67.65259,67.65259,0.001,True,
+6,"threshold 0.1, batch 2: zero_all kl",66.58302,66.58302,0.001,True,
+6,"threshold 0.1, batch 3: zero_all kl",67.74453,67.74452,0.001,True,
+6,"threshold 0.1, mean over 4 batches: zero_all kl",67.34704,67.34703,0.001,True,
+6,"threshold 0.1, batch 0: zero_all ce diff (derived, not gated)",67.48036,67.48036,,,|diff|=2.81e-07
+6,"threshold 0.1, batch 1: zero_all ce diff (derived, not gated)",67.70108,67.70108,,,|diff|=3.61e-06
+6,"threshold 0.1, batch 2: zero_all ce diff (derived, not gated)",66.56226,66.56227,,,|diff|=3.92e-06
+6,"threshold 0.1, batch 3: zero_all ce diff (derived, not gated)",67.89493,67.89493,,,|diff|=5.11e-06
+6,"threshold 0.1, mean over 4 batches: zero_all ce diff (derived, not gated)",67.40966,67.40966,,,|diff|=3.09e-06
+6,"threshold 0.5, batch 0: unmasked ce diff",0.00994,0.00994,0.001,True,
+6,"threshold 0.5, batch 1: unmasked ce diff",0.01182,0.01182,0.001,True,
+6,"threshold 0.5, batch 2: unmasked ce diff",0.0109,0.0109,0.001,True,
+6,"threshold 0.5, batch 3: unmasked ce diff",0.01356,0.01356,0.001,True,
+6,"threshold 0.5, mean over 4 batches: unmasked ce diff",0.01156,0.01156,0.001,True,
+6,"threshold 0.5, batch 0: importances ce diff",0.2852,0.2852,0.001,True,
+6,"threshold 0.5, batch 1: importances ce diff",0.26236,0.26236,0.001,True,
+6,"threshold 0.5, batch 2: importances ce diff",0.28243,0.28243,0.001,True,
+6,"threshold 0.5, batch 3: importances ce diff",0.24928,0.24928,0.001,True,
+6,"threshold 0.5, mean over 4 batches: importances ce diff",0.26981,0.26982,0.001,True,
+6,"threshold 0.5, batch 0: rounded_0.5 ce diff",0.31877,0.31877,0.001,True,
+6,"threshold 0.5, batch 1: rounded_0.5 ce diff",0.29056,0.29056,0.001,True,
+6,"threshold 0.5, batch 2: rounded_0.5 ce diff",0.31536,0.31536,0.001,True,
+6,"threshold 0.5, batch 3: rounded_0.5 ce diff",0.28238,0.28238,0.001,True,
+6,"threshold 0.5, mean over 4 batches: rounded_0.5 ce diff",0.30177,0.30177,0.001,True,
+6,"threshold 0.5, batch 0: unmasked kl",0.01014,0.01014,0.001,True,
+6,"threshold 0.5, batch 1: unmasked kl",0.01061,0.01061,0.001,True,
+6,"threshold 0.5, batch 2: unmasked kl",0.01122,0.01122,0.001,True,
+6,"threshold 0.5, batch 3: unmasked kl",0.01452,0.01452,0.001,True,
+6,"threshold 0.5, mean over 4 batches: unmasked kl",0.01162,0.01162,0.001,True,
+6,"threshold 0.5, batch 0: importances kl",0.35658,0.35658,0.001,True,
+6,"threshold 0.5, batch 1: importances kl",0.33085,0.33085,0.001,True,
+6,"threshold 0.5, batch 2: importances kl",0.35711,0.35711,0.001,True,
+6,"threshold 0.5, batch 3: importances kl",0.3298,0.3298,0.001,True,
+6,"threshold 0.5, mean over 4 batches: importances kl",0.34359,0.34359,0.001,True,
+6,"threshold 0.5, batch 0: rounded_0.5 kl",0.38738,0.38738,0.001,True,
+6,"threshold 0.5, batch 1: rounded_0.5 kl",0.35851,0.35851,0.001,True,
+6,"threshold 0.5, batch 2: rounded_0.5 kl",0.38826,0.38826,0.001,True,
+6,"threshold 0.5, batch 3: rounded_0.5 kl",0.35929,0.35929,0.001,True,
+6,"threshold 0.5, mean over 4 batches: rounded_0.5 kl",0.37336,0.37336,0.001,True,
+6,"threshold 0.5, batch 0: zero_all kl",67.40802,67.40801,0.001,True,
+6,"threshold 0.5, batch 1: zero_all kl",67.65259,67.65259,0.001,True,
+6,"threshold 0.5, batch 2: zero_all kl",66.58302,66.58302,0.001,True,
+6,"threshold 0.5, batch 3: zero_all kl",67.74453,67.74452,0.001,True,
+6,"threshold 0.5, mean over 4 batches: zero_all kl",67.34704,67.34703,0.001,True,
+6,"threshold 0.5, batch 0: zero_all ce diff (derived, not gated)",67.48036,67.48036,,,|diff|=2.44e-06
+6,"threshold 0.5, batch 1: zero_all ce diff (derived, not gated)",67.70108,67.70108,,,|diff|=2.37e-06
+6,"threshold 0.5, batch 2: zero_all ce diff (derived, not gated)",66.56226,66.56227,,,|diff|=3.17e-06
+6,"threshold 0.5, batch 3: zero_all ce diff (derived, not gated)",67.89493,67.89493,,,|diff|=5.08e-06
+6,"threshold 0.5, mean over 4 batches: zero_all ce diff (derived, not gated)",67.40966,67.40966,,,|diff|=2.04e-06
+7,stochastic ce diff: residual included (authors') / excluded (ladder) / residual's share,"(0.1352, 0.1353, 0.0001)",,,,
+7,stochastic kl: residual included / excluded / residual's share,"(0.2152, 0.2152, 0.0001)",,,,
+8,importances: control ce > main ce,"(7.3832, 3.0011)",control worse,,True,
+8,rounded_0: control ce > main ce,"(5.9699, 2.957)",control worse,,True,
+8,rounded_0.1: control ce > main ce,"(6.1959, 2.9651)",control worse,,True,
+8,rounded_0.5: control ce > main ce,"(7.6303, 3.0316)",control worse,,True,
+8,unmasked: control ce vs main ce (similar; reported),"(2.7317, 2.7317)",similar,,,identical to three decimals: same checkpoint loaded twice?

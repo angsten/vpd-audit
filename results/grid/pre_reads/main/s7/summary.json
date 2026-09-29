@@ -1,0 +1,239 @@
+{
+  "code_leaning": {
+    "chain": {
+      "control": {
+        "n_candidates": 8097,
+        "sampler": "usage_nearest",
+        "seed_pattern": [
+          0,
+          "rand",
+          "code_leaning_hard",
+          0,
+          "<member's global index>"
+        ],
+        "window": 8
+      },
+      "control_gate": {
+        "failures": [],
+        "pass": true,
+        "rule": "at every non-descriptive rung of at least 64 members the control's mean usage and mean weight norm, as a mean over the draws, lie within 10 percent of the group's",
+        "rungs_judged": [
+          64,
+          256,
+          1007
+        ]
+      },
+      "ladder": [
+        [
+          16,
+          false
+        ],
+        [
+          64,
+          false
+        ],
+        [
+          256,
+          false
+        ],
+        [
+          1007,
+          false
+        ],
+        [
+          1862,
+          true
+        ]
+      ],
+      "n_group": 1007,
+      "n_wide": 1862,
+      "order_sha256": "7727d4fbe3fe34fd714358e6e16b68cd71431bc942ceda6b16dfdc5415c498f2",
+      "rungs_with_norm_off": [],
+      "rungs_with_shortfall": [],
+      "rungs_with_usage_off": []
+    },
+    "existence": {
+      "a_fifth_of_mass": 9.894035339355469,
+      "alive_code_firing_mass": 199.81296157836914,
+      "group": "G_0.9",
+      "mass": 49.470176696777344,
+      "n_members": 1007,
+      "n_shuffles": 200,
+      "null_max": 0.00298309326171875,
+      "null_mean": 0.0004022979736328125,
+      "null_mean_members": 0.165,
+      "null_p95": 0.002906990051269531,
+      "null_p95_below_a_fifth": true,
+      "share": 0.2475824206097587,
+      "share_at_least_10_percent": true,
+      "share_under_2_percent": false,
+      "verdict": "clear"
+    },
+    "n_alive": 9959,
+    "n_alive_floor_code": 6749,
+    "n_alive_floor_prose": 6869,
+    "n_alive_with_defined_selectivity": 9779,
+    "n_positions_code": 262144,
+    "n_positions_prose": 262144,
+    "n_rows_code": 512,
+    "n_rows_prose": 512,
+    "run": "main",
+    "seconds": 21.170191049575806,
+    "stray_code": {
+      "group_share_in_its_top_10_rows": 0.13120057431939786,
+      "n_members": 1007,
+      "n_members_firing_in_prose": 989,
+      "n_prose_rows": 512,
+      "per_member_share_in_own_top_10_rows": {
+        "fraction_at_least_0.5": 0.4196157735085945,
+        "fraction_at_least_0.9": 0.16885743174924167,
+        "mean": 0.5114938878061186,
+        "median": 0.43846153846153846,
+        "q1": 0.3029411764705882,
+        "q3": 0.696969696969697
+      },
+      "prose_firings_of_the_group": 445745,
+      "uniform_share_of_10_rows": 0.01953125
+    },
+    "tau": 0.1,
+    "thresholds": {
+      "chain_forced": false,
+      "group": 0.9,
+      "default_thresholds": true,
+      "wide": 0.75
+    },
+    "usage_bins_per_matrix": {
+      "h.0.attn.k_proj": 5,
+      "h.0.attn.o_proj": 7,
+      "h.0.attn.q_proj": 4,
+      "h.0.attn.v_proj": 7,
+      "h.0.mlp.c_fc": 7,
+      "h.0.mlp.down_proj": 7,
+      "h.1.attn.k_proj": 1,
+      "h.1.attn.o_proj": 3,
+      "h.1.attn.q_proj": 1,
+      "h.1.attn.v_proj": 7,
+      "h.1.mlp.c_fc": 7,
+      "h.1.mlp.down_proj": 7,
+      "h.2.attn.k_proj": 5,
+      "h.2.attn.o_proj": 7,
+      "h.2.attn.q_proj": 3,
+      "h.2.attn.v_proj": 7,
+      "h.2.mlp.c_fc": 7,
+      "h.2.mlp.down_proj": 7,
+      "h.3.attn.k_proj": 2,
+      "h.3.attn.o_proj": 7,
+      "h.3.attn.q_proj": 1,
+      "h.3.attn.v_proj": 7,
+      "h.3.mlp.c_fc": 7,
+      "h.3.mlp.down_proj": 7
+    }
+  },
+  "marginal": {
+    "decisive_rule": {
+      "by_family": {
+        "union_r0 (primary, rungs 1, 2, 2a, 2b, 3)": [
+          "1",
+          "2"
+        ],
+        "union_uniform and soft_erase (rungs 1, 2, 3)": [
+          "1",
+          "2"
+        ]
+      },
+      "max_overlap_mass_pooled": 0.3333333333333333,
+      "replicate": 0
+    },
+    "draws": 8,
+    "gate": {
+      "bounds": {
+        "mean_norm": [
+          0.95,
+          1.05
+        ],
+        "mean_sigma": [
+          0.95,
+          1.05
+        ],
+        "mean_usage": [
+          0.9,
+          1.1
+        ]
+      },
+      "failures": [],
+      "pass": true,
+      "rungs": [
+        "1",
+        "2",
+        "2a"
+      ]
+    },
+    "n_alive": 9959,
+    "n_alive_not_candidates": 1,
+    "n_candidates": 9966,
+    "n_candidates_not_alive": 8,
+    "n_marginal_overflows": 0,
+    "n_positions": 524288,
+    "n_seeds": 200,
+    "rates_sha256": "f96eba8a8b8f81b0c92c55ddf59042a87ad784ad7ca0b12caa4d0674c6a9ec0e",
+    "real_position_sets": {
+      "draws_per_set": 8,
+      "draws_used": [
+        8,
+        1607
+      ],
+      "mean_norm": {
+        "realized": 1.7874684083839403,
+        "realized_percentile": 89.5,
+        "sets_max": 1.8952891730381363,
+        "sets_mean": 1.704348023860332,
+        "sets_min": 1.5244400008817363,
+        "sets_p5": 1.6043016057688626,
+        "sets_p50": 1.700282128852021,
+        "sets_p95": 1.8179166011820438,
+        "sets_sd": 0.06503752724716769
+      },
+      "mean_usage": {
+        "realized": 0.13378665574203583,
+        "realized_percentile": 87.5,
+        "sets_max": 0.15463705169651448,
+        "sets_mean": 0.12164974738310058,
+        "sets_min": 0.09750168297431662,
+        "sets_p5": 0.1073046508236266,
+        "sets_p50": 0.12009575405572823,
+        "sets_p95": 0.13928778657983332,
+        "sets_sd": 0.009954623586377534
+      },
+      "n": {
+        "realized": 1352.0,
+        "realized_percentile": 19.5,
+        "sets_max": 2335.0,
+        "sets_mean": 1574.99,
+        "sets_min": 977.0,
+        "sets_p5": 1198.65,
+        "sets_p50": 1564.5,
+        "sets_p95": 2021.0499999999997,
+        "sets_sd": 246.0306593224372
+      },
+      "n_sets": 200,
+      "seed_pattern": [
+        0,
+        "posperm",
+        "D_unif",
+        "<draw>"
+      ]
+    },
+    "run": "main",
+    "rungs": [
+      "1",
+      "2",
+      "2a",
+      "2b",
+      "3"
+    ],
+    "seconds": 39.480891942977905,
+    "tau": 0.1,
+    "usage_sha256": "e264e57498df94fa8e286a0ef8d5c8cc903eb8af6c19e06f6c9a58ceb34b5ea7"
+  },
+  "run": "main"
+}

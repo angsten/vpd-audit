@@ -1,0 +1,122 @@
+{
+ "agreement": {
+  "code_vs_not_agreement": 1.0,
+  "confusion_first_to_second": {
+   "code->code": 11,
+   "mixed->mixed": 4,
+   "mixed->prose": 1,
+   "other->other": 30,
+   "other->prose": 5,
+   "prose->mixed": 1,
+   "prose->other": 3,
+   "prose->prose": 145
+  },
+  "exact_agreement": 0.95,
+  "exact_agreement_both_sure": 1.0,
+  "n": 200,
+  "n_both_sure": 148
+ },
+ "filter_strata_vs_reader_labels": {
+  "D_unif": {
+   "code": {
+    "code": 97,
+    "mixed": 17,
+    "other": 44,
+    "prose": 48
+   },
+   "prose": {
+    "code": 1,
+    "other": 23,
+    "prose": 111
+   },
+   "unassigned": {
+    "code": 24,
+    "mixed": 8,
+    "other": 95,
+    "prose": 556
+   }
+  },
+  "E": {
+   "code": {
+    "code": 100,
+    "mixed": 17,
+    "other": 29,
+    "prose": 59
+   },
+   "prose": {
+    "code": 1,
+    "other": 14,
+    "prose": 142
+   },
+   "unassigned": {
+    "code": 19,
+    "mixed": 10,
+    "other": 115,
+    "prose": 518
+   }
+  }
+ },
+ "first_pass_counts": {
+  "D_unif": {
+   "code": 122,
+   "mixed": 25,
+   "other": 162,
+   "prose": 715
+  },
+  "E": {
+   "code": 120,
+   "mixed": 27,
+   "other": 158,
+   "prose": 719
+  }
+ },
+ "first_pass_unsure": {
+  "D_unif": 191,
+  "E": 207
+ },
+ "labeled_sample_confusion": {
+  "D_code": {
+   "code": 58,
+   "other": 4,
+   "prose": 2
+  },
+  "D_prose": {
+   "other": 3,
+   "prose": 61
+  },
+  "E_lab/ArXiv": {
+   "other": 3,
+   "prose": 13
+  },
+  "E_lab/Github": {
+   "code": 58,
+   "other": 3,
+   "prose": 3
+  },
+  "E_lab/Pile-CC": {
+   "prose": 16
+  },
+  "E_lab/StackExchange": {
+   "code": 7,
+   "mixed": 5,
+   "other": 1,
+   "prose": 3
+  },
+  "E_lab/Wikipedia (en)": {
+   "other": 1,
+   "prose": 15
+  }
+ },
+ "labels_first_pass_sha256": "caacace68876a02845cdba5cdcdbee186ce76d58c90a125dcd91f63499756730",
+ "malformed": {
+  "D_unif": [],
+  "E": [],
+  "sample": []
+ },
+ "missing": {
+  "D_unif": [],
+  "E": [],
+  "labeled": [],
+  "second": []
+ }
+}

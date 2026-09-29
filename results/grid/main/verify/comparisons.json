@@ -1,0 +1,153 @@
+{
+  "comparisons": {
+    "chains_vs_identities": {
+      "kl_mean_equal": true,
+      "mask_fp_cell_equal": true,
+      "n_cells": 16,
+      "n_pairs": 16384,
+      "n_pairs_expected": 16384,
+      "pass": true
+    },
+    "fourth_cell": {
+      "F_excluded": {
+        "cell": "main/E/soft_erase/D_unif/tau0.1/r1/excl/k0/r8",
+        "mean": 0.3615224282257259,
+        "n": 1024,
+        "paired_F_minus_importances": {
+          "mean": 0.019799915833573323,
+          "n": 1024,
+          "se": 0.00035967859922081614
+        },
+        "paired_F_minus_unmasked": {
+          "mean": 0.3500656157289086,
+          "n": 1024,
+          "se": 0.003207354918506877
+        },
+        "se": 0.0032139169388423028
+      },
+      "F_included": {
+        "cell": "main/E/soft_erase/D_unif/tau0.1/r1/incl/k0/r8",
+        "mean": 0.36150454088055994,
+        "n": 1024,
+        "paired_F_minus_importances": {
+          "mean": 0.019782028488407377,
+          "n": 1024,
+          "se": 0.0003568577366965482
+        },
+        "paired_F_minus_unmasked": {
+          "mean": 0.35004772838374265,
+          "n": 1024,
+          "se": 0.003206981276201803
+        },
+        "se": 0.003213485278779786
+      },
+      "importances": {
+        "mean": 0.34172251239215257,
+        "n": 1024,
+        "se": 0.003183190026593937
+      },
+      "unmasked": {
+        "mean": 0.011456812496817292,
+        "n": 1024,
+        "se": 0.00014878730867614305
+      }
+    },
+    "never_named_rung_8": {
+      "difference": 1.9215047359466553e-05,
+      "excluded_mean_all_E": {
+        "mean": 1.2875684317550622,
+        "n": 1024,
+        "se": 0.009295682095933436
+      },
+      "excluded_mean_first_128": 1.2943972940556705,
+      "h4_float32_first_128": 1.294378079008311,
+      "included_mean_all_E": {
+        "mean": 1.2846930510713719,
+        "n": 1024,
+        "se": 0.009295957275404729
+      },
+      "n_erased": 28946,
+      "t_star_0": {
+        "clean_prefix_fraction": 0.00203704833984375,
+        "fraction_at_least_8": 0.0107421875,
+        "fraction_equal_T": 0.0,
+        "median": 1.0,
+        "n": 1024,
+        "q1": 0.0,
+        "q3": 1.0,
+        "same_in_both_delta_settings": true
+      },
+      "t_star_0.1": {
+        "clean_prefix_fraction": 0.9959487915039062,
+        "fraction_at_least_8": 0.99609375,
+        "fraction_equal_T": 0.9951171875,
+        "median": 512.0,
+        "n": 1024,
+        "q1": 512.0,
+        "q3": 512.0,
+        "same_in_both_delta_settings": true
+      },
+      "within_tolerance": true
+    },
+    "references_vs_acceptance": {
+      "ce_equal": true,
+      "kl_mean_equal": true,
+      "n_cells": 25,
+      "n_pairs": 25600,
+      "n_pairs_expected": 25600,
+      "pass": true
+    }
+  },
+  "n_cells": 45,
+  "resume": {
+    "arrays_equal": true,
+    "cell_table_equal": true,
+    "columns_differing": [],
+    "interrupted_after_subbatch_2": true,
+    "n_arrays": 45,
+    "pass": true,
+    "rows": 46080,
+    "rows_equal": true,
+    "seconds": 359.7657325267792
+  },
+  "seconds_main_store": 367.55766701698303,
+  "two_paths": {
+    "bound": "(2^-11 (max_{t<t*} KL_cell + max_{t<t*} KL_ref) + 1e-6) (1 + 2^-10) per sequence, the maxima from the float16 arrays; a non-finite ratio counts as over",
+    "max_ratio": 0.9411264346289346,
+    "max_ratio_at": {
+      "cell": "main/E/never_named_hard/D_unif/tau0.1/ones/excl/k0/r8",
+      "seq": 833,
+      "store": "verify",
+      "t_star": 1,
+      "tau_q": "0"
+    },
+    "n_cells_checked": 10,
+    "n_nan_checks": 17386,
+    "n_nan_mismatch": 0,
+    "n_nonfinite": 0,
+    "n_over_bound": 0,
+    "n_sequence_checks": 3094,
+    "pass": true,
+    "stores": {
+      "verify": {
+        "max_ratio": 0.9411264346289346,
+        "max_ratio_at": {
+          "cell": "main/E/never_named_hard/D_unif/tau0.1/ones/excl/k0/r8",
+          "seq": 833,
+          "t_star": 1,
+          "tau_q": "0"
+        },
+        "missing_columns": [],
+        "missing_reference": [],
+        "n_cells_checked": 10,
+        "n_nan_checks": 17386,
+        "n_nan_mismatch": 0,
+        "n_nonfinite": 0,
+        "n_over_bound": 0,
+        "n_sequence_checks": 3094,
+        "nonfinite_at": null,
+        "pass": true
+      }
+    }
+  }
+}

@@ -1,0 +1,1537 @@
+set,row,source,majority_document,first_token_document,n_end_of_text
+E_lab,0,Github,0,0,0
+E_lab,1,Github,0,0,0
+E_lab,2,Github,0,0,0
+E_lab,3,Github,0,0,0
+E_lab,4,Github,0,0,0
+E_lab,5,Github,3,0,3
+E_lab,6,Github,4,3,1
+E_lab,7,Github,4,4,1
+E_lab,8,Github,5,5,1
+E_lab,9,Github,6,6,0
+E_lab,10,Github,6,6,0
+E_lab,11,Github,6,6,0
+E_lab,12,Github,6,6,0
+E_lab,13,Github,6,6,0
+E_lab,14,Github,6,6,0
+E_lab,15,Github,6,6,0
+E_lab,16,Github,6,6,0
+E_lab,17,Github,6,6,0
+E_lab,18,Github,6,6,0
+E_lab,19,Github,6,6,0
+E_lab,20,Github,6,6,0
+E_lab,21,Github,6,6,0
+E_lab,22,Github,6,6,0
+E_lab,23,Github,6,6,0
+E_lab,24,Github,6,6,0
+E_lab,25,Github,6,6,0
+E_lab,26,Github,6,6,0
+E_lab,27,Github,6,6,0
+E_lab,28,Github,6,6,0
+E_lab,29,Github,6,6,0
+E_lab,30,Github,6,6,0
+E_lab,31,Github,6,6,0
+E_lab,32,Github,6,6,0
+E_lab,33,Github,6,6,0
+E_lab,34,Github,7,6,1
+E_lab,35,Github,7,7,1
+E_lab,36,Github,8,8,0
+E_lab,37,Github,8,8,0
+E_lab,38,Github,8,8,2
+E_lab,39,Github,10,10,0
+E_lab,40,Github,10,10,0
+E_lab,41,Github,11,10,1
+E_lab,42,Github,11,11,0
+E_lab,43,Github,11,11,0
+E_lab,44,Github,11,11,0
+E_lab,45,Github,11,11,0
+E_lab,46,Github,11,11,0
+E_lab,47,Github,11,11,0
+E_lab,48,Github,11,11,0
+E_lab,49,Github,13,11,2
+E_lab,50,Github,13,13,0
+E_lab,51,Github,13,13,1
+E_lab,52,Github,14,14,0
+E_lab,53,Github,15,14,1
+E_lab,54,Github,15,15,0
+E_lab,55,Github,15,15,0
+E_lab,56,Github,15,15,0
+E_lab,57,Github,15,15,0
+E_lab,58,Github,15,15,0
+E_lab,59,Github,15,15,0
+E_lab,60,Github,15,15,0
+E_lab,61,Github,15,15,0
+E_lab,62,Github,15,15,0
+E_lab,63,Github,15,15,0
+E_lab,64,Github,15,15,1
+E_lab,65,Github,17,16,2
+E_lab,66,Github,18,18,0
+E_lab,67,Github,18,18,0
+E_lab,68,Github,18,18,0
+E_lab,69,Github,20,18,3
+E_lab,70,Github,21,21,0
+E_lab,71,Github,21,21,0
+E_lab,72,Github,21,21,0
+E_lab,73,Github,21,21,0
+E_lab,74,Github,21,21,0
+E_lab,75,Github,21,21,0
+E_lab,76,Github,21,21,0
+E_lab,77,Github,21,21,0
+E_lab,78,Github,21,21,0
+E_lab,79,Github,21,21,0
+E_lab,80,Github,21,21,0
+E_lab,81,Github,21,21,0
+E_lab,82,Github,21,21,0
+E_lab,83,Github,21,21,0
+E_lab,84,Github,21,21,0
+E_lab,85,Github,21,21,0
+E_lab,86,Github,21,21,0
+E_lab,87,Github,21,21,0
+E_lab,88,Github,21,21,0
+E_lab,89,Github,24,21,3
+E_lab,90,Github,24,24,0
+E_lab,91,Github,24,24,0
+E_lab,92,Github,25,24,1
+E_lab,93,Github,25,25,0
+E_lab,94,Github,25,25,0
+E_lab,95,Github,25,25,0
+E_lab,96,Github,25,25,0
+E_lab,97,Github,25,25,0
+E_lab,98,Github,25,25,0
+E_lab,99,Github,25,25,0
+E_lab,100,Github,25,25,0
+E_lab,101,Github,25,25,0
+E_lab,102,Github,25,25,0
+E_lab,103,Github,25,25,0
+E_lab,104,Github,25,25,0
+E_lab,105,Github,27,25,2
+E_lab,106,Github,27,27,0
+E_lab,107,Github,27,27,0
+E_lab,108,Github,27,27,0
+E_lab,109,Github,27,27,0
+E_lab,110,Github,27,27,0
+E_lab,111,Github,27,27,0
+E_lab,112,Github,27,27,0
+E_lab,113,Github,27,27,0
+E_lab,114,Github,27,27,1
+E_lab,115,Github,28,28,2
+E_lab,116,Github,30,30,0
+E_lab,117,Github,30,30,0
+E_lab,118,Github,30,30,0
+E_lab,119,Github,32,30,2
+E_lab,120,Github,32,32,0
+E_lab,121,Github,33,32,2
+E_lab,122,Github,35,34,1
+E_lab,123,Github,35,35,0
+E_lab,124,Github,35,35,1
+E_lab,125,Github,36,36,0
+E_lab,126,Github,38,36,3
+E_lab,127,Github,39,39,1
+E_lab,128,Github,41,40,1
+E_lab,129,Github,44,41,3
+E_lab,130,Github,44,44,0
+E_lab,131,Github,44,44,0
+E_lab,132,Github,44,44,0
+E_lab,133,Github,45,44,1
+E_lab,134,Github,46,45,1
+E_lab,135,Github,46,46,0
+E_lab,136,Github,47,46,1
+E_lab,137,Github,49,47,3
+E_lab,138,Github,51,50,1
+E_lab,139,Github,51,51,2
+E_lab,140,Github,54,53,1
+E_lab,141,Github,55,54,2
+E_lab,142,Github,56,56,0
+E_lab,143,Github,56,56,0
+E_lab,144,Github,56,56,0
+E_lab,145,Github,56,56,0
+E_lab,146,Github,57,56,1
+E_lab,147,Github,58,57,2
+E_lab,148,Github,59,59,0
+E_lab,149,Github,59,59,0
+E_lab,150,Github,59,59,0
+E_lab,151,Github,59,59,0
+E_lab,152,Github,59,59,0
+E_lab,153,Github,59,59,0
+E_lab,154,Github,59,59,0
+E_lab,155,Github,59,59,0
+E_lab,156,Github,59,59,0
+E_lab,157,Github,59,59,1
+E_lab,158,Github,60,60,0
+E_lab,159,Github,60,60,1
+E_lab,160,Github,61,61,0
+E_lab,161,Github,62,61,2
+E_lab,162,Github,63,63,1
+E_lab,163,Github,64,64,0
+E_lab,164,Github,64,64,0
+E_lab,165,Github,64,64,0
+E_lab,166,Github,64,64,0
+E_lab,167,Github,64,64,0
+E_lab,168,Github,64,64,0
+E_lab,169,Github,64,64,0
+E_lab,170,Github,64,64,0
+E_lab,171,Github,64,64,0
+E_lab,172,Github,66,64,2
+E_lab,173,Github,67,66,3
+E_lab,174,Github,69,69,0
+E_lab,175,Github,69,69,0
+E_lab,176,Github,69,69,0
+E_lab,177,Github,69,69,0
+E_lab,178,Github,70,69,1
+E_lab,179,Github,71,70,1
+E_lab,180,Github,71,71,0
+E_lab,181,Github,71,71,0
+E_lab,182,Github,71,71,0
+E_lab,183,Github,71,71,0
+E_lab,184,Github,71,71,0
+E_lab,185,Github,72,71,1
+E_lab,186,Github,72,72,0
+E_lab,187,Github,72,72,0
+E_lab,188,Github,72,72,0
+E_lab,189,Github,73,72,1
+E_lab,190,Github,73,73,1
+E_lab,191,Github,74,74,0
+E_lab,192,Github,74,74,0
+E_lab,193,Github,74,74,0
+E_lab,194,Github,74,74,0
+E_lab,195,Github,74,74,1
+E_lab,196,Github,75,75,0
+E_lab,197,Github,75,75,0
+E_lab,198,Github,75,75,0
+E_lab,199,Github,75,75,1
+E_lab,200,Github,78,76,2
+E_lab,201,Github,78,78,1
+E_lab,202,Github,79,79,0
+E_lab,203,Github,79,79,0
+E_lab,204,Github,79,79,0
+E_lab,205,Github,79,79,0
+E_lab,206,Github,79,79,0
+E_lab,207,Github,79,79,0
+E_lab,208,Github,79,79,0
+E_lab,209,Github,79,79,1
+E_lab,210,Github,80,80,0
+E_lab,211,Github,80,80,0
+E_lab,212,Github,80,80,1
+E_lab,213,Github,81,81,0
+E_lab,214,Github,81,81,1
+E_lab,215,Github,82,82,1
+E_lab,216,Github,83,83,0
+E_lab,217,Github,84,83,1
+E_lab,218,Github,84,84,0
+E_lab,219,Github,84,84,0
+E_lab,220,Github,84,84,0
+E_lab,221,Github,84,84,1
+E_lab,222,Github,87,85,2
+E_lab,223,Github,88,87,1
+E_lab,224,Github,88,88,1
+E_lab,225,Github,89,89,1
+E_lab,226,Github,91,90,1
+E_lab,227,Github,92,91,1
+E_lab,228,Github,92,92,0
+E_lab,229,Github,92,92,0
+E_lab,230,Github,92,92,0
+E_lab,231,Github,92,92,0
+E_lab,232,Github,92,92,1
+E_lab,233,Github,95,93,3
+E_lab,234,Github,97,96,1
+E_lab,235,Github,97,97,0
+E_lab,236,Github,98,97,1
+E_lab,237,Github,98,98,0
+E_lab,238,Github,98,98,0
+E_lab,239,Github,98,98,0
+E_lab,240,Github,98,98,0
+E_lab,241,Github,98,98,0
+E_lab,242,Github,98,98,0
+E_lab,243,Github,98,98,0
+E_lab,244,Github,98,98,0
+E_lab,245,Github,98,98,0
+E_lab,246,Github,98,98,0
+E_lab,247,Github,98,98,0
+E_lab,248,Github,98,98,0
+E_lab,249,Github,98,98,0
+E_lab,250,Github,98,98,0
+E_lab,251,Github,98,98,0
+E_lab,252,Github,98,98,0
+E_lab,253,Github,98,98,0
+E_lab,254,Github,98,98,0
+E_lab,255,Github,98,98,0
+E_lab,256,Pile-CC,0,0,0
+E_lab,257,Pile-CC,0,0,0
+E_lab,258,Pile-CC,0,0,0
+E_lab,259,Pile-CC,0,0,1
+E_lab,260,Pile-CC,1,1,0
+E_lab,261,Pile-CC,1,1,1
+E_lab,262,Pile-CC,3,2,1
+E_lab,263,Pile-CC,3,3,0
+E_lab,264,Pile-CC,3,3,0
+E_lab,265,Pile-CC,4,3,2
+E_lab,266,Pile-CC,5,5,1
+E_lab,267,Pile-CC,7,6,1
+E_lab,268,Pile-CC,7,7,0
+E_lab,269,Pile-CC,7,7,0
+E_lab,270,Pile-CC,7,7,0
+E_lab,271,Pile-CC,7,7,0
+E_lab,272,Pile-CC,7,7,1
+E_lab,273,Pile-CC,9,8,1
+E_lab,274,Pile-CC,9,9,0
+E_lab,275,Pile-CC,10,9,1
+E_lab,276,Pile-CC,10,10,0
+E_lab,277,Pile-CC,10,10,0
+E_lab,278,Pile-CC,10,10,0
+E_lab,279,Pile-CC,10,10,3
+E_lab,280,Pile-CC,13,13,0
+E_lab,281,Pile-CC,14,13,1
+E_lab,282,Pile-CC,16,14,3
+E_lab,283,Pile-CC,18,17,1
+E_lab,284,Pile-CC,20,18,3
+E_lab,285,Pile-CC,21,21,0
+E_lab,286,Pile-CC,21,21,0
+E_lab,287,Pile-CC,21,21,0
+E_lab,288,Pile-CC,21,21,0
+E_lab,289,Pile-CC,21,21,0
+E_lab,290,Pile-CC,21,21,0
+E_lab,291,Pile-CC,21,21,0
+E_lab,292,Pile-CC,21,21,0
+E_lab,293,Pile-CC,21,21,0
+E_lab,294,Pile-CC,21,21,0
+E_lab,295,Pile-CC,21,21,0
+E_lab,296,Pile-CC,22,21,2
+E_lab,297,Pile-CC,23,23,0
+E_lab,298,Pile-CC,24,23,1
+E_lab,299,Pile-CC,24,24,0
+E_lab,300,Pile-CC,24,24,0
+E_lab,301,Pile-CC,24,24,0
+E_lab,302,Pile-CC,24,24,1
+E_lab,303,Pile-CC,25,25,0
+E_lab,304,Pile-CC,25,25,0
+E_lab,305,Pile-CC,25,25,0
+E_lab,306,Pile-CC,25,25,0
+E_lab,307,Pile-CC,28,25,3
+E_lab,308,Pile-CC,28,28,0
+E_lab,309,Pile-CC,28,28,0
+E_lab,310,Pile-CC,28,28,1
+E_lab,311,Pile-CC,29,29,0
+E_lab,312,Pile-CC,29,29,0
+E_lab,313,Pile-CC,29,29,0
+E_lab,314,Pile-CC,29,29,1
+E_lab,315,Pile-CC,30,30,1
+E_lab,316,Pile-CC,31,31,1
+E_lab,317,Pile-CC,32,32,1
+E_lab,318,Pile-CC,33,33,2
+E_lab,319,Pile-CC,36,35,2
+E_lab,320,Wikipedia (en),2,0,2
+E_lab,321,Wikipedia (en),2,2,1
+E_lab,322,Wikipedia (en),3,3,1
+E_lab,323,Wikipedia (en),4,4,0
+E_lab,324,Wikipedia (en),6,4,2
+E_lab,325,Wikipedia (en),6,6,2
+E_lab,326,Wikipedia (en),8,8,1
+E_lab,327,Wikipedia (en),9,9,0
+E_lab,328,Wikipedia (en),10,9,1
+E_lab,329,Wikipedia (en),10,10,1
+E_lab,330,Wikipedia (en),12,11,1
+E_lab,331,Wikipedia (en),12,12,1
+E_lab,332,Wikipedia (en),13,13,2
+E_lab,333,Wikipedia (en),15,15,1
+E_lab,334,Wikipedia (en),16,16,1
+E_lab,335,Wikipedia (en),18,17,1
+E_lab,336,Wikipedia (en),18,18,1
+E_lab,337,Wikipedia (en),19,19,0
+E_lab,338,Wikipedia (en),19,19,1
+E_lab,339,Wikipedia (en),20,20,0
+E_lab,340,Wikipedia (en),20,20,1
+E_lab,341,Wikipedia (en),23,21,2
+E_lab,342,Wikipedia (en),25,23,2
+E_lab,343,Wikipedia (en),27,25,2
+E_lab,344,Wikipedia (en),27,27,0
+E_lab,345,Wikipedia (en),27,27,0
+E_lab,346,Wikipedia (en),27,27,1
+E_lab,347,Wikipedia (en),29,28,2
+E_lab,348,Wikipedia (en),31,30,1
+E_lab,349,Wikipedia (en),31,31,1
+E_lab,350,Wikipedia (en),32,32,0
+E_lab,351,Wikipedia (en),32,32,0
+E_lab,352,Wikipedia (en),32,32,0
+E_lab,353,Wikipedia (en),32,32,2
+E_lab,354,Wikipedia (en),36,34,2
+E_lab,355,Wikipedia (en),37,36,1
+E_lab,356,Wikipedia (en),39,37,2
+E_lab,357,Wikipedia (en),39,39,0
+E_lab,358,Wikipedia (en),40,39,1
+E_lab,359,Wikipedia (en),40,40,0
+E_lab,360,Wikipedia (en),40,40,0
+E_lab,361,Wikipedia (en),42,40,2
+E_lab,362,Wikipedia (en),42,42,1
+E_lab,363,Wikipedia (en),43,43,0
+E_lab,364,Wikipedia (en),45,43,2
+E_lab,365,Wikipedia (en),45,45,0
+E_lab,366,Wikipedia (en),45,45,0
+E_lab,367,Wikipedia (en),46,45,1
+E_lab,368,Wikipedia (en),46,46,0
+E_lab,369,Wikipedia (en),46,46,0
+E_lab,370,Wikipedia (en),46,46,1
+E_lab,371,Wikipedia (en),47,47,0
+E_lab,372,Wikipedia (en),47,47,0
+E_lab,373,Wikipedia (en),48,47,1
+E_lab,374,Wikipedia (en),48,48,0
+E_lab,375,Wikipedia (en),48,48,2
+E_lab,376,Wikipedia (en),51,50,2
+E_lab,377,Wikipedia (en),53,52,1
+E_lab,378,Wikipedia (en),54,53,1
+E_lab,379,Wikipedia (en),54,54,0
+E_lab,380,Wikipedia (en),54,54,0
+E_lab,381,Wikipedia (en),54,54,0
+E_lab,382,Wikipedia (en),54,54,0
+E_lab,383,Wikipedia (en),54,54,0
+E_lab,384,StackExchange,0,0,1
+E_lab,385,StackExchange,2,1,1
+E_lab,386,StackExchange,2,2,1
+E_lab,387,StackExchange,4,3,2
+E_lab,388,StackExchange,5,5,0
+E_lab,389,StackExchange,7,5,2
+E_lab,390,StackExchange,7,7,0
+E_lab,391,StackExchange,7,7,0
+E_lab,392,StackExchange,8,7,2
+E_lab,393,StackExchange,9,9,1
+E_lab,394,StackExchange,10,10,1
+E_lab,395,StackExchange,12,11,2
+E_lab,396,StackExchange,14,13,1
+E_lab,397,StackExchange,15,14,1
+E_lab,398,StackExchange,15,15,1
+E_lab,399,StackExchange,17,16,1
+E_lab,400,StackExchange,17,17,0
+E_lab,401,StackExchange,17,17,0
+E_lab,402,StackExchange,18,17,2
+E_lab,403,StackExchange,19,19,1
+E_lab,404,StackExchange,21,20,1
+E_lab,405,StackExchange,22,21,1
+E_lab,406,StackExchange,23,22,1
+E_lab,407,StackExchange,23,23,0
+E_lab,408,StackExchange,23,23,0
+E_lab,409,StackExchange,24,23,3
+E_lab,410,StackExchange,26,26,1
+E_lab,411,StackExchange,27,27,1
+E_lab,412,StackExchange,28,28,0
+E_lab,413,StackExchange,28,28,0
+E_lab,414,StackExchange,28,28,1
+E_lab,415,StackExchange,30,29,1
+E_lab,416,StackExchange,32,30,2
+E_lab,417,StackExchange,33,32,1
+E_lab,418,StackExchange,34,33,1
+E_lab,419,StackExchange,34,34,0
+E_lab,420,StackExchange,34,34,0
+E_lab,421,StackExchange,34,34,0
+E_lab,422,StackExchange,34,34,0
+E_lab,423,StackExchange,34,34,0
+E_lab,424,StackExchange,35,34,1
+E_lab,425,StackExchange,36,35,1
+E_lab,426,StackExchange,36,36,1
+E_lab,427,StackExchange,37,37,1
+E_lab,428,StackExchange,38,38,1
+E_lab,429,StackExchange,39,39,1
+E_lab,430,StackExchange,40,40,1
+E_lab,431,StackExchange,42,41,2
+E_lab,432,StackExchange,46,43,3
+E_lab,433,StackExchange,47,46,1
+E_lab,434,StackExchange,47,47,0
+E_lab,435,StackExchange,48,47,2
+E_lab,436,StackExchange,49,49,1
+E_lab,437,StackExchange,50,50,0
+E_lab,438,StackExchange,50,50,0
+E_lab,439,StackExchange,50,50,1
+E_lab,440,StackExchange,51,51,2
+E_lab,441,StackExchange,53,53,1
+E_lab,442,StackExchange,55,54,2
+E_lab,443,StackExchange,56,56,1
+E_lab,444,StackExchange,57,57,0
+E_lab,445,StackExchange,57,57,1
+E_lab,446,StackExchange,58,58,1
+E_lab,447,StackExchange,60,59,1
+E_lab,448,ArXiv,0,0,0
+E_lab,449,ArXiv,0,0,0
+E_lab,450,ArXiv,0,0,0
+E_lab,451,ArXiv,0,0,0
+E_lab,452,ArXiv,0,0,0
+E_lab,453,ArXiv,0,0,0
+E_lab,454,ArXiv,0,0,0
+E_lab,455,ArXiv,0,0,0
+E_lab,456,ArXiv,0,0,0
+E_lab,457,ArXiv,0,0,0
+E_lab,458,ArXiv,0,0,0
+E_lab,459,ArXiv,0,0,0
+E_lab,460,ArXiv,1,0,1
+E_lab,461,ArXiv,1,1,0
+E_lab,462,ArXiv,1,1,0
+E_lab,463,ArXiv,1,1,0
+E_lab,464,ArXiv,1,1,0
+E_lab,465,ArXiv,1,1,0
+E_lab,466,ArXiv,1,1,0
+E_lab,467,ArXiv,1,1,0
+E_lab,468,ArXiv,1,1,0
+E_lab,469,ArXiv,1,1,0
+E_lab,470,ArXiv,1,1,0
+E_lab,471,ArXiv,1,1,0
+E_lab,472,ArXiv,1,1,0
+E_lab,473,ArXiv,1,1,0
+E_lab,474,ArXiv,1,1,0
+E_lab,475,ArXiv,1,1,0
+E_lab,476,ArXiv,1,1,0
+E_lab,477,ArXiv,1,1,0
+E_lab,478,ArXiv,1,1,0
+E_lab,479,ArXiv,1,1,0
+E_lab,480,ArXiv,1,1,0
+E_lab,481,ArXiv,1,1,0
+E_lab,482,ArXiv,1,1,0
+E_lab,483,ArXiv,2,1,1
+E_lab,484,ArXiv,2,2,0
+E_lab,485,ArXiv,2,2,0
+E_lab,486,ArXiv,2,2,0
+E_lab,487,ArXiv,2,2,0
+E_lab,488,ArXiv,2,2,0
+E_lab,489,ArXiv,2,2,0
+E_lab,490,ArXiv,2,2,0
+E_lab,491,ArXiv,2,2,0
+E_lab,492,ArXiv,2,2,0
+E_lab,493,ArXiv,2,2,0
+E_lab,494,ArXiv,2,2,0
+E_lab,495,ArXiv,2,2,0
+E_lab,496,ArXiv,2,2,0
+E_lab,497,ArXiv,2,2,0
+E_lab,498,ArXiv,2,2,0
+E_lab,499,ArXiv,2,2,0
+E_lab,500,ArXiv,2,2,0
+E_lab,501,ArXiv,2,2,0
+E_lab,502,ArXiv,2,2,0
+E_lab,503,ArXiv,2,2,0
+E_lab,504,ArXiv,2,2,0
+E_lab,505,ArXiv,2,2,0
+E_lab,506,ArXiv,2,2,0
+E_lab,507,ArXiv,2,2,0
+E_lab,508,ArXiv,2,2,0
+E_lab,509,ArXiv,2,2,0
+E_lab,510,ArXiv,2,2,0
+E_lab,511,ArXiv,2,2,0
+D_code,0,Github,0,0,0
+D_code,1,Github,0,0,0
+D_code,2,Github,0,0,0
+D_code,3,Github,0,0,0
+D_code,4,Github,0,0,0
+D_code,5,Github,0,0,0
+D_code,6,Github,0,0,0
+D_code,7,Github,0,0,0
+D_code,8,Github,0,0,0
+D_code,9,Github,0,0,0
+D_code,10,Github,0,0,0
+D_code,11,Github,0,0,0
+D_code,12,Github,0,0,0
+D_code,13,Github,0,0,2
+D_code,14,Github,2,2,0
+D_code,15,Github,2,2,0
+D_code,16,Github,3,2,2
+D_code,17,Github,4,4,1
+D_code,18,Github,5,5,1
+D_code,19,Github,8,6,2
+D_code,20,Github,8,8,0
+D_code,21,Github,8,8,0
+D_code,22,Github,10,8,2
+D_code,23,Github,10,10,0
+D_code,24,Github,10,10,1
+D_code,25,Github,11,11,0
+D_code,26,Github,11,11,0
+D_code,27,Github,11,11,0
+D_code,28,Github,11,11,0
+D_code,29,Github,11,11,0
+D_code,30,Github,13,11,2
+D_code,31,Github,13,13,0
+D_code,32,Github,13,13,0
+D_code,33,Github,14,13,1
+D_code,34,Github,14,14,1
+D_code,35,Github,16,15,1
+D_code,36,Github,17,16,1
+D_code,37,Github,17,17,1
+D_code,38,Github,18,18,0
+D_code,39,Github,19,18,1
+D_code,40,Github,19,19,0
+D_code,41,Github,19,19,0
+D_code,42,Github,19,19,1
+D_code,43,Github,21,20,1
+D_code,44,Github,21,21,0
+D_code,45,Github,21,21,0
+D_code,46,Github,21,21,0
+D_code,47,Github,21,21,0
+D_code,48,Github,21,21,0
+D_code,49,Github,21,21,0
+D_code,50,Github,21,21,0
+D_code,51,Github,21,21,0
+D_code,52,Github,21,21,0
+D_code,53,Github,21,21,0
+D_code,54,Github,21,21,0
+D_code,55,Github,21,21,0
+D_code,56,Github,21,21,0
+D_code,57,Github,21,21,0
+D_code,58,Github,21,21,0
+D_code,59,Github,21,21,0
+D_code,60,Github,21,21,0
+D_code,61,Github,21,21,0
+D_code,62,Github,21,21,0
+D_code,63,Github,21,21,0
+D_code,64,Github,21,21,0
+D_code,65,Github,21,21,0
+D_code,66,Github,21,21,0
+D_code,67,Github,21,21,0
+D_code,68,Github,21,21,0
+D_code,69,Github,21,21,0
+D_code,70,Github,21,21,0
+D_code,71,Github,21,21,0
+D_code,72,Github,21,21,1
+D_code,73,Github,22,22,0
+D_code,74,Github,22,22,1
+D_code,75,Github,23,23,0
+D_code,76,Github,23,23,0
+D_code,77,Github,23,23,0
+D_code,78,Github,23,23,0
+D_code,79,Github,23,23,0
+D_code,80,Github,23,23,1
+D_code,81,Github,24,24,0
+D_code,82,Github,24,24,0
+D_code,83,Github,24,24,1
+D_code,84,Github,25,25,0
+D_code,85,Github,25,25,0
+D_code,86,Github,25,25,0
+D_code,87,Github,26,25,1
+D_code,88,Github,27,26,1
+D_code,89,Github,27,27,0
+D_code,90,Github,27,27,0
+D_code,91,Github,27,27,1
+D_code,92,Github,28,28,0
+D_code,93,Github,28,28,0
+D_code,94,Github,28,28,0
+D_code,95,Github,28,28,0
+D_code,96,Github,29,28,1
+D_code,97,Github,29,29,0
+D_code,98,Github,29,29,2
+D_code,99,Github,31,31,2
+D_code,100,Github,33,33,0
+D_code,101,Github,35,33,2
+D_code,102,Github,35,35,0
+D_code,103,Github,35,35,0
+D_code,104,Github,35,35,0
+D_code,105,Github,35,35,0
+D_code,106,Github,35,35,0
+D_code,107,Github,35,35,0
+D_code,108,Github,35,35,0
+D_code,109,Github,35,35,0
+D_code,110,Github,35,35,0
+D_code,111,Github,35,35,0
+D_code,112,Github,35,35,0
+D_code,113,Github,35,35,1
+D_code,114,Github,36,36,0
+D_code,115,Github,36,36,0
+D_code,116,Github,36,36,0
+D_code,117,Github,36,36,0
+D_code,118,Github,36,36,0
+D_code,119,Github,36,36,0
+D_code,120,Github,36,36,0
+D_code,121,Github,37,36,1
+D_code,122,Github,37,37,1
+D_code,123,Github,38,38,0
+D_code,124,Github,38,38,0
+D_code,125,Github,38,38,0
+D_code,126,Github,38,38,0
+D_code,127,Github,38,38,0
+D_code,128,Github,38,38,0
+D_code,129,Github,38,38,1
+D_code,130,Github,39,39,1
+D_code,131,Github,41,40,2
+D_code,132,Github,42,42,0
+D_code,133,Github,42,42,0
+D_code,134,Github,43,42,1
+D_code,135,Github,43,43,0
+D_code,136,Github,43,43,0
+D_code,137,Github,43,43,0
+D_code,138,Github,43,43,0
+D_code,139,Github,43,43,0
+D_code,140,Github,43,43,0
+D_code,141,Github,43,43,0
+D_code,142,Github,43,43,0
+D_code,143,Github,43,43,0
+D_code,144,Github,43,43,0
+D_code,145,Github,43,43,0
+D_code,146,Github,43,43,0
+D_code,147,Github,43,43,0
+D_code,148,Github,44,43,1
+D_code,149,Github,44,44,0
+D_code,150,Github,44,44,0
+D_code,151,Github,44,44,0
+D_code,152,Github,44,44,0
+D_code,153,Github,44,44,1
+D_code,154,Github,47,45,3
+D_code,155,Github,48,48,0
+D_code,156,Github,48,48,0
+D_code,157,Github,48,48,0
+D_code,158,Github,48,48,0
+D_code,159,Github,48,48,1
+D_code,160,Github,49,49,1
+D_code,161,Github,50,50,0
+D_code,162,Github,50,50,0
+D_code,163,Github,50,50,0
+D_code,164,Github,50,50,1
+D_code,165,Github,51,51,1
+D_code,166,Github,52,52,0
+D_code,167,Github,52,52,0
+D_code,168,Github,53,52,1
+D_code,169,Github,53,53,0
+D_code,170,Github,53,53,0
+D_code,171,Github,54,53,1
+D_code,172,Github,55,54,1
+D_code,173,Github,55,55,0
+D_code,174,Github,55,55,0
+D_code,175,Github,55,55,0
+D_code,176,Github,55,55,0
+D_code,177,Github,55,55,0
+D_code,178,Github,55,55,0
+D_code,179,Github,55,55,1
+D_code,180,Github,56,56,1
+D_code,181,Github,57,57,1
+D_code,182,Github,58,58,0
+D_code,183,Github,58,58,0
+D_code,184,Github,58,58,0
+D_code,185,Github,58,58,0
+D_code,186,Github,58,58,0
+D_code,187,Github,58,58,0
+D_code,188,Github,58,58,0
+D_code,189,Github,58,58,0
+D_code,190,Github,58,58,0
+D_code,191,Github,58,58,0
+D_code,192,Github,58,58,0
+D_code,193,Github,58,58,0
+D_code,194,Github,58,58,0
+D_code,195,Github,58,58,0
+D_code,196,Github,58,58,0
+D_code,197,Github,58,58,0
+D_code,198,Github,58,58,0
+D_code,199,Github,58,58,0
+D_code,200,Github,58,58,0
+D_code,201,Github,58,58,0
+D_code,202,Github,58,58,0
+D_code,203,Github,58,58,0
+D_code,204,Github,58,58,0
+D_code,205,Github,58,58,0
+D_code,206,Github,58,58,0
+D_code,207,Github,58,58,0
+D_code,208,Github,58,58,0
+D_code,209,Github,58,58,0
+D_code,210,Github,58,58,0
+D_code,211,Github,58,58,1
+D_code,212,Github,59,59,0
+D_code,213,Github,59,59,2
+D_code,214,Github,63,61,2
+D_code,215,Github,63,63,0
+D_code,216,Github,63,63,0
+D_code,217,Github,63,63,0
+D_code,218,Github,63,63,0
+D_code,219,Github,63,63,0
+D_code,220,Github,63,63,0
+D_code,221,Github,63,63,0
+D_code,222,Github,63,63,0
+D_code,223,Github,63,63,0
+D_code,224,Github,63,63,0
+D_code,225,Github,63,63,0
+D_code,226,Github,63,63,0
+D_code,227,Github,63,63,0
+D_code,228,Github,63,63,0
+D_code,229,Github,63,63,0
+D_code,230,Github,63,63,0
+D_code,231,Github,63,63,0
+D_code,232,Github,63,63,0
+D_code,233,Github,63,63,0
+D_code,234,Github,63,63,0
+D_code,235,Github,63,63,0
+D_code,236,Github,63,63,0
+D_code,237,Github,63,63,0
+D_code,238,Github,63,63,0
+D_code,239,Github,63,63,0
+D_code,240,Github,63,63,0
+D_code,241,Github,63,63,0
+D_code,242,Github,63,63,0
+D_code,243,Github,63,63,0
+D_code,244,Github,63,63,2
+D_code,245,Github,65,65,0
+D_code,246,Github,65,65,0
+D_code,247,Github,65,65,0
+D_code,248,Github,67,65,2
+D_code,249,Github,69,67,2
+D_code,250,Github,69,69,0
+D_code,251,Github,70,69,2
+D_code,252,Github,71,71,1
+D_code,253,Github,72,72,0
+D_code,254,Github,72,72,0
+D_code,255,Github,72,72,0
+D_code,256,Github,72,72,1
+D_code,257,Github,73,73,1
+D_code,258,Github,74,74,0
+D_code,259,Github,74,74,0
+D_code,260,Github,74,74,3
+D_code,261,Github,77,77,1
+D_code,262,Github,79,78,2
+D_code,263,Github,80,80,0
+D_code,264,Github,80,80,0
+D_code,265,Github,80,80,0
+D_code,266,Github,80,80,1
+D_code,267,Github,81,81,0
+D_code,268,Github,81,81,0
+D_code,269,Github,81,81,0
+D_code,270,Github,81,81,0
+D_code,271,Github,81,81,0
+D_code,272,Github,81,81,0
+D_code,273,Github,81,81,0
+D_code,274,Github,82,81,1
+D_code,275,Github,82,82,1
+D_code,276,Github,84,83,1
+D_code,277,Github,84,84,0
+D_code,278,Github,84,84,0
+D_code,279,Github,84,84,0
+D_code,280,Github,84,84,0
+D_code,281,Github,84,84,0
+D_code,282,Github,84,84,0
+D_code,283,Github,84,84,0
+D_code,284,Github,84,84,0
+D_code,285,Github,84,84,0
+D_code,286,Github,84,84,0
+D_code,287,Github,84,84,0
+D_code,288,Github,84,84,0
+D_code,289,Github,85,84,2
+D_code,290,Github,86,86,0
+D_code,291,Github,86,86,0
+D_code,292,Github,87,86,1
+D_code,293,Github,89,87,2
+D_code,294,Github,89,89,0
+D_code,295,Github,89,89,0
+D_code,296,Github,89,89,0
+D_code,297,Github,89,89,1
+D_code,298,Github,90,90,0
+D_code,299,Github,90,90,0
+D_code,300,Github,90,90,0
+D_code,301,Github,90,90,0
+D_code,302,Github,90,90,0
+D_code,303,Github,90,90,0
+D_code,304,Github,90,90,0
+D_code,305,Github,90,90,0
+D_code,306,Github,90,90,0
+D_code,307,Github,90,90,0
+D_code,308,Github,90,90,0
+D_code,309,Github,90,90,0
+D_code,310,Github,90,90,0
+D_code,311,Github,90,90,0
+D_code,312,Github,90,90,0
+D_code,313,Github,90,90,0
+D_code,314,Github,90,90,1
+D_code,315,Github,91,91,1
+D_code,316,Github,92,92,1
+D_code,317,Github,93,93,0
+D_code,318,Github,93,93,0
+D_code,319,Github,93,93,0
+D_code,320,Github,93,93,0
+D_code,321,Github,93,93,2
+D_code,322,Github,96,95,1
+D_code,323,Github,96,96,0
+D_code,324,Github,96,96,0
+D_code,325,Github,96,96,1
+D_code,326,Github,97,97,0
+D_code,327,Github,97,97,1
+D_code,328,Github,98,98,0
+D_code,329,Github,99,98,1
+D_code,330,Github,99,99,1
+D_code,331,Github,100,100,0
+D_code,332,Github,100,100,0
+D_code,333,Github,100,100,0
+D_code,334,Github,100,100,0
+D_code,335,Github,100,100,0
+D_code,336,Github,100,100,0
+D_code,337,Github,100,100,0
+D_code,338,Github,100,100,0
+D_code,339,Github,100,100,0
+D_code,340,Github,100,100,0
+D_code,341,Github,100,100,0
+D_code,342,Github,100,100,0
+D_code,343,Github,100,100,0
+D_code,344,Github,100,100,0
+D_code,345,Github,100,100,0
+D_code,346,Github,100,100,0
+D_code,347,Github,100,100,0
+D_code,348,Github,100,100,0
+D_code,349,Github,100,100,0
+D_code,350,Github,100,100,2
+D_code,351,Github,102,102,0
+D_code,352,Github,103,102,2
+D_code,353,Github,104,104,0
+D_code,354,Github,104,104,0
+D_code,355,Github,104,104,0
+D_code,356,Github,104,104,0
+D_code,357,Github,104,104,1
+D_code,358,Github,105,105,0
+D_code,359,Github,105,105,0
+D_code,360,Github,105,105,0
+D_code,361,Github,105,105,1
+D_code,362,Github,106,106,0
+D_code,363,Github,106,106,0
+D_code,364,Github,107,106,2
+D_code,365,Github,108,108,0
+D_code,366,Github,108,108,0
+D_code,367,Github,108,108,1
+D_code,368,Github,109,109,0
+D_code,369,Github,109,109,0
+D_code,370,Github,110,109,2
+D_code,371,Github,111,111,0
+D_code,372,Github,111,111,0
+D_code,373,Github,111,111,0
+D_code,374,Github,111,111,0
+D_code,375,Github,111,111,0
+D_code,376,Github,111,111,0
+D_code,377,Github,111,111,0
+D_code,378,Github,111,111,0
+D_code,379,Github,111,111,0
+D_code,380,Github,111,111,0
+D_code,381,Github,111,111,0
+D_code,382,Github,111,111,0
+D_code,383,Github,111,111,0
+D_code,384,Github,111,111,0
+D_code,385,Github,111,111,0
+D_code,386,Github,111,111,0
+D_code,387,Github,111,111,0
+D_code,388,Github,111,111,0
+D_code,389,Github,111,111,0
+D_code,390,Github,111,111,0
+D_code,391,Github,111,111,0
+D_code,392,Github,111,111,0
+D_code,393,Github,111,111,0
+D_code,394,Github,111,111,0
+D_code,395,Github,111,111,0
+D_code,396,Github,111,111,0
+D_code,397,Github,111,111,0
+D_code,398,Github,111,111,0
+D_code,399,Github,111,111,0
+D_code,400,Github,111,111,0
+D_code,401,Github,111,111,0
+D_code,402,Github,111,111,0
+D_code,403,Github,111,111,0
+D_code,404,Github,111,111,0
+D_code,405,Github,111,111,0
+D_code,406,Github,111,111,0
+D_code,407,Github,111,111,0
+D_code,408,Github,111,111,0
+D_code,409,Github,111,111,0
+D_code,410,Github,111,111,0
+D_code,411,Github,111,111,0
+D_code,412,Github,111,111,0
+D_code,413,Github,111,111,0
+D_code,414,Github,111,111,0
+D_code,415,Github,111,111,0
+D_code,416,Github,111,111,0
+D_code,417,Github,111,111,0
+D_code,418,Github,111,111,0
+D_code,419,Github,111,111,0
+D_code,420,Github,111,111,0
+D_code,421,Github,111,111,0
+D_code,422,Github,111,111,0
+D_code,423,Github,111,111,0
+D_code,424,Github,111,111,0
+D_code,425,Github,111,111,0
+D_code,426,Github,111,111,2
+D_code,427,Github,114,113,1
+D_code,428,Github,114,114,0
+D_code,429,Github,114,114,0
+D_code,430,Github,114,114,0
+D_code,431,Github,114,114,0
+D_code,432,Github,114,114,0
+D_code,433,Github,114,114,0
+D_code,434,Github,114,114,0
+D_code,435,Github,114,114,0
+D_code,436,Github,115,114,1
+D_code,437,Github,116,115,1
+D_code,438,Github,116,116,0
+D_code,439,Github,116,116,0
+D_code,440,Github,116,116,0
+D_code,441,Github,116,116,0
+D_code,442,Github,116,116,0
+D_code,443,Github,116,116,0
+D_code,444,Github,116,116,0
+D_code,445,Github,116,116,0
+D_code,446,Github,116,116,0
+D_code,447,Github,116,116,0
+D_code,448,Github,116,116,0
+D_code,449,Github,116,116,0
+D_code,450,Github,116,116,0
+D_code,451,Github,116,116,0
+D_code,452,Github,116,116,0
+D_code,453,Github,116,116,0
+D_code,454,Github,116,116,0
+D_code,455,Github,116,116,0
+D_code,456,Github,116,116,0
+D_code,457,Github,116,116,0
+D_code,458,Github,116,116,0
+D_code,459,Github,116,116,1
+D_code,460,Github,117,117,0
+D_code,461,Github,118,117,1
+D_code,462,Github,120,118,2
+D_code,463,Github,120,120,0
+D_code,464,Github,120,120,0
+D_code,465,Github,120,120,0
+D_code,466,Github,121,120,1
+D_code,467,Github,121,121,0
+D_code,468,Github,121,121,0
+D_code,469,Github,122,121,3
+D_code,470,Github,125,124,1
+D_code,471,Github,126,125,1
+D_code,472,Github,126,126,0
+D_code,473,Github,126,126,0
+D_code,474,Github,126,126,0
+D_code,475,Github,126,126,0
+D_code,476,Github,126,126,0
+D_code,477,Github,126,126,0
+D_code,478,Github,126,126,0
+D_code,479,Github,126,126,0
+D_code,480,Github,126,126,0
+D_code,481,Github,126,126,0
+D_code,482,Github,126,126,0
+D_code,483,Github,126,126,0
+D_code,484,Github,126,126,0
+D_code,485,Github,126,126,0
+D_code,486,Github,126,126,0
+D_code,487,Github,126,126,0
+D_code,488,Github,126,126,0
+D_code,489,Github,126,126,0
+D_code,490,Github,126,126,1
+D_code,491,Github,129,127,2
+D_code,492,Github,129,129,0
+D_code,493,Github,129,129,0
+D_code,494,Github,129,129,0
+D_code,495,Github,129,129,0
+D_code,496,Github,129,129,0
+D_code,497,Github,129,129,0
+D_code,498,Github,129,129,0
+D_code,499,Github,129,129,0
+D_code,500,Github,129,129,0
+D_code,501,Github,129,129,0
+D_code,502,Github,129,129,0
+D_code,503,Github,129,129,0
+D_code,504,Github,129,129,0
+D_code,505,Github,129,129,0
+D_code,506,Github,129,129,0
+D_code,507,Github,129,129,0
+D_code,508,Github,129,129,0
+D_code,509,Github,129,129,0
+D_code,510,Github,129,129,0
+D_code,511,Github,129,129,0
+D_prose,0,Pile-CC,0,0,1
+D_prose,1,Pile-CC,1,1,2
+D_prose,2,Pile-CC,3,3,1
+D_prose,3,Pile-CC,4,4,0
+D_prose,4,Pile-CC,5,4,1
+D_prose,5,Pile-CC,6,5,3
+D_prose,6,Pile-CC,8,8,2
+D_prose,7,Pile-CC,11,10,3
+D_prose,8,Pile-CC,13,13,0
+D_prose,9,Pile-CC,13,13,1
+D_prose,10,Pile-CC,14,14,1
+D_prose,11,Pile-CC,15,15,0
+D_prose,12,Pile-CC,16,15,1
+D_prose,13,Pile-CC,16,16,0
+D_prose,14,Pile-CC,16,16,0
+D_prose,15,Pile-CC,16,16,0
+D_prose,16,Pile-CC,16,16,0
+D_prose,17,Pile-CC,16,16,0
+D_prose,18,Pile-CC,16,16,0
+D_prose,19,Pile-CC,16,16,0
+D_prose,20,Pile-CC,16,16,0
+D_prose,21,Pile-CC,16,16,0
+D_prose,22,Pile-CC,16,16,0
+D_prose,23,Pile-CC,16,16,0
+D_prose,24,Pile-CC,16,16,0
+D_prose,25,Pile-CC,16,16,0
+D_prose,26,Pile-CC,16,16,0
+D_prose,27,Pile-CC,16,16,0
+D_prose,28,Pile-CC,16,16,0
+D_prose,29,Pile-CC,16,16,0
+D_prose,30,Pile-CC,18,16,2
+D_prose,31,Pile-CC,19,18,1
+D_prose,32,Pile-CC,19,19,0
+D_prose,33,Pile-CC,19,19,0
+D_prose,34,Pile-CC,19,19,2
+D_prose,35,Pile-CC,21,21,0
+D_prose,36,Pile-CC,21,21,0
+D_prose,37,Pile-CC,21,21,0
+D_prose,38,Pile-CC,21,21,0
+D_prose,39,Pile-CC,21,21,0
+D_prose,40,Pile-CC,21,21,0
+D_prose,41,Pile-CC,21,21,0
+D_prose,42,Pile-CC,21,21,1
+D_prose,43,Pile-CC,22,22,1
+D_prose,44,Pile-CC,23,23,0
+D_prose,45,Pile-CC,23,23,0
+D_prose,46,Pile-CC,23,23,0
+D_prose,47,Pile-CC,23,23,0
+D_prose,48,Pile-CC,23,23,0
+D_prose,49,Pile-CC,23,23,0
+D_prose,50,Pile-CC,23,23,0
+D_prose,51,Pile-CC,23,23,0
+D_prose,52,Pile-CC,23,23,0
+D_prose,53,Pile-CC,23,23,0
+D_prose,54,Pile-CC,23,23,0
+D_prose,55,Pile-CC,23,23,0
+D_prose,56,Pile-CC,23,23,0
+D_prose,57,Pile-CC,23,23,0
+D_prose,58,Pile-CC,23,23,0
+D_prose,59,Pile-CC,23,23,0
+D_prose,60,Pile-CC,24,23,1
+D_prose,61,Pile-CC,24,24,1
+D_prose,62,Pile-CC,26,25,1
+D_prose,63,Pile-CC,28,26,2
+D_prose,64,Pile-CC,28,28,1
+D_prose,65,Pile-CC,29,29,0
+D_prose,66,Pile-CC,29,29,2
+D_prose,67,Pile-CC,32,31,1
+D_prose,68,Pile-CC,32,32,1
+D_prose,69,Pile-CC,33,33,1
+D_prose,70,Pile-CC,34,34,1
+D_prose,71,Pile-CC,35,35,0
+D_prose,72,Pile-CC,36,35,1
+D_prose,73,Pile-CC,37,36,2
+D_prose,74,Pile-CC,38,38,0
+D_prose,75,Pile-CC,38,38,0
+D_prose,76,Pile-CC,38,38,1
+D_prose,77,Pile-CC,39,39,1
+D_prose,78,Pile-CC,40,40,1
+D_prose,79,Pile-CC,42,41,2
+D_prose,80,Pile-CC,43,43,1
+D_prose,81,Pile-CC,44,44,0
+D_prose,82,Pile-CC,44,44,0
+D_prose,83,Pile-CC,44,44,0
+D_prose,84,Pile-CC,46,44,2
+D_prose,85,Pile-CC,48,46,2
+D_prose,86,Pile-CC,50,48,2
+D_prose,87,Pile-CC,50,50,0
+D_prose,88,Pile-CC,50,50,0
+D_prose,89,Pile-CC,50,50,0
+D_prose,90,Pile-CC,52,50,2
+D_prose,91,Pile-CC,52,52,1
+D_prose,92,Pile-CC,54,53,1
+D_prose,93,Pile-CC,55,54,1
+D_prose,94,Pile-CC,55,55,0
+D_prose,95,Pile-CC,55,55,0
+D_prose,96,Pile-CC,55,55,0
+D_prose,97,Pile-CC,55,55,0
+D_prose,98,Pile-CC,55,55,0
+D_prose,99,Pile-CC,56,55,1
+D_prose,100,Pile-CC,56,56,0
+D_prose,101,Pile-CC,57,56,1
+D_prose,102,Pile-CC,57,57,3
+D_prose,103,Pile-CC,60,60,0
+D_prose,104,Pile-CC,60,60,1
+D_prose,105,Pile-CC,62,61,2
+D_prose,106,Pile-CC,63,63,1
+D_prose,107,Pile-CC,64,64,0
+D_prose,108,Pile-CC,64,64,0
+D_prose,109,Pile-CC,64,64,0
+D_prose,110,Pile-CC,65,64,1
+D_prose,111,Pile-CC,65,65,1
+D_prose,112,Pile-CC,66,66,1
+D_prose,113,Pile-CC,67,67,0
+D_prose,114,Pile-CC,68,67,1
+D_prose,115,Pile-CC,69,68,2
+D_prose,116,Pile-CC,70,70,0
+D_prose,117,Pile-CC,70,70,0
+D_prose,118,Pile-CC,70,70,0
+D_prose,119,Pile-CC,70,70,1
+D_prose,120,Pile-CC,71,71,1
+D_prose,121,Pile-CC,72,72,1
+D_prose,122,Pile-CC,73,73,0
+D_prose,123,Pile-CC,73,73,0
+D_prose,124,Pile-CC,74,73,1
+D_prose,125,Pile-CC,76,74,3
+D_prose,126,Pile-CC,77,77,0
+D_prose,127,Pile-CC,77,77,1
+D_prose,128,Pile-CC,79,78,1
+D_prose,129,Pile-CC,79,79,1
+D_prose,130,Pile-CC,80,80,1
+D_prose,131,Pile-CC,81,81,1
+D_prose,132,Pile-CC,82,82,0
+D_prose,133,Pile-CC,82,82,0
+D_prose,134,Pile-CC,83,82,1
+D_prose,135,Pile-CC,83,83,1
+D_prose,136,Pile-CC,84,84,0
+D_prose,137,Pile-CC,84,84,0
+D_prose,138,Pile-CC,84,84,0
+D_prose,139,Pile-CC,84,84,0
+D_prose,140,Pile-CC,84,84,0
+D_prose,141,Pile-CC,85,84,3
+D_prose,142,Pile-CC,87,87,1
+D_prose,143,Pile-CC,88,88,1
+D_prose,144,Pile-CC,89,89,0
+D_prose,145,Pile-CC,89,89,2
+D_prose,146,Pile-CC,91,91,0
+D_prose,147,Pile-CC,91,91,0
+D_prose,148,Pile-CC,92,91,1
+D_prose,149,Pile-CC,92,92,1
+D_prose,150,Pile-CC,95,93,2
+D_prose,151,Pile-CC,97,95,2
+D_prose,152,Pile-CC,97,97,2
+D_prose,153,Pile-CC,99,99,0
+D_prose,154,Pile-CC,99,99,0
+D_prose,155,Pile-CC,100,99,2
+D_prose,156,Pile-CC,103,101,3
+D_prose,157,Pile-CC,104,104,0
+D_prose,158,Pile-CC,104,104,0
+D_prose,159,Pile-CC,104,104,0
+D_prose,160,Pile-CC,104,104,1
+D_prose,161,Pile-CC,105,105,0
+D_prose,162,Pile-CC,106,105,1
+D_prose,163,Pile-CC,106,106,0
+D_prose,164,Pile-CC,106,106,0
+D_prose,165,Pile-CC,106,106,0
+D_prose,166,Pile-CC,108,106,2
+D_prose,167,Pile-CC,108,108,2
+D_prose,168,Pile-CC,111,110,1
+D_prose,169,Pile-CC,111,111,4
+D_prose,170,Pile-CC,115,115,1
+D_prose,171,Pile-CC,116,116,0
+D_prose,172,Pile-CC,117,116,3
+D_prose,173,Pile-CC,119,119,0
+D_prose,174,Pile-CC,119,119,0
+D_prose,175,Pile-CC,119,119,0
+D_prose,176,Pile-CC,119,119,0
+D_prose,177,Pile-CC,120,119,2
+D_prose,178,Pile-CC,121,121,0
+D_prose,179,Pile-CC,121,121,1
+D_prose,180,Pile-CC,123,122,1
+D_prose,181,Pile-CC,124,123,2
+D_prose,182,Pile-CC,125,125,0
+D_prose,183,Pile-CC,125,125,0
+D_prose,184,Pile-CC,125,125,1
+D_prose,185,Pile-CC,126,126,0
+D_prose,186,Pile-CC,126,126,0
+D_prose,187,Pile-CC,127,126,1
+D_prose,188,Pile-CC,127,127,0
+D_prose,189,Pile-CC,127,127,0
+D_prose,190,Pile-CC,127,127,0
+D_prose,191,Pile-CC,127,127,0
+D_prose,192,Pile-CC,127,127,0
+D_prose,193,Pile-CC,128,127,1
+D_prose,194,Pile-CC,128,128,0
+D_prose,195,Pile-CC,128,128,0
+D_prose,196,Pile-CC,128,128,0
+D_prose,197,Pile-CC,128,128,0
+D_prose,198,Pile-CC,128,128,0
+D_prose,199,Pile-CC,128,128,0
+D_prose,200,Pile-CC,128,128,0
+D_prose,201,Pile-CC,128,128,0
+D_prose,202,Pile-CC,128,128,0
+D_prose,203,Pile-CC,128,128,0
+D_prose,204,Pile-CC,128,128,0
+D_prose,205,Pile-CC,128,128,0
+D_prose,206,Pile-CC,128,128,0
+D_prose,207,Pile-CC,128,128,0
+D_prose,208,Pile-CC,128,128,0
+D_prose,209,Pile-CC,128,128,0
+D_prose,210,Pile-CC,128,128,0
+D_prose,211,Pile-CC,128,128,0
+D_prose,212,Pile-CC,128,128,0
+D_prose,213,Pile-CC,128,128,0
+D_prose,214,Pile-CC,128,128,0
+D_prose,215,Pile-CC,128,128,0
+D_prose,216,Pile-CC,128,128,0
+D_prose,217,Pile-CC,128,128,0
+D_prose,218,Pile-CC,128,128,0
+D_prose,219,Pile-CC,128,128,0
+D_prose,220,Pile-CC,128,128,0
+D_prose,221,Pile-CC,128,128,0
+D_prose,222,Pile-CC,128,128,0
+D_prose,223,Pile-CC,128,128,0
+D_prose,224,Pile-CC,128,128,0
+D_prose,225,Pile-CC,128,128,0
+D_prose,226,Pile-CC,128,128,0
+D_prose,227,Pile-CC,128,128,0
+D_prose,228,Pile-CC,128,128,1
+D_prose,229,Pile-CC,129,129,0
+D_prose,230,Pile-CC,129,129,0
+D_prose,231,Pile-CC,129,129,0
+D_prose,232,Pile-CC,129,129,0
+D_prose,233,Pile-CC,129,129,0
+D_prose,234,Pile-CC,129,129,0
+D_prose,235,Pile-CC,129,129,2
+D_prose,236,Pile-CC,131,131,0
+D_prose,237,Pile-CC,131,131,2
+D_prose,238,Pile-CC,135,133,2
+D_prose,239,Pile-CC,136,135,1
+D_prose,240,Pile-CC,137,136,1
+D_prose,241,Pile-CC,137,137,0
+D_prose,242,Pile-CC,137,137,0
+D_prose,243,Pile-CC,137,137,0
+D_prose,244,Pile-CC,137,137,0
+D_prose,245,Pile-CC,137,137,0
+D_prose,246,Pile-CC,137,137,0
+D_prose,247,Pile-CC,137,137,1
+D_prose,248,Pile-CC,139,138,1
+D_prose,249,Pile-CC,140,139,1
+D_prose,250,Pile-CC,140,140,0
+D_prose,251,Pile-CC,140,140,0
+D_prose,252,Pile-CC,140,140,0
+D_prose,253,Pile-CC,140,140,0
+D_prose,254,Pile-CC,140,140,0
+D_prose,255,Pile-CC,140,140,0
+D_prose,256,Wikipedia (en),0,0,0
+D_prose,257,Wikipedia (en),0,0,0
+D_prose,258,Wikipedia (en),0,0,0
+D_prose,259,Wikipedia (en),0,0,1
+D_prose,260,Wikipedia (en),1,1,1
+D_prose,261,Wikipedia (en),3,2,2
+D_prose,262,Wikipedia (en),4,4,0
+D_prose,263,Wikipedia (en),4,4,0
+D_prose,264,Wikipedia (en),4,4,0
+D_prose,265,Wikipedia (en),4,4,0
+D_prose,266,Wikipedia (en),5,4,1
+D_prose,267,Wikipedia (en),5,5,0
+D_prose,268,Wikipedia (en),7,5,2
+D_prose,269,Wikipedia (en),7,7,1
+D_prose,270,Wikipedia (en),9,8,1
+D_prose,271,Wikipedia (en),10,9,1
+D_prose,272,Wikipedia (en),10,10,0
+D_prose,273,Wikipedia (en),10,10,0
+D_prose,274,Wikipedia (en),10,10,0
+D_prose,275,Wikipedia (en),10,10,1
+D_prose,276,Wikipedia (en),11,11,0
+D_prose,277,Wikipedia (en),11,11,0
+D_prose,278,Wikipedia (en),11,11,2
+D_prose,279,Wikipedia (en),13,13,0
+D_prose,280,Wikipedia (en),13,13,0
+D_prose,281,Wikipedia (en),13,13,0
+D_prose,282,Wikipedia (en),13,13,0
+D_prose,283,Wikipedia (en),13,13,0
+D_prose,284,Wikipedia (en),13,13,0
+D_prose,285,Wikipedia (en),13,13,0
+D_prose,286,Wikipedia (en),14,13,1
+D_prose,287,Wikipedia (en),15,14,1
+D_prose,288,Wikipedia (en),15,15,1
+D_prose,289,Wikipedia (en),17,16,2
+D_prose,290,Wikipedia (en),19,18,2
+D_prose,291,Wikipedia (en),21,20,1
+D_prose,292,Wikipedia (en),21,21,0
+D_prose,293,Wikipedia (en),23,21,2
+D_prose,294,Wikipedia (en),23,23,0
+D_prose,295,Wikipedia (en),23,23,0
+D_prose,296,Wikipedia (en),23,23,0
+D_prose,297,Wikipedia (en),23,23,0
+D_prose,298,Wikipedia (en),24,23,2
+D_prose,299,Wikipedia (en),25,25,2
+D_prose,300,Wikipedia (en),27,27,0
+D_prose,301,Wikipedia (en),27,27,0
+D_prose,302,Wikipedia (en),27,27,0
+D_prose,303,Wikipedia (en),27,27,0
+D_prose,304,Wikipedia (en),27,27,0
+D_prose,305,Wikipedia (en),27,27,0
+D_prose,306,Wikipedia (en),27,27,0
+D_prose,307,Wikipedia (en),27,27,0
+D_prose,308,Wikipedia (en),27,27,0
+D_prose,309,Wikipedia (en),27,27,0
+D_prose,310,Wikipedia (en),27,27,0
+D_prose,311,Wikipedia (en),27,27,0
+D_prose,312,Wikipedia (en),27,27,0
+D_prose,313,Wikipedia (en),27,27,2
+D_prose,314,Wikipedia (en),29,29,0
+D_prose,315,Wikipedia (en),30,29,1
+D_prose,316,Wikipedia (en),30,30,1
+D_prose,317,Wikipedia (en),31,31,2
+D_prose,318,Wikipedia (en),33,33,1
+D_prose,319,Wikipedia (en),34,34,0
+D_prose,320,Wikipedia (en),34,34,0
+D_prose,321,Wikipedia (en),35,34,1
+D_prose,322,Wikipedia (en),35,35,0
+D_prose,323,Wikipedia (en),35,35,1
+D_prose,324,Wikipedia (en),36,36,0
+D_prose,325,Wikipedia (en),36,36,2
+D_prose,326,Wikipedia (en),38,38,0
+D_prose,327,Wikipedia (en),38,38,0
+D_prose,328,Wikipedia (en),38,38,1
+D_prose,329,Wikipedia (en),39,39,1
+D_prose,330,Wikipedia (en),40,40,0
+D_prose,331,Wikipedia (en),40,40,1
+D_prose,332,Wikipedia (en),42,41,1
+D_prose,333,Wikipedia (en),42,42,0
+D_prose,334,Wikipedia (en),42,42,0
+D_prose,335,Wikipedia (en),42,42,1
+D_prose,336,Wikipedia (en),43,43,0
+D_prose,337,Wikipedia (en),45,43,2
+D_prose,338,Wikipedia (en),46,45,2
+D_prose,339,Wikipedia (en),47,47,1
+D_prose,340,Wikipedia (en),48,48,1
+D_prose,341,Wikipedia (en),49,49,0
+D_prose,342,Wikipedia (en),50,49,3
+D_prose,343,Wikipedia (en),53,52,3
+D_prose,344,Wikipedia (en),56,55,2
+D_prose,345,Wikipedia (en),57,57,1
+D_prose,346,Wikipedia (en),59,58,2
+D_prose,347,Wikipedia (en),61,60,1
+D_prose,348,Wikipedia (en),61,61,0
+D_prose,349,Wikipedia (en),61,61,1
+D_prose,350,Wikipedia (en),63,62,1
+D_prose,351,Wikipedia (en),64,63,1
+D_prose,352,Wikipedia (en),66,64,3
+D_prose,353,Wikipedia (en),67,67,1
+D_prose,354,Wikipedia (en),68,68,1
+D_prose,355,Wikipedia (en),70,69,1
+D_prose,356,Wikipedia (en),70,70,0
+D_prose,357,Wikipedia (en),70,70,0
+D_prose,358,Wikipedia (en),70,70,1
+D_prose,359,Wikipedia (en),72,71,2
+D_prose,360,Wikipedia (en),73,73,0
+D_prose,361,Wikipedia (en),75,73,2
+D_prose,362,Wikipedia (en),75,75,0
+D_prose,363,Wikipedia (en),75,75,0
+D_prose,364,Wikipedia (en),76,75,1
+D_prose,365,Wikipedia (en),76,76,0
+D_prose,366,Wikipedia (en),76,76,0
+D_prose,367,Wikipedia (en),76,76,0
+D_prose,368,Wikipedia (en),76,76,0
+D_prose,369,Wikipedia (en),76,76,0
+D_prose,370,Wikipedia (en),76,76,0
+D_prose,371,Wikipedia (en),76,76,0
+D_prose,372,Wikipedia (en),76,76,0
+D_prose,373,Wikipedia (en),76,76,0
+D_prose,374,Wikipedia (en),77,76,1
+D_prose,375,Wikipedia (en),77,77,1
+D_prose,376,Wikipedia (en),78,78,1
+D_prose,377,Wikipedia (en),79,79,1
+D_prose,378,Wikipedia (en),82,80,2
+D_prose,379,Wikipedia (en),82,82,0
+D_prose,380,Wikipedia (en),82,82,0
+D_prose,381,Wikipedia (en),83,82,1
+D_prose,382,Wikipedia (en),83,83,1
+D_prose,383,Wikipedia (en),84,84,1
+D_prose,384,Wikipedia (en),85,85,0
+D_prose,385,Wikipedia (en),85,85,0
+D_prose,386,Wikipedia (en),85,85,0
+D_prose,387,Wikipedia (en),85,85,0
+D_prose,388,Wikipedia (en),85,85,0
+D_prose,389,Wikipedia (en),86,85,1
+D_prose,390,Wikipedia (en),86,86,0
+D_prose,391,Wikipedia (en),86,86,0
+D_prose,392,Wikipedia (en),86,86,0
+D_prose,393,Wikipedia (en),86,86,0
+D_prose,394,Wikipedia (en),87,86,1
+D_prose,395,Wikipedia (en),87,87,0
+D_prose,396,Wikipedia (en),87,87,0
+D_prose,397,Wikipedia (en),87,87,0
+D_prose,398,Wikipedia (en),87,87,0
+D_prose,399,Wikipedia (en),87,87,1
+D_prose,400,Wikipedia (en),88,88,1
+D_prose,401,Wikipedia (en),90,89,1
+D_prose,402,Wikipedia (en),90,90,0
+D_prose,403,Wikipedia (en),90,90,0
+D_prose,404,Wikipedia (en),91,90,1
+D_prose,405,Wikipedia (en),91,91,0
+D_prose,406,Wikipedia (en),92,91,1
+D_prose,407,Wikipedia (en),92,92,0
+D_prose,408,Wikipedia (en),93,92,1
+D_prose,409,Wikipedia (en),95,93,2
+D_prose,410,Wikipedia (en),96,95,2
+D_prose,411,Wikipedia (en),97,97,0
+D_prose,412,Wikipedia (en),98,97,1
+D_prose,413,Wikipedia (en),98,98,2
+D_prose,414,Wikipedia (en),103,100,3
+D_prose,415,Wikipedia (en),103,103,1
+D_prose,416,Wikipedia (en),106,104,2
+D_prose,417,Wikipedia (en),106,106,0
+D_prose,418,Wikipedia (en),106,106,0
+D_prose,419,Wikipedia (en),106,106,0
+D_prose,420,Wikipedia (en),106,106,0
+D_prose,421,Wikipedia (en),106,106,0
+D_prose,422,Wikipedia (en),106,106,0
+D_prose,423,Wikipedia (en),106,106,0
+D_prose,424,Wikipedia (en),106,106,0
+D_prose,425,Wikipedia (en),106,106,0
+D_prose,426,Wikipedia (en),106,106,0
+D_prose,427,Wikipedia (en),107,106,1
+D_prose,428,Wikipedia (en),107,107,0
+D_prose,429,Wikipedia (en),107,107,0
+D_prose,430,Wikipedia (en),108,107,1
+D_prose,431,Wikipedia (en),108,108,0
+D_prose,432,Wikipedia (en),108,108,0
+D_prose,433,Wikipedia (en),108,108,0
+D_prose,434,Wikipedia (en),108,108,0
+D_prose,435,Wikipedia (en),108,108,1
+D_prose,436,Wikipedia (en),111,109,2
+D_prose,437,Wikipedia (en),113,111,2
+D_prose,438,Wikipedia (en),113,113,0
+D_prose,439,Wikipedia (en),113,113,0
+D_prose,440,Wikipedia (en),113,113,0
+D_prose,441,Wikipedia (en),114,113,1
+D_prose,442,Wikipedia (en),114,114,2
+D_prose,443,Wikipedia (en),119,116,4
+D_prose,444,Wikipedia (en),120,120,1
+D_prose,445,Wikipedia (en),121,121,0
+D_prose,446,Wikipedia (en),121,121,0
+D_prose,447,Wikipedia (en),121,121,0
+D_prose,448,Wikipedia (en),121,121,1
+D_prose,449,Wikipedia (en),123,122,2
+D_prose,450,Wikipedia (en),125,124,1
+D_prose,451,Wikipedia (en),127,125,2
+D_prose,452,Wikipedia (en),127,127,0
+D_prose,453,Wikipedia (en),127,127,0
+D_prose,454,Wikipedia (en),127,127,0
+D_prose,455,Wikipedia (en),127,127,0
+D_prose,456,Wikipedia (en),127,127,2
+D_prose,457,Wikipedia (en),129,129,0
+D_prose,458,Wikipedia (en),130,129,2
+D_prose,459,Wikipedia (en),131,131,0
+D_prose,460,Wikipedia (en),133,131,3
+D_prose,461,Wikipedia (en),135,134,1
+D_prose,462,Wikipedia (en),136,135,1
+D_prose,463,Wikipedia (en),136,136,0
+D_prose,464,Wikipedia (en),136,136,2
+D_prose,465,Wikipedia (en),140,138,3
+D_prose,466,Wikipedia (en),145,141,4
+D_prose,467,Wikipedia (en),145,145,0
+D_prose,468,Wikipedia (en),145,145,0
+D_prose,469,Wikipedia (en),145,145,0
+D_prose,470,Wikipedia (en),145,145,0
+D_prose,471,Wikipedia (en),145,145,0
+D_prose,472,Wikipedia (en),145,145,0
+D_prose,473,Wikipedia (en),145,145,0
+D_prose,474,Wikipedia (en),145,145,0
+D_prose,475,Wikipedia (en),145,145,0
+D_prose,476,Wikipedia (en),145,145,0
+D_prose,477,Wikipedia (en),146,145,1
+D_prose,478,Wikipedia (en),146,146,0
+D_prose,479,Wikipedia (en),146,146,0
+D_prose,480,Wikipedia (en),146,146,0
+D_prose,481,Wikipedia (en),146,146,0
+D_prose,482,Wikipedia (en),146,146,0
+D_prose,483,Wikipedia (en),146,146,0
+D_prose,484,Wikipedia (en),146,146,0
+D_prose,485,Wikipedia (en),146,146,0
+D_prose,486,Wikipedia (en),146,146,0
+D_prose,487,Wikipedia (en),146,146,0
+D_prose,488,Wikipedia (en),147,146,2
+D_prose,489,Wikipedia (en),148,148,0
+D_prose,490,Wikipedia (en),149,148,1
+D_prose,491,Wikipedia (en),149,149,0
+D_prose,492,Wikipedia (en),150,149,3
+D_prose,493,Wikipedia (en),152,152,0
+D_prose,494,Wikipedia (en),152,152,1
+D_prose,495,Wikipedia (en),155,153,2
+D_prose,496,Wikipedia (en),155,155,0
+D_prose,497,Wikipedia (en),158,155,3
+D_prose,498,Wikipedia (en),158,158,0
+D_prose,499,Wikipedia (en),160,158,2
+D_prose,500,Wikipedia (en),160,160,2
+D_prose,501,Wikipedia (en),164,162,2
+D_prose,502,Wikipedia (en),164,164,1
+D_prose,503,Wikipedia (en),165,165,1
+D_prose,504,Wikipedia (en),166,166,1
+D_prose,505,Wikipedia (en),167,167,1
+D_prose,506,Wikipedia (en),170,168,2
+D_prose,507,Wikipedia (en),170,170,0
+D_prose,508,Wikipedia (en),170,170,0
+D_prose,509,Wikipedia (en),170,170,0
+D_prose,510,Wikipedia (en),170,170,0
+D_prose,511,Wikipedia (en),170,170,1

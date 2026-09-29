@@ -1,0 +1,15 @@
+series,donor,tokens_merged,divergence,rise_over_own_explanation,interval_half_width,share_of_texts_over_the_line,pieces_switched_on_mean,source_table,source_row
+real explanations,1 tokens,1,0.3454886376857757,0.0037661342212231,0.0004613341950295,0.0,169.0,union_E_D_unif_tau0.1_r0_excl_ctl-none.csv,1
+real explanations,8 tokens,8,0.381890594959259,0.0401680591162403,0.0018452599100277,0.2548828125,1120.625,union_E_D_unif_tau0.1_r0_excl_ctl-none.csv,2
+real explanations,16 tokens,16,0.4433471858501434,0.1016246817962382,0.0024231680280877,0.95703125,1973.75,union_E_D_unif_tau0.1_r0_excl_ctl-none__descriptive_rungs.csv,2a (descriptive)
+real explanations,32 tokens,32,0.5728731155395508,0.2311506001133239,0.0055692967108711,1.0,3198.5,union_E_D_unif_tau0.1_r0_excl_ctl-none__descriptive_rungs.csv,2b (descriptive)
+real explanations,64 tokens,64,0.7992514967918396,0.4575290112934453,0.0138808353798845,1.0,4543.625,union_E_D_unif_tau0.1_r0_excl_ctl-none.csv,3
+real explanations,one whole text,512,0.829405665397644,0.4876831235969803,0.015925946456872,1.0,4890.25,union_E_D_unif_tau0.1_r0_excl_ctl-none.csv,4
+random sets of the same size,1 tokens,1,0.3396574854850769,-0.0020649975986088,0.0001570770202329,0.0,169.0,union_E_D_unif_tau0.1_r0_excl_ctl-plain.csv,1
+random sets of the same size,8 tokens,8,0.3306742310523987,-0.0110482899162889,0.0008476544857569,0.0,1120.625,union_E_D_unif_tau0.1_r0_excl_ctl-plain.csv,2
+random sets of the same size,16 tokens,16,0.3292016983032226,-0.0125208073891371,0.000990641260347,0.00390625,1973.75,union_E_D_unif_tau0.1_r0_excl_ctl-plain__descriptive_rungs.csv,2a (descriptive)
+random sets of the same size,32 tokens,32,0.3403247594833374,-0.0013977663902551,0.0016405213515952,0.017578125,3198.5,union_E_D_unif_tau0.1_r0_excl_ctl-plain__descriptive_rungs.csv,2b (descriptive)
+random sets of the same size,64 tokens,64,0.3814202547073364,0.0396977351365421,0.0040520943492174,0.3740234375,4543.625,union_E_D_unif_tau0.1_r0_excl_ctl-plain.csv,3
+random sets of the same size,one whole text,512,0.398929238319397,0.0572067103253175,0.0034362747073049,0.53515625,4890.25,union_E_D_unif_tau0.1_r0_excl_ctl-plain.csv,4
+"reference: the full model, nothing removed",none,0,0.0114568124968172,,,,,level_cells.csv,main/E/ref/unmasked
+reference: the text's own explanation,none,0,0.3417225123921525,,,,,level_cells.csv,main/E/ref/importances

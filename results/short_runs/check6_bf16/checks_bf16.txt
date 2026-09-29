@@ -1,0 +1,460 @@
+# Check 6 in bf16 at matched shapes: the authors' CEandKLLosses at batch 16 x 8 against our path at sub-batch 16, chunk 16, on the first 128 sequences of E
+
+attempts: [{'batch': 32, 'error': 'CUDA out of memory. Tried to allocate 3.07 GiB. GPU 0 has a total capacity of 39.49 GiB of which 2.34 GiB is free. Process 1 has 37.14 GiB memory in use. Of the allocated memory 36.43 GiB is allocated by PyTorch, and 198.73 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  Se', 'max_memory_allocated_gb': 41.507609088, 'n_batches': 4, 'ok': False, 'seconds': 7.058146891999996}, {'batch': 16, 'n_batches': 8, 'ok': True, 'seconds': 195.19310731399997}]; dtypes on the authors' side: {'ci_lower_leaky_dtype': ['torch.float32'], 'stochastic_component_mask_dtype': ['torch.float32'], 'stochastic_residual_mask_dtype': ['torch.float32'], 'weight_delta_dtype': ['torch.float32']}, target logits torch.bfloat16; ours: g torch.float32 on NVIDIA A100-SXM4-40GB
+
+## 1. Matched shapes, gated: epsilon = 3.11e-04 over 189 comparisons (189 pass at 1e-03); signs +76 / -113 / 0 x0; common sign across every quantity and batch: False; worst: threshold 0.0, batch 4: importances ce diff; label: **pass, localize**
+
+[PASS] check 6: threshold 0.0, batch 0: unmasked ce diff: value=0.00853 target=0.00853 tol=0.001 diff=-1.743e-06
+[PASS] check 6: threshold 0.0, batch 1: unmasked ce diff: value=0.01136 target=0.01139 tol=0.001 diff=-2.940e-05
+[PASS] check 6: threshold 0.0, batch 2: unmasked ce diff: value=0.01427 target=0.01436 tol=0.001 diff=-9.055e-05
+[PASS] check 6: threshold 0.0, batch 3: unmasked ce diff: value=0.00881 target=0.00884 tol=0.001 diff=-2.193e-05
+[PASS] check 6: threshold 0.0, batch 4: unmasked ce diff: value=0.01235 target=0.01253 tol=0.001 diff=-1.810e-04
+[PASS] check 6: threshold 0.0, batch 5: unmasked ce diff: value=0.01003 target=0.00992 tol=0.001 diff=+1.045e-04
+[PASS] check 6: threshold 0.0, batch 6: unmasked ce diff: value=0.0094 target=0.00955 tol=0.001 diff=-1.451e-04
+[PASS] check 6: threshold 0.0, batch 7: unmasked ce diff: value=0.01861 target=0.01867 tol=0.001 diff=-6.630e-05
+[PASS] check 6: threshold 0.0, mean over 8 batches: unmasked ce diff: value=0.01167 target=0.01172 tol=0.001 diff=-5.394e-05
+[PASS] check 6: threshold 0.0, batch 0: importances ce diff: value=0.293 target=0.29284 tol=0.001 diff=+1.560e-04
+[PASS] check 6: threshold 0.0, batch 1: importances ce diff: value=0.28346 target=0.28341 tol=0.001 diff=+4.596e-05
+[PASS] check 6: threshold 0.0, batch 2: importances ce diff: value=0.28349 target=0.28335 tol=0.001 diff=+1.414e-04
+[PASS] check 6: threshold 0.0, batch 3: importances ce diff: value=0.24719 target=0.2472 tol=0.001 diff=-1.371e-05
+[PASS] check 6: threshold 0.0, batch 4: importances ce diff: value=0.30972 target=0.31003 tol=0.001 diff=-3.106e-04
+[PASS] check 6: threshold 0.0, batch 5: importances ce diff: value=0.26166 target=0.26155 tol=0.001 diff=+1.068e-04
+[PASS] check 6: threshold 0.0, batch 6: importances ce diff: value=0.27917 target=0.27937 tol=0.001 diff=-2.052e-04
+[PASS] check 6: threshold 0.0, batch 7: importances ce diff: value=0.2285 target=0.22848 tol=0.001 diff=+1.406e-05
+[PASS] check 6: threshold 0.0, mean over 8 batches: importances ce diff: value=0.27327 target=0.27328 tol=0.001 diff=-8.161e-06
+[PASS] check 6: threshold 0.0, batch 0: rounded_0 ce diff: value=0.24999 target=0.25005 tol=0.001 diff=-5.956e-05
+[PASS] check 6: threshold 0.0, batch 1: rounded_0 ce diff: value=0.23748 target=0.23747 tol=0.001 diff=+4.619e-06
+[PASS] check 6: threshold 0.0, batch 2: rounded_0 ce diff: value=0.23655 target=0.23646 tol=0.001 diff=+8.946e-05
+[PASS] check 6: threshold 0.0, batch 3: rounded_0 ce diff: value=0.21363 target=0.21355 tol=0.001 diff=+8.202e-05
+[PASS] check 6: threshold 0.0, batch 4: rounded_0 ce diff: value=0.2619 target=0.26191 tol=0.001 diff=-1.281e-05
+[PASS] check 6: threshold 0.0, batch 5: rounded_0 ce diff: value=0.2089 target=0.2089 tol=0.001 diff=-1.863e-07
+[PASS] check 6: threshold 0.0, batch 6: rounded_0 ce diff: value=0.23793 target=0.23815 tol=0.001 diff=-2.212e-04
+[PASS] check 6: threshold 0.0, batch 7: rounded_0 ce diff: value=0.18579 target=0.18568 tol=0.001 diff=+1.062e-04
+[PASS] check 6: threshold 0.0, mean over 8 batches: rounded_0 ce diff: value=0.22902 target=0.22902 tol=0.001 diff=-1.424e-06
+[PASS] check 6: threshold 0.0, batch 0: unmasked kl: value=0.01146 target=0.01146 tol=0.001 diff=+6.694e-10
+[PASS] check 6: threshold 0.0, batch 1: unmasked kl: value=0.01016 target=0.01016 tol=0.001 diff=-1.164e-10
+[PASS] check 6: threshold 0.0, batch 2: unmasked kl: value=0.01255 target=0.01255 tol=0.001 diff=+9.895e-10
+[PASS] check 6: threshold 0.0, batch 3: unmasked kl: value=0.01001 target=0.01001 tol=0.001 diff=-3.783e-10
+[PASS] check 6: threshold 0.0, batch 4: unmasked kl: value=0.0109 target=0.0109 tol=0.001 diff=+7.567e-10
+[PASS] check 6: threshold 0.0, batch 5: unmasked kl: value=0.0128 target=0.0128 tol=0.001 diff=+7.567e-10
+[PASS] check 6: threshold 0.0, batch 6: unmasked kl: value=0.01154 target=0.01154 tol=0.001 diff=+2.910e-11
+[PASS] check 6: threshold 0.0, batch 7: unmasked kl: value=0.01842 target=0.01842 tol=0.001 diff=+5.821e-11
+[PASS] check 6: threshold 0.0, mean over 8 batches: unmasked kl: value=0.01223 target=0.01223 tol=0.001 diff=+3.456e-10
+[PASS] check 6: threshold 0.0, batch 0: importances kl: value=0.37303 target=0.37303 tol=0.001 diff=-3.260e-08
+[PASS] check 6: threshold 0.0, batch 1: importances kl: value=0.34135 target=0.34135 tol=0.001 diff=-2.794e-08
+[PASS] check 6: threshold 0.0, batch 2: importances kl: value=0.3851 target=0.3851 tol=0.001 diff=+2.142e-08
+[PASS] check 6: threshold 0.0, batch 3: importances kl: value=0.27708 target=0.27708 tol=0.001 diff=-1.676e-08
+[PASS] check 6: threshold 0.0, batch 4: importances kl: value=0.37441 target=0.37441 tol=0.001 diff=-1.676e-08
+[PASS] check 6: threshold 0.0, batch 5: importances kl: value=0.3406 target=0.3406 tol=0.001 diff=-2.794e-09
+[PASS] check 6: threshold 0.0, batch 6: importances kl: value=0.3465 target=0.3465 tol=0.001 diff=-2.421e-08
+[PASS] check 6: threshold 0.0, batch 7: importances kl: value=0.31291 target=0.31291 tol=0.001 diff=-9.779e-09
+[PASS] check 6: threshold 0.0, mean over 8 batches: importances kl: value=0.34387 target=0.34387 tol=0.001 diff=-1.368e-08
+[PASS] check 6: threshold 0.0, batch 0: rounded_0 kl: value=0.34313 target=0.34313 tol=0.001 diff=-2.328e-08
+[PASS] check 6: threshold 0.0, batch 1: rounded_0 kl: value=0.30964 target=0.30964 tol=0.001 diff=-3.725e-09
+[PASS] check 6: threshold 0.0, batch 2: rounded_0 kl: value=0.35161 target=0.35161 tol=0.001 diff=-1.583e-08
+[PASS] check 6: threshold 0.0, batch 3: rounded_0 kl: value=0.25476 target=0.25476 tol=0.001 diff=-2.747e-08
+[PASS] check 6: threshold 0.0, batch 4: rounded_0 kl: value=0.34155 target=0.34155 tol=0.001 diff=-1.211e-08
+[PASS] check 6: threshold 0.0, batch 5: rounded_0 kl: value=0.30673 target=0.30673 tol=0.001 diff=-6.054e-09
+[PASS] check 6: threshold 0.0, batch 6: rounded_0 kl: value=0.31693 target=0.31693 tol=0.001 diff=-1.211e-08
+[PASS] check 6: threshold 0.0, batch 7: rounded_0 kl: value=0.28738 target=0.28738 tol=0.001 diff=-7.916e-09
+[PASS] check 6: threshold 0.0, mean over 8 batches: rounded_0 kl: value=0.31397 target=0.31397 tol=0.001 diff=-1.356e-08
+[PASS] check 6: threshold 0.0, batch 0: zero_all kl: value=67.3564 target=67.3564 tol=0.001 diff=+5.245e-06
+[PASS] check 6: threshold 0.0, batch 1: zero_all kl: value=67.4579 target=67.4579 tol=0.001 diff=+3.815e-06
+[PASS] check 6: threshold 0.0, batch 2: zero_all kl: value=69.01049 target=69.01048 tol=0.001 diff=+6.199e-06
+[PASS] check 6: threshold 0.0, batch 3: zero_all kl: value=66.29531 target=66.29531 tol=0.001 diff=+2.146e-06
+[PASS] check 6: threshold 0.0, batch 4: zero_all kl: value=66.04542 target=66.04543 tol=0.001 diff=-2.861e-06
+[PASS] check 6: threshold 0.0, batch 5: zero_all kl: value=67.12185 target=67.12184 tol=0.001 diff=+6.676e-06
+[PASS] check 6: threshold 0.0, batch 6: zero_all kl: value=67.69476 target=67.69476 tol=0.001 diff=-3.338e-06
+[PASS] check 6: threshold 0.0, batch 7: zero_all kl: value=67.78384 target=67.78383 tol=0.001 diff=+7.153e-06
+[PASS] check 6: threshold 0.0, mean over 8 batches: zero_all kl: value=67.34575 target=67.34574 tol=0.001 diff=+3.129e-06
+[----] check 6: threshold 0.0, batch 0: zero_all ce diff (derived, not gated): value=67.41862 target=67.42451 tol= |diff|=5.89e-03
+[----] check 6: threshold 0.0, batch 1: zero_all ce diff (derived, not gated): value=67.54004 target=67.54325 tol= |diff|=3.22e-03
+[----] check 6: threshold 0.0, batch 2: zero_all ce diff (derived, not gated): value=69.11007 target=69.11118 tol= |diff|=1.12e-03
+[----] check 6: threshold 0.0, batch 3: zero_all ce diff (derived, not gated): value=66.29315 target=66.2949 tol= |diff|=1.75e-03
+[----] check 6: threshold 0.0, batch 4: zero_all ce diff (derived, not gated): value=66.0105 target=66.01417 tol= |diff|=3.67e-03
+[----] check 6: threshold 0.0, batch 5: zero_all ce diff (derived, not gated): value=67.11513 target=67.11622 tol= |diff|=1.10e-03
+[----] check 6: threshold 0.0, batch 6: zero_all ce diff (derived, not gated): value=67.73114 target=67.73263 tol= |diff|=1.49e-03
+[----] check 6: threshold 0.0, batch 7: zero_all ce diff (derived, not gated): value=68.04958 target=68.05056 tol= |diff|=9.80e-04
+[----] check 6: threshold 0.0, mean over 8 batches: zero_all ce diff (derived, not gated): value=67.40853 target=67.41093 tol= |diff|=2.40e-03
+[PASS] check 6: threshold 0.1, batch 0: unmasked ce diff: value=0.00853 target=0.00853 tol=0.001 diff=-1.743e-06
+[PASS] check 6: threshold 0.1, batch 1: unmasked ce diff: value=0.01136 target=0.01139 tol=0.001 diff=-2.940e-05
+[PASS] check 6: threshold 0.1, batch 2: unmasked ce diff: value=0.01427 target=0.01436 tol=0.001 diff=-9.055e-05
+[PASS] check 6: threshold 0.1, batch 3: unmasked ce diff: value=0.00881 target=0.00884 tol=0.001 diff=-2.193e-05
+[PASS] check 6: threshold 0.1, batch 4: unmasked ce diff: value=0.01235 target=0.01253 tol=0.001 diff=-1.810e-04
+[PASS] check 6: threshold 0.1, batch 5: unmasked ce diff: value=0.01003 target=0.00992 tol=0.001 diff=+1.045e-04
+[PASS] check 6: threshold 0.1, batch 6: unmasked ce diff: value=0.0094 target=0.00955 tol=0.001 diff=-1.451e-04
+[PASS] check 6: threshold 0.1, batch 7: unmasked ce diff: value=0.01861 target=0.01867 tol=0.001 diff=-6.630e-05
+[PASS] check 6: threshold 0.1, mean over 8 batches: unmasked ce diff: value=0.01167 target=0.01172 tol=0.001 diff=-5.394e-05
+[PASS] check 6: threshold 0.1, batch 0: importances ce diff: value=0.293 target=0.29284 tol=0.001 diff=+1.560e-04
+[PASS] check 6: threshold 0.1, batch 1: importances ce diff: value=0.28346 target=0.28341 tol=0.001 diff=+4.596e-05
+[PASS] check 6: threshold 0.1, batch 2: importances ce diff: value=0.28349 target=0.28335 tol=0.001 diff=+1.414e-04
+[PASS] check 6: threshold 0.1, batch 3: importances ce diff: value=0.24719 target=0.2472 tol=0.001 diff=-1.371e-05
+[PASS] check 6: threshold 0.1, batch 4: importances ce diff: value=0.30972 target=0.31003 tol=0.001 diff=-3.106e-04
+[PASS] check 6: threshold 0.1, batch 5: importances ce diff: value=0.26166 target=0.26155 tol=0.001 diff=+1.068e-04
+[PASS] check 6: threshold 0.1, batch 6: importances ce diff: value=0.27917 target=0.27937 tol=0.001 diff=-2.052e-04
+[PASS] check 6: threshold 0.1, batch 7: importances ce diff: value=0.2285 target=0.22848 tol=0.001 diff=+1.406e-05
+[PASS] check 6: threshold 0.1, mean over 8 batches: importances ce diff: value=0.27327 target=0.27328 tol=0.001 diff=-8.161e-06
+[PASS] check 6: threshold 0.1, batch 0: rounded_0.1 ce diff: value=0.25522 target=0.25517 tol=0.001 diff=+4.914e-05
+[PASS] check 6: threshold 0.1, batch 1: rounded_0.1 ce diff: value=0.24752 target=0.24755 tol=0.001 diff=-2.804e-05
+[PASS] check 6: threshold 0.1, batch 2: rounded_0.1 ce diff: value=0.24678 target=0.24685 tol=0.001 diff=-7.128e-05
+[PASS] check 6: threshold 0.1, batch 3: rounded_0.1 ce diff: value=0.21723 target=0.21725 tol=0.001 diff=-1.926e-05
+[PASS] check 6: threshold 0.1, batch 4: rounded_0.1 ce diff: value=0.27179 target=0.27188 tol=0.001 diff=-8.783e-05
+[PASS] check 6: threshold 0.1, batch 5: rounded_0.1 ce diff: value=0.21572 target=0.2157 tol=0.001 diff=+1.333e-05
+[PASS] check 6: threshold 0.1, batch 6: rounded_0.1 ce diff: value=0.24611 target=0.24636 tol=0.001 diff=-2.504e-04
+[PASS] check 6: threshold 0.1, batch 7: rounded_0.1 ce diff: value=0.19336 target=0.19334 tol=0.001 diff=+2.025e-05
+[PASS] check 6: threshold 0.1, mean over 8 batches: rounded_0.1 ce diff: value=0.23671 target=0.23676 tol=0.001 diff=-4.676e-05
+[PASS] check 6: threshold 0.1, batch 0: unmasked kl: value=0.01146 target=0.01146 tol=0.001 diff=+6.694e-10
+[PASS] check 6: threshold 0.1, batch 1: unmasked kl: value=0.01016 target=0.01016 tol=0.001 diff=-1.164e-10
+[PASS] check 6: threshold 0.1, batch 2: unmasked kl: value=0.01255 target=0.01255 tol=0.001 diff=+9.895e-10
+[PASS] check 6: threshold 0.1, batch 3: unmasked kl: value=0.01001 target=0.01001 tol=0.001 diff=-3.783e-10
+[PASS] check 6: threshold 0.1, batch 4: unmasked kl: value=0.0109 target=0.0109 tol=0.001 diff=+7.567e-10
+[PASS] check 6: threshold 0.1, batch 5: unmasked kl: value=0.0128 target=0.0128 tol=0.001 diff=+7.567e-10
+[PASS] check 6: threshold 0.1, batch 6: unmasked kl: value=0.01154 target=0.01154 tol=0.001 diff=+2.910e-11
+[PASS] check 6: threshold 0.1, batch 7: unmasked kl: value=0.01842 target=0.01842 tol=0.001 diff=+5.821e-11
+[PASS] check 6: threshold 0.1, mean over 8 batches: unmasked kl: value=0.01223 target=0.01223 tol=0.001 diff=+3.456e-10
+[PASS] check 6: threshold 0.1, batch 0: importances kl: value=0.37303 target=0.37303 tol=0.001 diff=-3.260e-08
+[PASS] check 6: threshold 0.1, batch 1: importances kl: value=0.34135 target=0.34135 tol=0.001 diff=-2.794e-08
+[PASS] check 6: threshold 0.1, batch 2: importances kl: value=0.3851 target=0.3851 tol=0.001 diff=+2.142e-08
+[PASS] check 6: threshold 0.1, batch 3: importances kl: value=0.27708 target=0.27708 tol=0.001 diff=-1.676e-08
+[PASS] check 6: threshold 0.1, batch 4: importances kl: value=0.37441 target=0.37441 tol=0.001 diff=-1.676e-08
+[PASS] check 6: threshold 0.1, batch 5: importances kl: value=0.3406 target=0.3406 tol=0.001 diff=-2.794e-09
+[PASS] check 6: threshold 0.1, batch 6: importances kl: value=0.3465 target=0.3465 tol=0.001 diff=-2.421e-08
+[PASS] check 6: threshold 0.1, batch 7: importances kl: value=0.31291 target=0.31291 tol=0.001 diff=-9.779e-09
+[PASS] check 6: threshold 0.1, mean over 8 batches: importances kl: value=0.34387 target=0.34387 tol=0.001 diff=-1.368e-08
+[PASS] check 6: threshold 0.1, batch 0: rounded_0.1 kl: value=0.34967 target=0.34967 tol=0.001 diff=-7.451e-09
+[PASS] check 6: threshold 0.1, batch 1: rounded_0.1 kl: value=0.31522 target=0.31522 tol=0.001 diff=-2.887e-08
+[PASS] check 6: threshold 0.1, batch 2: rounded_0.1 kl: value=0.35775 target=0.35775 tol=0.001 diff=-2.515e-08
+[PASS] check 6: threshold 0.1, batch 3: rounded_0.1 kl: value=0.25777 target=0.25777 tol=0.001 diff=-3.097e-08
+[PASS] check 6: threshold 0.1, batch 4: rounded_0.1 kl: value=0.34854 target=0.34854 tol=0.001 diff=-1.956e-08
+[PASS] check 6: threshold 0.1, batch 5: rounded_0.1 kl: value=0.31371 target=0.31371 tol=0.001 diff=+8.382e-09
+[PASS] check 6: threshold 0.1, batch 6: rounded_0.1 kl: value=0.32292 target=0.32292 tol=0.001 diff=+1.234e-08
+[PASS] check 6: threshold 0.1, batch 7: rounded_0.1 kl: value=0.29171 target=0.29171 tol=0.001 diff=-7.451e-09
+[PASS] check 6: threshold 0.1, mean over 8 batches: rounded_0.1 kl: value=0.31966 target=0.31966 tol=0.001 diff=-1.234e-08
+[PASS] check 6: threshold 0.1, batch 0: zero_all kl: value=67.3564 target=67.3564 tol=0.001 diff=+5.245e-06
+[PASS] check 6: threshold 0.1, batch 1: zero_all kl: value=67.4579 target=67.4579 tol=0.001 diff=+3.815e-06
+[PASS] check 6: threshold 0.1, batch 2: zero_all kl: value=69.01049 target=69.01048 tol=0.001 diff=+6.199e-06
+[PASS] check 6: threshold 0.1, batch 3: zero_all kl: value=66.29531 target=66.29531 tol=0.001 diff=+2.146e-06
+[PASS] check 6: threshold 0.1, batch 4: zero_all kl: value=66.04542 target=66.04543 tol=0.001 diff=-2.861e-06
+[PASS] check 6: threshold 0.1, batch 5: zero_all kl: value=67.12185 target=67.12184 tol=0.001 diff=+6.676e-06
+[PASS] check 6: threshold 0.1, batch 6: zero_all kl: value=67.69476 target=67.69476 tol=0.001 diff=-3.338e-06
+[PASS] check 6: threshold 0.1, batch 7: zero_all kl: value=67.78384 target=67.78383 tol=0.001 diff=+7.153e-06
+[PASS] check 6: threshold 0.1, mean over 8 batches: zero_all kl: value=67.34575 target=67.34574 tol=0.001 diff=+3.129e-06
+[----] check 6: threshold 0.1, batch 0: zero_all ce diff (derived, not gated): value=67.41862 target=67.42451 tol= |diff|=5.89e-03
+[----] check 6: threshold 0.1, batch 1: zero_all ce diff (derived, not gated): value=67.54004 target=67.54325 tol= |diff|=3.21e-03
+[----] check 6: threshold 0.1, batch 2: zero_all ce diff (derived, not gated): value=69.11007 target=69.11118 tol= |diff|=1.12e-03
+[----] check 6: threshold 0.1, batch 3: zero_all ce diff (derived, not gated): value=66.29315 target=66.2949 tol= |diff|=1.75e-03
+[----] check 6: threshold 0.1, batch 4: zero_all ce diff (derived, not gated): value=66.0105 target=66.01417 tol= |diff|=3.67e-03
+[----] check 6: threshold 0.1, batch 5: zero_all ce diff (derived, not gated): value=67.11513 target=67.11623 tol= |diff|=1.10e-03
+[----] check 6: threshold 0.1, batch 6: zero_all ce diff (derived, not gated): value=67.73114 target=67.73262 tol= |diff|=1.49e-03
+[----] check 6: threshold 0.1, batch 7: zero_all ce diff (derived, not gated): value=68.04958 target=68.05056 tol= |diff|=9.81e-04
+[----] check 6: threshold 0.1, mean over 8 batches: zero_all ce diff (derived, not gated): value=67.40853 target=67.41093 tol= |diff|=2.40e-03
+[PASS] check 6: threshold 0.5, batch 0: unmasked ce diff: value=0.00853 target=0.00853 tol=0.001 diff=-1.743e-06
+[PASS] check 6: threshold 0.5, batch 1: unmasked ce diff: value=0.01136 target=0.01139 tol=0.001 diff=-2.940e-05
+[PASS] check 6: threshold 0.5, batch 2: unmasked ce diff: value=0.01427 target=0.01436 tol=0.001 diff=-9.055e-05
+[PASS] check 6: threshold 0.5, batch 3: unmasked ce diff: value=0.00881 target=0.00884 tol=0.001 diff=-2.193e-05
+[PASS] check 6: threshold 0.5, batch 4: unmasked ce diff: value=0.01235 target=0.01253 tol=0.001 diff=-1.810e-04
+[PASS] check 6: threshold 0.5, batch 5: unmasked ce diff: value=0.01003 target=0.00992 tol=0.001 diff=+1.045e-04
+[PASS] check 6: threshold 0.5, batch 6: unmasked ce diff: value=0.0094 target=0.00955 tol=0.001 diff=-1.451e-04
+[PASS] check 6: threshold 0.5, batch 7: unmasked ce diff: value=0.01861 target=0.01867 tol=0.001 diff=-6.630e-05
+[PASS] check 6: threshold 0.5, mean over 8 batches: unmasked ce diff: value=0.01167 target=0.01172 tol=0.001 diff=-5.394e-05
+[PASS] check 6: threshold 0.5, batch 0: importances ce diff: value=0.293 target=0.29284 tol=0.001 diff=+1.560e-04
+[PASS] check 6: threshold 0.5, batch 1: importances ce diff: value=0.28346 target=0.28341 tol=0.001 diff=+4.596e-05
+[PASS] check 6: threshold 0.5, batch 2: importances ce diff: value=0.28349 target=0.28335 tol=0.001 diff=+1.414e-04
+[PASS] check 6: threshold 0.5, batch 3: importances ce diff: value=0.24719 target=0.2472 tol=0.001 diff=-1.371e-05
+[PASS] check 6: threshold 0.5, batch 4: importances ce diff: value=0.30972 target=0.31003 tol=0.001 diff=-3.106e-04
+[PASS] check 6: threshold 0.5, batch 5: importances ce diff: value=0.26166 target=0.26155 tol=0.001 diff=+1.068e-04
+[PASS] check 6: threshold 0.5, batch 6: importances ce diff: value=0.27917 target=0.27937 tol=0.001 diff=-2.052e-04
+[PASS] check 6: threshold 0.5, batch 7: importances ce diff: value=0.2285 target=0.22848 tol=0.001 diff=+1.406e-05
+[PASS] check 6: threshold 0.5, mean over 8 batches: importances ce diff: value=0.27327 target=0.27328 tol=0.001 diff=-8.161e-06
+[PASS] check 6: threshold 0.5, batch 0: rounded_0.5 ce diff: value=0.32803 target=0.328 tol=0.001 diff=+2.600e-05
+[PASS] check 6: threshold 0.5, batch 1: rounded_0.5 ce diff: value=0.31595 target=0.31605 tol=0.001 diff=-9.406e-05
+[PASS] check 6: threshold 0.5, batch 2: rounded_0.5 ce diff: value=0.31827 target=0.31837 tol=0.001 diff=-1.007e-04
+[PASS] check 6: threshold 0.5, batch 3: rounded_0.5 ce diff: value=0.26745 target=0.26751 tol=0.001 diff=-5.714e-05
+[PASS] check 6: threshold 0.5, batch 4: rounded_0.5 ce diff: value=0.34485 target=0.34504 tol=0.001 diff=-1.871e-04
+[PASS] check 6: threshold 0.5, batch 5: rounded_0.5 ce diff: value=0.29279 target=0.29275 tol=0.001 diff=+4.364e-05
+[PASS] check 6: threshold 0.5, batch 6: rounded_0.5 ce diff: value=0.3128 target=0.31306 tol=0.001 diff=-2.668e-04
+[PASS] check 6: threshold 0.5, batch 7: rounded_0.5 ce diff: value=0.26274 target=0.26262 tol=0.001 diff=+1.203e-04
+[PASS] check 6: threshold 0.5, mean over 8 batches: rounded_0.5 ce diff: value=0.30536 target=0.30542 tol=0.001 diff=-6.448e-05
+[PASS] check 6: threshold 0.5, batch 0: unmasked kl: value=0.01146 target=0.01146 tol=0.001 diff=+6.694e-10
+[PASS] check 6: threshold 0.5, batch 1: unmasked kl: value=0.01016 target=0.01016 tol=0.001 diff=-1.164e-10
+[PASS] check 6: threshold 0.5, batch 2: unmasked kl: value=0.01255 target=0.01255 tol=0.001 diff=+9.895e-10
+[PASS] check 6: threshold 0.5, batch 3: unmasked kl: value=0.01001 target=0.01001 tol=0.001 diff=-3.783e-10
+[PASS] check 6: threshold 0.5, batch 4: unmasked kl: value=0.0109 target=0.0109 tol=0.001 diff=+7.567e-10
+[PASS] check 6: threshold 0.5, batch 5: unmasked kl: value=0.0128 target=0.0128 tol=0.001 diff=+7.567e-10
+[PASS] check 6: threshold 0.5, batch 6: unmasked kl: value=0.01154 target=0.01154 tol=0.001 diff=+2.910e-11
+[PASS] check 6: threshold 0.5, batch 7: unmasked kl: value=0.01842 target=0.01842 tol=0.001 diff=+5.821e-11
+[PASS] check 6: threshold 0.5, mean over 8 batches: unmasked kl: value=0.01223 target=0.01223 tol=0.001 diff=+3.456e-10
+[PASS] check 6: threshold 0.5, batch 0: importances kl: value=0.37303 target=0.37303 tol=0.001 diff=-3.260e-08
+[PASS] check 6: threshold 0.5, batch 1: importances kl: value=0.34135 target=0.34135 tol=0.001 diff=-2.794e-08
+[PASS] check 6: threshold 0.5, batch 2: importances kl: value=0.3851 target=0.3851 tol=0.001 diff=+2.142e-08
+[PASS] check 6: threshold 0.5, batch 3: importances kl: value=0.27708 target=0.27708 tol=0.001 diff=-1.676e-08
+[PASS] check 6: threshold 0.5, batch 4: importances kl: value=0.37441 target=0.37441 tol=0.001 diff=-1.676e-08
+[PASS] check 6: threshold 0.5, batch 5: importances kl: value=0.3406 target=0.3406 tol=0.001 diff=-2.794e-09
+[PASS] check 6: threshold 0.5, batch 6: importances kl: value=0.3465 target=0.3465 tol=0.001 diff=-2.421e-08
+[PASS] check 6: threshold 0.5, batch 7: importances kl: value=0.31291 target=0.31291 tol=0.001 diff=-9.779e-09
+[PASS] check 6: threshold 0.5, mean over 8 batches: importances kl: value=0.34387 target=0.34387 tol=0.001 diff=-1.368e-08
+[PASS] check 6: threshold 0.5, batch 0: rounded_0.5 kl: value=0.4059 target=0.4059 tol=0.001 diff=-7.451e-09
+[PASS] check 6: threshold 0.5, batch 1: rounded_0.5 kl: value=0.37087 target=0.37087 tol=0.001 diff=-1.211e-08
+[PASS] check 6: threshold 0.5, batch 2: rounded_0.5 kl: value=0.41668 target=0.41668 tol=0.001 diff=-7.451e-09
+[PASS] check 6: threshold 0.5, batch 3: rounded_0.5 kl: value=0.30112 target=0.30112 tol=0.001 diff=+8.149e-09
+[PASS] check 6: threshold 0.5, batch 4: rounded_0.5 kl: value=0.40752 target=0.40752 tol=0.001 diff=-1.863e-08
+[PASS] check 6: threshold 0.5, batch 5: rounded_0.5 kl: value=0.37008 target=0.37008 tol=0.001 diff=-9.313e-09
+[PASS] check 6: threshold 0.5, batch 6: rounded_0.5 kl: value=0.37885 target=0.37885 tol=0.001 diff=-2.794e-09
+[PASS] check 6: threshold 0.5, batch 7: rounded_0.5 kl: value=0.34035 target=0.34035 tol=0.001 diff=-3.725e-09
+[PASS] check 6: threshold 0.5, mean over 8 batches: rounded_0.5 kl: value=0.37392 target=0.37392 tol=0.001 diff=-6.665e-09
+[PASS] check 6: threshold 0.5, batch 0: zero_all kl: value=67.3564 target=67.3564 tol=0.001 diff=+5.245e-06
+[PASS] check 6: threshold 0.5, batch 1: zero_all kl: value=67.4579 target=67.4579 tol=0.001 diff=+3.815e-06
+[PASS] check 6: threshold 0.5, batch 2: zero_all kl: value=69.01049 target=69.01048 tol=0.001 diff=+6.199e-06
+[PASS] check 6: threshold 0.5, batch 3: zero_all kl: value=66.29531 target=66.29531 tol=0.001 diff=+2.146e-06
+[PASS] check 6: threshold 0.5, batch 4: zero_all kl: value=66.04542 target=66.04543 tol=0.001 diff=-2.861e-06
+[PASS] check 6: threshold 0.5, batch 5: zero_all kl: value=67.12185 target=67.12184 tol=0.001 diff=+6.676e-06
+[PASS] check 6: threshold 0.5, batch 6: zero_all kl: value=67.69476 target=67.69476 tol=0.001 diff=-3.338e-06
+[PASS] check 6: threshold 0.5, batch 7: zero_all kl: value=67.78384 target=67.78383 tol=0.001 diff=+7.153e-06
+[PASS] check 6: threshold 0.5, mean over 8 batches: zero_all kl: value=67.34575 target=67.34574 tol=0.001 diff=+3.129e-06
+[----] check 6: threshold 0.5, batch 0: zero_all ce diff (derived, not gated): value=67.41862 target=67.4245 tol= |diff|=5.88e-03
+[----] check 6: threshold 0.5, batch 1: zero_all ce diff (derived, not gated): value=67.54004 target=67.54326 tol= |diff|=3.22e-03
+[----] check 6: threshold 0.5, batch 2: zero_all ce diff (derived, not gated): value=69.11007 target=69.11118 tol= |diff|=1.12e-03
+[----] check 6: threshold 0.5, batch 3: zero_all ce diff (derived, not gated): value=66.29315 target=66.2949 tol= |diff|=1.75e-03
+[----] check 6: threshold 0.5, batch 4: zero_all ce diff (derived, not gated): value=66.0105 target=66.01417 tol= |diff|=3.67e-03
+[----] check 6: threshold 0.5, batch 5: zero_all ce diff (derived, not gated): value=67.11513 target=67.11622 tol= |diff|=1.10e-03
+[----] check 6: threshold 0.5, batch 6: zero_all ce diff (derived, not gated): value=67.73114 target=67.73262 tol= |diff|=1.48e-03
+[----] check 6: threshold 0.5, batch 7: zero_all ce diff (derived, not gated): value=68.04958 target=68.05056 tol= |diff|=9.80e-04
+[----] check 6: threshold 0.5, mean over 8 batches: zero_all ce diff (derived, not gated): value=67.40853 target=67.41093 tol= |diff|=2.40e-03
+
+## 2. Unmatched shapes, reported: the class at batch 16 against the acceptance table (sub-batch 64, chunk 32, NVIDIA A100-SXM4-80GB) on the same sequences: epsilon = 3.11e-04 over 189 comparisons; worst: threshold 0.0, batch 4: importances ce diff; the acceptance file's SHA-256 b7fc655e778d5eed... same as the job used: True
+
+[----] check 6: threshold 0.0, batch 0: unmasked ce diff: value=0.00853 target=0.00853 tol=0.001 diff=-1.743e-06
+[----] check 6: threshold 0.0, batch 1: unmasked ce diff: value=0.01136 target=0.01139 tol=0.001 diff=-2.940e-05
+[----] check 6: threshold 0.0, batch 2: unmasked ce diff: value=0.01427 target=0.01436 tol=0.001 diff=-9.055e-05
+[----] check 6: threshold 0.0, batch 3: unmasked ce diff: value=0.00881 target=0.00884 tol=0.001 diff=-2.193e-05
+[----] check 6: threshold 0.0, batch 4: unmasked ce diff: value=0.01235 target=0.01253 tol=0.001 diff=-1.810e-04
+[----] check 6: threshold 0.0, batch 5: unmasked ce diff: value=0.01003 target=0.00992 tol=0.001 diff=+1.045e-04
+[----] check 6: threshold 0.0, batch 6: unmasked ce diff: value=0.0094 target=0.00955 tol=0.001 diff=-1.451e-04
+[----] check 6: threshold 0.0, batch 7: unmasked ce diff: value=0.01861 target=0.01867 tol=0.001 diff=-6.630e-05
+[----] check 6: threshold 0.0, mean over 8 batches: unmasked ce diff: value=0.01167 target=0.01172 tol=0.001 diff=-5.394e-05
+[----] check 6: threshold 0.0, batch 0: importances ce diff: value=0.293 target=0.29284 tol=0.001 diff=+1.560e-04
+[----] check 6: threshold 0.0, batch 1: importances ce diff: value=0.28346 target=0.28341 tol=0.001 diff=+4.596e-05
+[----] check 6: threshold 0.0, batch 2: importances ce diff: value=0.28349 target=0.28335 tol=0.001 diff=+1.414e-04
+[----] check 6: threshold 0.0, batch 3: importances ce diff: value=0.24719 target=0.2472 tol=0.001 diff=-1.371e-05
+[----] check 6: threshold 0.0, batch 4: importances ce diff: value=0.30972 target=0.31003 tol=0.001 diff=-3.106e-04
+[----] check 6: threshold 0.0, batch 5: importances ce diff: value=0.26166 target=0.26155 tol=0.001 diff=+1.068e-04
+[----] check 6: threshold 0.0, batch 6: importances ce diff: value=0.27917 target=0.27937 tol=0.001 diff=-2.052e-04
+[----] check 6: threshold 0.0, batch 7: importances ce diff: value=0.2285 target=0.22848 tol=0.001 diff=+1.406e-05
+[----] check 6: threshold 0.0, mean over 8 batches: importances ce diff: value=0.27327 target=0.27328 tol=0.001 diff=-8.161e-06
+[----] check 6: threshold 0.0, batch 0: rounded_0 ce diff: value=0.24999 target=0.25005 tol=0.001 diff=-5.956e-05
+[----] check 6: threshold 0.0, batch 1: rounded_0 ce diff: value=0.23748 target=0.23747 tol=0.001 diff=+4.619e-06
+[----] check 6: threshold 0.0, batch 2: rounded_0 ce diff: value=0.23655 target=0.23646 tol=0.001 diff=+8.946e-05
+[----] check 6: threshold 0.0, batch 3: rounded_0 ce diff: value=0.21363 target=0.21355 tol=0.001 diff=+8.202e-05
+[----] check 6: threshold 0.0, batch 4: rounded_0 ce diff: value=0.2619 target=0.26191 tol=0.001 diff=-1.281e-05
+[----] check 6: threshold 0.0, batch 5: rounded_0 ce diff: value=0.2089 target=0.2089 tol=0.001 diff=-1.863e-07
+[----] check 6: threshold 0.0, batch 6: rounded_0 ce diff: value=0.23793 target=0.23815 tol=0.001 diff=-2.212e-04
+[----] check 6: threshold 0.0, batch 7: rounded_0 ce diff: value=0.18579 target=0.18568 tol=0.001 diff=+1.062e-04
+[----] check 6: threshold 0.0, mean over 8 batches: rounded_0 ce diff: value=0.22902 target=0.22902 tol=0.001 diff=-1.424e-06
+[----] check 6: threshold 0.0, batch 0: unmasked kl: value=0.01146 target=0.01146 tol=0.001 diff=+6.694e-10
+[----] check 6: threshold 0.0, batch 1: unmasked kl: value=0.01016 target=0.01016 tol=0.001 diff=-1.164e-10
+[----] check 6: threshold 0.0, batch 2: unmasked kl: value=0.01255 target=0.01255 tol=0.001 diff=+9.895e-10
+[----] check 6: threshold 0.0, batch 3: unmasked kl: value=0.01001 target=0.01001 tol=0.001 diff=-3.783e-10
+[----] check 6: threshold 0.0, batch 4: unmasked kl: value=0.0109 target=0.0109 tol=0.001 diff=+7.567e-10
+[----] check 6: threshold 0.0, batch 5: unmasked kl: value=0.0128 target=0.0128 tol=0.001 diff=+7.567e-10
+[----] check 6: threshold 0.0, batch 6: unmasked kl: value=0.01154 target=0.01154 tol=0.001 diff=+2.910e-11
+[----] check 6: threshold 0.0, batch 7: unmasked kl: value=0.01842 target=0.01842 tol=0.001 diff=+5.821e-11
+[----] check 6: threshold 0.0, mean over 8 batches: unmasked kl: value=0.01223 target=0.01223 tol=0.001 diff=+3.456e-10
+[----] check 6: threshold 0.0, batch 0: importances kl: value=0.37303 target=0.37303 tol=0.001 diff=-3.260e-08
+[----] check 6: threshold 0.0, batch 1: importances kl: value=0.34135 target=0.34135 tol=0.001 diff=-2.794e-08
+[----] check 6: threshold 0.0, batch 2: importances kl: value=0.3851 target=0.3851 tol=0.001 diff=+2.142e-08
+[----] check 6: threshold 0.0, batch 3: importances kl: value=0.27708 target=0.27708 tol=0.001 diff=-1.676e-08
+[----] check 6: threshold 0.0, batch 4: importances kl: value=0.37441 target=0.37441 tol=0.001 diff=-1.676e-08
+[----] check 6: threshold 0.0, batch 5: importances kl: value=0.3406 target=0.3406 tol=0.001 diff=-2.794e-09
+[----] check 6: threshold 0.0, batch 6: importances kl: value=0.3465 target=0.3465 tol=0.001 diff=-2.421e-08
+[----] check 6: threshold 0.0, batch 7: importances kl: value=0.31291 target=0.31291 tol=0.001 diff=-9.779e-09
+[----] check 6: threshold 0.0, mean over 8 batches: importances kl: value=0.34387 target=0.34387 tol=0.001 diff=-1.368e-08
+[----] check 6: threshold 0.0, batch 0: rounded_0 kl: value=0.34313 target=0.34313 tol=0.001 diff=-2.328e-08
+[----] check 6: threshold 0.0, batch 1: rounded_0 kl: value=0.30964 target=0.30964 tol=0.001 diff=-3.725e-09
+[----] check 6: threshold 0.0, batch 2: rounded_0 kl: value=0.35161 target=0.35161 tol=0.001 diff=-1.583e-08
+[----] check 6: threshold 0.0, batch 3: rounded_0 kl: value=0.25476 target=0.25476 tol=0.001 diff=-2.747e-08
+[----] check 6: threshold 0.0, batch 4: rounded_0 kl: value=0.34155 target=0.34155 tol=0.001 diff=-1.211e-08
+[----] check 6: threshold 0.0, batch 5: rounded_0 kl: value=0.30673 target=0.30673 tol=0.001 diff=-6.054e-09
+[----] check 6: threshold 0.0, batch 6: rounded_0 kl: value=0.31693 target=0.31693 tol=0.001 diff=-1.211e-08
+[----] check 6: threshold 0.0, batch 7: rounded_0 kl: value=0.28738 target=0.28738 tol=0.001 diff=-7.916e-09
+[----] check 6: threshold 0.0, mean over 8 batches: rounded_0 kl: value=0.31397 target=0.31397 tol=0.001 diff=-1.356e-08
+[----] check 6: threshold 0.0, batch 0: zero_all kl: value=67.3564 target=67.3564 tol=0.001 diff=+5.245e-06
+[----] check 6: threshold 0.0, batch 1: zero_all kl: value=67.4579 target=67.4579 tol=0.001 diff=+3.815e-06
+[----] check 6: threshold 0.0, batch 2: zero_all kl: value=69.01049 target=69.01048 tol=0.001 diff=+6.199e-06
+[----] check 6: threshold 0.0, batch 3: zero_all kl: value=66.29531 target=66.29531 tol=0.001 diff=+2.146e-06
+[----] check 6: threshold 0.0, batch 4: zero_all kl: value=66.04542 target=66.04543 tol=0.001 diff=-2.861e-06
+[----] check 6: threshold 0.0, batch 5: zero_all kl: value=67.12185 target=67.12184 tol=0.001 diff=+6.676e-06
+[----] check 6: threshold 0.0, batch 6: zero_all kl: value=67.69476 target=67.69476 tol=0.001 diff=-3.338e-06
+[----] check 6: threshold 0.0, batch 7: zero_all kl: value=67.78384 target=67.78383 tol=0.001 diff=+7.153e-06
+[----] check 6: threshold 0.0, mean over 8 batches: zero_all kl: value=67.34575 target=67.34574 tol=0.001 diff=+3.129e-06
+[----] check 6: threshold 0.0, batch 0: zero_all ce diff (derived, not gated): value=67.41862 target=67.42451 tol= |diff|=5.89e-03
+[----] check 6: threshold 0.0, batch 1: zero_all ce diff (derived, not gated): value=67.54004 target=67.54325 tol= |diff|=3.22e-03
+[----] check 6: threshold 0.0, batch 2: zero_all ce diff (derived, not gated): value=69.11007 target=69.11118 tol= |diff|=1.12e-03
+[----] check 6: threshold 0.0, batch 3: zero_all ce diff (derived, not gated): value=66.29315 target=66.2949 tol= |diff|=1.75e-03
+[----] check 6: threshold 0.0, batch 4: zero_all ce diff (derived, not gated): value=66.0105 target=66.01417 tol= |diff|=3.67e-03
+[----] check 6: threshold 0.0, batch 5: zero_all ce diff (derived, not gated): value=67.11513 target=67.11622 tol= |diff|=1.10e-03
+[----] check 6: threshold 0.0, batch 6: zero_all ce diff (derived, not gated): value=67.73114 target=67.73263 tol= |diff|=1.49e-03
+[----] check 6: threshold 0.0, batch 7: zero_all ce diff (derived, not gated): value=68.04958 target=68.05056 tol= |diff|=9.80e-04
+[----] check 6: threshold 0.0, mean over 8 batches: zero_all ce diff (derived, not gated): value=67.40853 target=67.41093 tol= |diff|=2.40e-03
+[----] check 6: threshold 0.1, batch 0: unmasked ce diff: value=0.00853 target=0.00853 tol=0.001 diff=-1.743e-06
+[----] check 6: threshold 0.1, batch 1: unmasked ce diff: value=0.01136 target=0.01139 tol=0.001 diff=-2.940e-05
+[----] check 6: threshold 0.1, batch 2: unmasked ce diff: value=0.01427 target=0.01436 tol=0.001 diff=-9.055e-05
+[----] check 6: threshold 0.1, batch 3: unmasked ce diff: value=0.00881 target=0.00884 tol=0.001 diff=-2.193e-05
+[----] check 6: threshold 0.1, batch 4: unmasked ce diff: value=0.01235 target=0.01253 tol=0.001 diff=-1.810e-04
+[----] check 6: threshold 0.1, batch 5: unmasked ce diff: value=0.01003 target=0.00992 tol=0.001 diff=+1.045e-04
+[----] check 6: threshold 0.1, batch 6: unmasked ce diff: value=0.0094 target=0.00955 tol=0.001 diff=-1.451e-04
+[----] check 6: threshold 0.1, batch 7: unmasked ce diff: value=0.01861 target=0.01867 tol=0.001 diff=-6.630e-05
+[----] check 6: threshold 0.1, mean over 8 batches: unmasked ce diff: value=0.01167 target=0.01172 tol=0.001 diff=-5.394e-05
+[----] check 6: threshold 0.1, batch 0: importances ce diff: value=0.293 target=0.29284 tol=0.001 diff=+1.560e-04
+[----] check 6: threshold 0.1, batch 1: importances ce diff: value=0.28346 target=0.28341 tol=0.001 diff=+4.596e-05
+[----] check 6: threshold 0.1, batch 2: importances ce diff: value=0.28349 target=0.28335 tol=0.001 diff=+1.414e-04
+[----] check 6: threshold 0.1, batch 3: importances ce diff: value=0.24719 target=0.2472 tol=0.001 diff=-1.371e-05
+[----] check 6: threshold 0.1, batch 4: importances ce diff: value=0.30972 target=0.31003 tol=0.001 diff=-3.106e-04
+[----] check 6: threshold 0.1, batch 5: importances ce diff: value=0.26166 target=0.26155 tol=0.001 diff=+1.068e-04
+[----] check 6: threshold 0.1, batch 6: importances ce diff: value=0.27917 target=0.27937 tol=0.001 diff=-2.052e-04
+[----] check 6: threshold 0.1, batch 7: importances ce diff: value=0.2285 target=0.22848 tol=0.001 diff=+1.406e-05
+[----] check 6: threshold 0.1, mean over 8 batches: importances ce diff: value=0.27327 target=0.27328 tol=0.001 diff=-8.161e-06
+[----] check 6: threshold 0.1, batch 0: rounded_0.1 ce diff: value=0.25522 target=0.25517 tol=0.001 diff=+4.914e-05
+[----] check 6: threshold 0.1, batch 1: rounded_0.1 ce diff: value=0.24752 target=0.24755 tol=0.001 diff=-2.804e-05
+[----] check 6: threshold 0.1, batch 2: rounded_0.1 ce diff: value=0.24678 target=0.24685 tol=0.001 diff=-7.128e-05
+[----] check 6: threshold 0.1, batch 3: rounded_0.1 ce diff: value=0.21723 target=0.21725 tol=0.001 diff=-1.926e-05
+[----] check 6: threshold 0.1, batch 4: rounded_0.1 ce diff: value=0.27179 target=0.27188 tol=0.001 diff=-8.783e-05
+[----] check 6: threshold 0.1, batch 5: rounded_0.1 ce diff: value=0.21572 target=0.2157 tol=0.001 diff=+1.333e-05
+[----] check 6: threshold 0.1, batch 6: rounded_0.1 ce diff: value=0.24611 target=0.24636 tol=0.001 diff=-2.504e-04
+[----] check 6: threshold 0.1, batch 7: rounded_0.1 ce diff: value=0.19336 target=0.19334 tol=0.001 diff=+2.025e-05
+[----] check 6: threshold 0.1, mean over 8 batches: rounded_0.1 ce diff: value=0.23671 target=0.23676 tol=0.001 diff=-4.676e-05
+[----] check 6: threshold 0.1, batch 0: unmasked kl: value=0.01146 target=0.01146 tol=0.001 diff=+6.694e-10
+[----] check 6: threshold 0.1, batch 1: unmasked kl: value=0.01016 target=0.01016 tol=0.001 diff=-1.164e-10
+[----] check 6: threshold 0.1, batch 2: unmasked kl: value=0.01255 target=0.01255 tol=0.001 diff=+9.895e-10
+[----] check 6: threshold 0.1, batch 3: unmasked kl: value=0.01001 target=0.01001 tol=0.001 diff=-3.783e-10
+[----] check 6: threshold 0.1, batch 4: unmasked kl: value=0.0109 target=0.0109 tol=0.001 diff=+7.567e-10
+[----] check 6: threshold 0.1, batch 5: unmasked kl: value=0.0128 target=0.0128 tol=0.001 diff=+7.567e-10
+[----] check 6: threshold 0.1, batch 6: unmasked kl: value=0.01154 target=0.01154 tol=0.001 diff=+2.910e-11
+[----] check 6: threshold 0.1, batch 7: unmasked kl: value=0.01842 target=0.01842 tol=0.001 diff=+5.821e-11
+[----] check 6: threshold 0.1, mean over 8 batches: unmasked kl: value=0.01223 target=0.01223 tol=0.001 diff=+3.456e-10
+[----] check 6: threshold 0.1, batch 0: importances kl: value=0.37303 target=0.37303 tol=0.001 diff=-3.260e-08
+[----] check 6: threshold 0.1, batch 1: importances kl: value=0.34135 target=0.34135 tol=0.001 diff=-2.794e-08
+[----] check 6: threshold 0.1, batch 2: importances kl: value=0.3851 target=0.3851 tol=0.001 diff=+2.142e-08
+[----] check 6: threshold 0.1, batch 3: importances kl: value=0.27708 target=0.27708 tol=0.001 diff=-1.676e-08
+[----] check 6: threshold 0.1, batch 4: importances kl: value=0.37441 target=0.37441 tol=0.001 diff=-1.676e-08
+[----] check 6: threshold 0.1, batch 5: importances kl: value=0.3406 target=0.3406 tol=0.001 diff=-2.794e-09
+[----] check 6: threshold 0.1, batch 6: importances kl: value=0.3465 target=0.3465 tol=0.001 diff=-2.421e-08
+[----] check 6: threshold 0.1, batch 7: importances kl: value=0.31291 target=0.31291 tol=0.001 diff=-9.779e-09
+[----] check 6: threshold 0.1, mean over 8 batches: importances kl: value=0.34387 target=0.34387 tol=0.001 diff=-1.368e-08
+[----] check 6: threshold 0.1, batch 0: rounded_0.1 kl: value=0.34967 target=0.34967 tol=0.001 diff=-7.451e-09
+[----] check 6: threshold 0.1, batch 1: rounded_0.1 kl: value=0.31522 target=0.31522 tol=0.001 diff=-2.887e-08
+[----] check 6: threshold 0.1, batch 2: rounded_0.1 kl: value=0.35775 target=0.35775 tol=0.001 diff=-2.515e-08
+[----] check 6: threshold 0.1, batch 3: rounded_0.1 kl: value=0.25777 target=0.25777 tol=0.001 diff=-3.097e-08
+[----] check 6: threshold 0.1, batch 4: rounded_0.1 kl: value=0.34854 target=0.34854 tol=0.001 diff=-1.956e-08
+[----] check 6: threshold 0.1, batch 5: rounded_0.1 kl: value=0.31371 target=0.31371 tol=0.001 diff=+8.382e-09
+[----] check 6: threshold 0.1, batch 6: rounded_0.1 kl: value=0.32292 target=0.32292 tol=0.001 diff=+1.234e-08
+[----] check 6: threshold 0.1, batch 7: rounded_0.1 kl: value=0.29171 target=0.29171 tol=0.001 diff=-7.451e-09
+[----] check 6: threshold 0.1, mean over 8 batches: rounded_0.1 kl: value=0.31966 target=0.31966 tol=0.001 diff=-1.234e-08
+[----] check 6: threshold 0.1, batch 0: zero_all kl: value=67.3564 target=67.3564 tol=0.001 diff=+5.245e-06
+[----] check 6: threshold 0.1, batch 1: zero_all kl: value=67.4579 target=67.4579 tol=0.001 diff=+3.815e-06
+[----] check 6: threshold 0.1, batch 2: zero_all kl: value=69.01049 target=69.01048 tol=0.001 diff=+6.199e-06
+[----] check 6: threshold 0.1, batch 3: zero_all kl: value=66.29531 target=66.29531 tol=0.001 diff=+2.146e-06
+[----] check 6: threshold 0.1, batch 4: zero_all kl: value=66.04542 target=66.04543 tol=0.001 diff=-2.861e-06
+[----] check 6: threshold 0.1, batch 5: zero_all kl: value=67.12185 target=67.12184 tol=0.001 diff=+6.676e-06
+[----] check 6: threshold 0.1, batch 6: zero_all kl: value=67.69476 target=67.69476 tol=0.001 diff=-3.338e-06
+[----] check 6: threshold 0.1, batch 7: zero_all kl: value=67.78384 target=67.78383 tol=0.001 diff=+7.153e-06
+[----] check 6: threshold 0.1, mean over 8 batches: zero_all kl: value=67.34575 target=67.34574 tol=0.001 diff=+3.129e-06
+[----] check 6: threshold 0.1, batch 0: zero_all ce diff (derived, not gated): value=67.41862 target=67.42451 tol= |diff|=5.89e-03
+[----] check 6: threshold 0.1, batch 1: zero_all ce diff (derived, not gated): value=67.54004 target=67.54325 tol= |diff|=3.21e-03
+[----] check 6: threshold 0.1, batch 2: zero_all ce diff (derived, not gated): value=69.11007 target=69.11118 tol= |diff|=1.12e-03
+[----] check 6: threshold 0.1, batch 3: zero_all ce diff (derived, not gated): value=66.29315 target=66.2949 tol= |diff|=1.75e-03
+[----] check 6: threshold 0.1, batch 4: zero_all ce diff (derived, not gated): value=66.0105 target=66.01417 tol= |diff|=3.67e-03
+[----] check 6: threshold 0.1, batch 5: zero_all ce diff (derived, not gated): value=67.11513 target=67.11623 tol= |diff|=1.10e-03
+[----] check 6: threshold 0.1, batch 6: zero_all ce diff (derived, not gated): value=67.73114 target=67.73262 tol= |diff|=1.49e-03
+[----] check 6: threshold 0.1, batch 7: zero_all ce diff (derived, not gated): value=68.04958 target=68.05056 tol= |diff|=9.81e-04
+[----] check 6: threshold 0.1, mean over 8 batches: zero_all ce diff (derived, not gated): value=67.40853 target=67.41093 tol= |diff|=2.40e-03
+[----] check 6: threshold 0.5, batch 0: unmasked ce diff: value=0.00853 target=0.00853 tol=0.001 diff=-1.743e-06
+[----] check 6: threshold 0.5, batch 1: unmasked ce diff: value=0.01136 target=0.01139 tol=0.001 diff=-2.940e-05
+[----] check 6: threshold 0.5, batch 2: unmasked ce diff: value=0.01427 target=0.01436 tol=0.001 diff=-9.055e-05
+[----] check 6: threshold 0.5, batch 3: unmasked ce diff: value=0.00881 target=0.00884 tol=0.001 diff=-2.193e-05
+[----] check 6: threshold 0.5, batch 4: unmasked ce diff: value=0.01235 target=0.01253 tol=0.001 diff=-1.810e-04
+[----] check 6: threshold 0.5, batch 5: unmasked ce diff: value=0.01003 target=0.00992 tol=0.001 diff=+1.045e-04
+[----] check 6: threshold 0.5, batch 6: unmasked ce diff: value=0.0094 target=0.00955 tol=0.001 diff=-1.451e-04
+[----] check 6: threshold 0.5, batch 7: unmasked ce diff: value=0.01861 target=0.01867 tol=0.001 diff=-6.630e-05
+[----] check 6: threshold 0.5, mean over 8 batches: unmasked ce diff: value=0.01167 target=0.01172 tol=0.001 diff=-5.394e-05
+[----] check 6: threshold 0.5, batch 0: importances ce diff: value=0.293 target=0.29284 tol=0.001 diff=+1.560e-04
+[----] check 6: threshold 0.5, batch 1: importances ce diff: value=0.28346 target=0.28341 tol=0.001 diff=+4.596e-05
+[----] check 6: threshold 0.5, batch 2: importances ce diff: value=0.28349 target=0.28335 tol=0.001 diff=+1.414e-04
+[----] check 6: threshold 0.5, batch 3: importances ce diff: value=0.24719 target=0.2472 tol=0.001 diff=-1.371e-05
+[----] check 6: threshold 0.5, batch 4: importances ce diff: value=0.30972 target=0.31003 tol=0.001 diff=-3.106e-04
+[----] check 6: threshold 0.5, batch 5: importances ce diff: value=0.26166 target=0.26155 tol=0.001 diff=+1.068e-04
+[----] check 6: threshold 0.5, batch 6: importances ce diff: value=0.27917 target=0.27937 tol=0.001 diff=-2.052e-04
+[----] check 6: threshold 0.5, batch 7: importances ce diff: value=0.2285 target=0.22848 tol=0.001 diff=+1.406e-05
+[----] check 6: threshold 0.5, mean over 8 batches: importances ce diff: value=0.27327 target=0.27328 tol=0.001 diff=-8.161e-06
+[----] check 6: threshold 0.5, batch 0: rounded_0.5 ce diff: value=0.32803 target=0.328 tol=0.001 diff=+2.600e-05
+[----] check 6: threshold 0.5, batch 1: rounded_0.5 ce diff: value=0.31595 target=0.31605 tol=0.001 diff=-9.406e-05
+[----] check 6: threshold 0.5, batch 2: rounded_0.5 ce diff: value=0.31827 target=0.31837 tol=0.001 diff=-1.007e-04
+[----] check 6: threshold 0.5, batch 3: rounded_0.5 ce diff: value=0.26745 target=0.26751 tol=0.001 diff=-5.714e-05
+[----] check 6: threshold 0.5, batch 4: rounded_0.5 ce diff: value=0.34485 target=0.34504 tol=0.001 diff=-1.871e-04
+[----] check 6: threshold 0.5, batch 5: rounded_0.5 ce diff: value=0.29279 target=0.29275 tol=0.001 diff=+4.364e-05
+[----] check 6: threshold 0.5, batch 6: rounded_0.5 ce diff: value=0.3128 target=0.31306 tol=0.001 diff=-2.668e-04
+[----] check 6: threshold 0.5, batch 7: rounded_0.5 ce diff: value=0.26274 target=0.26262 tol=0.001 diff=+1.203e-04
+[----] check 6: threshold 0.5, mean over 8 batches: rounded_0.5 ce diff: value=0.30536 target=0.30542 tol=0.001 diff=-6.448e-05
+[----] check 6: threshold 0.5, batch 0: unmasked kl: value=0.01146 target=0.01146 tol=0.001 diff=+6.694e-10
+[----] check 6: threshold 0.5, batch 1: unmasked kl: value=0.01016 target=0.01016 tol=0.001 diff=-1.164e-10
+[----] check 6: threshold 0.5, batch 2: unmasked kl: value=0.01255 target=0.01255 tol=0.001 diff=+9.895e-10
+[----] check 6: threshold 0.5, batch 3: unmasked kl: value=0.01001 target=0.01001 tol=0.001 diff=-3.783e-10
+[----] check 6: threshold 0.5, batch 4: unmasked kl: value=0.0109 target=0.0109 tol=0.001 diff=+7.567e-10
+[----] check 6: threshold 0.5, batch 5: unmasked kl: value=0.0128 target=0.0128 tol=0.001 diff=+7.567e-10
+[----] check 6: threshold 0.5, batch 6: unmasked kl: value=0.01154 target=0.01154 tol=0.001 diff=+2.910e-11
+[----] check 6: threshold 0.5, batch 7: unmasked kl: value=0.01842 target=0.01842 tol=0.001 diff=+5.821e-11
+[----] check 6: threshold 0.5, mean over 8 batches: unmasked kl: value=0.01223 target=0.01223 tol=0.001 diff=+3.456e-10
+[----] check 6: threshold 0.5, batch 0: importances kl: value=0.37303 target=0.37303 tol=0.001 diff=-3.260e-08
+[----] check 6: threshold 0.5, batch 1: importances kl: value=0.34135 target=0.34135 tol=0.001 diff=-2.794e-08
+[----] check 6: threshold 0.5, batch 2: importances kl: value=0.3851 target=0.3851 tol=0.001 diff=+2.142e-08
+[----] check 6: threshold 0.5, batch 3: importances kl: value=0.27708 target=0.27708 tol=0.001 diff=-1.676e-08
+[----] check 6: threshold 0.5, batch 4: importances kl: value=0.37441 target=0.37441 tol=0.001 diff=-1.676e-08
+[----] check 6: threshold 0.5, batch 5: importances kl: value=0.3406 target=0.3406 tol=0.001 diff=-2.794e-09
+[----] check 6: threshold 0.5, batch 6: importances kl: value=0.3465 target=0.3465 tol=0.001 diff=-2.421e-08
+[----] check 6: threshold 0.5, batch 7: importances kl: value=0.31291 target=0.31291 tol=0.001 diff=-9.779e-09
+[----] check 6: threshold 0.5, mean over 8 batches: importances kl: value=0.34387 target=0.34387 tol=0.001 diff=-1.368e-08
+[----] check 6: threshold 0.5, batch 0: rounded_0.5 kl: value=0.4059 target=0.4059 tol=0.001 diff=-7.451e-09
+[----] check 6: threshold 0.5, batch 1: rounded_0.5 kl: value=0.37087 target=0.37087 tol=0.001 diff=-1.211e-08
+[----] check 6: threshold 0.5, batch 2: rounded_0.5 kl: value=0.41668 target=0.41668 tol=0.001 diff=-7.451e-09
+[----] check 6: threshold 0.5, batch 3: rounded_0.5 kl: value=0.30112 target=0.30112 tol=0.001 diff=+8.149e-09
+[----] check 6: threshold 0.5, batch 4: rounded_0.5 kl: value=0.40752 target=0.40752 tol=0.001 diff=-1.863e-08
+[----] check 6: threshold 0.5, batch 5: rounded_0.5 kl: value=0.37008 target=0.37008 tol=0.001 diff=-9.313e-09
+[----] check 6: threshold 0.5, batch 6: rounded_0.5 kl: value=0.37885 target=0.37885 tol=0.001 diff=-2.794e-09
+[----] check 6: threshold 0.5, batch 7: rounded_0.5 kl: value=0.34035 target=0.34035 tol=0.001 diff=-3.725e-09
+[----] check 6: threshold 0.5, mean over 8 batches: rounded_0.5 kl: value=0.37392 target=0.37392 tol=0.001 diff=-6.665e-09
+[----] check 6: threshold 0.5, batch 0: zero_all kl: value=67.3564 target=67.3564 tol=0.001 diff=+5.245e-06
+[----] check 6: threshold 0.5, batch 1: zero_all kl: value=67.4579 target=67.4579 tol=0.001 diff=+3.815e-06
+[----] check 6: threshold 0.5, batch 2: zero_all kl: value=69.01049 target=69.01048 tol=0.001 diff=+6.199e-06
+[----] check 6: threshold 0.5, batch 3: zero_all kl: value=66.29531 target=66.29531 tol=0.001 diff=+2.146e-06
+[----] check 6: threshold 0.5, batch 4: zero_all kl: value=66.04542 target=66.04543 tol=0.001 diff=-2.861e-06
+[----] check 6: threshold 0.5, batch 5: zero_all kl: value=67.12185 target=67.12184 tol=0.001 diff=+6.676e-06
+[----] check 6: threshold 0.5, batch 6: zero_all kl: value=67.69476 target=67.69476 tol=0.001 diff=-3.338e-06
+[----] check 6: threshold 0.5, batch 7: zero_all kl: value=67.78384 target=67.78383 tol=0.001 diff=+7.153e-06
+[----] check 6: threshold 0.5, mean over 8 batches: zero_all kl: value=67.34575 target=67.34574 tol=0.001 diff=+3.129e-06
+[----] check 6: threshold 0.5, batch 0: zero_all ce diff (derived, not gated): value=67.41862 target=67.4245 tol= |diff|=5.88e-03
+[----] check 6: threshold 0.5, batch 1: zero_all ce diff (derived, not gated): value=67.54004 target=67.54326 tol= |diff|=3.22e-03
+[----] check 6: threshold 0.5, batch 2: zero_all ce diff (derived, not gated): value=69.11007 target=69.11118 tol= |diff|=1.12e-03
+[----] check 6: threshold 0.5, batch 3: zero_all ce diff (derived, not gated): value=66.29315 target=66.2949 tol= |diff|=1.75e-03
+[----] check 6: threshold 0.5, batch 4: zero_all ce diff (derived, not gated): value=66.0105 target=66.01417 tol= |diff|=3.67e-03
+[----] check 6: threshold 0.5, batch 5: zero_all ce diff (derived, not gated): value=67.11513 target=67.11622 tol= |diff|=1.10e-03
+[----] check 6: threshold 0.5, batch 6: zero_all ce diff (derived, not gated): value=67.73114 target=67.73262 tol= |diff|=1.48e-03
+[----] check 6: threshold 0.5, batch 7: zero_all ce diff (derived, not gated): value=68.04958 target=68.05056 tol= |diff|=9.80e-04
+[----] check 6: threshold 0.5, mean over 8 batches: zero_all ce diff (derived, not gated): value=67.40853 target=67.41093 tol= |diff|=2.40e-03
+
+## 3. Shape sensitivity, reported: ours at sub-batch 16 against the acceptance table at sub-batch 64 per sequence (M5's bf16 figure with g recomputed: 1.3e-3; with g fixed: 3.6e-4)
+
+| condition | column | max abs diff | mean abs diff | n > 1e-4 | n > 1e-3 |
+|---|---|---|---|---|---|
+| target | ce | 0.00e+00 | 0.00e+00 | 0 | 0 |
+| unmasked | kl_mean | 0.00e+00 | 0.00e+00 | 0 | 0 |
+| unmasked | ce | 0.00e+00 | 0.00e+00 | 0 | 0 |
+| rounded_0 | kl_mean | 0.00e+00 | 0.00e+00 | 0 | 0 |
+| rounded_0 | ce | 0.00e+00 | 0.00e+00 | 0 | 0 |
+| rounded_0.1 | kl_mean | 0.00e+00 | 0.00e+00 | 0 | 0 |
+| rounded_0.1 | ce | 0.00e+00 | 0.00e+00 | 0 | 0 |
+| importances | kl_mean | 0.00e+00 | 0.00e+00 | 0 | 0 |
+| importances | ce | 0.00e+00 | 0.00e+00 | 0 | 0 |
+| rounded_0.5 | kl_mean | 0.00e+00 | 0.00e+00 | 0 | 0 |
+| rounded_0.5 | ce | 0.00e+00 | 0.00e+00 | 0 | 0 |
+| zero_all | kl_mean | 0.00e+00 | 0.00e+00 | 0 | 0 |
+| zero_all | ce | 0.00e+00 | 0.00e+00 | 0 | 0 |
+

@@ -1,0 +1,107 @@
+{
+  "alive_file": "alive_D_unif_main.npy",
+  "alive_sha256": "ca771bcb10585b0efb52a07c00257729f181eb706d6ee9c283441d84faad0302",
+  "by_n_sequences": {
+    "1024": {
+      "alive": {
+        "layer_0": 3698,
+        "layer_1": 847,
+        "layer_2": 1942,
+        "layer_3": 3472,
+        "total": 9959
+      },
+      "mean_count_positive_per_position": {
+        "layer_0": 44.93504333496094,
+        "layer_1": 18.95561408996582,
+        "layer_2": 49.97951316833496,
+        "layer_3": 92.96864318847656,
+        "total": 206.83881378173828
+      },
+      "n_positions": 524288
+    },
+    "128": {
+      "alive": {
+        "layer_0": 3587,
+        "layer_1": 836,
+        "layer_2": 1936,
+        "layer_3": 3471,
+        "total": 9830
+      },
+      "mean_count_positive_per_position": {
+        "layer_0": 45.17521667480469,
+        "layer_1": 19.002822875976562,
+        "layer_2": 49.88594055175781,
+        "layer_3": 93.44560241699219,
+        "total": 207.50958251953125
+      },
+      "n_positions": 65536
+    },
+    "256": {
+      "alive": {
+        "layer_0": 3675,
+        "layer_1": 843,
+        "layer_2": 1942,
+        "layer_3": 3471,
+        "total": 9931
+      },
+      "mean_count_positive_per_position": {
+        "layer_0": 44.85490417480469,
+        "layer_1": 18.853347778320312,
+        "layer_2": 49.29644775390625,
+        "layer_3": 92.11101531982422,
+        "total": 205.11571502685547
+      },
+      "n_positions": 131072
+    },
+    "512": {
+      "alive": {
+        "layer_0": 3696,
+        "layer_1": 847,
+        "layer_2": 1943,
+        "layer_3": 3472,
+        "total": 9958
+      },
+      "mean_count_positive_per_position": {
+        "layer_0": 45.13033676147461,
+        "layer_1": 19.032020568847656,
+        "layer_2": 50.00474166870117,
+        "layer_3": 93.04781723022461,
+        "total": 207.21491622924805
+      },
+      "n_positions": 262144
+    },
+    "64": {
+      "alive": {
+        "layer_0": 3519,
+        "layer_1": 768,
+        "layer_2": 1894,
+        "layer_3": 3468,
+        "total": 9649
+      },
+      "mean_count_positive_per_position": {
+        "layer_0": 46.159637451171875,
+        "layer_1": 18.9737548828125,
+        "layer_2": 50.1004638671875,
+        "layer_3": 95.03375244140625,
+        "total": 210.26760864257812
+      },
+      "n_positions": 32768
+    }
+  },
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "n_alive_1024": 9959,
+  "paper_alive": {
+    "layer_0": 3709,
+    "layer_1": 848,
+    "layer_2": 1943,
+    "layer_3": 3472,
+    "total": 9972
+  },
+  "run": "main",
+  "acceptance_run_on_E": {
+    "1024": 9947,
+    "64": 9393
+  },
+  "set": "D_unif",
+  "threshold": 1e-06
+}

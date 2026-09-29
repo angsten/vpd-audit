@@ -1,0 +1,17 @@
+{
+  "cache": "E_main",
+  "cache_sha256": {
+    "indices": "d38845bac6777343174c6d97d12e0d08e9d97d1527b0067dae0fdda7db20026a",
+    "indptr": "d2154945a0a03dde52177a44f5007dd057f44e51e40f33fbcf4feb699a8b3101",
+    "values": "0429eaa5707467dd211070777d29df97ba8d460a2c6c668a0e5ddbaa58b1e131"
+  },
+  "max_labels_above_0_at_a_position": 1188,
+  "mean_labels_above_0.1_per_position": 189.7876377105713,
+  "mean_labels_above_0_per_position": 203.41951942443848,
+  "mean_labels_stored_per_position": 203.41951942443848,
+  "min_label": 7.450580596923828e-09,
+  "n_positions": 524288,
+  "n_sequences": 1024,
+  "n_stored_labels_not_above_0": 0,
+  "values_dtype": "float32"
+}
