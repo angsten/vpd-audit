@@ -1,0 +1,207 @@
+{
+  "commits": {
+    "dirty": "0",
+    "project": "c57fc2b543b4a3a0b8587e403a66be249a85670f",
+    "submodule": "74146b555f3eb3cd2bc639c3789fd3b7a099094a"
+  },
+  "eos_token_id": 0,
+  "file": {
+    "bytes": 338045152,
+    "path": "/cache/hf/hub/datasets--monology--pile-uncopyrighted/snapshots/3be90335b66f24456a5d6659d9c8d208c0357119/val.jsonl.zst",
+    "sha256": "db5e5d1532bf8dc33a6589b50ecba1a8c96f7b4b9cb343d168e603c393007c26"
+  },
+  "files": {
+    "panel_document_counts.csv": "97a4ab85e623f7125d93cc158ee56325e1f4410a688bed0ef8d9eaa9cbd8fa44",
+    "panel_document_index.csv": "baefdc0be6b34d2746d4477aebf25bf78d8c97934aa96b3768f23cd1b9668e3d"
+  },
+  "master_seed": 0,
+  "panels": {
+    "panel_ArXiv": {
+      "distinct_documents": 162,
+      "first_document_in_rows": 0,
+      "last_document_in_rows": 808,
+      "row_hashes_sha256": "fb791cf2be6799010772053601dbd0a8b05b0a6c56ffeb3cd4acd61fb5d54440",
+      "rows": 200,
+      "rows_equal": true,
+      "sha256_ids": "87162e03d74febaba2ee389a4f880003bdcb6f36b93587819995067a1715cfb6",
+      "sha256_ids_manifest": "87162e03d74febaba2ee389a4f880003bdcb6f36b93587819995067a1715cfb6",
+      "source": "ArXiv"
+    },
+    "panel_DM_Mathematics": {
+      "distinct_documents": 174,
+      "first_document_in_rows": 5,
+      "last_document_in_rows": 668,
+      "row_hashes_sha256": "d9b2bbd51bd260326689bc6e1b8c18369e5e95de64fcb5892ebe656d488fec2a",
+      "rows": 200,
+      "rows_equal": true,
+      "sha256_ids": "bc84e7416de1b600efed6d739f0ec5c28fe717c8c42718d87aed7106bc265714",
+      "sha256_ids_manifest": "bc84e7416de1b600efed6d739f0ec5c28fe717c8c42718d87aed7106bc265714",
+      "source": "DM Mathematics"
+    },
+    "panel_FreeLaw": {
+      "distinct_documents": 174,
+      "first_document_in_rows": 16,
+      "last_document_in_rows": 1697,
+      "row_hashes_sha256": "0cb86daba720ada05ec8337106cde504d9f71237cc37b050e8b9a89f6c464555",
+      "rows": 200,
+      "rows_equal": true,
+      "sha256_ids": "3161ec4afd8dc5b1a258c336ea2703288d48799bd303957c21f4273a70bd1bdb",
+      "sha256_ids_manifest": "3161ec4afd8dc5b1a258c336ea2703288d48799bd303957c21f4273a70bd1bdb",
+      "source": "FreeLaw"
+    },
+    "panel_Github": {
+      "distinct_documents": 193,
+      "first_document_in_rows": 116,
+      "last_document_in_rows": 6096,
+      "row_hashes_sha256": "51e1e0e1dee9e6964c5b8623ea22e7b59e8abdef1f275e9d9fd9b2eac08320a6",
+      "rows": 200,
+      "rows_equal": true,
+      "sha256_ids": "ea9d6580b33bcb1ca72131cb62bb7d0ffd76624e8b1a071012b165ac7eddb038",
+      "sha256_ids_manifest": null,
+      "source": "Github"
+    },
+    "panel_Pile_CC": {
+      "distinct_documents": 192,
+      "first_document_in_rows": 26,
+      "last_document_in_rows": 17541,
+      "row_hashes_sha256": "707be4b794b55f83490c266290da64808f83abdfa11c46539efcce4210b56fca",
+      "rows": 200,
+      "rows_equal": true,
+      "sha256_ids": "27a31ca9adc390f1f02f640290b542734a645a8dee31080e9c60109d6eb0db0a",
+      "sha256_ids_manifest": "27a31ca9adc390f1f02f640290b542734a645a8dee31080e9c60109d6eb0db0a",
+      "source": "Pile-CC"
+    },
+    "panel_PubMed_Central": {
+      "distinct_documents": 186,
+      "first_document_in_rows": 5,
+      "last_document_in_rows": 1976,
+      "row_hashes_sha256": "1ef58a942248282a3fdcddbb6a12078320e3c8c150154e0addbd004dd839aaa5",
+      "rows": 200,
+      "rows_equal": true,
+      "sha256_ids": "814258007f9df5b829fa93444f4bacfd73b2fff0f9563da04f31746b360892a8",
+      "sha256_ids_manifest": "814258007f9df5b829fa93444f4bacfd73b2fff0f9563da04f31746b360892a8",
+      "source": "PubMed Central"
+    },
+    "panel_StackExchange": {
+      "distinct_documents": 197,
+      "first_document_in_rows": 5,
+      "last_document_in_rows": 9927,
+      "row_hashes_sha256": "d43b44205a5bcb0f09f8f3293f0d702adeff2c6527f7cf3ef9e05390ab073195",
+      "rows": 200,
+      "rows_equal": true,
+      "sha256_ids": "21d2a56ed196d2a13f35e93b2f8575d3d34dd03c91f875b8f8055a7b6165ce85",
+      "sha256_ids_manifest": "21d2a56ed196d2a13f35e93b2f8575d3d34dd03c91f875b8f8055a7b6165ce85",
+      "source": "StackExchange"
+    },
+    "panel_Wikipedia__en_": {
+      "distinct_documents": 184,
+      "first_document_in_rows": 20,
+      "last_document_in_rows": 5824,
+      "row_hashes_sha256": "b9b9962158028c6b49d7f1deb369bf41ba5523d825039fd523f541e99014cf54",
+      "rows": 200,
+      "rows_equal": true,
+      "sha256_ids": "db20cc73603516ebcc62062e8452ad642478931eda51283c97ef023fa7802018",
+      "sha256_ids_manifest": "db20cc73603516ebcc62062e8452ad642478931eda51283c97ef023fa7802018",
+      "source": "Wikipedia (en)"
+    }
+  },
+  "parts": {
+    "ArXiv": {
+      "chars": 37790178,
+      "n_cut_separators": 0,
+      "n_docs": 811,
+      "n_end_of_text_literals_in_documents": 0,
+      "n_separator_piece_tokens": 0,
+      "n_straddling_tokens": 0,
+      "rows": 22161,
+      "rows_equal_to_tokenize_documents": true,
+      "seconds": 76.37967848777771
+    },
+    "DM Mathematics": {
+      "chars": 5481786,
+      "n_cut_separators": 0,
+      "n_docs": 669,
+      "n_end_of_text_literals_in_documents": 0,
+      "n_separator_piece_tokens": 0,
+      "n_straddling_tokens": 0,
+      "rows": 4854,
+      "rows_equal_to_tokenize_documents": true,
+      "seconds": 13.452062606811523
+    },
+    "FreeLaw": {
+      "chars": 27840615,
+      "n_cut_separators": 0,
+      "n_docs": 1698,
+      "n_end_of_text_literals_in_documents": 0,
+      "n_separator_piece_tokens": 0,
+      "n_straddling_tokens": 0,
+      "rows": 12445,
+      "rows_equal_to_tokenize_documents": true,
+      "seconds": 47.197858810424805
+    },
+    "Github": {
+      "chars": 32448590,
+      "n_cut_separators": 0,
+      "n_docs": 6112,
+      "n_end_of_text_literals_in_documents": 0,
+      "n_separator_piece_tokens": 0,
+      "n_straddling_tokens": 0,
+      "rows": 21367,
+      "rows_equal_to_tokenize_documents": true,
+      "seconds": 69.52961564064026
+    },
+    "Pile-CC": {
+      "chars": 78147431,
+      "n_cut_separators": 1,
+      "n_docs": 17597,
+      "n_end_of_text_literals_in_documents": 0,
+      "n_separator_piece_tokens": 6,
+      "n_straddling_tokens": 0,
+      "rows": 35193,
+      "rows_equal_to_tokenize_documents": true,
+      "seconds": 113.16313362121582
+    },
+    "PubMed Central": {
+      "chars": 61730628,
+      "n_cut_separators": 0,
+      "n_docs": 1992,
+      "n_end_of_text_literals_in_documents": 0,
+      "n_separator_piece_tokens": 0,
+      "n_straddling_tokens": 0,
+      "rows": 27549,
+      "rows_equal_to_tokenize_documents": true,
+      "seconds": 100.2545747756958
+    },
+    "StackExchange": {
+      "chars": 21939663,
+      "n_cut_separators": 0,
+      "n_docs": 9983,
+      "n_end_of_text_literals_in_documents": 0,
+      "n_separator_piece_tokens": 0,
+      "n_straddling_tokens": 0,
+      "rows": 12247,
+      "rows_equal_to_tokenize_documents": true,
+      "seconds": 35.09073996543884
+    },
+    "Wikipedia (en)": {
+      "chars": 17889456,
+      "n_cut_separators": 2,
+      "n_docs": 5826,
+      "n_end_of_text_literals_in_documents": 0,
+      "n_separator_piece_tokens": 14,
+      "n_straddling_tokens": 0,
+      "rows": 8411,
+      "rows_equal_to_tokenize_documents": true,
+      "seconds": 26.23053812980652
+    }
+  },
+  "procedure": {
+    "chunks_per_batch": 20,
+    "majority": "over the saved 512 tokens, end-of-text ids not counted, ties to the earlier document",
+    "map_batch_size": 1000,
+    "row_length": 513,
+    "saved_tokens_per_row": 512
+  },
+  "seconds": 509.86138343811035,
+  "tokenizer": "EleutherAI/gpt-neox-20b"
+}

@@ -1,0 +1,48 @@
+{
+  "commits": {
+    "dirty": "0",
+    "project": "c57fc2b543b4a3a0b8587e403a66be249a85670f",
+    "submodule": "74146b555f3eb3cd2bc639c3789fd3b7a099094a"
+  },
+  "coverage": {
+    "edit_sizes": [
+      256,
+      1007
+    ],
+    "panels": {
+      "ArXiv": "panel_ArXiv",
+      "Pile-CC": "panel_Pile_CC",
+      "StackExchange": "panel_StackExchange",
+      "Wikipedia (en)": "panel_Wikipedia__en_"
+    },
+    "tau_qs": [
+      "0.1",
+      "0"
+    ]
+  },
+  "files": [
+    "hard_delete_per_draw.csv",
+    "panel_coverage.csv",
+    "code_edit_E_lab_document_intervals.csv"
+  ],
+  "hard_delete": {
+    "committed_table": "results/grid/analysis/main/fig4_never_named.csv",
+    "n_per_draw_committed": [
+      201,
+      222,
+      226,
+      143,
+      212,
+      154,
+      38,
+      156
+    ],
+    "n_texts": 1024,
+    "never_needed_mean": 0.0059711568728673114,
+    "never_needed_mean_committed": 0.0059711568728673114,
+    "random_alive_mean": 1.120206958873041,
+    "random_alive_mean_committed": 1.120206958873041,
+    "reference": "main/E/ref/unmasked_delta"
+  },
+  "run": "main"
+}

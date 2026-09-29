@@ -1,0 +1,577 @@
+{
+  "document_index": {
+    "counts": [
+      {
+        "distinct_documents": 193,
+        "documents_touched_mean": 1.255,
+        "panel": "panel_Github",
+        "part_C_documents": 6112,
+        "part_C_rows": 21367,
+        "rows": 200,
+        "rows_per_document_max": 2,
+        "rows_per_document_mean": 1.0362694300518134,
+        "rows_sharing_a_document": 14,
+        "separator_piece_tokens_in_rows": 0,
+        "source": "Github",
+        "straddling_tokens_in_rows": 0
+      },
+      {
+        "distinct_documents": 197,
+        "documents_touched_mean": 1.82,
+        "panel": "panel_StackExchange",
+        "part_C_documents": 9983,
+        "part_C_rows": 12247,
+        "rows": 200,
+        "rows_per_document_max": 2,
+        "rows_per_document_mean": 1.015228426395939,
+        "rows_sharing_a_document": 6,
+        "separator_piece_tokens_in_rows": 0,
+        "source": "StackExchange",
+        "straddling_tokens_in_rows": 0
+      },
+      {
+        "distinct_documents": 162,
+        "documents_touched_mean": 1.015,
+        "panel": "panel_ArXiv",
+        "part_C_documents": 811,
+        "part_C_rows": 22161,
+        "rows": 200,
+        "rows_per_document_max": 4,
+        "rows_per_document_mean": 1.2345679012345678,
+        "rows_sharing_a_document": 68,
+        "separator_piece_tokens_in_rows": 0,
+        "source": "ArXiv",
+        "straddling_tokens_in_rows": 0
+      },
+      {
+        "distinct_documents": 192,
+        "documents_touched_mean": 1.56,
+        "panel": "panel_Pile_CC",
+        "part_C_documents": 17597,
+        "part_C_rows": 35193,
+        "rows": 200,
+        "rows_per_document_max": 3,
+        "rows_per_document_mean": 1.0416666666666667,
+        "rows_sharing_a_document": 14,
+        "separator_piece_tokens_in_rows": 0,
+        "source": "Pile-CC",
+        "straddling_tokens_in_rows": 0
+      },
+      {
+        "distinct_documents": 184,
+        "documents_touched_mean": 1.79,
+        "panel": "panel_Wikipedia__en_",
+        "part_C_documents": 5826,
+        "part_C_rows": 8411,
+        "rows": 200,
+        "rows_per_document_max": 3,
+        "rows_per_document_mean": 1.0869565217391304,
+        "rows_sharing_a_document": 29,
+        "separator_piece_tokens_in_rows": 7,
+        "source": "Wikipedia (en)",
+        "straddling_tokens_in_rows": 0
+      },
+      {
+        "distinct_documents": 174,
+        "documents_touched_mean": 1.145,
+        "panel": "panel_DM_Mathematics",
+        "part_C_documents": 669,
+        "part_C_rows": 4854,
+        "rows": 200,
+        "rows_per_document_max": 3,
+        "rows_per_document_mean": 1.1494252873563218,
+        "rows_sharing_a_document": 49,
+        "separator_piece_tokens_in_rows": 0,
+        "source": "DM Mathematics",
+        "straddling_tokens_in_rows": 0
+      },
+      {
+        "distinct_documents": 186,
+        "documents_touched_mean": 1.08,
+        "panel": "panel_PubMed_Central",
+        "part_C_documents": 1992,
+        "part_C_rows": 27549,
+        "rows": 200,
+        "rows_per_document_max": 2,
+        "rows_per_document_mean": 1.075268817204301,
+        "rows_sharing_a_document": 28,
+        "separator_piece_tokens_in_rows": 0,
+        "source": "PubMed Central",
+        "straddling_tokens_in_rows": 0
+      },
+      {
+        "distinct_documents": 174,
+        "documents_touched_mean": 1.11,
+        "panel": "panel_FreeLaw",
+        "part_C_documents": 1698,
+        "part_C_rows": 12445,
+        "rows": 200,
+        "rows_per_document_max": 3,
+        "rows_per_document_mean": 1.1494252873563218,
+        "rows_sharing_a_document": 50,
+        "separator_piece_tokens_in_rows": 0,
+        "source": "FreeLaw",
+        "straddling_tokens_in_rows": 0
+      }
+    ],
+    "file_sha256": "db5e5d1532bf8dc33a6589b50ecba1a8c96f7b4b9cb343d168e603c393007c26",
+    "panels_held_to_committed_manifests": {
+      "panel_ArXiv": 2,
+      "panel_DM_Mathematics": 1,
+      "panel_FreeLaw": 1,
+      "panel_Github": 1,
+      "panel_Pile_CC": 2,
+      "panel_PubMed_Central": 1,
+      "panel_StackExchange": 2,
+      "panel_Wikipedia__en_": 2
+    },
+    "parts": {
+      "ArXiv": {
+        "chars": 37790178,
+        "n_cut_separators": 0,
+        "n_docs": 811,
+        "n_end_of_text_literals_in_documents": 0,
+        "n_separator_piece_tokens": 0,
+        "n_straddling_tokens": 0,
+        "rows": 22161,
+        "rows_equal_to_tokenize_documents": true,
+        "seconds": 76.37967848777771
+      },
+      "DM Mathematics": {
+        "chars": 5481786,
+        "n_cut_separators": 0,
+        "n_docs": 669,
+        "n_end_of_text_literals_in_documents": 0,
+        "n_separator_piece_tokens": 0,
+        "n_straddling_tokens": 0,
+        "rows": 4854,
+        "rows_equal_to_tokenize_documents": true,
+        "seconds": 13.452062606811523
+      },
+      "FreeLaw": {
+        "chars": 27840615,
+        "n_cut_separators": 0,
+        "n_docs": 1698,
+        "n_end_of_text_literals_in_documents": 0,
+        "n_separator_piece_tokens": 0,
+        "n_straddling_tokens": 0,
+        "rows": 12445,
+        "rows_equal_to_tokenize_documents": true,
+        "seconds": 47.197858810424805
+      },
+      "Github": {
+        "chars": 32448590,
+        "n_cut_separators": 0,
+        "n_docs": 6112,
+        "n_end_of_text_literals_in_documents": 0,
+        "n_separator_piece_tokens": 0,
+        "n_straddling_tokens": 0,
+        "rows": 21367,
+        "rows_equal_to_tokenize_documents": true,
+        "seconds": 69.52961564064026
+      },
+      "Pile-CC": {
+        "chars": 78147431,
+        "n_cut_separators": 1,
+        "n_docs": 17597,
+        "n_end_of_text_literals_in_documents": 0,
+        "n_separator_piece_tokens": 6,
+        "n_straddling_tokens": 0,
+        "rows": 35193,
+        "rows_equal_to_tokenize_documents": true,
+        "seconds": 113.16313362121582
+      },
+      "PubMed Central": {
+        "chars": 61730628,
+        "n_cut_separators": 0,
+        "n_docs": 1992,
+        "n_end_of_text_literals_in_documents": 0,
+        "n_separator_piece_tokens": 0,
+        "n_straddling_tokens": 0,
+        "rows": 27549,
+        "rows_equal_to_tokenize_documents": true,
+        "seconds": 100.2545747756958
+      },
+      "StackExchange": {
+        "chars": 21939663,
+        "n_cut_separators": 0,
+        "n_docs": 9983,
+        "n_end_of_text_literals_in_documents": 0,
+        "n_separator_piece_tokens": 0,
+        "n_straddling_tokens": 0,
+        "rows": 12247,
+        "rows_equal_to_tokenize_documents": true,
+        "seconds": 35.09073996543884
+      },
+      "Wikipedia (en)": {
+        "chars": 17889456,
+        "n_cut_separators": 2,
+        "n_docs": 5826,
+        "n_end_of_text_literals_in_documents": 0,
+        "n_separator_piece_tokens": 14,
+        "n_straddling_tokens": 0,
+        "rows": 8411,
+        "rows_equal_to_tokenize_documents": true,
+        "seconds": 26.23053812980652
+      }
+    }
+  },
+  "erased_sets": {
+    "code_leaning": {
+      "group_threshold": 0.9,
+      "ladder": [
+        [
+          16,
+          false
+        ],
+        [
+          64,
+          false
+        ],
+        [
+          256,
+          false
+        ],
+        [
+          1007,
+          false
+        ],
+        [
+          1862,
+          true
+        ]
+      ],
+      "n_group": 1007,
+      "n_wide": 1862,
+      "wide_threshold": 0.75
+    },
+    "held": {
+      "n_equal": 18,
+      "stores": {
+        "results/grid/main/tier4/E_lab__code_leaning": 18
+      }
+    }
+  },
+  "label_tables_commits": {
+    "dirty": "0",
+    "project": "c57fc2b543b4a3a0b8587e403a66be249a85670f",
+    "submodule": "74146b555f3eb3cd2bc639c3789fd3b7a099094a"
+  },
+  "merge_sets": {
+    "held": {
+      "n_equal": 96,
+      "stores": {
+        "results/grid/main/tier1/E": 16,
+        "results/grid/main/tier2/E": 16,
+        "results/grid/main/tier4/E__marginal": 16,
+        "results/grid/main_s9/tier5/E_lab__same_domain": 48
+      }
+    },
+    "n_chains": 48,
+    "n_on_per_draw": {
+      "E D_unif T2": [
+        350,
+        467,
+        355,
+        804,
+        540,
+        299,
+        120,
+        259
+      ],
+      "E D_unif T4": [
+        627,
+        665,
+        524,
+        1067,
+        815,
+        564,
+        554,
+        548
+      ],
+      "E_lab D_code T2": [
+        421,
+        167,
+        331,
+        188,
+        196,
+        462,
+        312,
+        414
+      ],
+      "E_lab D_code T4": [
+        692,
+        445,
+        585,
+        380,
+        647,
+        686,
+        654,
+        596
+      ],
+      "E_lab D_prose T2": [
+        553,
+        342,
+        233,
+        252,
+        229,
+        296,
+        321,
+        353
+      ],
+      "E_lab D_prose T4": [
+        795,
+        639,
+        463,
+        421,
+        411,
+        713,
+        553,
+        591
+      ],
+      "E_lab D_unif T2": [
+        350,
+        467,
+        355,
+        804,
+        540,
+        299,
+        120,
+        259
+      ],
+      "E_lab D_unif T4": [
+        627,
+        665,
+        524,
+        1067,
+        815,
+        564,
+        554,
+        548
+      ]
+    },
+    "n_on_summary": [
+      {
+        "eval_set": "E",
+        "max": 804,
+        "mean": 399.25,
+        "min": 120,
+        "pool": "D_unif",
+        "rung": "T2"
+      },
+      {
+        "eval_set": "E",
+        "max": 1067,
+        "mean": 670.5,
+        "min": 524,
+        "pool": "D_unif",
+        "rung": "T4"
+      },
+      {
+        "eval_set": "E_lab",
+        "max": 462,
+        "mean": 311.375,
+        "min": 167,
+        "pool": "D_code",
+        "rung": "T2"
+      },
+      {
+        "eval_set": "E_lab",
+        "max": 692,
+        "mean": 585.625,
+        "min": 380,
+        "pool": "D_code",
+        "rung": "T4"
+      },
+      {
+        "eval_set": "E_lab",
+        "max": 553,
+        "mean": 322.375,
+        "min": 229,
+        "pool": "D_prose",
+        "rung": "T2"
+      },
+      {
+        "eval_set": "E_lab",
+        "max": 795,
+        "mean": 573.25,
+        "min": 411,
+        "pool": "D_prose",
+        "rung": "T4"
+      },
+      {
+        "eval_set": "E_lab",
+        "max": 804,
+        "mean": 399.25,
+        "min": 120,
+        "pool": "D_unif",
+        "rung": "T2"
+      },
+      {
+        "eval_set": "E_lab",
+        "max": 1067,
+        "mean": 670.5,
+        "min": 524,
+        "pool": "D_unif",
+        "rung": "T4"
+      }
+    ]
+  },
+  "removed_label": {
+    "e_lab_validation": {
+      "max_abs_difference": 7.792773885739734e-06,
+      "max_relative_difference": 2.3195470454795459e-07,
+      "n_texts": 9216,
+      "n_texts_bitwise_equal_in_float32": 5698
+    },
+    "order_by_omega_group": {
+      "256": [
+        "Github",
+        "StackExchange",
+        "ArXiv",
+        "Pile-CC",
+        "Wikipedia (en)"
+      ],
+      "1007": [
+        "Github",
+        "StackExchange",
+        "ArXiv",
+        "Pile-CC",
+        "Wikipedia (en)"
+      ]
+    },
+    "table": [
+      {
+        "group_cell": "main/E_lab/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG256",
+        "n_rows": 200,
+        "n_twin_draws": 8,
+        "omega_group": 9.79207044328916,
+        "omega_twins": 0.7907726410424644,
+        "omega_twins_draw_max": 0.8560070395113764,
+        "omega_twins_draw_min": 0.6982366798772108,
+        "panel": "panel_Github",
+        "rank_by_omega_group": 1,
+        "size": 256,
+        "source": "Github"
+      },
+      {
+        "group_cell": "main/E_lab/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG1007",
+        "n_rows": 200,
+        "n_twin_draws": 8,
+        "omega_group": 43.025019542218054,
+        "omega_twins": 6.430781806549801,
+        "omega_twins_draw_max": 7.40016055320711,
+        "omega_twins_draw_min": 5.459187420981286,
+        "panel": "panel_Github",
+        "rank_by_omega_group": 1,
+        "size": 1007,
+        "source": "Github"
+      },
+      {
+        "group_cell": "main/E_lab/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG256",
+        "n_rows": 200,
+        "n_twin_draws": 8,
+        "omega_group": 5.713767991285519,
+        "omega_twins": 1.1033070992781202,
+        "omega_twins_draw_max": 1.2108238786609729,
+        "omega_twins_draw_min": 0.9958734650372014,
+        "panel": "panel_StackExchange",
+        "rank_by_omega_group": 2,
+        "size": 256,
+        "source": "StackExchange"
+      },
+      {
+        "group_cell": "main/E_lab/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG1007",
+        "n_rows": 200,
+        "n_twin_draws": 8,
+        "omega_group": 31.02226825208728,
+        "omega_twins": 7.858903562195551,
+        "omega_twins_draw_max": 8.618401028745136,
+        "omega_twins_draw_min": 7.106650955679741,
+        "panel": "panel_StackExchange",
+        "rank_by_omega_group": 2,
+        "size": 1007,
+        "source": "StackExchange"
+      },
+      {
+        "group_cell": "main/E_lab/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG256",
+        "n_rows": 200,
+        "n_twin_draws": 8,
+        "omega_group": 1.386342198717146,
+        "omega_twins": 1.6896154855110934,
+        "omega_twins_draw_max": 2.089392604359887,
+        "omega_twins_draw_min": 1.2570520681681123,
+        "panel": "panel_ArXiv",
+        "rank_by_omega_group": 3,
+        "size": 256,
+        "source": "ArXiv"
+      },
+      {
+        "group_cell": "main/E_lab/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG1007",
+        "n_rows": 200,
+        "n_twin_draws": 8,
+        "omega_group": 15.445546995330696,
+        "omega_twins": 10.01707829725606,
+        "omega_twins_draw_max": 10.692670132562926,
+        "omega_twins_draw_min": 9.067994593400329,
+        "panel": "panel_ArXiv",
+        "rank_by_omega_group": 3,
+        "size": 1007,
+        "source": "ArXiv"
+      },
+      {
+        "group_cell": "main/E_lab/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG256",
+        "n_rows": 200,
+        "n_twin_draws": 8,
+        "omega_group": 0.1603221782006011,
+        "omega_twins": 2.053951090606242,
+        "omega_twins_draw_max": 2.244454679651435,
+        "omega_twins_draw_min": 1.8994182507133368,
+        "panel": "panel_Pile_CC",
+        "rank_by_omega_group": 4,
+        "size": 256,
+        "source": "Pile-CC"
+      },
+      {
+        "group_cell": "main/E_lab/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG1007",
+        "n_rows": 200,
+        "n_twin_draws": 8,
+        "omega_group": 2.1107749568328735,
+        "omega_twins": 12.450123693552715,
+        "omega_twins_draw_max": 13.572961199640863,
+        "omega_twins_draw_min": 11.605210609127344,
+        "panel": "panel_Pile_CC",
+        "rank_by_omega_group": 4,
+        "size": 1007,
+        "source": "Pile-CC"
+      },
+      {
+        "group_cell": "main/E_lab/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG256",
+        "n_rows": 200,
+        "n_twin_draws": 8,
+        "omega_group": 0.0574821685618314,
+        "omega_twins": 2.3324254437714456,
+        "omega_twins_draw_max": 2.5842125346575635,
+        "omega_twins_draw_min": 2.045380313526569,
+        "panel": "panel_Wikipedia__en_",
+        "rank_by_omega_group": 5,
+        "size": 256,
+        "source": "Wikipedia (en)"
+      },
+      {
+        "group_cell": "main/E_lab/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG1007",
+        "n_rows": 200,
+        "n_twin_draws": 8,
+        "omega_group": 1.2402656506915606,
+        "omega_twins": 13.979852643380784,
+        "omega_twins_draw_max": 15.1459322710977,
+        "omega_twins_draw_min": 13.11331114274693,
+        "panel": "panel_Wikipedia__en_",
+        "rank_by_omega_group": 5,
+        "size": 1007,
+        "source": "Wikipedia (en)"
+      }
+    ]
+  },
+  "run": "main"
+}

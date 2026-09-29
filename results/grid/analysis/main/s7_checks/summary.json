@@ -1,0 +1,84 @@
+{
+  "check_a": {
+    "all_agree": true,
+    "comparison": [
+      {
+        "agrees": true,
+        "claimed": 1024,
+        "computed": 1024,
+        "decimals": 0,
+        "quantity": "n_texts"
+      },
+      {
+        "agrees": true,
+        "claimed": 1024,
+        "computed": 1024,
+        "decimals": 0,
+        "quantity": "n_texts_below"
+      },
+      {
+        "agrees": true,
+        "claimed": -0.138,
+        "computed": -0.13845475018024445,
+        "decimals": 3,
+        "quantity": "median_paired_difference"
+      },
+      {
+        "agrees": true,
+        "claimed": -0.176,
+        "computed": -0.17577844858169556,
+        "decimals": 3,
+        "quantity": "p10_paired_difference"
+      },
+      {
+        "agrees": true,
+        "claimed": -0.068,
+        "computed": -0.06834294274449347,
+        "decimals": 3,
+        "quantity": "p90_paired_difference"
+      },
+      {
+        "agrees": true,
+        "claimed": 0.2126,
+        "computed": 0.212647605145321,
+        "decimals": 4,
+        "quantity": "mean_level"
+      },
+      {
+        "agrees": true,
+        "claimed": 0.3417,
+        "computed": 0.34172251239215257,
+        "decimals": 4,
+        "quantity": "mean_importances"
+      }
+    ],
+    "computed": {
+      "max_paired_difference": -0.015627771615982056,
+      "mean_importances": 0.34172251239215257,
+      "mean_level": 0.212647605145321,
+      "mean_paired_difference": -0.12907490724683157,
+      "median_paired_difference": -0.13845475018024445,
+      "min_paired_difference": -0.22562843561172485,
+      "n_texts": 1024,
+      "n_texts_above": 0,
+      "n_texts_below": 1024,
+      "n_texts_equal": 0,
+      "p10_paired_difference": -0.17577844858169556,
+      "p90_paired_difference": -0.06834294274449347
+    },
+    "every_text_below": true,
+    "level_cell": "main/E/level/D_unif/tau0.1/r0/excl/k0/r8/s0.5",
+    "reference": "main/E/ref/importances",
+    "store": "results/grid/main/tier3/E__levels/per_sequence.parquet"
+  },
+  "check_b": {
+    "all_agree": false,
+    "n_compared": 36,
+    "n_disagree": 1
+  },
+  "commits": {
+    "dirty": "0",
+    "project": "c57fc2b543b4a3a0b8587e403a66be249a85670f",
+    "submodule": "74146b555f3eb3cd2bc639c3789fd3b7a099094a"
+  }
+}

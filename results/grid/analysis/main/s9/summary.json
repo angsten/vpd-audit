@@ -1,0 +1,398 @@
+{
+  "check_a": {
+    "detail": {
+      "Pile-CC": {
+        "64": {
+          "guard": true,
+          "n_documents": 25,
+          "ratio": 26.316456595789386,
+          "ratio_interval": [
+            16.74888411832569,
+            54.55257837459852
+          ]
+        },
+        "256": {
+          "guard": true,
+          "n_documents": 25,
+          "ratio": 8.351916415803165,
+          "ratio_interval": [
+            6.766346461115688,
+            12.30882175476649
+          ]
+        }
+      },
+      "Wikipedia (en)": {
+        "64": {
+          "guard": true,
+          "n_documents": 33,
+          "ratio": 19.644284957446338,
+          "ratio_interval": [
+            8.599904774466003,
+            70.38543318491647
+          ]
+        },
+        "256": {
+          "guard": true,
+          "n_documents": 33,
+          "ratio": 6.0495968311717565,
+          "ratio_interval": [
+            2.9138759076422294,
+            19.710982620524064
+          ]
+        }
+      }
+    },
+    "readings": {
+      "Pile-CC": "not met",
+      "Wikipedia (en)": "not met"
+    },
+    "regression": {
+      "github_checked": true,
+      "max_abs_difference": 0.0,
+      "n_by_source": 40,
+      "n_github": 10,
+      "n_interval_unequal": 0,
+      "n_unequal": 0,
+      "pass": true
+    },
+    "supported": false
+  },
+  "check_b": {
+    "cache_half_commits": {
+      "dirty": "0",
+      "project": "c57fc2b543b4a3a0b8587e403a66be249a85670f",
+      "submodule": "74146b555f3eb3cd2bc639c3789fd3b7a099094a"
+    },
+    "reading": {
+      "reading": "code-leaning stands",
+      "words": {
+        "pile_cc_vs_wikipedia": "none",
+        "wikipedia_vs_pile_cc": "none"
+      }
+    },
+    "regression": {
+      "committed": {
+        "mass": 49.470176696777344,
+        "n_members": 1007,
+        "null_p95": 0.002906990051269531,
+        "share": 0.2475824206097587,
+        "verdict": "clear"
+      },
+      "mass": 49.470176696777344,
+      "n_members": 1007,
+      "null_p95": 0.002906990051269531,
+      "pass": true,
+      "share": 0.2475824206097587,
+      "word": "clear"
+    }
+  },
+  "check_c": {
+    "bar": 0.74,
+    "n_draws": 8,
+    "n_sets_asserted": 32,
+    "reading": "not seen",
+    "sentence": "*Not seen* carries no weight in the post: with eight draws a true correlation of 0.6 gives 0.3 or less about one time in five, so a null here is not evidence of absence, and the tier-5 same-domain merge tests the same rival on far more data.",
+    "spearman_matched_share_vs_U_minus_M_prose": -0.7142857142857143,
+    "spearman_n_on_vs_U_minus_M_prose": -0.21428571428571427,
+    "spearman_share_vs_U_minus_M_prose": -0.9285714285714286
+  },
+  "check_d": {
+    "gate": {
+      "max_abs_difference": 8.526444435119629e-05,
+      "n_cells": 69,
+      "pass": true,
+      "tolerance": 0.0005
+    },
+    "texts_regression": {
+      "n": 24,
+      "n_unequal": 0,
+      "pass": true,
+      "registered_values": [
+        {
+          "computed": 0.0,
+          "control": "none",
+          "equal_at_3dp": true,
+          "registered": 0.0,
+          "rung": "1"
+        },
+        {
+          "computed": 0.2548828125,
+          "control": "none",
+          "equal_at_3dp": true,
+          "registered": 0.255,
+          "rung": "2"
+        },
+        {
+          "computed": 1.0,
+          "control": "none",
+          "equal_at_3dp": true,
+          "registered": 1.0,
+          "rung": "3"
+        },
+        {
+          "computed": 0.95703125,
+          "control": "none",
+          "equal_at_3dp": true,
+          "registered": 0.957,
+          "rung": "2a"
+        },
+        {
+          "computed": 1.0,
+          "control": "none",
+          "equal_at_3dp": true,
+          "registered": 1.0,
+          "rung": "2b"
+        }
+      ]
+    },
+    "word": {
+      "bootstrap": "texts of E (the grid's own resample), draws held fixed",
+      "interval_95": [
+        0.7568561613559723,
+        0.7641791820526123
+      ],
+      "per_draw": [
+        0.7461757659912109,
+        0.7707042694091797,
+        0.7620487213134766,
+        0.7726039886474609,
+        0.734588623046875,
+        0.7892723083496094,
+        0.7460460662841797,
+        0.7626571655273438
+      ],
+      "replicates": 10000,
+      "statistic": "S(0.05) on curve 1 at 64 tokens",
+      "value": 0.760512113571167,
+      "word": "on most positions"
+    }
+  },
+  "commits": {
+    "dirty": "0",
+    "project": "c57fc2b543b4a3a0b8587e403a66be249a85670f",
+    "submodule": "74146b555f3eb3cd2bc639c3789fd3b7a099094a"
+  },
+  "documents": {
+    "document_counts": [
+      {
+        "distinct_documents": 69,
+        "documents_by_end_of_text_count": 99,
+        "expected_hidden_boundaries": 0.1906585693359375,
+        "n_end_of_text": 98,
+        "rows": 256,
+        "rows_per_document_max": 25,
+        "rows_per_document_mean": 3.710144927536232,
+        "set": "E_lab",
+        "source": "Github"
+      },
+      {
+        "distinct_documents": 25,
+        "documents_by_end_of_text_count": 38,
+        "expected_hidden_boundaries": 0.071136474609375,
+        "n_end_of_text": 37,
+        "rows": 64,
+        "rows_per_document_max": 11,
+        "rows_per_document_mean": 2.56,
+        "set": "E_lab",
+        "source": "Pile-CC"
+      },
+      {
+        "distinct_documents": 33,
+        "documents_by_end_of_text_count": 55,
+        "expected_hidden_boundaries": 0.10382080078125,
+        "n_end_of_text": 54,
+        "rows": 64,
+        "rows_per_document_max": 6,
+        "rows_per_document_mean": 1.9393939393939394,
+        "set": "E_lab",
+        "source": "Wikipedia (en)"
+      },
+      {
+        "distinct_documents": 44,
+        "documents_by_end_of_text_count": 61,
+        "expected_hidden_boundaries": 0.1153564453125,
+        "n_end_of_text": 60,
+        "rows": 64,
+        "rows_per_document_max": 6,
+        "rows_per_document_mean": 1.4545454545454546,
+        "set": "E_lab",
+        "source": "StackExchange"
+      },
+      {
+        "distinct_documents": 3,
+        "documents_by_end_of_text_count": 3,
+        "expected_hidden_boundaries": 0.00384521484375,
+        "n_end_of_text": 2,
+        "rows": 64,
+        "rows_per_document_max": 29,
+        "rows_per_document_mean": 21.333333333333332,
+        "set": "E_lab",
+        "source": "ArXiv"
+      },
+      {
+        "distinct_documents": 96,
+        "documents_by_end_of_text_count": 130,
+        "expected_hidden_boundaries": 0.2514610290527344,
+        "n_end_of_text": 129,
+        "rows": 512,
+        "rows_per_document_max": 56,
+        "rows_per_document_mean": 5.333333333333333,
+        "set": "D_code",
+        "source": "Github"
+      },
+      {
+        "distinct_documents": 98,
+        "documents_by_end_of_text_count": 141,
+        "expected_hidden_boundaries": 0.272369384765625,
+        "n_end_of_text": 140,
+        "rows": 256,
+        "rows_per_document_max": 36,
+        "rows_per_document_mean": 2.6122448979591835,
+        "set": "D_prose",
+        "source": "Pile-CC"
+      },
+      {
+        "distinct_documents": 105,
+        "documents_by_end_of_text_count": 172,
+        "expected_hidden_boundaries": 0.33267974853515625,
+        "n_end_of_text": 171,
+        "rows": 256,
+        "rows_per_document_max": 14,
+        "rows_per_document_mean": 2.4380952380952383,
+        "set": "D_prose",
+        "source": "Wikipedia (en)"
+      }
+    ],
+    "near_duplicate_pairs": 42,
+    "near_duplicate_share": 0.0390625
+  },
+  "frozen": "c57fc2b543b4a3a0b8587e403a66be249a85670f",
+  "frozen_modules": {
+    "against": "main",
+    "against_commit": "c57fc2b543b4a3a0b8587e403a66be249a85670f",
+    "head": "c57fc2b543b4a3a0b8587e403a66be249a85670f",
+    "modules": [
+      {
+        "blob_at_head": "5c6e1afc019aba09688e5954e282298e9d2eaaf7",
+        "blob_on_disk": "5c6e1afc019aba09688e5954e282298e9d2eaaf7",
+        "blob_on_main": "5c6e1afc019aba09688e5954e282298e9d2eaaf7",
+        "equal": true,
+        "module": "vpd_audit/stats.py"
+      },
+      {
+        "blob_at_head": "849ae0a462f63e732e3aa2e5bf5a0197e8fdecb7",
+        "blob_on_disk": "849ae0a462f63e732e3aa2e5bf5a0197e8fdecb7",
+        "blob_on_main": "849ae0a462f63e732e3aa2e5bf5a0197e8fdecb7",
+        "equal": true,
+        "module": "vpd_audit/stats_s7.py"
+      },
+      {
+        "blob_at_head": "3a1d9a38168ef664c11cc35adba04cb208874d67",
+        "blob_on_disk": "3a1d9a38168ef664c11cc35adba04cb208874d67",
+        "blob_on_main": "3a1d9a38168ef664c11cc35adba04cb208874d67",
+        "equal": true,
+        "module": "vpd_audit/analysis.py"
+      },
+      {
+        "blob_at_head": "e64f29c7a9f07ec7350fc92f8e6cce73aee19ac3",
+        "blob_on_disk": "e64f29c7a9f07ec7350fc92f8e6cce73aee19ac3",
+        "blob_on_main": "e64f29c7a9f07ec7350fc92f8e6cce73aee19ac3",
+        "equal": true,
+        "module": "vpd_audit/analysis_s7.py"
+      },
+      {
+        "blob_at_head": "217421d7665134449952fb1c35368480deb826ed",
+        "blob_on_disk": "217421d7665134449952fb1c35368480deb826ed",
+        "blob_on_main": "217421d7665134449952fb1c35368480deb826ed",
+        "equal": true,
+        "module": "vpd_audit/figures.py"
+      },
+      {
+        "blob_at_head": "b1d5eab36864392080c9380b64c60c2554148fed",
+        "blob_on_disk": "b1d5eab36864392080c9380b64c60c2554148fed",
+        "blob_on_main": "b1d5eab36864392080c9380b64c60c2554148fed",
+        "equal": true,
+        "module": "vpd_audit/figures_s7.py"
+      }
+    ],
+    "pass": true,
+    "recorded": [
+      {
+        "blob_at_HEAD": "3adca95be8842d5455340395d50e3163a8b75870",
+        "blob_at_head": "3adca95be8842d5455340395d50e3163a8b75870",
+        "blob_on_disk": "3adca95be8842d5455340395d50e3163a8b75870",
+        "module": "vpd_audit/cells.py",
+        "unchanged_since": true
+      },
+      {
+        "blob_at_HEAD": "bd7256908f365ca070c4551f6ed5755d7bbfcc37",
+        "blob_at_head": "bd7256908f365ca070c4551f6ed5755d7bbfcc37",
+        "blob_on_disk": "bd7256908f365ca070c4551f6ed5755d7bbfcc37",
+        "module": "vpd_audit/sources.py",
+        "unchanged_since": true
+      },
+      {
+        "blob_at_HEAD": "1e6c637a871f2518d9cb40c69d462e6a2fd9b24f",
+        "blob_at_head": "1e6c637a871f2518d9cb40c69d462e6a2fd9b24f",
+        "blob_on_disk": "1e6c637a871f2518d9cb40c69d462e6a2fd9b24f",
+        "module": "vpd_audit/code_leaning.py",
+        "unchanged_since": true
+      },
+      {
+        "blob_at_HEAD": "3186e4405db18490b1f0755dc4653ca888074efc",
+        "blob_at_head": "3186e4405db18490b1f0755dc4653ca888074efc",
+        "blob_on_disk": "3186e4405db18490b1f0755dc4653ca888074efc",
+        "module": "vpd_audit/grid.py",
+        "unchanged_since": true
+      },
+      {
+        "blob_at_HEAD": "879ad795fc63174b7c6b6e847754c0a5ca1f9094",
+        "blob_at_head": "879ad795fc63174b7c6b6e847754c0a5ca1f9094",
+        "blob_on_disk": "879ad795fc63174b7c6b6e847754c0a5ca1f9094",
+        "module": "vpd_audit/pre_reads.py",
+        "unchanged_since": true
+      }
+    ],
+    "recorded_at": "HEAD"
+  },
+  "master_seed": 0,
+  "regression_checks": [
+    {
+      "check": "the frozen modules are main's blobs, on disk and at HEAD",
+      "detail": "6 of 6 equal; main at c57fc2b543b4, HEAD c57fc2b543b4; recorded, not asserted: 5 of 5 harness modules unchanged since HEAD",
+      "pass": true
+    },
+    {
+      "check": "check (a): the by-source damages reproduce s7_code_leaning_damage_by_source.csv exactly",
+      "detail": "40 by-source values and 10 GitHub values, 0 unequal, 0 printed intervals unequal",
+      "pass": true
+    },
+    {
+      "check": "check (b): 512 against 512 with the row floor reproduces the committed code-leaning group",
+      "detail": "1007 members, mass 49.47, share 0.248, null p95 and word equal to the committed summary",
+      "pass": true
+    },
+    {
+      "check": "check (b): the cache half's document index is the local one",
+      "detail": "SHA-256 of the index table",
+      "pass": true
+    },
+    {
+      "check": "check (d): the draw-averaged shares at 0.05 reproduce fraction_seq_above_X",
+      "detail": "24 rungs compared, 0 unequal; the five values fixed in advance, at three decimals: True",
+      "pass": true
+    },
+    {
+      "check": "check (d): the gate, per-position arrays against the committed kl_mean",
+      "detail": "69 cells, max difference 8.53e-05 against 0.0005",
+      "pass": true
+    },
+    {
+      "check": "check (c): the rebuilt named and matched sets are the committed stores'",
+      "detail": "32 sets equal by source hash and n_on",
+      "pass": true
+    }
+  ],
+  "replicates": 10000,
+  "run": "main"
+}

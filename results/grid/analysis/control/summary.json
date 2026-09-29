@@ -1,0 +1,111 @@
+{
+  "run": "control",
+  "seconds": 28.001991987228394,
+  "report": "report.md",
+  "n_union_chains": 40,
+  "n_hard_zero_chains": 10,
+  "preconditions": {
+    "P1": [
+      10,
+      10
+    ],
+    "P3": true,
+    "P4": [
+      52,
+      52
+    ],
+    "P5": {
+      "hard_zero/E/D_unif/tau0.1/ones/incl/ctl-none": true,
+      "hard_zero/E_lab/D_code/tau0.1/ones/incl/ctl-none": true,
+      "code_specific_hard/E_lab/D_code/tau0.1/ones/incl/ctl-none": true
+    }
+  },
+  "labels": {
+    "union/E/D_unif/tau0.1/r0/excl/ctl-none": "fails",
+    "union/E/D_unif/tau0.1/uniform/excl/k0/ctl-none": "fails",
+    "union/E/D_unif/tau0.1/uniform/excl/k1/ctl-none": "fails",
+    "union/E/D_unif/tau0.1/uniform/excl/k2/ctl-none": "fails",
+    "union/E/D_unif/tau0.1/uniform/excl/k3/ctl-none": "fails",
+    "union/E/D_unif/tau0.1/uniform/excl/k4/ctl-none": "fails",
+    "union/E/D_unif/tau0.1/uniform/excl/k5/ctl-none": "fails",
+    "union/E/D_unif/tau0.1/uniform/excl/k6/ctl-none": "fails",
+    "union/E/D_unif/tau0.1/uniform/excl/k7/ctl-none": "fails",
+    "union/E/D_unif/tau0/r0/excl/ctl-none": "fails"
+  },
+  "sanity": [
+    [
+      "E1",
+      true
+    ],
+    [
+      "E2/E4",
+      true
+    ],
+    [
+      "E3",
+      true
+    ],
+    [
+      "E6",
+      true
+    ],
+    [
+      "E9",
+      true
+    ]
+  ],
+  "two_path": {
+    "E": [
+      189,
+      0.8666419490790798,
+      true
+    ],
+    "E_lab": [
+      294,
+      0.7858047036264051,
+      true
+    ]
+  },
+  "figures": {
+    "aggregation_r0": {
+      "png": "fig1_aggregation_r0.png",
+      "rows": 16
+    },
+    "aggregation_uniform": {
+      "png": "fig1_aggregation_uniform.png",
+      "rows": 16
+    },
+    "editing": {
+      "png": "fig2_editing.png",
+      "rows": 48
+    },
+    "switched_mass": {
+      "png": "fig3_switched_mass.png",
+      "png_other": "fig3b_switched_mass_other.png",
+      "rows": 182
+    },
+    "never_named": {
+      "png": "fig4_never_named.png",
+      "rows": 10
+    },
+    "level": {
+      "png": "fig5_level_cells.png",
+      "rows": 10
+    },
+    "ranked": null
+  },
+  "comparison": {
+    "curve 1": true,
+    "curve 2 (draw 0)": true,
+    "curve 3": true,
+    "curve 4": true
+  },
+  "s7": {
+    "tier_4_present": false,
+    "marginal": null,
+    "headline_reading": null,
+    "code_leaning": null,
+    "code_specific_by_reader_label": null,
+    "figures": {}
+  }
+}

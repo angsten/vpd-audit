@@ -1,0 +1,143 @@
+{
+  "alive_sha256": "ca771bcb10585b0efb52a07c00257729f181eb706d6ee9c283441d84faad0302",
+  "code_leaning": {
+    "group_threshold": 0.9,
+    "ladder": [
+      [
+        16,
+        false
+      ],
+      [
+        64,
+        false
+      ],
+      [
+        256,
+        false
+      ],
+      [
+        1007,
+        false
+      ],
+      [
+        1862,
+        true
+      ]
+    ],
+    "n_group": 1007,
+    "n_wide": 1862,
+    "wide_threshold": 0.75
+  },
+  "commits": {
+    "dirty": "0",
+    "project": "c57fc2b543b4a3a0b8587e403a66be249a85670f",
+    "submodule": "74146b555f3eb3cd2bc639c3789fd3b7a099094a"
+  },
+  "failures": [],
+  "files": {
+    "erased_sets.csv": "79fda71a23debec8a592269647b5cee659bf450efdb279354c3d461cc96e530a",
+    "merge_nesting.csv": "f3ef5c80ce455dc7b2a638faec2ab6be9a1231f62fbc75666de311cfa6512b84",
+    "merge_sets.csv": "4814e0872284ef0773716939bd37ec7a2b6196508322126991cb49673eaa010e",
+    "removed_label_E_lab_from_cache.csv": "d5a26a10d22a34e343158e057f488fc558998e52d0aea81816ff56d2fecb848d",
+    "removed_label_panels.csv": "115f0926be7b587f24b92809073b2c934f76aa303bc194d83fc6b30f4ff0acf6",
+    "removed_label_panels_per_text.csv": "ddc4c4bf40b2a4b3a5cbb991a5cf8f1a17fc8fc658f56417a4a449cb19f0fe9d"
+  },
+  "inputs": {
+    "committed_roots": [
+      "grid/main",
+      "grid/main_s9"
+    ],
+    "draws": 8,
+    "e_lab": "E_lab",
+    "edit_sizes": [
+      256,
+      1007
+    ],
+    "group_threshold": 0.9,
+    "master_seed": 0,
+    "panel_caches": {
+      "ArXiv": "panel_ArXiv",
+      "Github": "panel_Github",
+      "Pile-CC": "panel_Pile_CC",
+      "StackExchange": "panel_StackExchange",
+      "Wikipedia (en)": "panel_Wikipedia__en_"
+    },
+    "pool_sets": {
+      "D_code": "D_code",
+      "D_prose": "D_prose",
+      "D_unif": "D_unif"
+    },
+    "run": "main",
+    "wide_threshold": 0.75
+  },
+  "label_caches": {
+    "E_lab": {
+      "n_sequences": 512,
+      "name": "E_lab_main",
+      "set_sha256_ids": "171882956d6736123e46738266048e21409d7ee0c5337f5accfd170f9cf15f5f",
+      "sha256": {
+        "indices": "283aec865208b868c115ffe89b0092e4f03b146ddd0cb5ddb24b15260906f095",
+        "indptr": "d791db7f711b4a278c5a3eae0e37b8a1c24117e98742cf8293bad7c31cad4f1e",
+        "values": "4237f8826ad6e7417d8c9c03656ffa912f47340deada759a58a2a2eaebd1550c"
+      }
+    },
+    "panel_ArXiv": {
+      "n_sequences": 200,
+      "name": "panel_ArXiv_main",
+      "set_sha256_ids": "87162e03d74febaba2ee389a4f880003bdcb6f36b93587819995067a1715cfb6",
+      "sha256": {
+        "indices": "f3a31dc2c1aa690b27315bbfab90e275f27ee2b55185865b4e4d4834058e758a",
+        "indptr": "0c1c5f18cfcd13d91ba242550282e17f552f7d7468c70c65ecdef591406da531",
+        "values": "be77de5e6c2620f8a984c96362074ec25fcde0cc91dc6fd5abbae8b97a2cca28"
+      }
+    },
+    "panel_Github": {
+      "n_sequences": 200,
+      "name": "panel_Github_main",
+      "set_sha256_ids": "ea9d6580b33bcb1ca72131cb62bb7d0ffd76624e8b1a071012b165ac7eddb038",
+      "sha256": {
+        "indices": "2252c7b5f47ff403d1cf17f126b8c44b2ba914122e71da410c09bc9e76e3ecf3",
+        "indptr": "2b73b4487d1715b8c47119536be95e3c42e165649effb1fe47ddf57a67459e4e",
+        "values": "ff1ff64fff6cd0cc4bd520b664ed2390d7fa3f857e5ce6f6199ac706fefcae99"
+      }
+    },
+    "panel_Pile_CC": {
+      "n_sequences": 200,
+      "name": "panel_Pile_CC_main",
+      "set_sha256_ids": "27a31ca9adc390f1f02f640290b542734a645a8dee31080e9c60109d6eb0db0a",
+      "sha256": {
+        "indices": "488d61b840d42f351f0d14a740e46be4aaa204480b3912454f29aa2294fae526",
+        "indptr": "48e310fb3a69ae7440273998f0542c82ea37981bdc7364656a47d880d80ecdf3",
+        "values": "95871832913e8d4f2aceae2e5d020e78506a5c5b25651d59e2280341a93265f8"
+      }
+    },
+    "panel_StackExchange": {
+      "n_sequences": 200,
+      "name": "panel_StackExchange_main",
+      "set_sha256_ids": "21d2a56ed196d2a13f35e93b2f8575d3d34dd03c91f875b8f8055a7b6165ce85",
+      "sha256": {
+        "indices": "232bb2ee3d1d5df4e07a67465e2fb1cfe177abfad7598904492b1024b44207f7",
+        "indptr": "670789e23bf717cb26d6174708069564c1cd92c552c5524865a16299fac7663a",
+        "values": "971e8642f0f9fef91a43c436124ba2487623cbb4a27658a047756a087fc9c7e4"
+      }
+    },
+    "panel_Wikipedia__en_": {
+      "n_sequences": 200,
+      "name": "panel_Wikipedia__en__main",
+      "set_sha256_ids": "db20cc73603516ebcc62062e8452ad642478931eda51283c97ef023fa7802018",
+      "sha256": {
+        "indices": "e581f3de8d2b3c5029b534409c458545f4ee60e27ba8986f35ae5742349eea1e",
+        "indptr": "85dcbc9973effa338c1f689e2d3a5f68e7d8e9ff37dc5fe9f82f03811453288a",
+        "values": "74947cec3f0209a687dd236fe3ce4e23dbafedfaea9210562fafeca347319511"
+      }
+    }
+  },
+  "n_alive": 9959,
+  "pool_caches": {
+    "D_code": "D_code_main",
+    "D_prose": "D_prose_main",
+    "D_unif": "D_unif_main"
+  },
+  "run": "main",
+  "seconds": 55.63294434547424
+}

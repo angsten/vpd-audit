@@ -1,0 +1,217 @@
+{
+  "arxiv_reading": {
+    "reason": "the interval of H at the smaller size starts at or above 0.05 and rho lies above 1 at both sizes",
+    "rho_sides": {
+      "large": "above 1",
+      "small": "above 1"
+    },
+    "word": "keep"
+  },
+  "candidates_meeting_keep": [],
+  "checks": {
+    "canary": [
+      {
+        "bitwise_equal": true,
+        "cell": "main/E/ref/importances",
+        "committed_store": "results/grid/main/tier1/E",
+        "n_texts": 1024,
+        "store": "E__merge_sizes"
+      },
+      {
+        "bitwise_equal": true,
+        "cell": "main/E/ref/unmasked",
+        "committed_store": "results/grid/main/tier1/E",
+        "n_texts": 1024,
+        "store": "E__merge_sizes"
+      },
+      {
+        "bitwise_equal": true,
+        "cell": "main/E/union/D_unif/tau0.1/r0/excl/k0/r2",
+        "committed_store": "results/grid/main/tier1/E",
+        "n_texts": 1024,
+        "store": "E__merge_sizes"
+      },
+      {
+        "bitwise_equal": true,
+        "cell": "main/E/union/D_unif/tau0.1/r0/excl/k0/r2/ctl-plain",
+        "committed_store": "results/grid/main/tier2/E",
+        "n_texts": 1024,
+        "store": "E__merge_sizes"
+      },
+      {
+        "bitwise_equal": true,
+        "cell": "main/E/union/D_unif/tau0.1/r0/excl/k0/r2/ctl-marginal",
+        "committed_store": "results/grid/main/tier4/E__marginal",
+        "n_texts": 1024,
+        "store": "E__merge_sizes"
+      },
+      {
+        "bitwise_equal": true,
+        "cell": "main/E_lab/ref/importances",
+        "committed_store": "results/grid/main/tier1/E_lab",
+        "n_texts": 512,
+        "store": "E_lab__merge_sizes"
+      },
+      {
+        "bitwise_equal": true,
+        "cell": "main/E_lab/ref/unmasked",
+        "committed_store": "results/grid/main/tier1/E_lab",
+        "n_texts": 512,
+        "store": "E_lab__merge_sizes"
+      },
+      {
+        "bitwise_equal": true,
+        "cell": "main/E_lab/union/D_code/tau0.1/r0/excl/k0/r1",
+        "committed_store": "results/grid/main_s9/tier5/E_lab__same_domain",
+        "n_texts": 512,
+        "store": "E_lab__merge_sizes"
+      },
+      {
+        "bitwise_equal": true,
+        "cell": "main/E_lab/union/D_unif/tau0.1/r0/excl/k0/r1",
+        "committed_store": "results/grid/main_s9/tier5/E_lab__same_domain",
+        "n_texts": 512,
+        "store": "E_lab__merge_sizes"
+      },
+      {
+        "bitwise_equal": true,
+        "cell": "main/E_lab/union/D_prose/tau0.1/r0/excl/k0/r1",
+        "committed_store": "results/grid/main_s9/tier5/E_lab__same_domain",
+        "n_texts": 512,
+        "store": "E_lab__merge_sizes"
+      },
+      {
+        "bitwise_equal": true,
+        "cell": "main/E_lab/ref/unmasked_delta",
+        "committed_store": "results/grid/main/tier1/E_lab",
+        "n_texts": 512,
+        "store": "E_lab__panel_edit"
+      },
+      {
+        "bitwise_equal": true,
+        "cell": "main/E_lab/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG256",
+        "committed_store": "results/grid/main/tier4/E_lab__code_leaning",
+        "n_texts": 512,
+        "store": "E_lab__panel_edit"
+      },
+      {
+        "bitwise_equal": true,
+        "cell": "main/E_lab/code_leaning_hard/D_code/tau0.1/ones/incl/k0/rG256/ctl-usage",
+        "committed_store": "results/grid/main/tier4/E_lab__code_leaning",
+        "n_texts": 512,
+        "store": "E_lab__panel_edit"
+      }
+    ],
+    "committed_subbatch": {
+      "E": 64,
+      "E_lab": 64
+    },
+    "sets": {
+      "canaries": 8,
+      "merge_matched_sets": 32,
+      "merge_sets": 96,
+      "panel_edit_sets": 144
+    },
+    "summaries": {
+      "merge_sizes": {
+        "P3": true,
+        "cells_run": 106,
+        "gpu": "NVIDIA A100-SXM4-40GB",
+        "sets_asserted_at_launch": true,
+        "two_paths": true
+      },
+      "panel_edit": {
+        "P3": true,
+        "cells_run": 155,
+        "gpu": "NVIDIA A100-SXM4-40GB",
+        "sets_asserted_at_launch": true,
+        "two_paths": true
+      }
+    }
+  },
+  "commit": {
+    "dirty": "0",
+    "project": "c57fc2b543b4a3a0b8587e403a66be249a85670f",
+    "submodule": "74146b555f3eb3cd2bc639c3789fd3b7a099094a"
+  },
+  "documents": {
+    "panel_ArXiv": 162,
+    "panel_DM_Mathematics": 174,
+    "panel_FreeLaw": 174,
+    "panel_Github": 193,
+    "panel_Pile_CC": 192,
+    "panel_PubMed_Central": 186,
+    "panel_StackExchange": 197,
+    "panel_Wikipedia__en_": 184
+  },
+  "freeze": "c57fc2b",
+  "master_seed": 0,
+  "readings": {
+    "panel_ArXiv": {
+      "reason": "the interval of H at the smaller size starts at or above 0.05 and rho lies above 1 at both sizes",
+      "rho_sides": {
+        "large": "above 1",
+        "small": "above 1"
+      },
+      "word": "keep"
+    },
+    "panel_DM_Mathematics": {
+      "reason": "neither keep nor drop",
+      "rho_sides": {
+        "large": "neither",
+        "small": "below 1"
+      },
+      "word": "soften"
+    },
+    "panel_FreeLaw": {
+      "reason": "neither keep nor drop",
+      "rho_sides": {
+        "large": "below 1",
+        "small": "below 1"
+      },
+      "word": "soften"
+    },
+    "panel_Github": {
+      "reason": "the interval of H at the smaller size starts at or above 0.05 and rho lies above 1 at both sizes",
+      "rho_sides": {
+        "large": "above 1",
+        "small": "above 1"
+      },
+      "word": "keep"
+    },
+    "panel_Pile_CC": {
+      "reason": "the interval of H at the smaller size lies entirely below 0.05",
+      "rho_sides": {
+        "large": "below 1",
+        "small": "below 1"
+      },
+      "word": "drop"
+    },
+    "panel_PubMed_Central": {
+      "reason": "neither keep nor drop",
+      "rho_sides": {
+        "large": "below 1",
+        "small": "below 1"
+      },
+      "word": "soften"
+    },
+    "panel_StackExchange": {
+      "reason": "the interval of H at the smaller size starts at or above 0.05 and rho lies above 1 at both sizes",
+      "rho_sides": {
+        "large": "above 1",
+        "small": "above 1"
+      },
+      "word": "keep"
+    },
+    "panel_Wikipedia__en_": {
+      "reason": "the interval of H at the smaller size lies entirely below 0.05",
+      "rho_sides": {
+        "large": "below 1",
+        "small": "below 1"
+      },
+      "word": "drop"
+    }
+  },
+  "replicates": 10000,
+  "run": "main"
+}

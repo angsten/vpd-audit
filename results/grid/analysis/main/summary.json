@@ -1,0 +1,181 @@
+{
+  "run": "main",
+  "seconds": 46.56199908256531,
+  "report": "report.md",
+  "n_union_chains": 43,
+  "n_hard_zero_chains": 13,
+  "preconditions": {
+    "P1": [
+      10,
+      11
+    ],
+    "P3": true,
+    "P4": [
+      62,
+      62
+    ],
+    "P5": {
+      "hard_zero/E/D_unif/tau0.1/ones/incl/ctl-none": true,
+      "hard_zero/E_lab/D_code/tau0.1/ones/incl/ctl-none": false,
+      "code_specific_hard/E_lab/D_code/tau0.1/ones/incl/ctl-none": false,
+      "code_specific_hard/E_lab/D_code/tau0.5/ones/incl/ctl-none": true
+    }
+  },
+  "labels": {
+    "union/E/D_unif/tau0.1/r0/excl/ctl-none": "fails",
+    "union/E/D_unif/tau0.1/uniform/excl/k0/ctl-none": "fails",
+    "union/E/D_unif/tau0.1/uniform/excl/k1/ctl-none": "fails",
+    "union/E/D_unif/tau0.1/uniform/excl/k2/ctl-none": "fails",
+    "union/E/D_unif/tau0.1/uniform/excl/k3/ctl-none": "fails",
+    "union/E/D_unif/tau0.1/uniform/excl/k4/ctl-none": "fails",
+    "union/E/D_unif/tau0.1/uniform/excl/k5/ctl-none": "fails",
+    "union/E/D_unif/tau0.1/uniform/excl/k6/ctl-none": "fails",
+    "union/E/D_unif/tau0.1/uniform/excl/k7/ctl-none": "fails",
+    "union/E/D_unif/tau0.5/r0/excl/ctl-none": "fails",
+    "union/E/D_unif/tau0/r0/excl/ctl-none": "fails"
+  },
+  "sanity": [
+    [
+      "E1",
+      true
+    ],
+    [
+      "E2/E4",
+      true
+    ],
+    [
+      "E3",
+      true
+    ],
+    [
+      "E6",
+      true
+    ],
+    [
+      "E9",
+      true
+    ]
+  ],
+  "two_path": {
+    "E": [
+      349,
+      0.758361802055398,
+      true
+    ],
+    "E_lab": [
+      526,
+      0.8561002403602556,
+      true
+    ]
+  },
+  "figures": {
+    "aggregation_r0": {
+      "png": "fig1_aggregation_r0.png",
+      "rows": 20
+    },
+    "aggregation_uniform": {
+      "png": "fig1_aggregation_uniform.png",
+      "rows": 20
+    },
+    "editing": {
+      "png": "fig2_editing.png",
+      "rows": 60
+    },
+    "switched_mass": {
+      "png": "fig3_switched_mass.png",
+      "png_other": "fig3b_switched_mass_other.png",
+      "rows": 212
+    },
+    "never_named": {
+      "png": "fig4_never_named.png",
+      "rows": 12
+    },
+    "level": {
+      "png": "fig5_level_cells.png",
+      "rows": 10
+    },
+    "ranked": {
+      "png": "fig6_ranked_pair.png",
+      "rows": 36
+    }
+  },
+  "comparison": null,
+  "s7": {
+    "tier_4_present": true,
+    "marginal": {
+      "union_r0": {
+        "reading": "A",
+        "decisive": [
+          "1",
+          "2"
+        ],
+        "m": 2,
+        "strong_form_of_A": false,
+        "guard_fired_at": null
+      },
+      "union_uniform": {
+        "reading": "C",
+        "decisive": [
+          "1",
+          "2"
+        ],
+        "m": 2,
+        "strong_form_of_A": null,
+        "guard_fired_at": null
+      },
+      "soft_erase_r1": {
+        "reading": "B",
+        "decisive": [
+          "1",
+          "2"
+        ],
+        "m": 2,
+        "strong_form_of_A": null,
+        "guard_fired_at": null
+      }
+    },
+    "headline_reading": "A",
+    "code_leaning": {
+      "positive_control": true,
+      "reading": "otherwise (none of R1 to R3): reported as measured, rung by rung",
+      "R4": false,
+      "rungs_read": [
+        "G16",
+        "G64",
+        "G256",
+        "G1007"
+      ]
+    },
+    "code_specific_by_reader_label": [
+      "code_specific_hard/E/D_code/tau0.1/ones/incl/ctl-none"
+    ],
+    "figures": {
+      "marginal": {
+        "file": "fig7_marginal_control.png",
+        "rungs": [
+          "1",
+          "2",
+          "2a",
+          "2b",
+          "3"
+        ],
+        "left_panel_rungs": [
+          "1",
+          "2",
+          "2a",
+          "2b"
+        ]
+      },
+      "code_leaning": {
+        "file": "fig8_code_leaning.png",
+        "rungs": [
+          "G16",
+          "G64",
+          "G256",
+          "G1007",
+          "G1862"
+        ]
+      }
+    }
+  }
+}

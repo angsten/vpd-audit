@@ -1,0 +1,203 @@
+{
+  "band_sizes": [
+    "2",
+    "2a",
+    "3",
+    "self"
+  ],
+  "checks": {
+    "canary": {
+      "canary": [
+        {
+          "bitwise_equal": true,
+          "cell": "main/E/ref/importances",
+          "committed_store": "results/grid/main/tier1/E",
+          "n_texts": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "cell": "main/E/ref/rounded_0",
+          "committed_store": "results/grid/main/tier1/E",
+          "n_texts": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "cell": "main/E/ref/rounded_0.1",
+          "committed_store": "results/grid/main/tier1/E",
+          "n_texts": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "cell": "main/E/ref/unmasked",
+          "committed_store": "results/grid/main/tier1/E",
+          "n_texts": 1024
+        },
+        {
+          "bitwise_equal": true,
+          "cell": "main/E/union/D_unif/tau0.1/r0/excl/k0/r2",
+          "committed_store": "results/grid/main/tier1/E",
+          "n_texts": 1024
+        }
+      ],
+      "sets": {
+        "binary_named_sets": 48,
+        "canary": 1,
+        "look_alike_matched_sets": 24,
+        "look_alike_sets": 24,
+        "self_merge_sets": 2
+      }
+    },
+    "complete": {
+      "commit": "df84096baba95c92b0116ce9dd6736ab0ce80094",
+      "dirty": "0",
+      "gpu": "NVIDIA A100-SXM4-40GB",
+      "n_cells": 79,
+      "n_draws": 8,
+      "n_subbatches": 16,
+      "n_texts": 1024,
+      "precision": "bf16",
+      "store": "results/grid/main_s11/tier6/E__binary_union"
+    },
+    "p3": {
+      "primary_cells": 49,
+      "primary_entries_below_label": 0,
+      "primary_min_gap": 0.0,
+      "secondary_cells": 25,
+      "secondary_cells_with_entries_below_label": 25
+    },
+    "summary": {
+      "P3": true,
+      "cells_failed": 0,
+      "cells_run": 79,
+      "gpu": "NVIDIA A100-SXM4-40GB"
+    }
+  },
+  "commit": {
+    "dirty": "0",
+    "project": "c57fc2b543b4a3a0b8587e403a66be249a85670f",
+    "submodule": "74146b555f3eb3cd2bc639c3789fd3b7a099094a"
+  },
+  "comparators": {
+    "recomputed": {
+      "2": 0.04016805911624033,
+      "2a": 0.10162468179623829,
+      "3": 0.45752901129344536,
+      "self": 1.0297604924926418
+    },
+    "registered_table": {
+      "2": 0.0402,
+      "2a": 0.1016,
+      "3": 0.4575,
+      "self": 1.0298
+    }
+  },
+  "freeze": "c57fc2b",
+  "master_seed": 0,
+  "outcome": "A",
+  "reason": "",
+  "replicates": 10000,
+  "run": "main",
+  "self": {
+    "interval": [
+      1.034148414858464,
+      1.0863106047583186
+    ],
+    "material": true,
+    "s_hat": 1.0597571016987786
+  },
+  "step1": {
+    "2": {
+      "detected": true,
+      "e_hat": 0.03628159819163557,
+      "interval": [
+        0.0352323932105719,
+        0.037359660721017464
+      ],
+      "material": false,
+      "n_draws_positive": 8
+    },
+    "2a": {
+      "detected": true,
+      "e_hat": 0.09634581025193256,
+      "interval": [
+        0.0941903854183181,
+        0.0985651341665715
+      ],
+      "material": true,
+      "n_draws_positive": 8
+    },
+    "3": {
+      "detected": true,
+      "e_hat": 0.4827975769094337,
+      "interval": [
+        0.47142291146598153,
+        0.49510194243118805
+      ],
+      "material": true,
+      "n_draws_positive": 8
+    }
+  },
+  "step2": {
+    "2": {
+      "band": [
+        0.020084029558120164,
+        0.08033611823248066
+      ],
+      "difference": -0.003886460924604762,
+      "difference_interval": [
+        -0.004685447101493878,
+        -0.003137921967785927
+      ],
+      "e_bin": 0.03628159819163557,
+      "e_frac": 0.04016805911624033,
+      "read_by_the_rule": true,
+      "within_band": true
+    },
+    "2a": {
+      "band": [
+        0.050812340898119146,
+        0.20324936359247658
+      ],
+      "difference": -0.00527887154430573,
+      "difference_interval": [
+        -0.006544367580448807,
+        -0.004136631278473145
+      ],
+      "e_bin": 0.09634581025193256,
+      "e_frac": 0.10162468179623829,
+      "read_by_the_rule": true,
+      "within_band": true
+    },
+    "3": {
+      "band": [
+        0.22876450564672268,
+        0.9150580225868907
+      ],
+      "difference": 0.025268565615988337,
+      "difference_interval": [
+        0.023783395413278185,
+        0.026647809642270204
+      ],
+      "e_bin": 0.4827975769094337,
+      "e_frac": 0.45752901129344536,
+      "read_by_the_rule": true,
+      "within_band": true
+    },
+    "self": {
+      "band": [
+        0.5148802462463209,
+        2.0595209849852836
+      ],
+      "difference": 0.02999660920613678,
+      "difference_interval": [
+        0.02872570593090131,
+        0.031194483799367845
+      ],
+      "e_bin": 1.0597571016987786,
+      "e_frac": 1.0297604924926418,
+      "read_by_the_rule": true,
+      "within_band": true
+    }
+  },
+  "verdict": "fails"
+}

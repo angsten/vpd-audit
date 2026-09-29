@@ -1,0 +1,13 @@
+group,h.0.attn.k_proj,h.0.attn.o_proj,h.0.attn.q_proj,h.0.attn.v_proj,h.0.mlp.c_fc,h.0.mlp.down_proj,h.1.attn.k_proj,h.1.attn.o_proj,h.1.attn.q_proj,h.1.attn.v_proj,h.1.mlp.c_fc,h.1.mlp.down_proj,h.2.attn.k_proj,h.2.attn.o_proj,h.2.attn.q_proj,h.2.attn.v_proj,h.2.mlp.c_fc,h.2.mlp.down_proj,h.3.attn.k_proj,h.3.attn.o_proj,h.3.attn.q_proj,h.3.attn.v_proj,h.3.mlp.c_fc,h.3.mlp.down_proj,total
+G_0.75,5,21,5,47,190,209,0,21,0,30,14,22,25,219,24,127,19,32,3,27,4,9,262,547,1862
+G_0.9,3,13,2,37,94,105,0,5,0,15,7,10,7,133,4,59,6,20,2,18,4,4,145,314,1007
+G_0.95,2,8,1,27,63,73,0,4,0,9,4,8,4,91,2,43,6,14,2,12,4,2,111,236,726
+G_0.99,1,3,1,12,27,24,0,1,0,3,1,0,1,26,1,14,1,3,2,1,3,0,37,74,236
+"strict code (code-named, no prose position), no floor",10,15,5,25,37,19,2,3,3,3,59,25,18,2,0,24,1,1,1,0,2,3,6,6,270
+"strict code, floor passed",0,0,0,2,3,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,2,0,3,4,18
+"prose-leaning, s <= 0.25",16,47,10,81,275,307,3,18,2,30,40,42,17,102,6,109,121,168,21,137,13,122,367,637,2691
+"prose-leaning, s <= 0.10",6,23,2,27,30,37,3,6,1,4,9,2,4,29,2,16,21,46,3,50,4,27,98,232,682
+"prose-leaning, s <= 0.05",4,6,1,12,8,5,0,0,0,1,2,1,0,14,0,4,6,11,2,17,0,4,29,100,227
+"prose-leaning, s <= 0.01",3,3,0,6,3,0,0,0,0,0,0,0,0,1,0,1,0,2,0,1,0,1,3,6,30
+"strict prose (prose-named, no code position), no floor",25,11,6,25,25,8,0,0,0,1,5,2,3,1,0,3,12,11,2,1,1,1,5,7,155
+"strict prose, floor passed",2,1,0,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9

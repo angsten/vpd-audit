@@ -1,0 +1,91 @@
+{
+  "commits": {
+    "dirty": "0",
+    "project": "c57fc2b543b4a3a0b8587e403a66be249a85670f",
+    "submodule": "74146b555f3eb3cd2bc639c3789fd3b7a099094a"
+  },
+  "file": {
+    "bytes": 338045152,
+    "sha256": "db5e5d1532bf8dc33a6589b50ecba1a8c96f7b4b9cb343d168e603c393007c26"
+  },
+  "files": {
+    "panel_document_agreement.csv": "60fdeb6226163c88cc8d68751a653a923f653502ea340bd00c8e49de4dc8860b"
+  },
+  "master_seed": 0,
+  "per_source": {
+    "ArXiv": {
+      "batches": 1,
+      "differ_only_at_cut_strings": true,
+      "n_cut_strings_in_kept_tokens": 0,
+      "n_steps_down": 0,
+      "n_steps_up": 0,
+      "n_tokens": 11368593,
+      "n_tokens_agreeing": 11368593
+    },
+    "DM Mathematics": {
+      "batches": 1,
+      "differ_only_at_cut_strings": true,
+      "n_cut_strings_in_kept_tokens": 0,
+      "n_steps_down": 0,
+      "n_steps_up": 0,
+      "n_tokens": 2490102,
+      "n_tokens_agreeing": 2490102
+    },
+    "FreeLaw": {
+      "batches": 2,
+      "differ_only_at_cut_strings": true,
+      "n_cut_strings_in_kept_tokens": 0,
+      "n_steps_down": 0,
+      "n_steps_up": 0,
+      "n_tokens": 6384285,
+      "n_tokens_agreeing": 6384285
+    },
+    "Github": {
+      "batches": 7,
+      "differ_only_at_cut_strings": true,
+      "n_cut_strings_in_kept_tokens": 0,
+      "n_steps_down": 0,
+      "n_steps_up": 0,
+      "n_tokens": 10961271,
+      "n_tokens_agreeing": 10961271
+    },
+    "Pile-CC": {
+      "batches": 18,
+      "differ_only_at_cut_strings": true,
+      "n_cut_strings_in_kept_tokens": 1,
+      "n_steps_down": 0,
+      "n_steps_up": 1,
+      "n_tokens": 18054009,
+      "n_tokens_agreeing": 17170810
+    },
+    "PubMed Central": {
+      "batches": 2,
+      "differ_only_at_cut_strings": true,
+      "n_cut_strings_in_kept_tokens": 0,
+      "n_steps_down": 0,
+      "n_steps_up": 0,
+      "n_tokens": 14132637,
+      "n_tokens_agreeing": 14132637
+    },
+    "StackExchange": {
+      "batches": 10,
+      "differ_only_at_cut_strings": true,
+      "n_cut_strings_in_kept_tokens": 0,
+      "n_steps_down": 0,
+      "n_steps_up": 0,
+      "n_tokens": 6282711,
+      "n_tokens_agreeing": 6282711
+    },
+    "Wikipedia (en)": {
+      "batches": 6,
+      "differ_only_at_cut_strings": true,
+      "n_cut_strings_in_kept_tokens": 2,
+      "n_steps_down": 0,
+      "n_steps_up": 2,
+      "n_tokens": 4314843,
+      "n_tokens_agreeing": 3178131
+    }
+  },
+  "rule": "lag = offset document - end-of-text count within each batch of 1,000 documents; it may step up only right after a cut end-of-text string",
+  "seconds": 252.56947422027588
+}

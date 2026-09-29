@@ -1,0 +1,32 @@
+{
+  "label_gate": {
+    "expected": {
+      "labels_above_0_per_position": 203.0,
+      "rounded_0.1_kl": 0.317,
+      "rounded_0_ce": 2.957
+    },
+    "labels_above_0.1_per_position": 189.7876377105713,
+    "labels_above_0_per_position": 203.41951942443848,
+    "labels_stored_per_position": 203.41951942443848,
+    "rounded_0.1_kl_on_E": 0.31741149710069294,
+    "rounded_0_ce": 2.957,
+    "rounded_0_ce_paper": 2.94,
+    "rounded_0_kl_on_E": 0.31141283753095195,
+    "rounded_0_kl_store": "results/grid/main/tier1/E",
+    "stored_labels_not_above_0": 0
+  },
+  "label_tables_commit": {
+    "dirty": "0",
+    "project": "c0d6f5852deb9def12dad95f5314cb3c5f4eab6b",
+    "submodule": "74146b555f3eb3cd2bc639c3789fd3b7a099094a"
+  },
+  "n_sets": 75,
+  "run": "main",
+  "sets": {
+    "binary_named_sets": 48,
+    "canary": 1,
+    "look_alike_matched_sets": 24,
+    "look_alike_sets": 24,
+    "self_merge_sets": 2
+  }
+}
