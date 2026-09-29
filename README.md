@@ -56,7 +56,7 @@ The decomposition, its target model, and a second decomposition trained without 
 | 3. Label-only tables | the label caches (CPU) | the label-only commands (`vpd-audit --help`) | `results/grid/pre_reads/` |
 | 4. The measurements | a GPU and the model files | `modal run vpd_audit/modal_app.py::grid --run main --tiers "1,2" [--subset <name>]` | `results/grid/<run>[_sN]/tier<t>/` |
 
-`--frozen <commit>` (`--freeze` for `analyze-s11` and `analyze-s12`, which also accept an earlier commit the current one descends from) must name the current commit, and the working tree must be clean; the analyses refuse to read results of the paper's model otherwise. Each analysis module was committed before the measurements it reads were analysed, and, with one exception stated in the report (section 7, item 10), before they existed. This repository's history was condensed into two commits for publication. It shows that the committed code reproduces every committed number, but not, by itself, the order in which the code and the measurements were written (`VERIFY.md`). A level-1 run on a laptop takes minutes; the bootstrap analyses (10,000 resamples) can take up to about an hour.
+`--frozen <commit>` (`--freeze` for `analyze-s11` and `analyze-s12`, which also accept an earlier commit the current one descends from) must name the current commit, and the working tree must be clean; the analyses refuse to read results of the paper's model otherwise. Each analysis module was committed before the measurements it reads were analysed, and, with one exception stated in the report (section 7, item 10), before they existed. This repository's history was condensed for publication. It shows that the committed code reproduces every committed number, but not, by itself, the order in which the code and the measurements were written (`VERIFY.md`). A level-1 run on a laptop takes minutes; the bootstrap analyses (10,000 resamples) can take up to about an hour.
 
 **Cost of re-measuring.** One pass over the 1,024 recipient texts takes about 8 seconds on an A100. The main measurement grid is about 7,000 such passes, roughly \$16 at \$2.10 to \$2.50 per A100-hour; all measurements in the repository together come to roughly \$40.
 
@@ -115,19 +115,26 @@ Every figure is drawn by `vpd-audit figures-post` into `results/post/` as a PNG.
 | 64 tokens' worth is about 4,500 components | 4,543.6 | `s9/figures/fig1_merge_curve.csv`, `pieces_switched_on_mean` | F9 |
 | 0.80 nats at 64 tokens' worth | 0.7993 | same file, `divergence`, 64 tokens | F9 |
 | 0.83 nats, the paper's 20-step adversary | 0.8280 | the paper's adversarial-attack table [1] | — |
-| about twice as far as a different small model | 2.03 [2.00, 2.06] | `s9b/s9_yardstick_ratios.csv`, `ratio`, row "the 64-token merge" | S9 |
-| 2.2 times, code into code against general donors' prediction | 0.902 observed, 0.415 predicted | `s9b/s9_run2_count_only.csv`, `observed`, `prediction`, `log_ratio`, switched mass, 64 tokens | S9 |
-| 1.28 nats after deleting every never-needed component | 1.2841 rise, 1.2847 absolute | `never_named_rung_8_cells.csv`, `unconditional`; `results/grid/main/verify/comparisons.md`, item 4 | A, G |
+| 1) the harm of aggregation is worse when inputs are similar | at 64 tokens: code into code +0.902 against general donors +0.608; prose into prose +0.621 against +0.455 | `s9b/s9_run2_curves.csv`, `rise`; the outcome in `s9b/s9_run2_verdict.csv` | S9 |
+| 2) edits that heavily disrupt the model's predictions on code while mostly sparing the text chosen for protection | GitHub 0.666 and 3.342 against web text 0.026 and 0.213 and Wikipedia 0.025 and 0.208, at 256 and 1,007 components | `s12/s12_panels.csv`, `H` | S12 |
+| 3) deleting all the components never labelled as needed moves the model 1.28 nats in KL from the original (the hard delete) | 1.2841 rise, 1.2847 absolute | `never_named_rung_8_cells.csv`, `unconditional`; `results/grid/main/verify/comparisons.md`, item 4 | A, G |
 | lines would be close to zero with perfect faithfulness | 0.0115 | `level_cells.csv`, `mean_kl`, `main/E/ref/unmasked` | A |
 | roughly 10,000 components counted as alive (average label above $10^{-6}$) | 9,959 | `results/grid/pre_reads/main/summary.json`, `n_alive_saved`; `vpd_audit/constants.py`, `ALIVE_THRESHOLD` | L |
+| error bars: 95 percent bootstrap intervals over texts | | `results/post/aggregation_curve.csv`, `lo`, `hi`, `level` | FP |
 
 **The schematics' captions**
 
 | Post | Value | File, and column or row | Command |
 |---|---|---|---|
 | about 170, 1,100 and 4,500 components at 1, 8 and 64 tokens' worth | 169.0, 1,120.6, 4,543.6 | `s9/figures/fig5_matched_random_sets.csv`, `pieces_switched_on_mean` | F9 |
-| (2 and 4 tokens' worth) | 399.2, 670.5 (means over the eight draws) | `results/grid/pre_reads/main/s12/merge_sets.csv`, `n_on`, rungs `T2` and `T4`, E, D_unif, control `none` | L |
 | deletions from 169 to 28,946 components | | `never_named_chain.csv`, `n_erased`, rungs 1 and 8 | A |
+
+**Footnotes**
+
+| Post | Value | File, and column or row | Command |
+|---|---|---|---|
+| 2: the all-or-nothing form raises KL above the own explanation by 0.036, 0.096 and 0.48 at 8, 16 and 64 tokens' worth, against 0.040, 0.10 and 0.46 | 0.0363, 0.0963, 0.4828; 0.0402, 0.1016, 0.4575 | `s11/s11_step2.csv`, `binary_excess`, `fractional_excess` | S11 |
+| 2: at 64 tokens' worth, 0.79 against 0.80 nats from the original | 0.3114 + 0.4828 = 0.794; 0.7993 | `s11/s11_absolute.csv`, row `rounded_0`; `s9/figures/fig1_merge_curve.csv`, `divergence` | S11, F9 |
 
 **Larger Aggregations Do More Harm**
 
@@ -135,9 +142,9 @@ Every figure is drawn by `vpd-audit figures-post` into `results/post/` as a PNG.
 |---|---|---|---|
 | the own explanation, 0.34 nats | 0.3417 | `level_cells.csv`, `mean_kl`, `main/E/ref/importances` | A |
 | one token: almost no effect | +0.0038 | `union_E_D_unif_tau0.1_r0_excl_ctl-none.csv`, `excess`, rung 1 | A |
-| 2 and 4 tokens | +0.0101 [0.0094, 0.0107]; +0.0190 [0.0181, 0.0200] | `s12/s12_merge_E.csv`, `rise`, lines "real merge", rungs `T2`, `T4`; per draw in `s12_merge_E_per_draw.csv` | S12 |
 | 16 tokens: 0.1 nats | +0.1016 | `union_E_D_unif_tau0.1_r0_excl_ctl-none__descriptive_rungs.csv`, `excess`, rung 2a | A |
 | 64 tokens: 0.46 nats | +0.4575 | `union_E_D_unif_tau0.1_r0_excl_ctl-none.csv`, `excess`, rung 3 | A |
+| 0.80 (0.34 + 0.46), both total KL divergence from the original model | 0.7993 = 0.3417 + 0.4575 | `s9/figures/fig1_merge_curve.csv`, `divergence` and `rise_over_own_explanation`, 64 tokens | F9 |
 | uniform random components do almost no harm | −0.013 to +0.040 | `fig7_marginal_control.csv`, `P`; 2 and 4 tokens in `s12/s12_merge_E.csv`, line "uniform random" | A, S12 |
 | frequency-matched components do much less harm at small sizes | −0.0033, −0.0038 at 1 and 8 tokens | `fig7_marginal_control.csv`, `M`; readings in `s7_marginal_readings.csv`; 2 and 4 tokens in `s12/s12_merge_E.csv`, and real minus matched in `s12_merge_E_real_minus_matched.csv` | A, S12 |
 | about 75 percent overlap at 64 tokens | 0.732 | `results/grid/pre_reads/main/s7/marginal_overlap_by_rung.csv`, `overlap_mass_pooled`, rung 3 | L |
@@ -154,10 +161,11 @@ Every figure is drawn by `vpd-audit figures-post` into `results/post/` as a PNG.
 | prose donors harm code recipients much less | +0.028 on code, against +0.090 on prose, at 8 tokens | same file | S12 |
 | 256 GitHub texts from 69 documents; 128 web and Wikipedia texts from 58 | | same file, `n_texts`, `n_documents` | S12 |
 | code donors switch on fewer components at 2 to 64 tokens' worth | 311 against 399 at 2; 586 against 671 at 4; 975 against 1,121 at 8; 3,626 against 4,544 at 64 | `results/grid/pre_reads/main/s12/merge_sets.csv`, `n_on`; `s9/figures/fig7_within_one_kind.csv`, `pieces_switched_on_mean` | L, F9 |
-| 2.2 times the general donors' prediction at 64 tokens' worth | | `s9b/s9_run2_count_only.csv` | S9 |
+| at 64 tokens' worth, 2.2 times what the general donors' curve predicts for that number of components | 0.902 observed, 0.415 predicted | `s9b/s9_run2_count_only.csv`, `observed`, `prediction`, `log_ratio`, switched mass, 64 tokens | S9 |
 | self-aggregation: from 0.34 to 1.37 nats, every text harmed | rise 1.030; share 1.0 | `s9b/s9_run6_self_merge_rule.csv`, `rise`, `self_merge_kl`, `share_made_worse` | S9 |
-| every text harmed more than by a stranger's explanation | 1.0 | `s9b/s9_run6_self_against_stranger.csv`, `share_of_texts_self_worse` | S9 |
+| every text harmed more than when a different text's explanation is aggregated | 1.0 | `s9b/s9_run6_self_against_stranger.csv`, `share_of_texts_self_worse` | S9 |
 | the closeness ladder: 0.57, 1.03, 1.40 at about the same count | 5,601, 5,250, 5,243 components | `s9/figures/fig8_closeness_ladder.csv`, `rise`, `pieces_switched_on_mean`; `s9b/s9_run6_ladder.csv` | F9, S9 |
+| error bars: 95 percent bootstrap intervals over whole source documents | | `results/post/similar_donors.csv`, `lo`, `hi`, `level`; `s9/document_index.csv` | FP |
 
 **Deleting Components Never Labelled as Needed**
 
@@ -165,13 +173,13 @@ Every figure is drawn by `vpd-audit figures-post` into `results/post/` as a PNG.
 |---|---|---|---|
 | 9,966 of 38,912 ever labelled as needed; 28,946 never | | `union_E_D_unif_tau0.1_r0_excl_ctl-none.csv`, `n_on`, rung 8; `never_named_chain.csv`, `n_erased`, rung 8 | A |
 | 169 never-needed components: 0.006 nats | 0.0060 | `never_named_chain.csv`, `D_mean`, rung 1 | A |
-| 169 random used components, same weight matrices: 1.12 on average | 1.120 | `never_named_chain.csv`, `alive_control_mean`, rung 1 | A |
-| 0.11 to 3.0 depending on the random sample | 0.115 to 2.98 over the eight draws (38 to 226 components) | `s12/hard_delete_per_draw.csv`, from `results/grid/main/tier2/E/per_sequence.parquet` | PT |
+| the same number of random used components, in the same weight matrices: 1.12 nats, an average over eight samples of 38 to 226 components | 1.120; 38 to 226 | `never_named_chain.csv`, `alive_control_mean`, `n_per_draw`, rung 1; `s12/hard_delete_per_draw.csv` | A, PT |
+| for the used components, the cost ranges from 0.11 to 3.0 nats across the samples | 0.115 to 2.98 | `s12/hard_delete_per_draw.csv`, `random_alive_rise`, from `results/grid/main/tier2/E/per_sequence.parquet` | PT |
 | 1,121 deleted: 0.05; 4,544: 0.30; all: 1.28 | 0.0515, 0.297, 1.284 | `never_named_chain.csv`, `D_mean`, rungs 2, 3, 8 | A |
-| turning them down to their labels instead: within 0.003 nats | 1.2876 against 1.2847 | `results/grid/main/verify/comparisons.md`, item 4; `level_cells.csv` | G, A |
-| the 5,336 components labelled exactly zero: 0.31 nats | 0.313 [0.303, 0.324] | `never_named_rung_8_cells.csv`, row `tau0`, `d_hat_0` | A |
+| turning them down only to their labels: essentially the same output damage, within 0.003 nats | 1.2876 against 1.2847 | `results/grid/main/verify/comparisons.md`, item 4; `level_cells.csv` | G, A |
+| the 5,336 components labelled exactly zero: 0.31 nats, even on the recipient tokens where faithfulness guarantees no change | 0.313 [0.303, 0.324] | `never_named_rung_8_cells.csv`, row `tau0`, `d_hat_0` | A |
 | used components at their labels: 0.34 deleted, 0.36 left on | 0.3417, 0.3615 | `level_cells.csv`, `mean_kl`, `s` = 0, `never_named_at` = labels / one | A |
-| halfway: 0.21 against 0.19; three quarters: 0.25 against 0.13; fully on: 0.01 to 1.29 | 0.2126 / 0.1946; 0.2537 / 0.1258; 0.0115 / 1.2876 | same file, `s` = 0.5, 0.75, 1 | A |
+| halfway: 0.21 against 0.19; three quarters: 0.25 against 0.13; fully on: from 0.01 to about the same 1.28 nats as the hard delete | 0.2126 / 0.1946; 0.2537 / 0.1258; 0.0115 / 1.2876 (the hard delete: 1.2847) | same file, `s` = 0.5, 0.75, 1; `results/grid/main/verify/comparisons.md`, item 4 | A, G |
 | 201 heaviest: 0.072 nats; 201 lightest: 0.006 | 0.0724, 0.0064 | `fig6_ranked_pair.csv`, `D_mean`, `key` = weight_norm, `end` = top / bottom, rung 1 | A |
 | lighter half 0.85, heavier half 1.17 | 0.845, 1.174 | same file, rung B50 | A |
 | ranking by how often a label is above zero matters less | | same file, `key` = positive_count | A |
@@ -219,10 +227,10 @@ Every figure is drawn by `vpd-audit figures-post` into `results/post/` as a PNG.
 |---|---|---|---|
 | similar inputs: harm after a few hundred components | +0.101 at 4 code tokens (585.6 components) | `s12/s12_merge_E_lab.csv`, code texts, code donors, `T4`; `results/grid/pre_reads/main/s12/merge_sets.csv`, `n_on`, D_code, `T4` | S12, L |
 | other inputs: harm after about a thousand components | 1,227 | `union_E_D_unif_tau0.1_r0_excl_ctl-none__x_crossing.csv`, `interpolated_n`, row "curve" | A |
-| soft deleting all never-needed components: 1.29 nats | 1.2876 | `level_cells.csv`, `mean_kl`, `s` = 1, never-needed at labels | A |
-| ~170 components turned down already farther than the whole explanation | 0.448 against 0.342 | `soft_erase_E_D_unif_tau0.1_r1_excl_ctl-none.csv`, `mean_kl`, rung 1; the whole explanation's 0.342 in `level_cells.csv` | A |
+| deleting all never-needed components moves the model 1.28 nats from the original with the rest fully on, and turning them down only to their labels costs the same | 1.2847 (hard, absolute); 1.2876 (soft) | `results/grid/main/verify/comparisons.md`, item 4; `level_cells.csv`, `mean_kl`, `s` = 1, never-needed at labels | G, A |
 | labels separate needed from unneeded components | 0.5 to 11 percent of the random used cost | `never_named_chain.csv`, `ratio_to_alive_control` | A |
 | without the adversarial loss: four to seven times the harm at larger aggregations, at the same mask moved | 4.1, 5.6, 6.6 | `results/grid/analysis/control/compare_mass_matched_curve_1.csv`, `mean_this` / `mean_other`, bins 2 to 4 | C |
+| the labels hold only as a joint configuration (also the opening of the Results) | the deletion's effect −0.020, +0.018, +0.128, +1.276 as the used components rise from their labels to fully on; the soft-deletion hump 0.45, 0.74, 0.36 | `level_cells.csv`, `footprint_labels_minus_one`; `soft_erase_E_D_unif_tau0.1_r1_excl_ctl-none.csv`, `mean_kl` | A |
 
 The technical report (`REPORT.md`, section 8) gives the standing of each of these numbers, and which were read by a rule written down before the data.
 

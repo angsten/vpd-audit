@@ -2,7 +2,7 @@
 
 ## What This History Can and Cannot Show
 
-**What this history can and cannot show.** This repository's history was condensed into two commits for publication: the code, data, and texts, then the outputs regenerated from them. It shows that the committed code reproduces every committed number from the committed stores. It cannot, by itself, show the order in which the rules, the analysis code, and the measurements were written. The report states that order (section 7, items 9 and 10), and it rests on the working history, which is not published.
+**What this history can and cannot show.** This repository's history was condensed for publication: first the code, data, and texts, then the outputs regenerated from them. Later commits change only the texts and the tolerance of one test, never the analysis code, the data, or any output. It shows that the committed code reproduces every committed number from the committed stores. It cannot, by itself, show the order in which the rules, the analysis code, and the measurements were written. The report states that order (section 7, items 9 and 10), and it rests on the working history, which is not published.
 
 ## The Clean-Up, and Why It Changes No Number
 
@@ -16,6 +16,7 @@ For every Python file, the syntax tree with its docstrings removed is the tree o
 4. **A new command.** `vpd-audit resummarize` rebuilds a finished launch's summary from its stores: the preconditions P1 to P5 are recomputed from the stores and must equal the launch's, and only the text is rebuilt from the current code. It uses `grid.launch_title` and an optional `strata` argument of `grid.preconditions`.
 5. **The recorded harness modules.** `RECORDED_AT` and `RECORDED_MODULES` in `vpd_audit/s9_checks.py` name this repository's commit and its blobs.
 6. **Four tests dropped.** Four tests of the small stand-in's dry run were dropped with their fixtures, since the stand-in's stores are not included.
+7. **One test's tolerance.** The pixel test of the post's figures (`tests/test_figures_post.py`) is exact on macOS, where its reference images were drawn; on other platforms, where fonts are rendered slightly differently, no channel may differ by more than 2 of 255 and at most 0.1 percent of the pixels may differ.
 
 **Every change to a frozen analysis module beyond comments, docstrings, and message strings:**
 - the path writers of item 3, in `analysis.py`, `analysis_s9.py`, `figures.py`, and `figures_s9.py`;

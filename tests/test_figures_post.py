@@ -6,6 +6,7 @@ code edit's default variant and its two others on request, the CSVs beside the P
 from __future__ import annotations
 
 import json
+import sys
 from dataclasses import asdict
 from pathlib import Path
 
@@ -136,6 +137,12 @@ def legacy_code_edit() -> F.Bars:
 # The reference figures, as they were drawn before the port; the aggregation schematic's as redrawn with its panel (d) titled
 # "Aggregated setting" (the one change to its text since the port was proved pixel-identical).
 REFERENCE = env.PROJECT_ROOT / "tests" / "data" / "post_figures"
+# The references were drawn on macOS, and there the comparison is exact. Other platforms rasterise fonts slightly differently, which moves
+# anti-aliased edge pixels by a level or two; there both conditions must hold: no channel differs by more than PIXEL_TOLERANCE_LEVELS of
+# 255, and at most PIXEL_TOLERANCE_SHARE of the pixels differ.
+EXACT_PIXELS = sys.platform == "darwin"
+PIXEL_TOLERANCE_LEVELS = 2
+PIXEL_TOLERANCE_SHARE = 0.001
 
 
 def _pixels(path: Path) -> np.ndarray:
@@ -163,12 +170,22 @@ def _draw_reference(name: str, path: Path) -> Path:
 @pytest.mark.parametrize("name", ["aggregation_schematic", "delete_schematic", "aggregation_curve", "similar_donors", "code_edit"])
 def test_each_ported_figure_is_the_reference_one_pixel_for_pixel(name, tmp_path):
     """Drawn from the reference figure's own inputs (the committed tables it was drawn from, its token list and levels), the ported drawing
-    function gives the reference image: the decoded pixel arrays are equal (not the files, whose metadata carries the library's version)."""
+    function gives the reference image: the decoded pixel arrays (not the files, whose metadata carries the library's version) are equal on
+    macOS, where the references were drawn, and equal within the font-rendering tolerance above elsewhere."""
     got = _pixels(_draw_reference(name, tmp_path / f"{name}.png"))
     want = _pixels(REFERENCE / f"{name}.png")
     assert got.shape == want.shape, (name, got.shape, want.shape)
-    diff = np.any(got != want, axis=-1)
-    assert not diff.any(), f"{name}: {int(diff.sum())} pixels differ, in rows {np.flatnonzero(diff.any(axis=1))[[0, -1]].tolist()} and columns {np.flatnonzero(diff.any(axis=0))[[0, -1]].tolist()}"
+    delta = np.abs(got.astype(np.int16) - want.astype(np.int16)).max(axis=-1)
+    diff = delta > 0
+    n, share, worst = int(diff.sum()), float(diff.mean()), int(delta.max())
+    where = f", in rows {np.flatnonzero(diff.any(axis=1))[[0, -1]].tolist()} and columns {np.flatnonzero(diff.any(axis=0))[[0, -1]].tolist()}" if n else ""
+    counts = f"{n} of {diff.size} pixels differ ({share:.4%}), by at most {worst} of 255 in any channel{where}"
+    if EXACT_PIXELS:
+        assert n == 0, f"{name}: {counts}; the rule on macOS, where the references were drawn: no pixel differs"
+    else:
+        assert worst <= PIXEL_TOLERANCE_LEVELS and share <= PIXEL_TOLERANCE_SHARE, (
+            f"{name}: {counts}; the rule off macOS: no channel differs by more than {PIXEL_TOLERANCE_LEVELS} of 255, "
+            f"and at most {PIXEL_TOLERANCE_SHARE:.1%} of the pixels differ")
 
 
 # ----------------------------------------------------------------------------- the whole module on planted tier-7 stores
