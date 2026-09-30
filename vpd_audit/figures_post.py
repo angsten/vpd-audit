@@ -57,6 +57,10 @@ X_BREAK, X_WHOLE = 7.0, 8.0
 # The post's copy of the similar-donors figure is narrower than the original design (10 inches), so that, scaled to the post's
 # column width, its text and markers appear at about the same size as in the other figures.
 SIMILAR_DONORS_WIDTH = 8.3
+# Likewise the top figure (7.2 inches in the original design). The post's copies also set the reference lines' labels a little
+# further below their lines than the original design does.
+AGGREGATION_CURVE_WIDTH = 6.3
+POST_LABEL_GAPS = {"adversary": 0.03, "own_curve": 0.025, "own_similar": 0.04}
 # The paper's own adversary after 20 PGD steps: KL 0.8280 to the target model, on the authors' batch of 128 evaluation sequences of length
 # 512 (the paper's PGD table).
 ADVERSARY_20 = 0.8280
@@ -421,18 +425,20 @@ class Line:
     later: tuple[int, ...] = ()
 
 
-def draw_aggregation_curve(lines: list[Line], tokens: list[int], own_explanation: float, path: Path, *, adversary: float = ADVERSARY_20) -> Path:
+def draw_aggregation_curve(lines: list[Line], tokens: list[int], own_explanation: float, path: Path, *, adversary: float = ADVERSARY_20,
+                           width: float = 7.2, adversary_label_gap: float = 0.015, own_label_gap: float = 0.012) -> Path:
     """The top figure: divergence on E against donor tokens, the whole donor text past the break, the paper's 20-step adversary and the
-    recipient's own explanation as reference lines."""
+    recipient's own explanation as reference lines. `width` is the figure's width in inches, and each label gap is how far, in nats, a
+    reference line's label sits below its line; the defaults are the original design's, which the pixel test redraws."""
     plt = _plt()
     with plt.rc_context(RC):
         x_tok = np.log2(tokens)
-        fig, ax = plt.subplots(figsize=(7.2, 4.4), dpi=200)
+        fig, ax = plt.subplots(figsize=(width, 4.4), dpi=200)
         ax.axhline(adversary, color=MUTED, linewidth=1.0, linestyle=(0, (5, 3)), zorder=1)
-        ax.text(-0.15, adversary - 0.015, "Paper's 20-Step Adversary", color=MUTED, fontsize=9,
+        ax.text(-0.15, adversary - adversary_label_gap, "Paper's 20-Step Adversary", color=MUTED, fontsize=9,
                 va="top", ha="left")
         ax.axhline(own_explanation, color=MUTED, linewidth=1.0, linestyle=(0, (1, 2)), zorder=1)
-        ax.text(8.55, own_explanation - 0.012, "Recipient's Own Explanation", color=MUTED,
+        ax.text(8.55, own_explanation - own_label_gap, "Recipient's Own Explanation", color=MUTED,
                 fontsize=9, va="top", ha="right")
         for ln in lines:
             curve(ax, x_tok, ln.y, ln.lo, ln.hi, ln.color, ln.dark, ln.marker)  # all lines solid
@@ -471,9 +477,10 @@ class Panel:
     lines: list[Line]
 
 
-def draw_similar_donors(panels: list[Panel], tokens: list[int], path: Path, *, width: float = 10.0) -> Path:
+def draw_similar_donors(panels: list[Panel], tokens: list[int], path: Path, *, width: float = 10.0, own_label_gap: float = 0.02) -> Path:
     """The similar-donors figure: code recipients and prose recipients side by side, three kinds of donors each. `width` is the
-    figure's width in inches; the default is the original design's, which the pixel test redraws."""
+    figure's width in inches, and `own_label_gap` how far, in nats, the own explanation's label sits below its line; the defaults are
+    the original design's, which the pixel test redraws."""
     plt = _plt()
     with plt.rc_context(RC):
         xs = list(np.log2(tokens)) + [X_WHOLE]
@@ -481,7 +488,7 @@ def draw_similar_donors(panels: list[Panel], tokens: list[int], path: Path, *, w
         fig, axes = plt.subplots(1, 2, figsize=(width, 4.3), dpi=200, sharey=True)
         for ax, pnl in zip(axes, panels):
             ax.axhline(pnl.base, color=MUTED, linewidth=1.0, linestyle=(0, (1, 2)), zorder=1)
-            ax.text(6.25, pnl.base - 0.02, "Recipient's Own Explanation", color=MUTED, fontsize=9,
+            ax.text(6.25, pnl.base - own_label_gap, "Recipient's Own Explanation", color=MUTED, fontsize=9,
                     va="top", ha="right")
             for ln in pnl.lines:
                 y, lo, hi = np.asarray(ln.y), np.asarray(ln.lo), np.asarray(ln.hi)
@@ -934,7 +941,8 @@ def aggregation_curve_figure(inp: Inputs, out_dir: Path) -> dict[str, Any]:
         if whole is not None:
             rows.append({"line": label, "donor_tokens": "whole donor text", "divergence": whole[0], "lo": whole[1], "hi": whole[2], "rise": sub.loc[512, "rise"], "rise_lo": sub.loc[512, "rise_lo"],
                          "rise_hi": sub.loc[512, "rise_hi"], "own_explanation": own, "level": "95 percent", "marker": "filled"})
-    path = draw_aggregation_curve(lines, tokens, own, Path(out_dir) / f"{OUT_NAMES['aggregation_curve']}.png")
+    path = draw_aggregation_curve(lines, tokens, own, Path(out_dir) / f"{OUT_NAMES['aggregation_curve']}.png", width=AGGREGATION_CURVE_WIDTH,
+                                  adversary_label_gap=POST_LABEL_GAPS["adversary"], own_label_gap=POST_LABEL_GAPS["own_curve"])
     pd.DataFrame(rows).to_csv(path.with_suffix(".csv"), index=False, lineterminator="\n")
     return {"png": path, "rows": len(rows)}
 
@@ -959,7 +967,8 @@ def similar_donors_figure(inp: Inputs, out_dir: Path) -> dict[str, Any]:
                 rows.append({"recipients": ttl, "donors": label, "donor_tokens": "whole donor text" if x == 512 else x, "divergence": y[i], "lo": lo[i], "hi": hi[i], "rise": sub.loc[x, "rise"],
                              "rise_lo": sub.loc[x, "rise_lo"], "rise_hi": sub.loc[x, "rise_hi"], "own_explanation": b, "level": "95 percent", "marker": "open" if x in LATER_TOKENS else "filled"})
         panels.append(Panel(ttl, tcol, b, lines))
-    path = draw_similar_donors(panels, tokens, Path(out_dir) / f"{OUT_NAMES['similar_donors']}.png", width=SIMILAR_DONORS_WIDTH)
+    path = draw_similar_donors(panels, tokens, Path(out_dir) / f"{OUT_NAMES['similar_donors']}.png", width=SIMILAR_DONORS_WIDTH,
+                               own_label_gap=POST_LABEL_GAPS["own_similar"])
     pd.DataFrame(rows).to_csv(path.with_suffix(".csv"), index=False, lineterminator="\n")
     return {"png": path, "rows": len(rows), "own_explanations": own}
 
