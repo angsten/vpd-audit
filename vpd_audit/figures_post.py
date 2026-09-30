@@ -54,6 +54,9 @@ RC_CODE_EDIT = {**RC, "hatch.linewidth": 0.8}
 TOKENS: list[int] = [1, 2, 4, 8, 16, 32, 64]
 LATER_TOKENS: tuple[int, ...] = ()  # none: the post draws every point filled (2 and 4 tokens were measured later, the same way on the same donor draws)
 X_BREAK, X_WHOLE = 7.0, 8.0
+# The post's copy of the similar-donors figure is narrower than the original design (10 inches), so that, scaled to the post's
+# column width, its text and markers appear at about the same size as in the other figures.
+SIMILAR_DONORS_WIDTH = 8.3
 # The paper's own adversary after 20 PGD steps: KL 0.8280 to the target model, on the authors' batch of 128 evaluation sequences of length
 # 512 (the paper's PGD table).
 ADVERSARY_20 = 0.8280
@@ -468,13 +471,14 @@ class Panel:
     lines: list[Line]
 
 
-def draw_similar_donors(panels: list[Panel], tokens: list[int], path: Path) -> Path:
-    """The similar-donors figure: code recipients and prose recipients side by side, three kinds of donors each."""
+def draw_similar_donors(panels: list[Panel], tokens: list[int], path: Path, *, width: float = 10.0) -> Path:
+    """The similar-donors figure: code recipients and prose recipients side by side, three kinds of donors each. `width` is the
+    figure's width in inches; the default is the original design's, which the pixel test redraws."""
     plt = _plt()
     with plt.rc_context(RC):
         xs = list(np.log2(tokens)) + [X_WHOLE]
         n = len(tokens)
-        fig, axes = plt.subplots(1, 2, figsize=(10.0, 4.3), dpi=200, sharey=True)
+        fig, axes = plt.subplots(1, 2, figsize=(width, 4.3), dpi=200, sharey=True)
         for ax, pnl in zip(axes, panels):
             ax.axhline(pnl.base, color=MUTED, linewidth=1.0, linestyle=(0, (1, 2)), zorder=1)
             ax.text(6.25, pnl.base - 0.02, "Recipient's Own Explanation", color=MUTED, fontsize=9,
@@ -955,7 +959,7 @@ def similar_donors_figure(inp: Inputs, out_dir: Path) -> dict[str, Any]:
                 rows.append({"recipients": ttl, "donors": label, "donor_tokens": "whole donor text" if x == 512 else x, "divergence": y[i], "lo": lo[i], "hi": hi[i], "rise": sub.loc[x, "rise"],
                              "rise_lo": sub.loc[x, "rise_lo"], "rise_hi": sub.loc[x, "rise_hi"], "own_explanation": b, "level": "95 percent", "marker": "open" if x in LATER_TOKENS else "filled"})
         panels.append(Panel(ttl, tcol, b, lines))
-    path = draw_similar_donors(panels, tokens, Path(out_dir) / f"{OUT_NAMES['similar_donors']}.png")
+    path = draw_similar_donors(panels, tokens, Path(out_dir) / f"{OUT_NAMES['similar_donors']}.png", width=SIMILAR_DONORS_WIDTH)
     pd.DataFrame(rows).to_csv(path.with_suffix(".csv"), index=False, lineterminator="\n")
     return {"png": path, "rows": len(rows), "own_explanations": own}
 
