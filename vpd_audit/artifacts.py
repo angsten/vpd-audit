@@ -72,7 +72,8 @@ class AuditRun:
     target_step: int | None  # asserted when not None; else the largest step in ckpt/
     # True if the decomposition was trained before the authors' label network applied F.rms_norm to its inputs (their
     # commit 28f6436 and earlier); `load_component_model` then applies `label_switch.apply_label_switch`. False for the
-    # paper's runs, trained at 85c6b70, which already has the rescaling.
+    # 67M runs: `main` (s-55ea3f9b) was trained at 85c6b70 and `control` (s-05ef623e) at 9c802c2, both of which already
+    # have the rescaling.
     trained_before_ci_input_rescaling: bool = False
 
 

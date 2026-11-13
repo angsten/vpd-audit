@@ -789,7 +789,7 @@ The measured hard delete runs in bfloat16 and keeps the residual; keeping the re
 - **The cause.** The stand-in decomposition (`s-eab2ace8`) was trained at commit `28f6436` of the authors' library, before their label network began rescaling its inputs. The pinned library (`74146b5`) rescales them with `F.rms_norm`. The weights load without error, and the labels come out wrong.
 - **The fix.** It is now applied when the stand-in is loaded (`vpd_audit/label_switch.py`). It was verified by bitwise agreement with the authors' code at `28f6436`, and by reproducing the run's logged scores. Every load of the stand-in now runs that comparison first (`vpd-audit check-logged-scores`).
 - **The committed stand-in outputs** under `results/` were made before the fix. Their numbers come from wrong labels, so they show only what this item claims: that every code path ran.
-- **The 67M results are unaffected.** The paper's decomposition `s-55ea3f9b` was trained at commit `85c6b70`, which already has the rescaling, and its runs load as before.
+- **The 67M results are unaffected.** The paper's decomposition `s-55ea3f9b` was trained at commit `85c6b70` and the control `s-05ef623e` at `9c802c2`, both of which already have the rescaling, and their runs load as before.
 - **The text rows.** The stand-in builds its text rows with the pinned library's tokenizer call. That call appends one end-of-text token per chunk more than the call the stand-in was trained with. The README records this, and the row builder is unchanged.
 
 **7. Re-runs, resumes, and later changes moved nothing.**

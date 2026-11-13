@@ -45,7 +45,7 @@ The decomposition, its target model, and a second decomposition trained without 
   - The mode now reproduces the authors' logged scores: the distance with every component at its label, the distance with every component on, and the labels above 0 per token, per layer and in total.
   - `vpd-audit check-logged-scores` runs that comparison on CPU in about a minute. Every load of the small-model mode runs it first and stops if it fails.
 - **The committed stand-in outputs.** The small-model outputs under `results/` (the stand-in dry runs in `results/dry_run/`) were produced before the fix. Their numbers come from wrong labels. They show only that every code path ran, which was their purpose (`REPORT.md`, section 7, item 6). They are left as they were.
-- **The 67M results are unaffected.** The paper's decomposition `s-55ea3f9b` was trained at commit `85c6b70`, which already has the rescaling. The `main` and `control` runs are not flagged and load exactly as before.
+- **The 67M results are unaffected.** The paper's decomposition `s-55ea3f9b` was trained at commit `85c6b70` and the control `s-05ef623e` at `9c802c2`. Both commits already have the rescaling. The `main` and `control` runs are not flagged and load exactly as before.
 - **The small-model text rows.** The mode builds its rows with the pinned library's tokenizer call. That call appends one end-of-text token per chunk more than the February call the small decomposition was trained with. This is documented here and the row builder is unchanged. The logged-score check passes on these rows.
 
 ### The Data
