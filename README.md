@@ -36,6 +36,18 @@ The decomposition, its target model, and a second decomposition trained without 
 
 `uv run vpd-audit fetch` downloads them once into `.cache/artifacts/` and writes a manifest of sizes and SHA-256 hashes; `vpd-audit verify-artifacts` re-checks them. The fetch needs a WandB API key (a free account's) in the environment or in a `.env` file. The key is read only by the fetch and is never printed or stored. After the fetch, loading needs no key. Set `VPD_AUDIT_CACHE_DIR` to put the cache elsewhere.
 
+### A Correction to the Small-Model Mode (13 November 2026)
+
+- **What was wrong.** The small-model mode (the run `simplestories`: the decomposition `s-eab2ace8` of the two-layer model `gf6rbga0`) computed that decomposition's labels wrongly. The decomposition was trained at commit `28f6436` of the authors' library, before their label network began rescaling its inputs. The pinned library (`74146b5`) applies `F.rms_norm` to each input of the label network. The old weights load without error and then give wrong labels. Nothing checked the mode against the authors' logged scores, so the error went unnoticed.
+- **The fix.** It is applied at load time. `load_component_model` replaces `forward` on the one loaded label-network instance with the pinned `forward` minus the rescaling (`vpd_audit/label_switch.py`). It does this only for runs flagged `trained_before_ci_input_rescaling` in `vpd_audit/artifacts.py`, which is `simplestories` alone. The pinned library is not edited.
+- **How the fix was verified.**
+  - The labels and the own-label masked logits agree bitwise with the authors' own code at `28f6436`.
+  - The mode now reproduces the authors' logged scores: the distance with every component at its label, the distance with every component on, and the labels above 0 per token, per layer and in total.
+  - `vpd-audit check-logged-scores` runs that comparison on CPU in about a minute. Every load of the small-model mode runs it first and stops if it fails.
+- **The committed stand-in outputs.** The small-model outputs under `results/` (the stand-in dry runs in `results/dry_run/`) were produced before the fix. Their numbers come from wrong labels. They show only that every code path ran, which was their purpose (`REPORT.md`, section 7, item 6). They are left as they were.
+- **The 67M results are unaffected.** The paper's decomposition `s-55ea3f9b` was trained at commit `85c6b70`, which already has the rescaling. The `main` and `control` runs are not flagged and load exactly as before.
+- **The small-model text rows.** The mode builds its rows with the pinned library's tokenizer call. That call appends one end-of-text token per chunk more than the February call the small decomposition was trained with. This is documented here and the row builder is unchanged. The logged-score check passes on these rows.
+
 ### The Data
 
 - **Recipient texts and general donor texts.** Rows 0 to 1,023 (recipients) and 1,024 to 2,047 (general donors) of the `val` split of [`danbraunai/pile-uncopyrighted-tok-shuffled`](https://huggingface.co/datasets/danbraunai/pile-uncopyrighted-tok-shuffled), the authors' tokenized Pile, read in stream order and cut to 512 tokens as the authors' loader cuts them. Build them with `vpd-audit prepare-data`. The saved arrays are checked against SHA-256 hashes on every load.

@@ -785,6 +785,13 @@ The measured hard delete runs in bfloat16 and keeps the residual; keeping the re
 
 **6. Every code path ran on a small stand-in first.** Before any cell ran on the paper's model, the whole grid ran on a small public decomposition of a small model: 1,097 cells across every family, comparison, size, and draw, with every precondition read on its output. None failed (`results/dry_run/summary.md`). The same was done before each later launch. *Rules out:* enumeration and plumbing errors reaching the paper's model. It does not show that any number on the paper's model is right; items 1 to 5 do that.
 
+*Note added 13 November 2026.* The stand-in's labels were wrong when these runs were made.
+- **The cause.** The stand-in decomposition (`s-eab2ace8`) was trained at commit `28f6436` of the authors' library, before their label network began rescaling its inputs. The pinned library (`74146b5`) rescales them with `F.rms_norm`. The weights load without error, and the labels come out wrong.
+- **The fix.** It is now applied when the stand-in is loaded (`vpd_audit/label_switch.py`). It was verified by bitwise agreement with the authors' code at `28f6436`, and by reproducing the run's logged scores. Every load of the stand-in now runs that comparison first (`vpd-audit check-logged-scores`).
+- **The committed stand-in outputs** under `results/` were made before the fix. Their numbers come from wrong labels, so they show only what this item claims: that every code path ran.
+- **The 67M results are unaffected.** The paper's decomposition `s-55ea3f9b` was trained at commit `85c6b70`, which already has the rescaling, and its runs load as before.
+- **The text rows.** The stand-in builds its text rows with the pinned library's tokenizer call. That call appends one end-of-text token per chunk more than the call the stand-in was trained with. The README records this, and the row builder is unchanged.
+
 **7. Re-runs, resumes, and later changes moved nothing.**
 - **After a speed-up.** One launch on the paper's model re-ran 41 cells measured before the harness was sped up. The 25 reference conditions agree on all 25,600 (cell, text) pairs, in harm and cross-entropy, and the 16 chain cells agree on all 16,384 pairs, in harm and fingerprint (`results/grid/main/verify/comparisons.md`, items 1 and 2).
 - **After a resume.** A store interrupted after its second batch and resumed equals an uninterrupted one on every column (same file).
