@@ -70,12 +70,16 @@ class AuditRun:
     n_matrices: int | None  # asserted after load when not None
     n_subcomponents: int | None
     target_step: int | None  # asserted when not None; else the largest step in ckpt/
+    # True if the decomposition was trained before the authors' label network applied F.rms_norm to its inputs (their
+    # commit 28f6436 and earlier); `load_component_model` then applies `label_switch.apply_label_switch`. False for the
+    # paper's runs, trained at 85c6b70, which already has the rescaling.
+    trained_before_ci_input_rescaling: bool = False
 
 
 AUDIT_RUNS: dict[str, AuditRun] = {
     "main": AuditRun("main", "s-55ea3f9b", "t-9d2b8f02", 24, 38_912, 99_999),
     "control": AuditRun("control", "s-05ef623e", "t-9d2b8f02", 24, 38_912, 99_999),
-    "simplestories": AuditRun("simplestories", "s-eab2ace8", "gf6rbga0", None, None, None),
+    "simplestories": AuditRun("simplestories", "s-eab2ace8", "gf6rbga0", None, None, None, trained_before_ci_input_rescaling=True),
 }
 
 
@@ -279,12 +283,18 @@ def checkpoint_hashes(run: str, art_dir: Path = env.ARTIFACTS_DIR) -> dict[str, 
     return {"decomp": manifest["files"][d]["sha256"], "target": manifest["files"][t]["sha256"]}
 
 
-def load_component_model(run: str, device: str, *, verify: bool = True) -> "ComponentModel":
+def load_component_model(run: str, device: str, *, verify: bool = True, check_logged_scores: bool = True) -> "ComponentModel":
     """The key-free load, with the artifact root from `env`.
 
     Both loaders take their local branches: `ParamDecompRunInfo.from_path` on an absolute
     checkpoint path expects `final_config.yaml` beside it; `PretrainRunInfo.from_path` on an
     absolute path expects `final_config.yaml` and `model_config.yaml` in the grandparent.
+
+    For a run trained before the label network rescaled its inputs (`trained_before_ci_input_rescaling`: the small-model
+    mode only), the label fix of `label_switch` is applied to the loaded instance. For a run with logged scores in
+    `logged_scores.LOGGED_SCORES` (the small-model mode only), the check against them runs once per process before the
+    model is returned, and a failure stops the caller; `check_logged_scores=False` is for the check's own command. The
+    67M runs (`main`, `control`) have neither, and load as before.
     """
     from param_decomp.models.component_model import ComponentModel, ParamDecompRunInfo
 
@@ -305,10 +315,19 @@ def load_component_model(run: str, device: str, *, verify: bool = True) -> "Comp
     )  # frozen config: copy with the override
     model = ComponentModel.from_run_info(run_info)  # target loads by its local branch
     model = model.to(device).eval()
+    if spec.trained_before_ci_input_rescaling:
+        from vpd_audit.label_switch import apply_label_switch
+
+        apply_label_switch(model, run)
     if spec.n_matrices is not None:
         assert len(model.components) == spec.n_matrices, len(model.components)
         assert sum(model.module_to_c.values()) == spec.n_subcomponents, sum(model.module_to_c.values())
     assert all(not p.requires_grad for p in model.target_model.parameters())
+    if check_logged_scores:
+        from vpd_audit.logged_scores import LOGGED_SCORES, require_logged_scores
+
+        if run in LOGGED_SCORES:
+            require_logged_scores(model, run)
     return model
 
 

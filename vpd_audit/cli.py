@@ -1,5 +1,6 @@
 """Entry points: fetch, verify-artifacts, prepare-data, smoke, acceptance, acceptance-report;
-(the residual test cells) short-runs-report; (check 6 at matched shapes) check6-report; (the residual follow-up) residual-matrix-report."""
+(the residual test cells) short-runs-report; (check 6 at matched shapes) check6-report; (the residual follow-up) residual-matrix-report;
+(the small-model mode against the authors' logged scores) check-logged-scores."""
 
 from __future__ import annotations
 
@@ -228,7 +229,30 @@ def main(argv: list[str] | None = None) -> int:
     rs.add_argument("roots", nargs="+", help="a tier's root holding summary*.json and its stores (for example results/grid/main/tier1), or the verification store")
     rs.add_argument("--out", default=None, help="default: in place; with several roots, the out directory gets one subdirectory per root, by its path under results/grid/")
 
+    ls = sub.add_parser("check-logged-scores", help="the small-model mode against the authors' logged scores: the own-label and fully-on distances and the "
+                                                    "labels per token, on the first rows of the run's test split (CPU in a few minutes); every load of the "
+                                                    "small-model mode runs it first")
+    ls.add_argument("--run", choices=["simplestories"], default="simplestories")
+    ls.add_argument("--batches", type=int, default=None, help="batches of 128 rows (default 4)")
+    ls.add_argument("--device", default="cpu")
+
     args = p.parse_args(argv)
+
+    if args.cmd == "check-logged-scores":
+        import json as _json
+
+        from vpd_audit import env as _env
+        from vpd_audit.artifacts import load_component_model
+        from vpd_audit.logged_scores import DEFAULT_N_BATCHES, check_logged_scores, render
+
+        model = load_component_model(args.run, args.device, check_logged_scores=False)
+        res = check_logged_scores(model, args.run, n_batches=args.batches or DEFAULT_N_BATCHES)
+        out = _env.RESULTS_DIR / "logged_scores" / f"{args.run}.json"
+        out.parent.mkdir(parents=True, exist_ok=True)
+        out.write_text(_json.dumps(res, indent=2, sort_keys=True))
+        print(render(res))
+        print(f"wrote {out}")
+        return 0 if res["passed"] else 1
 
     if args.cmd == "resummarize":
         from vpd_audit import env as _env
